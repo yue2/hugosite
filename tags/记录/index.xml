@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>记录 on Mid of Nowhere</title>
-    <link>http://example.org/tags/%E8%AE%B0%E5%BD%95/</link>
+    <link>https://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content in 记录 on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 16:22:09 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 16:22:09 +0000</lastBuildDate><atom:link href="https://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pan pizza (not really)</title>
-      <link>http://example.org/posts/pan-pizza-not-really/</link>
+      <link>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</link>
       <pubDate>Sat, 15 May 2021 16:22:09 +0000</pubDate>
       
-      <guid>http://example.org/posts/pan-pizza-not-really/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</guid>
       <description>&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mid of Nowhere</title>
-    <link>http://example.org/categories/</link>
+    <link>https://yue2.github.io/hugosite/categories/</link>
     <description>Recent content in Categories on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Oct 2021 20:41:53 +0800</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 20:41:53 +0800</lastBuildDate><atom:link href="https://yue2.github.io/hugosite/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文章</title>
-      <link>http://example.org/categories/%E6%96%87%E7%AB%A0/</link>
+      <link>https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/</link>
       <pubDate>Sat, 02 Oct 2021 20:41:53 +0800</pubDate>
       
-      <guid>http://example.org/categories/%E6%96%87%E7%AB%A0/</guid>
+      <guid>https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>图册</title>
-      <link>http://example.org/categories/%E5%9B%BE%E5%86%8C/</link>
+      <link>https://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/</link>
       <pubDate>Sat, 02 Oct 2021 18:16:15 +0800</pubDate>
       
-      <guid>http://example.org/categories/%E5%9B%BE%E5%86%8C/</guid>
+      <guid>https://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生活</title>
-      <link>http://example.org/categories/%E7%94%9F%E6%B4%BB/</link>
+      <link>https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Thu, 20 May 2021 12:45:43 +0000</pubDate>
       
-      <guid>http://example.org/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     

@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mid of Nowhere</title>
-    <link>http://example.org/posts/</link>
+    <link>https://yue2.github.io/hugosite/posts/</link>
     <description>Recent content in Posts on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yue2.github.io/hugosite/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Roll</title>
-      <link>http://example.org/posts/first-post/</link>
+      <link>https://yue2.github.io/hugosite/posts/first-post/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/first-post/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/first-post/</guid>
       <description>This is my first post  this post is composed in atom this post will be hosted locally  These are blogs I like a lot!      </description>
     </item>
     
     <item>
       <title>Typora Post</title>
-      <link>http://example.org/posts/childmenu/yet-another-typora-post/</link>
+      <link>https://yue2.github.io/hugosite/posts/childmenu/yet-another-typora-post/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/childmenu/yet-another-typora-post/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/childmenu/yet-another-typora-post/</guid>
       <description>&lt;h2 id=&#34;new-post-from-typora&#34;&gt;New Post From Typora&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>锡纸大虾</title>
-      <link>http://example.org/posts/bbq-shrimp/</link>
+      <link>https://yue2.github.io/hugosite/posts/bbq-shrimp/</link>
       <pubDate>Thu, 20 May 2021 12:45:43 +0000</pubDate>
       
-      <guid>http://example.org/posts/bbq-shrimp/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/bbq-shrimp/</guid>
       <description>&lt;p&gt;改编自阿曼达锡纸花甲 &lt;a href=&#34;https://www.youtube.com/watch?v=RmF&#34;&gt;https://www.youtube.com/watch?v=RmF&lt;/a&gt;_HQLdDec&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Pan pizza (not really)</title>
-      <link>http://example.org/posts/pan-pizza-not-really/</link>
+      <link>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</link>
       <pubDate>Sat, 15 May 2021 16:22:09 +0000</pubDate>
       
-      <guid>http://example.org/posts/pan-pizza-not-really/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</guid>
       <description>&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>小高姐烤鸡翅</title>
-      <link>http://example.org/posts/chicken-wings/</link>
+      <link>https://yue2.github.io/hugosite/posts/chicken-wings/</link>
       <pubDate>Wed, 10 Feb 2021 03:10:39 +0000</pubDate>
       
-      <guid>http://example.org/posts/chicken-wings/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/chicken-wings/</guid>
       <description>&lt;p&gt;视频链接：&lt;a href=&#34;https://www.youtube.com/watch?v=oCsVPRiBWWs&#34;&gt;https://www.youtube.com/watch?v=oCsVPRiBWWs&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Amanda春川辣炒鸡</title>
-      <link>http://example.org/posts/korean-chicken/</link>
+      <link>https://yue2.github.io/hugosite/posts/korean-chicken/</link>
       <pubDate>Wed, 10 Feb 2021 03:05:58 +0000</pubDate>
       
-      <guid>http://example.org/posts/korean-chicken/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/korean-chicken/</guid>
       <description>&lt;p&gt;视频地址：&lt;a href=&#34;https://www.youtube.com/watch?v=46C7UIre4Nc&#34;&gt;https://www.youtube.com/watch?v=46C7UIre4Nc&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>胖哥俩类似鸡爪煲</title>
-      <link>http://example.org/posts/chicken-feet-stew/</link>
+      <link>https://yue2.github.io/hugosite/posts/chicken-feet-stew/</link>
       <pubDate>Tue, 09 Feb 2021 09:16:17 +0000</pubDate>
       
-      <guid>http://example.org/posts/chicken-feet-stew/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/chicken-feet-stew/</guid>
       <description>&lt;p&gt;来自下厨房app，链接找不到了&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我的播客制作经验</title>
-      <link>http://example.org/posts/how-to-produce-a-podcast/</link>
+      <link>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</link>
       <pubDate>Mon, 08 Feb 2021 11:51:45 +0000</pubDate>
       
-      <guid>http://example.org/posts/how-to-produce-a-podcast/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</guid>
       <description>&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>http://example.org/posts/about/</link>
+      <link>https://yue2.github.io/hugosite/posts/about/</link>
       <pubDate>Mon, 01 Feb 2021 10:59:09 +0000</pubDate>
       
-      <guid>http://example.org/posts/about/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/about/</guid>
       <description>&lt;p&gt;这是博学的个人博客，到目前为止所有内容都是学学和扁扁俩人原创。&lt;/p&gt;</description>
     </item>
     

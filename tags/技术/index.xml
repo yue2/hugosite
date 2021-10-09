@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术 on Mid of Nowhere</title>
-    <link>http://example.org/tags/%E6%8A%80%E6%9C%AF/</link>
+    <link>https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 20:36:20 +0800</lastBuildDate><atom:link href="http://example.org/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 20:36:20 +0800</lastBuildDate><atom:link href="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用Typora输入</title>
-      <link>http://example.org/articles/article-from-typora/</link>
+      <link>https://yue2.github.io/hugosite/articles/article-from-typora/</link>
       <pubDate>Sun, 26 Sep 2021 20:36:20 +0800</pubDate>
       
-      <guid>http://example.org/articles/article-from-typora/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/article-from-typora/</guid>
       <description>&lt;h2 id=&#34;用typora输入中文文章&#34;&gt;用Typora输入中文文章&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>我的播客制作经验</title>
-      <link>http://example.org/posts/how-to-produce-a-podcast/</link>
+      <link>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</link>
       <pubDate>Mon, 08 Feb 2021 11:51:45 +0000</pubDate>
       
-      <guid>http://example.org/posts/how-to-produce-a-podcast/</guid>
+      <guid>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</guid>
       <description>&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>网站搭建尝试</title>
-      <link>http://example.org/articles/web-construction/</link>
+      <link>https://yue2.github.io/hugosite/articles/web-construction/</link>
       <pubDate>Sat, 06 Feb 2021 10:58:07 +0000</pubDate>
       
-      <guid>http://example.org/articles/web-construction/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/web-construction/</guid>
       <description>&lt;p&gt;我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的&lt;a href=&#34;http://podcast.midofnowhere.link&#34;&gt;播客节目&lt;/a&gt;的网页。&lt;/p&gt;</description>
     </item>
     

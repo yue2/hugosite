@@ -2,106 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随笔 on Mid of Nowhere</title>
-    <link>http://example.org/tags/%E9%9A%8F%E7%AC%94/</link>
+    <link>https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/</link>
     <description>Recent content in 随笔 on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 23 Jun 2021 06:07:45 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jun 2021 06:07:45 +0000</lastBuildDate><atom:link href="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>六月底</title>
-      <link>http://example.org/articles/late-june/</link>
+      <link>https://yue2.github.io/hugosite/articles/late-june/</link>
       <pubDate>Wed, 23 Jun 2021 06:07:45 +0000</pubDate>
       
-      <guid>http://example.org/articles/late-june/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/late-june/</guid>
       <description>&lt;p&gt;再没过两三天，我们就谈恋爱三周年了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关于时事的反思</title>
-      <link>http://example.org/articles/reflection-on-politics/</link>
+      <link>https://yue2.github.io/hugosite/articles/reflection-on-politics/</link>
       <pubDate>Thu, 13 May 2021 07:15:44 +0000</pubDate>
       
-      <guid>http://example.org/articles/reflection-on-politics/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/reflection-on-politics/</guid>
       <description>&lt;p&gt;想说的是成都49中一个小男生坠楼身亡的事。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一场纪念</title>
-      <link>http://example.org/articles/a-monument/</link>
+      <link>https://yue2.github.io/hugosite/articles/a-monument/</link>
       <pubDate>Sat, 06 Feb 2021 08:33:27 +0000</pubDate>
       
-      <guid>http://example.org/articles/a-monument/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/a-monument/</guid>
       <description>&lt;p&gt;刚上大学的时候修公共演讲英文课，有一节课的主题是畅想十年后。我那时候喜欢坐靠窗，烘着暖气走神。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我有一个登机箱</title>
-      <link>http://example.org/articles/my-carry-on/</link>
+      <link>https://yue2.github.io/hugosite/articles/my-carry-on/</link>
       <pubDate>Mon, 05 Oct 2020 10:58:27 +0000</pubDate>
       
-      <guid>http://example.org/articles/my-carry-on/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/my-carry-on/</guid>
       <description>&lt;p&gt;我的小登机箱有点坏了。一个轮子的橡胶皮掉了，内胎也磨损得很明显，所有的路拉起来都像鹅卵石路。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>疫区周记</title>
-      <link>http://example.org/articles/weekly-in-quarantine/</link>
+      <link>https://yue2.github.io/hugosite/articles/weekly-in-quarantine/</link>
       <pubDate>Fri, 10 Apr 2020 11:04:08 +0000</pubDate>
       
-      <guid>http://example.org/articles/weekly-in-quarantine/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/weekly-in-quarantine/</guid>
       <description>&lt;p&gt;——轮到我啦&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>22岁生日留念</title>
-      <link>http://example.org/articles/22-birthday/</link>
+      <link>https://yue2.github.io/hugosite/articles/22-birthday/</link>
       <pubDate>Mon, 05 Mar 2018 23:46:08 +0000</pubDate>
       
-      <guid>http://example.org/articles/22-birthday/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/22-birthday/</guid>
       <description>&lt;p&gt;我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个恐怖故事</title>
-      <link>http://example.org/articles/random-horror-story/</link>
+      <link>https://yue2.github.io/hugosite/articles/random-horror-story/</link>
       <pubDate>Sun, 05 Nov 2017 11:20:54 +0000</pubDate>
       
-      <guid>http://example.org/articles/random-horror-story/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/random-horror-story/</guid>
       <description>&lt;p&gt;分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>21岁生日留念</title>
-      <link>http://example.org/articles/21-birthday/</link>
+      <link>https://yue2.github.io/hugosite/articles/21-birthday/</link>
       <pubDate>Wed, 01 Mar 2017 11:23:42 +0000</pubDate>
       
-      <guid>http://example.org/articles/21-birthday/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/21-birthday/</guid>
       <description>&lt;p&gt;三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>20岁生日留念</title>
-      <link>http://example.org/articles/20-birthday/</link>
+      <link>https://yue2.github.io/hugosite/articles/20-birthday/</link>
       <pubDate>Mon, 20 Jun 2016 11:26:23 +0000</pubDate>
       
-      <guid>http://example.org/articles/20-birthday/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/20-birthday/</guid>
       <description>&lt;p&gt;挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>论食堂菜系</title>
-      <link>http://example.org/articles/on-school-canteen/</link>
+      <link>https://yue2.github.io/hugosite/articles/on-school-canteen/</link>
       <pubDate>Fri, 11 Sep 2015 07:34:54 +0000</pubDate>
       
-      <guid>http://example.org/articles/on-school-canteen/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/on-school-canteen/</guid>
       <description>&lt;p&gt;英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>成年自述</title>
-      <link>http://example.org/articles/stepping-into-adulthood/</link>
+      <link>https://yue2.github.io/hugosite/articles/stepping-into-adulthood/</link>
       <pubDate>Fri, 14 Mar 2014 11:27:20 +0000</pubDate>
       
-      <guid>http://example.org/articles/stepping-into-adulthood/</guid>
+      <guid>https://yue2.github.io/hugosite/articles/stepping-into-adulthood/</guid>
       <description>&lt;p&gt;一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。&lt;/p&gt;</description>
     </item>
     
