@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>My First Post</title>
+        <link>http://example.org/first-post/</link>
+        <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/first-post/</guid>
+        <description>My New Hugo Blog http://example.org/first-post/ -&lt;h2 id=&#34;this-is-my-first-post&#34;&gt;This is my first post&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;this post is composed in atom&lt;/li&gt;
+&lt;li&gt;this post will be hosted locally&lt;/li&gt;
+&lt;/ul&gt;
+- http://example.org/first-post/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 
