@@ -1,10 +1,136 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Blog</title>
+    <title>Tags on Mid of Nowhere</title>
     <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Blog</description>
+    <description>Recent content in Tags on Mid of Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 20:41:53 +0800</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>同人</title>
+      <link>http://example.org/tags/%E5%90%8C%E4%BA%BA/</link>
+      <pubDate>Sat, 02 Oct 2021 20:41:53 +0800</pubDate>
+      
+      <guid>http://example.org/tags/%E5%90%8C%E4%BA%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>哈利波特</title>
+      <link>http://example.org/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/</link>
+      <pubDate>Sat, 02 Oct 2021 20:41:53 +0800</pubDate>
+      
+      <guid>http://example.org/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>小说</title>
+      <link>http://example.org/tags/%E5%B0%8F%E8%AF%B4/</link>
+      <pubDate>Sat, 02 Oct 2021 20:41:53 +0800</pubDate>
+      
+      <guid>http://example.org/tags/%E5%B0%8F%E8%AF%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术</title>
+      <link>http://example.org/tags/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 26 Sep 2021 20:36:20 +0800</pubDate>
+      
+      <guid>http://example.org/tags/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>随笔</title>
+      <link>http://example.org/tags/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Wed, 23 Jun 2021 06:07:45 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>http://example.org/tags/podcast/</link>
+      <pubDate>Tue, 01 Jun 2021 12:23:57 +0000</pubDate>
+      
+      <guid>http://example.org/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>评论</title>
+      <link>http://example.org/tags/%E8%AF%84%E8%AE%BA/</link>
+      <pubDate>Tue, 01 Jun 2021 12:23:57 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%AF%84%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>菜谱</title>
+      <link>http://example.org/tags/%E8%8F%9C%E8%B0%B1/</link>
+      <pubDate>Thu, 20 May 2021 12:45:43 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%8F%9C%E8%B0%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>影</title>
+      <link>http://example.org/tags/%E5%BD%B1/</link>
+      <pubDate>Thu, 20 May 2021 12:16:30 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E5%BD%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>记录</title>
+      <link>http://example.org/tags/%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sat, 15 May 2021 16:22:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>书</title>
+      <link>http://example.org/tags/%E4%B9%A6/</link>
+      <pubDate>Fri, 19 Feb 2021 06:26:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>疫情</title>
+      <link>http://example.org/tags/%E7%96%AB%E6%83%85/</link>
+      <pubDate>Sat, 06 Feb 2021 08:33:27 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E7%96%AB%E6%83%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bday</title>
+      <link>http://example.org/tags/bday/</link>
+      <pubDate>Mon, 05 Mar 2018 23:46:08 +0000</pubDate>
+      
+      <guid>http://example.org/tags/bday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>某档美食栏目</title>
+      <link>http://example.org/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/</link>
+      <pubDate>Fri, 11 Sep 2015 07:34:54 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

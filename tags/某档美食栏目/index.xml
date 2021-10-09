@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>某档美食栏目 on Mid of Nowhere</title>
+    <link>http://example.org/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/</link>
+    <description>Recent content in 某档美食栏目 on Mid of Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Sep 2015 07:34:54 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>论食堂菜系</title>
+      <link>http://example.org/articles/on-school-canteen/</link>
+      <pubDate>Fri, 11 Sep 2015 07:34:54 +0000</pubDate>
+      
+      <guid>http://example.org/articles/on-school-canteen/</guid>
+      <description>&lt;p&gt;英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

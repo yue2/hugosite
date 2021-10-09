@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bday on Mid of Nowhere</title>
+    <link>http://example.org/tags/bday/</link>
+    <description>Recent content in bday on Mid of Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Mar 2018 23:46:08 +0000</lastBuildDate><atom:link href="http://example.org/tags/bday/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>22岁生日留念</title>
+      <link>http://example.org/articles/22-birthday/</link>
+      <pubDate>Mon, 05 Mar 2018 23:46:08 +0000</pubDate>
+      
+      <guid>http://example.org/articles/22-birthday/</guid>
+      <description>&lt;p&gt;我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>21岁生日留念</title>
+      <link>http://example.org/articles/21-birthday/</link>
+      <pubDate>Wed, 01 Mar 2017 11:23:42 +0000</pubDate>
+      
+      <guid>http://example.org/articles/21-birthday/</guid>
+      <description>&lt;p&gt;三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>20岁生日留念</title>
+      <link>http://example.org/articles/20-birthday/</link>
+      <pubDate>Mon, 20 Jun 2016 11:26:23 +0000</pubDate>
+      
+      <guid>http://example.org/articles/20-birthday/</guid>
+      <description>&lt;p&gt;挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>成年自述</title>
+      <link>http://example.org/articles/stepping-into-adulthood/</link>
+      <pubDate>Fri, 14 Mar 2014 11:27:20 +0000</pubDate>
+      
+      <guid>http://example.org/articles/stepping-into-adulthood/</guid>
+      <description>&lt;p&gt;一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

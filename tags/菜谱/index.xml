@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>菜谱 on Mid of Nowhere</title>
+    <link>http://example.org/tags/%E8%8F%9C%E8%B0%B1/</link>
+    <description>Recent content in 菜谱 on Mid of Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 May 2021 12:45:43 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%8F%9C%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>锡纸大虾</title>
+      <link>http://example.org/posts/bbq-shrimp/</link>
+      <pubDate>Thu, 20 May 2021 12:45:43 +0000</pubDate>
+      
+      <guid>http://example.org/posts/bbq-shrimp/</guid>
+      <description>&lt;p&gt;改编自阿曼达锡纸花甲 &lt;a href=&#34;https://www.youtube.com/watch?v=RmF&#34;&gt;https://www.youtube.com/watch?v=RmF&lt;/a&gt;_HQLdDec&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pan pizza (not really)</title>
+      <link>http://example.org/posts/pan-pizza-not-really/</link>
+      <pubDate>Sat, 15 May 2021 16:22:09 +0000</pubDate>
+      
+      <guid>http://example.org/posts/pan-pizza-not-really/</guid>
+      <description>&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小高姐烤鸡翅</title>
+      <link>http://example.org/posts/chicken-wings/</link>
+      <pubDate>Wed, 10 Feb 2021 03:10:39 +0000</pubDate>
+      
+      <guid>http://example.org/posts/chicken-wings/</guid>
+      <description>&lt;p&gt;视频链接：&lt;a href=&#34;https://www.youtube.com/watch?v=oCsVPRiBWWs&#34;&gt;https://www.youtube.com/watch?v=oCsVPRiBWWs&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Amanda春川辣炒鸡</title>
+      <link>http://example.org/posts/korean-chicken/</link>
+      <pubDate>Wed, 10 Feb 2021 03:05:58 +0000</pubDate>
+      
+      <guid>http://example.org/posts/korean-chicken/</guid>
+      <description>&lt;p&gt;视频地址：&lt;a href=&#34;https://www.youtube.com/watch?v=46C7UIre4Nc&#34;&gt;https://www.youtube.com/watch?v=46C7UIre4Nc&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>胖哥俩类似鸡爪煲</title>
+      <link>http://example.org/posts/chicken-feet-stew/</link>
+      <pubDate>Tue, 09 Feb 2021 09:16:17 +0000</pubDate>
+      
+      <guid>http://example.org/posts/chicken-feet-stew/</guid>
+      <description>&lt;p&gt;来自下厨房app，链接找不到了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>农师傅椒麻鸡</title>
+      <link>http://example.org/articles/spicy-chicken-salad/</link>
+      <pubDate>Tue, 09 Feb 2021 09:13:08 +0000</pubDate>
+      
+      <guid>http://example.org/articles/spicy-chicken-salad/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

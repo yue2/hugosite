@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html><head>
+<title>疫区周记</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+<link rel="icon" href="https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.6f2a9f60ecd9d6990e445124768d14ef63c70ff0df625dfd8f2ad650484292d5.css" integrity="sha256-byqfYOzZ1pkORFEkdo0U72PHD/DfYl39jyrWUEhCktU=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/dark-mode.min.2a8bc24e02ae91557183e918c1943450124265392475e02b9b498aeeed41e2f7.css" integrity="sha256-KovCTgKukVVxg&#43;kYwZQ0UBJCZTkkdeArm0mK7u1B4vc=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            Mid of Nowhere
+        </div>
+        
+        <div class="nav-subtitle">
+            Welcome to the middle of nowher. That&#39;s right, absolute nowhere.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/articles/">
+                文章
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/posts/">
+                随记
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/gallery/">
+                图册
+            </a>
+            
+        
+    </div>
+
+
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    
+    <div class="function">
+      
+      <a id="rss_feed" type="button" href="/index.xml" class="animated-visibility">
+        <i class="material-icons pagination-action-icon"> rss_feed </i>
+      </a>
+      <a id="blog_roll"href="/posts/about/" class="animated-visibility">
+        <i class="material-icons">face</i>
+      </a>
+      <a id ="notebook" href="#" class="animated visibility"><i class="material-icons">history_edu</i></a> 
+    </div>
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <=100 }">
+<div class="container tagcloud">
+  <center>- TAGS -<center>
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+          
+          
+          
+            <a href="/tags/bday"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              bday
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/podcast"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              podcast
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E4%B9%A6"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              书
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%90%8C%E4%BA%BA"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              同人
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              哈利波特
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%B0%8F%E8%AF%B4"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              小说
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%BD%B1"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              影
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%8A%80%E6%9C%AF"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              技术
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE"
+            class="tagcloud-item" style="font-size: 1rem;">
+              某档美食栏目
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E7%96%AB%E6%83%85"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              疫情
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%8F%9C%E8%B0%B1"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              菜谱
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AE%B0%E5%BD%95"
+            class="tagcloud-item" style="font-size: 1rem;">
+              记录
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AF%84%E8%AE%BA"
+            class="tagcloud-item" style="font-size: 1.3536912869581923rem;">
+              评论
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E9%9A%8F%E7%AC%94"
+            class="tagcloud-item" style="font-size: 1.3859936183925374rem;">
+              随笔
+            </a>
+        
+    
+</div>
+</div>
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/articles/">
+                    文章
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/posts/">
+                    随记
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/gallery/">
+                    图册
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            Mid of Nowhere
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">Mid of Nowhere</div>
+        
+        <div class="single-column-header-subtitle">Welcome to the middle of nowher. That&#39;s right, absolute nowhere.</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    疫区周记
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-04-10 11:04
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E6%96%87%E7%AB%A0">文章</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E7%96%AB%E6%83%85">疫情</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E9%9A%8F%E7%AC%94">随笔</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>——轮到我啦</p>
+<p>在家两周了，现在想来上一个工作日仿佛是十年前。我最后一天去学校上班是一个星期四，那周从周一开始就已经风声鹤唳了，但是我早就计划了工作到周四，所以还在每天早晚坐校车去学校，带饭盒去办公室吃。我们楼道里都是感应灯，平常到晚上十一点还灯火通明，在那一周下午四点就很暗了——组里的人也不去上班了。校车上只有零星的几个人，但还是只有我和另一个看起来是亚洲人的姑娘戴口罩。</p>
+<p>就在我周四把所有东西捞出来放进干燥箱，和师姐交接完回家之后，收到了老板的消息说礼拜五开zoom组会，肯定是全校都要停工了。果然晚上就收到了学校的邮件，说周五下午六点之后所有楼都要锁门，只有经批准的关键人员才能进出。我们老板和我爸同龄，五十岁出头，是一个传说中每天只睡4h的工作狂，无论什么时候、在哪个时区，只要不在开会，五分钟之内回邮件。他显然是先我们一步知道了学校的安排，要开会指导大家在家的工作。</p>
+<p>周五的组会，老板说我们很少开所有人都参加的大组会，疫情或许是一个好机会，我们每周开两次吧，周一周五一大早九点。随后刷刷刷地把每周讲报告的人都安排上了，从3月底一直排到4/23。在一切都停滞的疫情中，可能最容易击垮精神的就是虚空感，所以每周都要早起两天听大家讲工作内容实际上非常鼓舞人心。可是对我而言，集中注意力已经很难了，每隔几个小时都想着要做饭，要吃什么，什么软件还能买菜送菜。</p>
+<p>我这两周只写了两页论文，打鱼晒网。而上周五老板说我们组收到了紧急基金，让量产（实际上还是手工做）一批NICU用的血氧sensor，今天听说是盖茨基金会要送去非洲的，postdoc姐姐还说在改造之前用来监测中风病人吞咽的算法来监测肺炎患者的咳嗽。总之，大家都在努力贡献一点。本组最大的金主富婆也参加了这次组会，说了说谢谢大家的努力之类的片汤话，总裁说：“富婆就是想看看钱有没有白花。”哈哈哈没错，这可能也是富婆一开始花几千万想得到的回报。</p>
+<p>我昨天收到了系里助理老师的邮件，说正在找人批下学期本科生的作业，一门工学院的基础力学大课。新学期还有两天就开始了，现在还在找批作业的其实不太常见，但我还是答应了，反正就在线看看他们画的受力分析图，工作量不会大。然后助理老师回了邮件说，主讲教授是土木系的，她的母亲感染肺炎昨天死了，所以我们BME多出两个人分摊一下老师的工作量。我无论如何也没想到，会以这种方式在这场疫情里帮上忙。</p>
+<p>上个月的新闻说今年的瘟疫可能会发展成1918大流感那样，死很多人。等到一切都过去，如果你比较幸运，你认识的人里没有人死于瘟疫。但是一定有你的熟人，他们认识死于瘟疫的人。想不到我已经到这一步了，让人触目惊心。</p>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-04-10</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="http://example.org/articles/newwed-fiction-liao/">
+			Next<br>《新婚之夜》 - 辽京 - 中短篇小说集
+                </a>
+                
+                
+                
+                <a class="older-posts" href="http://example.org/articles/22-birthday/">
+			Previous<br>22岁生日留念
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+</div>
+
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

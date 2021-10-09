@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html><head>
+<title>我的播客制作经验</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+<link rel="icon" href="https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.6f2a9f60ecd9d6990e445124768d14ef63c70ff0df625dfd8f2ad650484292d5.css" integrity="sha256-byqfYOzZ1pkORFEkdo0U72PHD/DfYl39jyrWUEhCktU=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/dark-mode.min.2a8bc24e02ae91557183e918c1943450124265392475e02b9b498aeeed41e2f7.css" integrity="sha256-KovCTgKukVVxg&#43;kYwZQ0UBJCZTkkdeArm0mK7u1B4vc=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            Mid of Nowhere
+        </div>
+        
+        <div class="nav-subtitle">
+            Welcome to the middle of nowher. That&#39;s right, absolute nowhere.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/articles/">
+                文章
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts/">
+                随记
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/gallery/">
+                图册
+            </a>
+            
+        
+    </div>
+
+
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    
+    <div class="function">
+      
+      <a id="rss_feed" type="button" href="/index.xml" class="animated-visibility">
+        <i class="material-icons pagination-action-icon"> rss_feed </i>
+      </a>
+      <a id="blog_roll"href="/posts/about/" class="animated-visibility">
+        <i class="material-icons">face</i>
+      </a>
+      <a id ="notebook" href="#" class="animated visibility"><i class="material-icons">history_edu</i></a> 
+    </div>
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <=100 }">
+<div class="container tagcloud">
+  <center>- TAGS -<center>
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+          
+          
+          
+            <a href="/tags/bday"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              bday
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/podcast"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              podcast
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E4%B9%A6"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              书
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%90%8C%E4%BA%BA"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              同人
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              哈利波特
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%B0%8F%E8%AF%B4"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              小说
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%BD%B1"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              影
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%8A%80%E6%9C%AF"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              技术
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE"
+            class="tagcloud-item" style="font-size: 1rem;">
+              某档美食栏目
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E7%96%AB%E6%83%85"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              疫情
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%8F%9C%E8%B0%B1"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              菜谱
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AE%B0%E5%BD%95"
+            class="tagcloud-item" style="font-size: 1rem;">
+              记录
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AF%84%E8%AE%BA"
+            class="tagcloud-item" style="font-size: 1.3536912869581923rem;">
+              评论
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E9%9A%8F%E7%AC%94"
+            class="tagcloud-item" style="font-size: 1.3859936183925374rem;">
+              随笔
+            </a>
+        
+    
+</div>
+</div>
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/articles/">
+                    文章
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts/">
+                    随记
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/gallery/">
+                    图册
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            Mid of Nowhere
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">Mid of Nowhere</div>
+        
+        <div class="single-column-header-subtitle">Welcome to the middle of nowher. That&#39;s right, absolute nowhere.</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    我的播客制作经验
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-02-08 11:51
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E7%94%9F%E6%B4%BB">生活</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/podcast">podcast</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E6%8A%80%E6%9C%AF">技术</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。</p>
+<p>我们（我和搭档）从2019年9月开通了一个播客《<a href="https://anchor.fm/ashley-xu">我的锅</a>》，开始讲一些吃吃喝喝和烧菜的事情。那时候我们住在一起，搭档在家待业了一段时间，更新得比较勤快。过了两个月搭档在另一个城市找到了工作，就更加有一搭没一搭地录节目。到了2020年疫情爆发，我们又一起work from home了，想讲的屁事远远超出了吃喝烹饪，《我的锅》就走向了一档什么屁事儿都聊的节目。因为播出大半年了听众群体依然停留在大概五人，所以逐渐放飞自我，把该节目从每集二十分钟唠到了一个多小时。</p>
+<p>我们开始做播客的原因其实在<a href="https://anchor.fm/ashley-xu/episodes/Bonus-5-ek8pfq">一周年bonus那一期</a>里有提到，主要就是因为听到了别人的制作，觉得也没有那么难，出于“我也可以“的心态就开始了。 同样是在疫情期间，我提到了我自己喜欢听犯罪故事类节目，但是我听到的都是英文节目，我们可以做一个中文的真实犯罪故事类节目，于是我们开通了《<a href="https://anchor.fm/christine3563">午时已到</a>》。这个节目的类型很明确，开通的时候我们也已经对制作音频节目有一段时间的经验了，所以做起来很快。一集节目大概半个小时，剪辑发布可能只需要一个多小时，前期的资料搜索汇总工作可以在上班摸鱼的时间里完成，负担并不大。实际上这几乎成了我们的一个业余爱好。本来我们以为《午时已到》也会成为完全没人听的自嗨产品，所以维护也不是很用心，中间停更了一两个月。但是我们的一个朋友在网易云音乐上留言催更了，让我们突然发现是真的有人在听的！在此之前我们基本上没有推广过自己的节目，在微博上发过几期《我的锅》，但是也没有招来几个听众，所以慢慢就放弃了。但是在朋友催更之后，我们突然就燃起了事业心，想把午时已到继续做好。可能是因为类型比较吸引人，体量也不大，我们获得了大概四五十个听众。这时候我的搭档在朋友圈里打了个广告，我们的朋友才正式知道了我们在做播客。然后我才觉得应该整得正式一点，于是为《午时已到》做了一个<a href="http://podcast.midofnowhere.link">非常简陋的网页</a>，还加入了第一届<a href="https://podcastsummit.github.io/2020summit/">Chinese Podcaster Summit</a>，真的把自己考虑成了一个podcaster。但是那次summit我并没有参会，因为时差很尴尬。</p>
+<p>技术上来说做播客并不困难，我们目前用的是anchor的免费托管。Anchor是spotify旗下的服务，我今天看到有前辈说它的版权条款对创作者并不好，但是我们目前还没有遇到麻烦。GUI不错，分发也很方便，一开始选择它的主要原因还是spotify，因为我日常听歌听播客的软件就是spotify，我觉得这是一个稳定可靠的大公司。录音方面，我们到目前为止用的都还是手机，音质不算太差，但是我的三星好像录音质量没有搭档的苹果好。剪辑我用的是adobe audition（学校买的），操作其实不多，第一步降噪、第二步修剪、第三步加片头片尾就好了。实际上不管内容多么丰富、谈话多么深入，如果讲话的人的声音我不喜欢，或者节目的音质比较差，我都不会听下去。形式不能大于内容，但是形式不能差到妨碍内容。这是我自己听播客的原则，所以我制作的时候也会考虑一点音质，尽量在不花钱的条件下做到比较好，这也需要一段时间的尝试调整。</p>
+<p>一直到2020年底，我们都还在喜马拉雅和网易云音乐上同步更新，虽然这两个平台不能接入rss源，需要手动上传，但是因为国内听众还是最常用这两个软件，所以我们还是愿意再上传两次的。在年底的时候我们发了一期讲<a href="https://anchor.fm/christine3563/episodes/Episode-11-eno7qp">Navalny被下毒的节目</a>，被喜马拉雅审查删除了，喜马拉雅甚至倒扣了我们的账户信用分，作为触犯审查机制的惩罚。而网易云音乐直接让这一期消失了，上传的东西完全找不到了。扁扁（我的搭档）特别不爽，我们之后就不再放上这两个国内平台了。网络审查我们当然是早就知道的，知道了很多年了，但是这是我们第一次以创作者的身份触碰到了这张渔网，确实也给了我不小的震撼。</p>
+<p>制作播客到目前为止对我们来说都是一个业余爱好。我们都有day job，搭档的工作甚至非常辛苦，周末都会加班；我稍微自由一些，但也并不是清闲。我们对自己的day job都比较满意，也对业余制作的身份比较满意，没有打算靠内容创作吃饭，因此也不是特别在意数据增长和变现，目前阶段纯粹只是获得成就感。我们的节目也分发在了小宇宙上，但是我觉得小宇宙的创作者端特别不好用，所以没有在管。我觉得大家都参与制作播客只是新一代的表达欲播撒的表现，和上一代的微信公众号没有区别，和更上一代的博客也没有区别。我经常笑话扁扁（北京知名文科院校毕业生）的朋友圈人均3.2个公众号，我觉得接下来可能会发展成人均拥有1.5个播客。当然声音和文字在传达信息方面是有巨大差异的，实际上我觉得文字是效率更高的表达方式，可以在文章里密度更高地填满信息。但是我们摄取信息的时候并不都是以效率最高为原则的，我们有时候是想打发时间，也就是说更需要娱乐和陪伴，这时候或许声音是一个更合适的介质。信息量很大、每集一个多小时的播客节目我也订阅，但我每期都会听的并不是这类节目，我每集都会听的是两个喜剧人闲聊天节目！我的搭档也有类似的感受，她爱听的是詹俊聊足球节目（最近我们喜欢的球队战绩不佳，所以也没怎么听了）。 我们会以为讲话是很自然的表达方式，没有门槛，其实不然，我本来对自己的讲故事能力比较自信，而且觉得我们俩怎么样也算是受教育水平比较好的人了，但是后来在回听自己的节目的时候发现还是有很多不足。搭档觉得自己总车轱辘来回讲话，language efficiency很差，而我发现自己甚至说不了很长的句子，说话的词汇量比写文章低了非常多。实际上我们上学的时候都写过不少作文，而演讲和辩论是很少人参加的活动，我们的口头表达能力几乎没有接受过训练。表达能力是我希望继续提高的一个方面。另一方面，我希望能够收到听众互动，不管是留言发信还是打钱。  </p>
+<p>ummmm, 总的来说就是我很菜我知道，但是凑活过呗还能咋办。</p>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2021-02-08</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="http://example.org/articles/spicy-chicken-salad/">
+			Next<br>农师傅椒麻鸡
+                </a>
+                
+                
+                
+                <a class="older-posts" href="http://example.org/articles/web-construction/">
+			Previous<br>网站搭建尝试
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+</div>
+
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

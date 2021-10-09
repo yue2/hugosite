@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>影 on Mid of Nowhere</title>
+    <link>http://example.org/tags/%E5%BD%B1/</link>
+    <description>Recent content in 影 on Mid of Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 May 2021 12:16:30 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ugly Delicious Netflix</title>
+      <link>http://example.org/articles/ugly-delicious-netflix-reality-show/</link>
+      <pubDate>Thu, 20 May 2021 12:16:30 +0000</pubDate>
+      
+      <guid>http://example.org/articles/ugly-delicious-netflix-reality-show/</guid>
+      <description>&lt;p&gt;我知道这个剧集是从The Daily Show访谈里看到的David Chang，他说拍摄的过程中让他学习了很多、思考了很多，尤其是关于炸鸡和黑人历史的那一段拍摄。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>《正义联盟施耐德版》 - 电影</title>
+      <link>http://example.org/articles/justice-league-schneider-movie/</link>
+      <pubDate>Sun, 21 Mar 2021 15:47:18 +0000</pubDate>
+      
+      <guid>http://example.org/articles/justice-league-schneider-movie/</guid>
+      <description>&lt;p&gt;两天看完了新出的施耐德重制版《正义联盟》。 最近几个月复习了一通超级英雄，回顾了三部《钢铁侠》，看了3小时版的bvs，刚好前两周才看了两部《不义联盟》的游戏剧情电影，实际上用游戏的结构来理解这个四小时超级英雄马拉松我觉得非常合适。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

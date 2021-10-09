@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcast on Mid of Nowhere</title>
+    <link>http://example.org/tags/podcast/</link>
+    <description>Recent content in podcast on Mid of Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jun 2021 12:23:57 +0000</lastBuildDate><atom:link href="http://example.org/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打工谈20210601 - podcast</title>
+      <link>http://example.org/articles/worktalk-podcast/</link>
+      <pubDate>Tue, 01 Jun 2021 12:23:57 +0000</pubDate>
+      
+      <guid>http://example.org/articles/worktalk-podcast/</guid>
+      <description>&lt;p&gt;今天听了这集&lt;a href=&#34;https://open.spotify.com/episode/3lHtL1tI3elp1yziYkOael?si=EaOH2n2ZRCa54gWEDT_s9g&#34;&gt;打工谈儿童节节目&lt;/a&gt; ，讲得还挺好的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的播客制作经验</title>
+      <link>http://example.org/posts/how-to-produce-a-podcast/</link>
+      <pubDate>Mon, 08 Feb 2021 11:51:45 +0000</pubDate>
+      
+      <guid>http://example.org/posts/how-to-produce-a-podcast/</guid>
+      <description>&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html><head>
+<title>Articles</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+<link rel="icon" href="https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.6f2a9f60ecd9d6990e445124768d14ef63c70ff0df625dfd8f2ad650484292d5.css" integrity="sha256-byqfYOzZ1pkORFEkdo0U72PHD/DfYl39jyrWUEhCktU=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/dark-mode.min.2a8bc24e02ae91557183e918c1943450124265392475e02b9b498aeeed41e2f7.css" integrity="sha256-KovCTgKukVVxg&#43;kYwZQ0UBJCZTkkdeArm0mK7u1B4vc=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            Mid of Nowhere
+        </div>
+        
+        <div class="nav-subtitle">
+            Welcome to the middle of nowher. That&#39;s right, absolute nowhere.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/articles/">
+                文章
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/posts/">
+                随记
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/gallery/">
+                图册
+            </a>
+            
+        
+    </div>
+
+
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    
+    <div class="function">
+      
+      <a id="rss_feed" type="button" href="/index.xml" class="animated-visibility">
+        <i class="material-icons pagination-action-icon"> rss_feed </i>
+      </a>
+      <a id="blog_roll"href="/posts/about/" class="animated-visibility">
+        <i class="material-icons">face</i>
+      </a>
+      <a id ="notebook" href="#" class="animated visibility"><i class="material-icons">history_edu</i></a> 
+    </div>
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <=100 }">
+<div class="container tagcloud">
+  <center>- TAGS -<center>
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+          
+          
+          
+            <a href="/tags/bday"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              bday
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/podcast"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              podcast
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E4%B9%A6"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              书
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%90%8C%E4%BA%BA"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              同人
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              哈利波特
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%B0%8F%E8%AF%B4"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              小说
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%BD%B1"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              影
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%8A%80%E6%9C%AF"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              技术
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE"
+            class="tagcloud-item" style="font-size: 1rem;">
+              某档美食栏目
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E7%96%AB%E6%83%85"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              疫情
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%8F%9C%E8%B0%B1"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              菜谱
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AE%B0%E5%BD%95"
+            class="tagcloud-item" style="font-size: 1rem;">
+              记录
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AF%84%E8%AE%BA"
+            class="tagcloud-item" style="font-size: 1.3536912869581923rem;">
+              评论
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E9%9A%8F%E7%AC%94"
+            class="tagcloud-item" style="font-size: 1.3859936183925374rem;">
+              随笔
+            </a>
+        
+    
+</div>
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+        
+            <div class="pagination-indicator">
+                <span style="text-align: center">
+                    3<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>3
+                </span>
+            </div>
+
+            
+            <a class="pagination-action" href="/articles/page/2/">
+                <i class="material-icons pagination-action-icon">
+                    chevron_left
+                </i>
+            </a>
+            
+
+            
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/articles/">
+                    文章
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/posts/">
+                    随记
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/gallery/">
+                    图册
+                </a>
+                
+            
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            Mid of Nowhere
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">Mid of Nowhere</div>
+        
+        <div class="single-column-header-subtitle">Welcome to the middle of nowher. That&#39;s right, absolute nowhere.</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/weekly-in-quarantine/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                疫区周记
+                            </div>
+                            <div class="post-item-meta">
+    2020-04-10
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>——轮到我啦</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2018
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/22-birthday/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                22岁生日留念
+                            </div>
+                            <div class="post-item-meta">
+    2018-03-05
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2017
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/random-horror-story/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                一个恐怖故事
+                            </div>
+                            <div class="post-item-meta">
+    2017-11-05
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/21-birthday/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                21岁生日留念
+                            </div>
+                            <div class="post-item-meta">
+    2017-03-01
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2016
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/20-birthday/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                20岁生日留念
+                            </div>
+                            <div class="post-item-meta">
+    2016-06-20
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2015
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/on-school-canteen/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                论食堂菜系
+                            </div>
+                            <div class="post-item-meta">
+    2015-09-11
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/articles/stepping-into-adulthood/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                成年自述
+                            </div>
+                            <div class="post-item-meta">
+    2014-03-14
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+    <br>
+    <p>一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。</p>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+    </div>
+
+
+
+                    </div>
+            </div>
+
+<div class="pagination">
+    
+    <a class="pagination-action" href="/articles/page/2/" style="opacity:1">
+    
+        <i class="material-icons pagination-action-icon">
+            chevron_left
+        </i>
+    </a>
+
+        <div class="pagination-indicator">
+            <span>3/3</span>
+        </div>
+
+        
+            <a class="pagination-action" style="opacity:0">
+        
+                <i class="material-icons pagination-action-icon">
+                    chevron_right
+                </i>
+            </a>
+</div>
+
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+</div>
+
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

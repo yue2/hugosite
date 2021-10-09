@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html><head>
+<title>论食堂菜系</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+<link rel="icon" href="https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.6f2a9f60ecd9d6990e445124768d14ef63c70ff0df625dfd8f2ad650484292d5.css" integrity="sha256-byqfYOzZ1pkORFEkdo0U72PHD/DfYl39jyrWUEhCktU=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/dark-mode.min.2a8bc24e02ae91557183e918c1943450124265392475e02b9b498aeeed41e2f7.css" integrity="sha256-KovCTgKukVVxg&#43;kYwZQ0UBJCZTkkdeArm0mK7u1B4vc=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            Mid of Nowhere
+        </div>
+        
+        <div class="nav-subtitle">
+            Welcome to the middle of nowher. That&#39;s right, absolute nowhere.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/articles/">
+                文章
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/posts/">
+                随记
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/gallery/">
+                图册
+            </a>
+            
+        
+    </div>
+
+
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    
+    <div class="function">
+      
+      <a id="rss_feed" type="button" href="/index.xml" class="animated-visibility">
+        <i class="material-icons pagination-action-icon"> rss_feed </i>
+      </a>
+      <a id="blog_roll"href="/posts/about/" class="animated-visibility">
+        <i class="material-icons">face</i>
+      </a>
+      <a id ="notebook" href="#" class="animated visibility"><i class="material-icons">history_edu</i></a> 
+    </div>
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <=100 }">
+<div class="container tagcloud">
+  <center>- TAGS -<center>
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+          
+          
+          
+            <a href="/tags/bday"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              bday
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/podcast"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              podcast
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E4%B9%A6"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              书
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%90%8C%E4%BA%BA"
+            class="tagcloud-item" style="font-size: 1.2231543565209038rem;">
+              同人
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              哈利波特
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%B0%8F%E8%AF%B4"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              小说
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E5%BD%B1"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              影
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%8A%80%E6%9C%AF"
+            class="tagcloud-item" style="font-size: 1.1768456434790961rem;">
+              技术
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE"
+            class="tagcloud-item" style="font-size: 1rem;">
+              某档美食栏目
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E7%96%AB%E6%83%85"
+            class="tagcloud-item" style="font-size: 1.111577178260452rem;">
+              疫情
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%8F%9C%E8%B0%B1"
+            class="tagcloud-item" style="font-size: 1.288422821739548rem;">
+              菜谱
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AE%B0%E5%BD%95"
+            class="tagcloud-item" style="font-size: 1rem;">
+              记录
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E8%AF%84%E8%AE%BA"
+            class="tagcloud-item" style="font-size: 1.3536912869581923rem;">
+              评论
+            </a>
+        
+          
+          
+          
+          
+            <a href="/tags/%E9%9A%8F%E7%AC%94"
+            class="tagcloud-item" style="font-size: 1.3859936183925374rem;">
+              随笔
+            </a>
+        
+    
+</div>
+</div>
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/articles/">
+                    文章
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/posts/">
+                    随记
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/gallery/">
+                    图册
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            Mid of Nowhere
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">Mid of Nowhere</div>
+        
+        <div class="single-column-header-subtitle">Welcome to the middle of nowher. That&#39;s right, absolute nowhere.</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    论食堂菜系
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2015-09-11 07:34
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E6%96%87%E7%AB%A0">文章</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E9%9A%8F%E7%AC%94">随笔</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE">某档美食栏目</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。</p>
+<p>这么折腾矫情的段落确实不是我的风格。其实吧是这样，我有个朋友是韩国人，他说HSK的作文考试要求五百字内用十几个成语，我忍不住想尝试一下。</p>
+<p>在这么有文采的无聊开头扯完之后，请允许我隆重介绍：世界第九大奇迹、中华第九大菜系——食堂菜系。</p>
+<p>两周前我坐在p大农园，筷子搅起几根拉面，一吸溜满嘴加了味精的牛肉汤的味道。听炫哥坐在对面讲p大韩国留学生会的事儿，全是黑话，跟黑社会似的。那牛肉拉面跟我们学校的倒真如出一辙，把煮好的面从沸水桶里捞出来，舀一大勺早就备好的汤。师傅手抖两下，碗里就有几片薄如蝉翼的牛肉片和白萝卜片儿。我们多付一块钱还能加卤蛋呢，没问他们有没有这功能。</p>
+<p>食堂菜系以其强烈的个性屹立于中华料理界。横跨整个中国，主要消费人群从五岁的幼儿园小朋友到二三十岁的大学生研究生，菜式变化多端，风格却始终如一。</p>
+<p>经过十几年的亲身体会，不断试错又重复实验，我总结了几条经验规律。</p>
+<p>第一，紫菜蛋花汤里薛定谔的蛋。海桶里看上去飘着不少蛋花，但你一下勺子捞，就发生量子态坍缩，舀到碗里的全是紫菜。所以这蛋花到底，有，还是，没有呢？</p>
+<p>第二，肉丝守恒定律，不管食堂师傅给多少人打了青椒肉丝，面前大盘儿里的肉丝总是恒定不变的。因此每个人盘里拿到的肉丝为高阶无穷小量。</p>
+<p>还有第三，蔬菜的测不准原理。虽然总量大体不变，但总是很难根据主次说清楚今天吃的是青菜炒香菇还是香菇炒青菜，极端情况下也可能出现整盘的炒青菜。</p>
+<p>在谜之统一的菜式风格之外，食堂菜系还有不可思议的创新精神！私以为这才是它得以坚守壮大，不但没有丧失传统精神，反而在现代化道路上更进一步的重要原因！（扯得我心好累）</p>
+<p>什么油炸芒果、辣椒炒月饼我是没吃过，不过我们食堂还是有金针菇炒蛋这种听起来并没有什么违和但我家绝对不会做的东西的。更不要提一切皆可盖的盖饭和万物皆为卤的打卤面，另外鱼豆腐这种火锅料为啥能做成干锅当荤菜卖啊！没灵感的时候去食堂逛一圈，应该能得到不少启发嗯。</p>
+<p>在上大学以前，我的学校都是排队打份儿饭的，不用刷卡付饭钱，选择也少，每天都这么稀里糊涂地排队、拿饭、吃。导致我到北京第一次去食堂纠结炸了！这什么玩意儿，荤菜得自己选，蔬菜得自己选，白饭还得排队打。第一次充饭卡的时候可心疼了！这才半个月没到，就吃了两百块！</p>
+<p>有一阵我热衷于跑到各个学校吃食堂，跟逛世博会的时候拿个小本本去盖章集戳似的。觉得魏公村附近的食堂总体水平要好一些，不过那些食物总的来说都差不多，即便如此，每个学校总还有些引以为傲的“一招鲜”。</p>
+<p>民大号称全北京最好吃的新疆大盘鸡还没吃到。t大的麻辣香锅是吃了，油有点大，刘老师还说了，在t大一个人去吃麻辣香锅的孤独患者是会被食堂大娘同情的。中青的食堂真是挺好吃的，阿姨把煲仔饭拎进盘子里，最后还浇上一碗汁，香气呲啦一声就起来了。tx说某旦出了魔性的辣条炒饭，他还有同学每日不畏途远骑车去吃。</p>
+<p>我们学校？那真的不知道。</p>
+<p>一个暑假回来食堂就被革了命，可以纵容呸呸任性地“只要麻酱”的热干面没见着，小砂锅好像更小了，穷逼最爱的九块钱一份烤肉饭也不见了，一楼的白饭都涨了两毛钱。</p>
+<p>听说校会某干部在会上把组织民调帮助改进食堂满意度当成政绩宣传了……</p>
+<p>那我今天还是去马路斜对面天桥下吃麦记吧。</p>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2015-09-11</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="http://example.org/articles/20-birthday/">
+			Next<br>20岁生日留念
+                </a>
+                
+                
+                
+                <a class="older-posts" href="http://example.org/articles/stepping-into-adulthood/">
+			Previous<br>成年自述
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Mid of Nowhere
+	
+</div>
+
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>
