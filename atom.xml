@@ -4,20 +4,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2021-12-06T22:08:03&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2021-12-06T22:12:49&#43;08:00</updated>
+    <id>http://yue2.github.io/hugosite/</id>
+    <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/" />
+    <link rel="self" type="application/atom&#43;xml" href="http://yue2.github.io/hugosite/atom.xml" />
     <author>
             <name>陆博学</name>
-            <uri>https://example.com/</uri>
+            <uri>http://yue2.github.io/</uri>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
         <entry>
             <title type="text">扁平足</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/physio/" />
-            <id>https://example.com/posts/physio/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/physio/" />
+            <id>http://yue2.github.io/hugosite/posts/physio/</id>
             <updated>2021-12-06T22:07:30&#43;08:00</updated>
             <published>2021-10-30T19:19:17&#43;08:00</published>
             <author>
@@ -45,7 +45,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -55,7 +55,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -65,8 +65,8 @@
     
         <entry>
             <title type="text">Ch3</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/ch3/" />
-            <id>https://example.com/posts/ch3/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/ch3/" />
+            <id>http://yue2.github.io/hugosite/posts/ch3/</id>
             <updated>2021-12-05T22:39:29&#43;08:00</updated>
             <published>2021-10-02T20:41:53&#43;08:00</published>
             <author>
@@ -106,7 +106,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -116,19 +116,19 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -138,8 +138,8 @@
     
         <entry>
             <title type="text">Ch2</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/ch2/" />
-            <id>https://example.com/posts/ch2/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/ch2/" />
+            <id>http://yue2.github.io/hugosite/posts/ch2/</id>
             <updated>2021-10-03T16:28:54&#43;08:00</updated>
             <published>2021-10-02T20:38:50&#43;08:00</published>
             <author>
@@ -182,19 +182,19 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -204,8 +204,8 @@
     
         <entry>
             <title type="text">Image Post Test</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/image-post/" />
-            <id>https://example.com/posts/image-post/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/image-post/" />
+            <id>http://yue2.github.io/hugosite/posts/image-post/</id>
             <updated>2021-12-05T22:41:36&#43;08:00</updated>
             <published>2021-10-02T18:16:15&#43;08:00</published>
             <author>
@@ -229,7 +229,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%9B%BE%E5%86%8C/" term="图册" label="图册" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/" term="图册" label="图册" />
                             
                         
                     
@@ -241,8 +241,8 @@
     
         <entry>
             <title type="text">用Typora输入</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/article-from-typora/" />
-            <id>https://example.com/posts/article-from-typora/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/article-from-typora/" />
+            <id>http://yue2.github.io/hugosite/posts/article-from-typora/</id>
             <updated>2021-10-02T15:08:12&#43;08:00</updated>
             <published>2021-09-26T20:36:20&#43;08:00</published>
             <author>
@@ -270,7 +270,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -280,8 +280,8 @@
     
         <entry>
             <title type="text">Blog Roll</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/first-post/" />
-            <id>https://example.com/posts/first-post/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/first-post/" />
+            <id>http://yue2.github.io/hugosite/posts/first-post/</id>
             <updated>2021-10-05T23:15:30&#43;08:00</updated>
             <published>2021-09-26T00:00:00&#43;00:00</published>
             <author>
@@ -317,8 +317,8 @@
     
         <entry>
             <title type="text">做一个激光需要几步</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/laser/" />
-            <id>https://example.com/posts/laser/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/laser/" />
+            <id>http://yue2.github.io/hugosite/posts/laser/</id>
             <updated>2021-12-06T21:59:39&#43;08:00</updated>
             <published>2021-08-23T16:53:21&#43;08:00</published>
             <author>
@@ -348,7 +348,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -358,13 +358,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -374,8 +374,8 @@
     
         <entry>
             <title type="text">Albert and Marie</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/albert-and-marie/" />
-            <id>https://example.com/posts/albert-and-marie/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/albert-and-marie/" />
+            <id>http://yue2.github.io/hugosite/posts/albert-and-marie/</id>
             <updated>2021-12-06T21:47:55&#43;08:00</updated>
             <published>2021-07-06T12:06:58&#43;08:00</published>
             <author>
@@ -403,7 +403,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -413,7 +413,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
                             
                         
                     
@@ -423,8 +423,8 @@
     
         <entry>
             <title type="text">六月底</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/late-june/" />
-            <id>https://example.com/posts/late-june/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/late-june/" />
+            <id>http://yue2.github.io/hugosite/posts/late-june/</id>
             <updated>2021-12-05T22:41:58&#43;08:00</updated>
             <published>2021-06-23T06:07:45&#43;00:00</published>
             <author>
@@ -451,7 +451,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -461,7 +461,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -471,8 +471,8 @@
     
         <entry>
             <title type="text">SEM - 扫描电子显微镜</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/sem/" />
-            <id>https://example.com/posts/sem/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/sem/" />
+            <id>http://yue2.github.io/hugosite/posts/sem/</id>
             <updated>2021-12-06T21:59:28&#43;08:00</updated>
             <published>2021-06-07T20:22:30&#43;08:00</published>
             <author>
@@ -506,7 +506,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -516,7 +516,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
                             
                         
                     
@@ -526,8 +526,8 @@
     
         <entry>
             <title type="text">打工谈20210601 - podcast</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/worktalk-podcast/" />
-            <id>https://example.com/posts/worktalk-podcast/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/worktalk-podcast/" />
+            <id>http://yue2.github.io/hugosite/posts/worktalk-podcast/</id>
             <updated>2021-12-05T22:43:59&#43;08:00</updated>
             <published>2021-06-01T12:23:57&#43;00:00</published>
             <author>
@@ -551,7 +551,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -561,13 +561,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/podcast/" term="podcast" label="podcast" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/podcast/" term="podcast" label="podcast" />
                             
                         
                     
@@ -577,8 +577,8 @@
     
         <entry>
             <title type="text">嗑学评论</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/fandom-talk/" />
-            <id>https://example.com/posts/fandom-talk/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/fandom-talk/" />
+            <id>http://yue2.github.io/hugosite/posts/fandom-talk/</id>
             <updated>2021-12-05T22:41:14&#43;08:00</updated>
             <published>2021-05-21T06:30:08&#43;00:00</published>
             <author>
@@ -607,7 +607,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -617,13 +617,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -633,8 +633,8 @@
     
         <entry>
             <title type="text">锡纸大虾</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/bbq-shrimp/" />
-            <id>https://example.com/posts/bbq-shrimp/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/bbq-shrimp/" />
+            <id>http://yue2.github.io/hugosite/posts/bbq-shrimp/</id>
             <updated>2021-12-05T22:40:36&#43;08:00</updated>
             <published>2021-05-20T12:45:43&#43;00:00</published>
             <author>
@@ -683,7 +683,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -693,7 +693,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -703,8 +703,8 @@
     
         <entry>
             <title type="text">Ugly Delicious Netflix</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/ugly-delicious-netflix-reality-show/" />
-            <id>https://example.com/posts/ugly-delicious-netflix-reality-show/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/" />
+            <id>http://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</id>
             <updated>2021-12-05T22:43:38&#43;08:00</updated>
             <published>2021-05-20T12:16:30&#43;00:00</published>
             <author>
@@ -729,7 +729,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -739,13 +739,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%BD%B1/" term="影" label="影" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%BD%B1/" term="影" label="影" />
                             
                         
                     
@@ -755,8 +755,8 @@
     
         <entry>
             <title type="text">Pan pizza (not really)</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/pan-pizza-not-really/" />
-            <id>https://example.com/posts/pan-pizza-not-really/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/pan-pizza-not-really/" />
+            <id>http://yue2.github.io/hugosite/posts/pan-pizza-not-really/</id>
             <updated>2021-12-05T22:42:32&#43;08:00</updated>
             <published>2021-05-15T16:22:09&#43;00:00</published>
             <author>
@@ -835,7 +835,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -845,13 +845,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AE%B0%E5%BD%95/" term="记录" label="记录" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/" term="记录" label="记录" />
                             
                         
                     
@@ -861,8 +861,8 @@
     
         <entry>
             <title type="text">关于时事的反思</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/reflection-on-politics/" />
-            <id>https://example.com/posts/reflection-on-politics/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/reflection-on-politics/" />
+            <id>http://yue2.github.io/hugosite/posts/reflection-on-politics/</id>
             <updated>2021-12-05T22:43:16&#43;08:00</updated>
             <published>2021-05-13T07:15:44&#43;00:00</published>
             <author>
@@ -889,7 +889,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -899,7 +899,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -909,8 +909,8 @@
     
         <entry>
             <title type="text">你喜欢搭乐高吗</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/atomic-lego/" />
-            <id>https://example.com/posts/atomic-lego/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/atomic-lego/" />
+            <id>http://yue2.github.io/hugosite/posts/atomic-lego/</id>
             <updated>2021-12-06T21:59:04&#43;08:00</updated>
             <published>2021-05-06T19:25:38&#43;08:00</published>
             <author>
@@ -941,7 +941,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -951,7 +951,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -961,8 +961,8 @@
     
         <entry>
             <title type="text">分享一个商战故事</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/hdd-biz-war/" />
-            <id>https://example.com/posts/hdd-biz-war/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/hdd-biz-war/" />
+            <id>http://yue2.github.io/hugosite/posts/hdd-biz-war/</id>
             <updated>2021-12-06T21:57:43&#43;08:00</updated>
             <published>2021-04-12T11:55:53&#43;08:00</published>
             <author>
@@ -991,7 +991,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1001,7 +1001,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -1011,8 +1011,8 @@
     
         <entry>
             <title type="text">《正义联盟施耐德版》 - 电影</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/justice-league-schneider-movie/" />
-            <id>https://example.com/posts/justice-league-schneider-movie/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/justice-league-schneider-movie/" />
+            <id>http://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</id>
             <updated>2021-12-05T22:41:45&#43;08:00</updated>
             <published>2021-03-21T15:47:18&#43;00:00</published>
             <author>
@@ -1038,7 +1038,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1048,13 +1048,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%BD%B1/" term="影" label="影" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%BD%B1/" term="影" label="影" />
                             
                         
                     
@@ -1064,8 +1064,8 @@
     
         <entry>
             <title type="text">《飞行家》 - 双雪涛 - 短篇小说集</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/pilot-fiction-shuang/" />
-            <id>https://example.com/posts/pilot-fiction-shuang/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/pilot-fiction-shuang/" />
+            <id>http://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</id>
             <updated>2021-12-05T22:42:45&#43;08:00</updated>
             <published>2021-02-19T06:26:56&#43;00:00</published>
             <author>
@@ -1092,7 +1092,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1102,13 +1102,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1118,8 +1118,8 @@
     
         <entry>
             <title type="text">《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/fsq-fiction-lin/" />
-            <id>https://example.com/posts/fsq-fiction-lin/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/fsq-fiction-lin/" />
+            <id>http://yue2.github.io/hugosite/posts/fsq-fiction-lin/</id>
             <updated>2021-12-05T22:41:22&#43;08:00</updated>
             <published>2021-02-19T06:25:38&#43;00:00</published>
             <author>
@@ -1142,7 +1142,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1152,13 +1152,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1168,8 +1168,8 @@
     
         <entry>
             <title type="text">小高姐烤鸡翅</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/chicken-wings/" />
-            <id>https://example.com/posts/chicken-wings/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/chicken-wings/" />
+            <id>http://yue2.github.io/hugosite/posts/chicken-wings/</id>
             <updated>2021-12-05T22:40:53&#43;08:00</updated>
             <published>2021-02-10T03:10:39&#43;00:00</published>
             <author>
@@ -1214,7 +1214,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1224,7 +1224,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1234,8 +1234,8 @@
     
         <entry>
             <title type="text">Amanda春川辣炒鸡</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/korean-chicken/" />
-            <id>https://example.com/posts/korean-chicken/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/korean-chicken/" />
+            <id>http://yue2.github.io/hugosite/posts/korean-chicken/</id>
             <updated>2021-12-05T22:41:52&#43;08:00</updated>
             <published>2021-02-10T03:05:58&#43;00:00</published>
             <author>
@@ -1281,7 +1281,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1291,7 +1291,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1301,8 +1301,8 @@
     
         <entry>
             <title type="text">胖哥俩类似鸡爪煲</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/chicken-feet-stew/" />
-            <id>https://example.com/posts/chicken-feet-stew/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/chicken-feet-stew/" />
+            <id>http://yue2.github.io/hugosite/posts/chicken-feet-stew/</id>
             <updated>2021-12-05T22:40:45&#43;08:00</updated>
             <published>2021-02-09T09:16:17&#43;00:00</published>
             <author>
@@ -1339,7 +1339,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1349,7 +1349,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1359,8 +1359,8 @@
     
         <entry>
             <title type="text">农师傅椒麻鸡</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/spicy-chicken-salad/" />
-            <id>https://example.com/posts/spicy-chicken-salad/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/spicy-chicken-salad/" />
+            <id>http://yue2.github.io/hugosite/posts/spicy-chicken-salad/</id>
             <updated>2021-12-05T22:43:23&#43;08:00</updated>
             <published>2021-02-09T09:13:08&#43;00:00</published>
             <author>
@@ -1413,7 +1413,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1423,7 +1423,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1433,8 +1433,8 @@
     
         <entry>
             <title type="text">我的播客制作经验</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/how-to-produce-a-podcast/" />
-            <id>https://example.com/posts/how-to-produce-a-podcast/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/" />
+            <id>http://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</id>
             <updated>2021-12-05T22:41:29&#43;08:00</updated>
             <published>2021-02-08T11:51:45&#43;00:00</published>
             <author>
@@ -1461,7 +1461,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1471,13 +1471,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/podcast/" term="podcast" label="podcast" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/podcast/" term="podcast" label="podcast" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -1487,8 +1487,8 @@
     
         <entry>
             <title type="text">网站搭建尝试</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/web-construction/" />
-            <id>https://example.com/posts/web-construction/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/web-construction/" />
+            <id>http://yue2.github.io/hugosite/posts/web-construction/</id>
             <updated>2021-10-02T15:18:38&#43;08:00</updated>
             <published>2021-02-06T10:58:07&#43;00:00</published>
             <author>
@@ -1512,7 +1512,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -1522,8 +1522,8 @@
     
         <entry>
             <title type="text">一场纪念</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/a-monument/" />
-            <id>https://example.com/posts/a-monument/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/a-monument/" />
+            <id>http://yue2.github.io/hugosite/posts/a-monument/</id>
             <updated>2021-12-05T22:40:20&#43;08:00</updated>
             <published>2021-02-06T08:33:27&#43;00:00</published>
             <author>
@@ -1545,7 +1545,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1555,13 +1555,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -1571,8 +1571,8 @@
     
         <entry>
             <title type="text">关于</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/about/" />
-            <id>https://example.com/posts/about/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/about/" />
+            <id>http://yue2.github.io/hugosite/posts/about/</id>
             <updated>2021-10-05T23:15:38&#43;08:00</updated>
             <published>2021-02-01T10:59:09&#43;00:00</published>
             <author>
@@ -1598,8 +1598,8 @@
     
         <entry>
             <title type="text">《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/pomodero-method-nonfic/" />
-            <id>https://example.com/posts/pomodero-method-nonfic/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/pomodero-method-nonfic/" />
+            <id>http://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</id>
             <updated>2021-12-05T22:42:52&#43;08:00</updated>
             <published>2021-01-23T06:28:25&#43;00:00</published>
             <author>
@@ -1625,7 +1625,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1635,13 +1635,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1651,8 +1651,8 @@
     
         <entry>
             <title type="text">大纲</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/outline/" />
-            <id>https://example.com/posts/outline/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/outline/" />
+            <id>http://yue2.github.io/hugosite/posts/outline/</id>
             <updated>2021-12-05T22:39:42&#43;08:00</updated>
             <published>2020-12-17T10:31:49&#43;00:00</published>
             <author>
@@ -1675,7 +1675,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1685,13 +1685,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -1701,8 +1701,8 @@
     
         <entry>
             <title type="text">《爱因斯坦自选集》 - Albert Einstein - 杂文集</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/einstein-nonfic-einstein/" />
-            <id>https://example.com/posts/einstein-nonfic-einstein/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/" />
+            <id>http://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</id>
             <updated>2021-12-05T22:41:06&#43;08:00</updated>
             <published>2020-11-24T06:23:48&#43;00:00</published>
             <author>
@@ -1725,7 +1725,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1735,13 +1735,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1751,8 +1751,8 @@
     
         <entry>
             <title type="text">《红星照耀中国》 - Edgar Snow - 非虚构</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/red-star-on-china-nonfic-snow/" />
-            <id>https://example.com/posts/red-star-on-china-nonfic-snow/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/" />
+            <id>http://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</id>
             <updated>2021-12-05T22:43:06&#43;08:00</updated>
             <published>2020-11-23T06:22:02&#43;00:00</published>
             <author>
@@ -1775,7 +1775,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1785,13 +1785,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1801,8 +1801,8 @@
     
         <entry>
             <title type="text">我有一个登机箱</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/my-carry-on/" />
-            <id>https://example.com/posts/my-carry-on/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/my-carry-on/" />
+            <id>http://yue2.github.io/hugosite/posts/my-carry-on/</id>
             <updated>2021-12-05T22:42:04&#43;08:00</updated>
             <published>2020-10-05T10:58:27&#43;00:00</published>
             <author>
@@ -1827,7 +1827,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1837,7 +1837,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -1847,8 +1847,8 @@
     
         <entry>
             <title type="text">《新婚之夜》 - 辽京 - 中短篇小说集</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/newwed-fiction-liao/" />
-            <id>https://example.com/posts/newwed-fiction-liao/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/newwed-fiction-liao/" />
+            <id>http://yue2.github.io/hugosite/posts/newwed-fiction-liao/</id>
             <updated>2021-12-05T22:42:19&#43;08:00</updated>
             <published>2020-08-03T06:21:27&#43;00:00</published>
             <author>
@@ -1871,7 +1871,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1881,13 +1881,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1897,8 +1897,8 @@
     
         <entry>
             <title type="text">疫区周记</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/weekly-in-quarantine/" />
-            <id>https://example.com/posts/weekly-in-quarantine/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/weekly-in-quarantine/" />
+            <id>http://yue2.github.io/hugosite/posts/weekly-in-quarantine/</id>
             <updated>2021-12-05T22:43:48&#43;08:00</updated>
             <published>2020-04-10T11:04:08&#43;00:00</published>
             <author>
@@ -1925,7 +1925,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1935,13 +1935,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -1951,8 +1951,8 @@
     
         <entry>
             <title type="text">22岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/22-birthday/" />
-            <id>https://example.com/posts/22-birthday/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/22-birthday/" />
+            <id>http://yue2.github.io/hugosite/posts/22-birthday/</id>
             <updated>2021-12-05T22:40:09&#43;08:00</updated>
             <published>2018-03-05T23:46:08&#43;00:00</published>
             <author>
@@ -1979,7 +1979,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1989,13 +1989,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/bday/" term="bday" label="bday" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2005,8 +2005,8 @@
     
         <entry>
             <title type="text">一个恐怖故事</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/random-horror-story/" />
-            <id>https://example.com/posts/random-horror-story/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/random-horror-story/" />
+            <id>http://yue2.github.io/hugosite/posts/random-horror-story/</id>
             <updated>2021-12-05T22:42:59&#43;08:00</updated>
             <published>2017-11-05T11:20:54&#43;00:00</published>
             <author>
@@ -2064,7 +2064,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2074,7 +2074,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2084,8 +2084,8 @@
     
         <entry>
             <title type="text">21岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/21-birthday/" />
-            <id>https://example.com/posts/21-birthday/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/21-birthday/" />
+            <id>http://yue2.github.io/hugosite/posts/21-birthday/</id>
             <updated>2021-12-05T22:40:03&#43;08:00</updated>
             <published>2017-03-01T11:23:42&#43;00:00</published>
             <author>
@@ -2119,7 +2119,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2129,13 +2129,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/bday/" term="bday" label="bday" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2145,8 +2145,8 @@
     
         <entry>
             <title type="text">20岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/20-birthday/" />
-            <id>https://example.com/posts/20-birthday/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/20-birthday/" />
+            <id>http://yue2.github.io/hugosite/posts/20-birthday/</id>
             <updated>2021-12-05T22:39:53&#43;08:00</updated>
             <published>2016-06-20T11:26:23&#43;00:00</published>
             <author>
@@ -2191,7 +2191,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2201,13 +2201,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/bday/" term="bday" label="bday" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2217,8 +2217,8 @@
     
         <entry>
             <title type="text">论食堂菜系</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/on-school-canteen/" />
-            <id>https://example.com/posts/on-school-canteen/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/on-school-canteen/" />
+            <id>http://yue2.github.io/hugosite/posts/on-school-canteen/</id>
             <updated>2021-12-05T22:42:25&#43;08:00</updated>
             <published>2015-09-11T07:34:54&#43;00:00</published>
             <author>
@@ -2256,7 +2256,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2266,13 +2266,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/" term="某档美食栏目" label="某档美食栏目" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/" term="某档美食栏目" label="某档美食栏目" />
                             
                         
                     
@@ -2282,8 +2282,8 @@
     
         <entry>
             <title type="text">成年自述</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/stepping-into-adulthood/" />
-            <id>https://example.com/posts/stepping-into-adulthood/</id>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/stepping-into-adulthood/" />
+            <id>http://yue2.github.io/hugosite/posts/stepping-into-adulthood/</id>
             <updated>2021-12-05T22:43:29&#43;08:00</updated>
             <published>2014-03-14T11:27:20&#43;00:00</published>
             <author>
@@ -2314,7 +2314,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2324,13 +2324,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/bday/" term="bday" label="bday" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
