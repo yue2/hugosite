@@ -3,308 +3,348 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/</loc>
-    <lastmod>2021-10-30T19:19:17+08:00</lastmod>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/</loc>
-    <lastmod>2021-10-30T19:19:17+08:00</lastmod>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/</loc>
-    <lastmod>2021-10-30T19:19:17+08:00</lastmod>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/physio/</loc>
-    <lastmod>2021-10-30T19:19:17+08:00</lastmod>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2021-10-30T19:19:17+08:00</lastmod>
+    <loc>https://example.com/posts/physio/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/categories/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/categories/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/fanfic-hp/ch3/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/posts/ch3/</loc>
+    <lastmod>2021-12-05T22:39:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/tags/%E5%90%8C%E4%BA%BA/</loc>
+    <lastmod>2021-12-05T22:41:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/</loc>
+    <lastmod>2021-12-05T22:39:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2021-10-02T20:41:53+08:00</lastmod>
+    <loc>https://example.com/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2021-12-05T22:39:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/fanfic-hp/ch2/</loc>
-    <lastmod>2021-10-02T20:38:50+08:00</lastmod>
+    <loc>https://example.com/posts/ch2/</loc>
+    <lastmod>2021-10-03T16:28:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/gallery/</loc>
-    <lastmod>2021-10-02T18:16:15+08:00</lastmod>
+    <loc>https://example.com/posts/image-post/</loc>
+    <lastmod>2021-12-05T22:41:36+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/gallery/image-post/</loc>
-    <lastmod>2021-10-02T18:16:15+08:00</lastmod>
+    <loc>https://example.com/categories/%E5%9B%BE%E5%86%8C/</loc>
+    <lastmod>2021-12-05T22:41:36+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/</loc>
-    <lastmod>2021-10-02T18:16:15+08:00</lastmod>
+    <loc>https://example.com/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2021-12-05T22:41:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2021-09-26T20:36:20+08:00</lastmod>
+    <loc>https://example.com/posts/article-from-typora/</loc>
+    <lastmod>2021-10-02T15:08:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/article-from-typora/</loc>
-    <lastmod>2021-09-26T20:36:20+08:00</lastmod>
+    <loc>https://example.com/posts/first-post/</loc>
+    <lastmod>2021-10-05T23:15:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/first-post/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+    <loc>https://example.com/childmenu/</loc>
+    <lastmod>2021-10-02T15:05:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+    <loc>https://example.com/childmenu/yet-another-typora-post/</loc>
+    <lastmod>2021-10-02T15:05:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/childmenu/yet-another-typora-post/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+    <loc>https://example.com/posts/laser/</loc>
+    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/late-june/</loc>
-    <lastmod>2021-06-23T06:07:45+00:00</lastmod>
+    <loc>https://example.com/categories/%E5%AD%A6%E6%9C%AF/</loc>
+    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/podcast/</loc>
-    <lastmod>2021-06-01T12:23:57+00:00</lastmod>
+    <loc>https://example.com/tags/%E7%A7%91%E6%99%AE/</loc>
+    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/worktalk-podcast/</loc>
-    <lastmod>2021-06-01T12:23:57+00:00</lastmod>
+    <loc>https://example.com/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/</loc>
+    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/</loc>
-    <lastmod>2021-06-01T12:23:57+00:00</lastmod>
+    <loc>https://example.com/posts/albert-and-marie/</loc>
+    <lastmod>2021-12-06T21:47:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/fandom-talk/</loc>
-    <lastmod>2021-05-21T06:30:08+00:00</lastmod>
+    <loc>https://example.com/tags/%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2021-12-06T21:47:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-05-20T12:45:43+00:00</lastmod>
+    <loc>https://example.com/posts/late-june/</loc>
+    <lastmod>2021-12-05T22:41:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/</loc>
-    <lastmod>2021-05-20T12:45:43+00:00</lastmod>
+    <loc>https://example.com/posts/sem/</loc>
+    <lastmod>2021-12-06T21:59:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/bbq-shrimp/</loc>
-    <lastmod>2021-05-20T12:45:43+00:00</lastmod>
+    <loc>https://example.com/tags/podcast/</loc>
+    <lastmod>2021-12-05T22:43:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/ugly-delicious-netflix-reality-show/</loc>
-    <lastmod>2021-05-20T12:16:30+00:00</lastmod>
+    <loc>https://example.com/posts/worktalk-podcast/</loc>
+    <lastmod>2021-12-05T22:43:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E5%BD%B1/</loc>
-    <lastmod>2021-05-20T12:16:30+00:00</lastmod>
+    <loc>https://example.com/tags/%E8%AF%84%E8%AE%BA/</loc>
+    <lastmod>2021-12-05T22:43:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</loc>
-    <lastmod>2021-05-15T16:22:09+00:00</lastmod>
+    <loc>https://example.com/posts/fandom-talk/</loc>
+    <lastmod>2021-12-05T22:41:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2021-05-15T16:22:09+00:00</lastmod>
+    <loc>https://example.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-12-05T22:43:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/reflection-on-politics/</loc>
-    <lastmod>2021-05-13T07:15:44+00:00</lastmod>
+    <loc>https://example.com/tags/%E8%8F%9C%E8%B0%B1/</loc>
+    <lastmod>2021-12-05T22:43:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/justice-league-schneider-movie/</loc>
-    <lastmod>2021-03-21T15:47:18+00:00</lastmod>
+    <loc>https://example.com/posts/bbq-shrimp/</loc>
+    <lastmod>2021-12-05T22:40:36+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/pilot-fiction-shuang/</loc>
-    <lastmod>2021-02-19T06:26:56+00:00</lastmod>
+    <loc>https://example.com/posts/ugly-delicious-netflix-reality-show/</loc>
+    <lastmod>2021-12-05T22:43:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E4%B9%A6/</loc>
-    <lastmod>2021-02-19T06:26:56+00:00</lastmod>
+    <loc>https://example.com/tags/%E5%BD%B1/</loc>
+    <lastmod>2021-12-05T22:43:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/fsq-fiction-lin/</loc>
-    <lastmod>2021-02-19T06:25:38+00:00</lastmod>
+    <loc>https://example.com/posts/pan-pizza-not-really/</loc>
+    <lastmod>2021-12-05T22:42:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/chicken-wings/</loc>
-    <lastmod>2021-02-10T03:10:39+00:00</lastmod>
+    <loc>https://example.com/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2021-12-05T22:42:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/korean-chicken/</loc>
-    <lastmod>2021-02-10T03:05:58+00:00</lastmod>
+    <loc>https://example.com/posts/reflection-on-politics/</loc>
+    <lastmod>2021-12-05T22:43:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/chicken-feet-stew/</loc>
-    <lastmod>2021-02-09T09:16:17+00:00</lastmod>
+    <loc>https://example.com/posts/atomic-lego/</loc>
+    <lastmod>2021-12-06T21:59:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/spicy-chicken-salad/</loc>
-    <lastmod>2021-02-09T09:13:08+00:00</lastmod>
+    <loc>https://example.com/posts/hdd-biz-war/</loc>
+    <lastmod>2021-12-06T21:57:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</loc>
-    <lastmod>2021-02-08T11:51:45+00:00</lastmod>
+    <loc>https://example.com/posts/justice-league-schneider-movie/</loc>
+    <lastmod>2021-12-05T22:41:45+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/web-construction/</loc>
-    <lastmod>2021-02-06T10:58:07+00:00</lastmod>
+    <loc>https://example.com/posts/pilot-fiction-shuang/</loc>
+    <lastmod>2021-12-05T22:42:45+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/a-monument/</loc>
-    <lastmod>2021-02-06T08:33:27+00:00</lastmod>
+    <loc>https://example.com/tags/%E4%B9%A6/</loc>
+    <lastmod>2021-12-05T22:43:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/</loc>
-    <lastmod>2021-02-06T08:33:27+00:00</lastmod>
+    <loc>https://example.com/posts/fsq-fiction-lin/</loc>
+    <lastmod>2021-12-05T22:41:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/posts/about/</loc>
-    <lastmod>2021-02-01T10:59:09+00:00</lastmod>
+    <loc>https://example.com/posts/chicken-wings/</loc>
+    <lastmod>2021-12-05T22:40:53+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/pomodero-method-nonfic/</loc>
-    <lastmod>2021-01-23T06:28:25+00:00</lastmod>
+    <loc>https://example.com/posts/korean-chicken/</loc>
+    <lastmod>2021-12-05T22:41:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/fanfic-hp/outline/</loc>
-    <lastmod>2020-12-17T10:31:49+00:00</lastmod>
+    <loc>https://example.com/posts/chicken-feet-stew/</loc>
+    <lastmod>2021-12-05T22:40:45+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/einstein-nonfic-einstein/</loc>
-    <lastmod>2020-11-24T06:23:48+00:00</lastmod>
+    <loc>https://example.com/posts/spicy-chicken-salad/</loc>
+    <lastmod>2021-12-05T22:43:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/red-star-on-china-nonfic-snow/</loc>
-    <lastmod>2020-11-23T06:22:02+00:00</lastmod>
+    <loc>https://example.com/posts/how-to-produce-a-podcast/</loc>
+    <lastmod>2021-12-05T22:41:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/my-carry-on/</loc>
-    <lastmod>2020-10-05T10:58:27+00:00</lastmod>
+    <loc>https://example.com/posts/web-construction/</loc>
+    <lastmod>2021-10-02T15:18:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/newwed-fiction-liao/</loc>
-    <lastmod>2020-08-03T06:21:27+00:00</lastmod>
+    <loc>https://example.com/posts/a-monument/</loc>
+    <lastmod>2021-12-05T22:40:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/weekly-in-quarantine/</loc>
-    <lastmod>2020-04-10T11:04:08+00:00</lastmod>
+    <loc>https://example.com/tags/%E7%96%AB%E6%83%85/</loc>
+    <lastmod>2021-12-05T22:43:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/22-birthday/</loc>
-    <lastmod>2018-03-05T23:46:08+00:00</lastmod>
+    <loc>https://example.com/posts/about/</loc>
+    <lastmod>2021-10-05T23:15:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/bday/</loc>
-    <lastmod>2018-03-05T23:46:08+00:00</lastmod>
+    <loc>https://example.com/posts/pomodero-method-nonfic/</loc>
+    <lastmod>2021-12-05T22:42:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/random-horror-story/</loc>
-    <lastmod>2017-11-05T11:20:54+00:00</lastmod>
+    <loc>https://example.com/posts/outline/</loc>
+    <lastmod>2021-12-05T22:39:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/21-birthday/</loc>
-    <lastmod>2017-03-01T11:23:42+00:00</lastmod>
+    <loc>https://example.com/posts/einstein-nonfic-einstein/</loc>
+    <lastmod>2021-12-05T22:41:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/20-birthday/</loc>
-    <lastmod>2016-06-20T11:26:23+00:00</lastmod>
+    <loc>https://example.com/posts/red-star-on-china-nonfic-snow/</loc>
+    <lastmod>2021-12-05T22:43:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/</loc>
-    <lastmod>2015-09-11T07:34:54+00:00</lastmod>
+    <loc>https://example.com/posts/my-carry-on/</loc>
+    <lastmod>2021-12-05T22:42:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/on-school-canteen/</loc>
-    <lastmod>2015-09-11T07:34:54+00:00</lastmod>
+    <loc>https://example.com/posts/newwed-fiction-liao/</loc>
+    <lastmod>2021-12-05T22:42:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yue2.github.io/hugosite/articles/stepping-into-adulthood/</loc>
-    <lastmod>2014-03-14T11:27:20+00:00</lastmod>
+    <loc>https://example.com/posts/weekly-in-quarantine/</loc>
+    <lastmod>2021-12-05T22:43:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/22-birthday/</loc>
+    <lastmod>2021-12-05T22:40:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/bday/</loc>
+    <lastmod>2021-12-05T22:43:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/random-horror-story/</loc>
+    <lastmod>2021-12-05T22:42:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/21-birthday/</loc>
+    <lastmod>2021-12-05T22:40:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/20-birthday/</loc>
+    <lastmod>2021-12-05T22:39:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/</loc>
+    <lastmod>2021-12-05T22:42:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/on-school-canteen/</loc>
+    <lastmod>2021-12-05T22:42:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/stepping-into-adulthood/</loc>
+    <lastmod>2021-12-05T22:43:29+08:00</lastmod>
   </url>
   
 </urlset>
