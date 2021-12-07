@@ -4,36 +4,76 @@
   
   <url>
     <loc>http://yue2.github.io/hugosite/categories/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://yue2.github.io/hugosite/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://yue2.github.io/hugosite/posts/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://yue2.github.io/hugosite/tags/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/posts/physio/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2021-12-06T22:07:30+08:00</lastmod>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/</loc>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/posts/quarantine-diary-1/</loc>
+    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/posts/construction-log/</loc>
+    <lastmod>2021-12-07T19:50:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2021-12-07T19:50:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-12-07T19:50:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/</loc>
+    <lastmod>2021-12-07T22:12:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/</loc>
+    <lastmod>2021-12-07T22:12:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/posts/spontaneous-emission/</loc>
+    <lastmod>2021-12-07T22:12:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yue2.github.io/hugosite/posts/physio/</loc>
     <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
@@ -73,18 +113,8 @@
   </url>
   
   <url>
-    <loc>http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2021-12-05T22:41:29+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/posts/article-from-typora/</loc>
-    <lastmod>2021-10-02T15:08:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/posts/first-post/</loc>
-    <lastmod>2021-10-05T23:15:30+08:00</lastmod>
+    <loc>http://yue2.github.io/hugosite/posts/blog-roll/</loc>
+    <lastmod>2021-12-07T15:41:34+08:00</lastmod>
   </url>
   
   <url>
@@ -99,16 +129,6 @@
   
   <url>
     <loc>http://yue2.github.io/hugosite/posts/laser/</loc>
-    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/</loc>
-    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/</loc>
     <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
@@ -260,11 +280,6 @@
   <url>
     <loc>http://yue2.github.io/hugosite/posts/a-monument/</loc>
     <lastmod>2021-12-05T22:40:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/</loc>
-    <lastmod>2021-12-05T22:43:48+08:00</lastmod>
   </url>
   
   <url>

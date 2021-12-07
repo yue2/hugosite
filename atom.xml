@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2021-12-06T22:12:49&#43;08:00</updated>
+    <updated>2021-12-07T22:17:22&#43;08:00</updated>
     <id>http://yue2.github.io/hugosite/</id>
     <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/" />
     <link rel="self" type="application/atom&#43;xml" href="http://yue2.github.io/hugosite/atom.xml" />
@@ -14,6 +14,201 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
+        <entry>
+            <title type="text">隔离日记（一）</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/quarantine-diary-1/" />
+            <id>http://yue2.github.io/hugosite/posts/quarantine-diary-1/</id>
+            <updated>2021-12-07T22:16:34&#43;08:00</updated>
+            <published>2021-12-07T21:26:48&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;转眼过来已经是周二晚上了，我在隔离酒店已经住了四五天了吧。今次回国还是让我觉得很糟心，落地在机场排队时前后有人大受感动，说了些祖国的空气都是甜的之类的话，而我想到前前后后的折磨，只希望再也不要回来了。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;转眼过来已经是周二晚上了，我在隔离酒店已经住了四五天了吧。今次回国还是让我觉得很糟心，落地在机场排队时前后有人大受感动，说了些祖国的空气都是甜的之类的话，而我想到前前后后的折磨，只希望再也不要回来了。&lt;/p&gt;
+&lt;p&gt;这一路算起来都很顺利，只是太磨人，虽然从起飞前几个礼拜每天都非常焦虑，但是所虑也都解决了。阿婆或许会说是老天保佑，但我很少这么想，我觉得是我按规矩做了所有的事情付了所有的钱，与其说是迎刃而解，我觉得更像是用钝刀子切大颗的卷心菜，推来拉去，用力向下压，一层层菜叶咔咔裂开——确实都解决了，但力气总花了不少。&lt;/p&gt;
+&lt;p&gt;隔离酒店的工作人员都很尽责，每天的盒饭甚至到目前为止都还挺好吃，一百块钱一日三餐，正餐两荤两素一个汤还有一个水果。住宿吃饭花了一大笔钱但还真的都是市场价。&lt;/p&gt;
+&lt;p&gt;家里人觉得我每天在隔离房间里无所事事，我妈变本加厉地每天都给我打视频。我理智上知道已经很久没有见他们了，而且长辈们年纪大了我也确实应该多关心他们，而且他们为了我回来都很高兴做了这样那样的事儿；但心理上我快被每天二三十分钟的无聊对话逼疯了，我妈变着花样旁敲侧击让我找男人，问我学校里男生怎么样，朋友的男友怎么样，他们又认识我的哪个同龄人要结婚了。以前每周应付一次之后都要缓一缓，现在每天都来真的快把我逼疯了，我一个人呆着可没有这么烦躁。&lt;/p&gt;
+&lt;p&gt;对于这十几二十天隔离期的安排，我在休假前做了一大波实验，准备在酒店房间处理数据，到现在还什么都没做。给老板发了资格考试需要的准备，到现在也一篇文章都还没看。还计划着趁有时间好好装一下服务器，到现在也没打开&lt;code&gt;Termius&lt;/code&gt;。还计划整理一下博客，好好装修一下写两篇东西，这两天可算是做了一点装修。&lt;/p&gt;
+&lt;p&gt;我知道有一个管理工作事项的方法就是四象限标记，也就是把“重要”、“紧急”分别画成横纵坐标，这样就能划出四个象限，以此安排工作的顺序。但是从上一段里不难看出，我总是在待办事项里精心挑选出最不紧急不重要的事情来做，然后拖到重要的事情死线临头才开始疯狂操作。要我说，问题不是不知道合理的工作顺序，而是没法说服自己做正确的事儿。或许吧，或许我已经浪费了太多人生。&lt;/p&gt;
+&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;http://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Construction Log</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/construction-log/" />
+            <id>http://yue2.github.io/hugosite/posts/construction-log/</id>
+            <updated>2021-12-07T19:50:12&#43;08:00</updated>
+            <published>2021-12-06T23:47:14&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            
+                <content type="html">&lt;h2 id=&#34;2021-12-06&#34;&gt;2021-12-06&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed theme to &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-meme/&#34;&gt;MemE&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;customized favicon from &lt;a href=&#34;https://www.flaticon.com/free-icons/boat&#34;&gt;flaticon&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;从长毛象复制了长篇论文导读和科普。&lt;/li&gt;
+&lt;li&gt;添加了个人简介在首页顶端。&lt;/li&gt;
+&lt;li&gt;Changed theme color and banner gradient colors.&lt;/li&gt;
+&lt;li&gt;修改了字体，在&lt;code&gt;config.toml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bugs&#34;&gt;bugs&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;navigation button links not working.&lt;/li&gt;
+&lt;li&gt;slow loading of pictures e.g avatar.&lt;/li&gt;
+&lt;li&gt;no mastodon icon in theme css.&lt;/li&gt;
+&lt;li&gt;透明背景图片 not showing properly in dark mode.
+-&amp;gt; force white background?&lt;/li&gt;
+&lt;li&gt;Didn&amp;rsquo;t consider 窄屏 in customized css.&lt;/li&gt;
+&lt;li&gt;wordcount only counting english words. &lt;strong&gt;???&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;to-do&#34;&gt;to do&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;del&gt;pagination change icons.&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; pagination to show current page.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; add ToC in post frontmatter options.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;em&gt;only show about me section in the first page.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2021-12-07&#34;&gt;2021-12-07&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;finished some to-dos in previous update.&lt;/li&gt;
+&lt;li&gt;Changed site language to English for search.&lt;/li&gt;
+&lt;li&gt;search page is now working properly.&lt;/li&gt;
+&lt;li&gt;added home about section animation from &lt;a href=&#34;https://www.sliderrevolution.com/resources/css-animated-background/&#34;&gt;tutorial&lt;/a&gt;. svg files from &lt;a href=&#34;https://www.svgrepo.com/collection/christmas-13/&#34;&gt;svg repo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bugs-1&#34;&gt;bugs&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;lunr.js&lt;/code&gt; does not support 中文!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;image loading not always successful. -&amp;gt; need a &lt;strong&gt;real&lt;/strong&gt; picture hosting.&lt;/li&gt;
+&lt;li&gt;animation messed up footer icons and header search bar. &lt;strong&gt;how??&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;to-do-1&#34;&gt;to do&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; install comment Sections&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;em&gt;festive animation&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; try LaTex input.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; check out vercel&lt;/li&gt;
+&lt;/ul&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">荧光和磷光</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/spontaneous-emission/" />
+            <id>http://yue2.github.io/hugosite/posts/spontaneous-emission/</id>
+            <updated>2021-12-07T22:12:14&#43;08:00</updated>
+            <published>2021-11-15T16:04:14&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;http://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;http://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
+&lt;p&gt;【本回内容】但是激发态不宜久留，电子自己也会回到基态，多余的能量就会辐射出光子，这个过程叫自发辐射。自发辐射又可以分为荧光(fluorescence)和磷光(phosphorescence)，不同之处主要在于这两个过程产生辐射的激发态不一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.researchgate.net/profile/Michael-Eck-2/publication/279824911/figure/fig10/AS:614322640257035@1523477339543/Jablonski-diagram-explaining-the-occurrence-of-fluorescence-and.png&#34; alt=&#34;Jablonski diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图1是电子能级示意图，S&lt;sub&gt;0&lt;/sub&gt;基态，吸收一个紫色光子被激发到了S&lt;sub&gt;1&lt;/sub&gt;激发态，如果从S&lt;sub&gt;1&lt;/sub&gt;直接落回基态，这就是荧光。由于降落过程中会以振动形式损失一些能量，所以荧光发射的光可能是绿色的，从吸收光到发射光的波长差叫做斯托克斯位移。如果没有从S&lt;sub&gt;1&lt;/sub&gt;直接回到S&lt;sub&gt;0&lt;/sub&gt;，而是先来到了T&lt;/sub&gt;1&lt;/sub&gt;态再回到S&lt;sub&gt;0&lt;/sub&gt;，那这个发光过程叫磷光。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://chem.libretexts.org/@api/deki/files/73600/ISC_excited_states.png?revision=1&#34; alt=&#34;spin states&#34;&gt;&lt;/p&gt;
+&lt;p&gt;那S和T是什么意思呢？S指的是单重态(singlet state)，在单重态下一对电子的自旋方向相反，图2左就是S&lt;sub&gt;0&lt;/sub&gt;，两个电子都在能量最低轨道而且自旋方向相反，激发到S&lt;sub&gt;1&lt;/sub&gt;（图2中）则两个电子的自旋方向不变，只是有一个来到了更高能级。如果被激发的电子改变了自旋方向，这一对电子的自旋方向就一样了，这就是一个三重态(triplet state)，见图2右，那么它要回到基态就得再把自己转回来，因为同一个轨道的两个电子自旋方向必然不同（泡利不相容原理）。T&lt;sub&gt;1&lt;/sub&gt;的能量通常比S&lt;sub&gt;1&lt;/sub&gt;低一些，但是电子自旋方向发生改变的概率比较小而且比较慢，所以磷光通常比荧光弱很多，而且发光寿命（τ）长很多。磷光和磷元素没啥关系。Java和javascript有啥关系吗？&lt;/p&gt;
+&lt;p&gt;至于水母，它们发光主要有两种蛋白的参与，第一种是水母素，这种蛋白结合钙离子和氧，会发出470nm蓝色光；第二种是绿色荧光蛋白(green fluorescent protein, GFP)，它吸收水母素发出的蓝色光，然后荧光辐射出绿色光，所以叫绿色荧光蛋白！荧光蛋白的研究工作在2008年获得了诺贝尔化学奖，授予了在普林斯顿抓了一万只水母提取1mg水母素和GFP的下村脩、率先把GFP编码DNA转入秀丽线虫让线虫发光的Marty Chalfie，以及诱导GFP突变获得其他很多色的钱永健。荧光蛋白标记让我们得以追踪活体生物过程，此前万古如长夜。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/107/280/025/067/555/194/original/4c7ae06869badcc6.png&#34; alt=&#34;FP review fig&#34;&gt;
+图3是钱永健课题组用转了不同色荧光蛋白的细菌涂的培养皿[1]&lt;/p&gt;
+&lt;p&gt;钱永健教授在2016年一次骑行旅程中不幸去世；中村教授在2018年去世，享年90岁。他们又归于长夜，但我们（其实没有我）的工作还要继续 😇&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Zimmer, Marc. &amp;ldquo;GFP: from jellyfish to the Nobel prize and beyond.&amp;rdquo; Chemical Society Reviews 38.10 (2009): 2823-2832.&lt;/li&gt;
+&lt;/ol&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">扁平足</title>
             <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/physio/" />
@@ -240,67 +435,18 @@
         </entry>
     
         <entry>
-            <title type="text">用Typora输入</title>
-            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/article-from-typora/" />
-            <id>http://yue2.github.io/hugosite/posts/article-from-typora/</id>
-            <updated>2021-10-02T15:08:12&#43;08:00</updated>
-            <published>2021-09-26T20:36:20&#43;08:00</published>
-            <author>
-                    <name>陆博学</name>
-                    <uri>https://io-oi.me/</uri>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;h2 id=&#34;用typora输入中文文章&#34;&gt;用Typora输入中文文章&lt;/h2&gt;</summary>
-            
-                <content type="html">&lt;h2 id=&#34;用typora输入中文文章&#34;&gt;用Typora输入中文文章&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;从命令行窗口新建一个文章以沿袭 front matter&lt;/li&gt;
-&lt;li&gt;文章模板设置为中文&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;直接保存后在命令行窗口中运行静态网站生成。&lt;/p&gt;</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
             <title type="text">Blog Roll</title>
-            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/first-post/" />
-            <id>http://yue2.github.io/hugosite/posts/first-post/</id>
-            <updated>2021-10-05T23:15:30&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/blog-roll/" />
+            <id>http://yue2.github.io/hugosite/posts/blog-roll/</id>
+            <updated>2021-12-07T15:41:34&#43;08:00</updated>
             <published>2021-09-26T00:00:00&#43;00:00</published>
             <author>
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is my first post  this post is composed in atom this post will be hosted locally  These are blogs I like a lot!      </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Here are some blogs I enjoy a lot! Take a look and say Hi! </summary>
             
-                <content type="html">&lt;h2 id=&#34;this-is-my-first-post&#34;&gt;This is my first post&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;this post is composed in atom&lt;/li&gt;
-&lt;li&gt;this post will be hosted locally&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;these-are-blogs-i-like-a-lot&#34;&gt;These are blogs I like a lot!&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;img src=&#34;&#34; alt=&#34;random stuff&#34;&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;&#34; alt=&#34;some other random stuff&#34;&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;&#34; alt=&#34;other&#34;&gt;&lt;/li&gt;
-&lt;/ul&gt;
+                <content type="html">&lt;h3 id=&#34;here-are-some-blogs-i-enjoy-a-lot-take-a-look-and-say-hi&#34;&gt;Here are some blogs I enjoy a lot! Take a look and say Hi!&lt;/h3&gt;
 </content>
             
             
