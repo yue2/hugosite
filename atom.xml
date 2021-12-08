@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2021-12-07T22:17:22&#43;08:00</updated>
+    <updated>2021-12-08T13:34:49&#43;08:00</updated>
     <id>http://yue2.github.io/hugosite/</id>
     <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/" />
     <link rel="self" type="application/atom&#43;xml" href="http://yue2.github.io/hugosite/atom.xml" />
@@ -1992,6 +1992,59 @@
         </entry>
     
         <entry>
+            <title type="text">学术生涯困惑</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/before_phd/" />
+            <id>http://yue2.github.io/hugosite/posts/before_phd/</id>
+            <updated>2021-12-08T13:19:46&#43;08:00</updated>
+            <published>2020-09-08T22:32:31&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;写在申请phD前。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;写在申请phD前。&lt;/p&gt;
+&lt;p&gt;我现在回顾自己的简历，觉得杂乱而浮躁，看不出成长轨迹。本科四年混迹于三四个组但都没做过多久，跟了很多个很难说相关联的proj，最糟糕的是我觉得很难总结出自己的skillset：我会养细胞，但是很皮毛，我连细胞周期和干细胞用多久会分化都搞不清；我会做一点材料力学表征，可是材料力学又恰好学的很差，只是会操作流变仪而已；上个学年做了一些clean room的事情，可是长晶体和光刻我也不精通。&lt;/p&gt;
+&lt;p&gt;我觉得自己做了太久“好用的实验员”了，要啥学啥，干活飞快。但是在阅读和思考方面，确实是差的很远了。&lt;/p&gt;
+&lt;p&gt;以前会说自己是本科生，所以就跟在师兄师姐后面要做啥做啥。现在在一个巨大的组工作，postdoc就有二十个，没有人可以说自己有独立的proj。所以我又犯懒了，看很少文献，做很少思考。而且我出于一些社交上的弱点，又不怎么问师姐问题，每天都在担心自己做错、出事故。&lt;/p&gt;
+&lt;p&gt;phD我是决定要读的了，我希望获得一个完整的学术训练。我希望能在phD的过程中有更多的独立权限，也希望能培养我的独立工作能力，更重要的是思考习惯。这实际上是一个巨大的弱点，当然也肯定也难以被我想要申请的老师们忽略。&lt;/p&gt;
+&lt;p&gt;但是培养一个研究生，就该接受入学时这个新生有缺陷的事实吧！如果什么都好，还来你这儿干啥？&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">《新婚之夜》 - 辽京 - 中短篇小说集</title>
             <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/newwed-fiction-liao/" />
             <id>http://yue2.github.io/hugosite/posts/newwed-fiction-liao/</id>
@@ -2082,6 +2135,108 @@
                             
                             
                                 <category scheme="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">My_Highschool_teacher</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/my_highschool_teacher/" />
+            <id>http://yue2.github.io/hugosite/posts/my_highschool_teacher/</id>
+            <updated>2021-12-08T13:30:16&#43;08:00</updated>
+            <published>2019-05-10T04:44:22&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。&lt;/p&gt;
+&lt;p&gt;我开口就一股东北味儿：K&lt;sub&gt;a&lt;/sub&gt;（kěi ēi），我自己都笑了。我说我高中化学老师是东北人。&lt;/p&gt;
+&lt;p&gt;现在想来他可能是我高中最喜欢的一个老师。长得黑，牙又白，笑起来总有一点“gotcha”意味的狡猾。我们私底下叫他“黑中”，当然后来才知道不是特别私底下，老师们都知道我们这么叫。高三的时候没什么新课了，老在课上考试。他把卷子发下来，自己坐在讲台边上的小课桌，也拿一张卷子，跟我们同时开始做。所以老师不怎么监考，等他做完了，就下来背着手转两圈，瞧瞧我们做的怎么样。这最后十五分钟的转悠总是一副得意的神情，瞧我们抓耳挠腮，扯起嘴角微笑。我有一回做得特别快，比老师还快，等他抬起头准备看看我们情况的时候，我就对上了他的眼睛，我那时候应该比他还得意。但是那次卷子做的不好，太自负了，骄傲使人落后实为真理。&lt;/p&gt;
+&lt;p&gt;老师喜欢把草稿打在报纸边上，也可能是因为讲台上没草稿纸，只有班费定的但没什么人看的日报。是两个男同学发现的，后来他们就喜欢在下课后去翻报纸边，试图从蛛丝马迹里看出自己写的对不对。我这人吧对老师就很有点业务达尔文主义，我就特别不喜欢自己不做照着答案讲题的老师，潜意识里抱着“你又没做你怎么知道呢？”、“站着说话不腰疼，讲答案谁不会”这种心态，听课就不信任老师，不信任就听不进。所以我喜欢化学老师，他太可信了。发卷子时他直接告诉大家：这次班里最高分115（总分120），我得了118。然后又咧嘴笑一下，虽然他也老是说你们加油超过我呀，但谁都看得出来他依然在为“怎么样考不过我吧”而得意。&lt;/p&gt;
+&lt;p&gt;我刚上高一的时候化学特别差，作业选择题能错一半。我有一天中午下课去吃饭，路上碰到吃完饭往教学楼来的老师，打了招呼，老师拦下我：“作业怎么错这么多呢，回去好好看看。”言辞恳切略微皱眉，吓得我飞快吃完了饭回去改。高一没一会儿，理科老师就开始号召大家参加学科竞赛的培训，其实也没多难，提前讲一些而已，我也跟着大家去参加，老师也没拒绝“作业怎么错这么多”的我，慢慢的就都会了。后来开家长会，老师就告诉我妈说，发现我学一点难的会学更好一些。我妈说这个老师是最不遗余力夸我的老师，还有一个这样的是英文老师。我妈问他们我有没有什么地方不好需要补习进步的，英文老师说：“没有没有，特别好，可以少学点英文，拿时间学学别的吧！”化学老师是希望我多努力一点，竞赛能有好成绩。可是我小时候太爱玩了，夏天和大家一起去南京上课总出去玩，逛街、买玩具、金陵汤包、鸭血粉丝汤，上课听不明白就糊着，连蒙带猜地考完了试，成绩也很平淡。&lt;/p&gt;
+&lt;p&gt;我的中学是住宿学校，不能用手机不能在宿舍藏零食，还不能吃外卖。班主任老师对这些琐事比较严格，化学老师就睁一只眼闭一只眼，可能因为他儿子也就比我们高两届，他太知道中学生经常饿，更经常嘴馋。他儿子是高高大大的一个师兄，脸挺圆，像老师。所以班里同学买淘宝寄到学校会留化学老师的联系方式，然后怎么地暗地里交货我就不知道了，我没买过。有一次一小盒卤蛋没人来拿，老师就在上晚自习的时候说没人领的话就抽奖了。于是课间的时候抽奖，用计算器生成随机数，是谁的学号就给谁。我也没拿到，很可惜。淘宝代收这件事也有风险，有次一上课，我书都翻开了老师先开口：“内个，你们淘宝写我名字可以，但咱说好了别给差评啊，这每天打我电话受不了。”&lt;/p&gt;
+&lt;p&gt;还有不少关于化学老师的都市传说，谣言总是没有根的，当然不知道是谁传的。大概是，化学老师原来是天津什么名校的校长，后来有天突然发现平常一起吃饭喝酒的几位校长被牵扯进贪污案不见了，收拾细软连夜来苏州白手起家。这应该不是真的，但是我们偷看到过老师电脑里写给校长的信件。大致内容是抱怨自己受到的待遇不公，希望带工资更多活儿更少的出国班，请求校长把他老婆从实验室管理员转回教师。总之是一篇中年人的苦恼。但我们怎么能理解，我当时只觉得担心，怕老师不教我们了，他可是我最喜欢的一个老师，现在想来“最喜欢”实际上是因为这是我最仰仗的一位老师。我从小有点自觉聪明，感觉别的课我学的好的本来就学的好，学的差的是老师教的不好，只有化学课是这个老师教了，所以我学得挺好，这肉眼可见的关联性让我担心失去他。但是没有，他教到我们毕业了。我最后一门考化学，不难，就是计算题数字太琐碎了，我懒得算，中学的我真是比现在还要自负，盘了盘卷面觉得这题不要也罢，于是在高考考场上玩儿了半个多小时。考场就在隔壁中学，我拎着笔袋回学校的时候碰到了老师，他迎面就问我：“计算题算完了吗？”我说没有，他点点头，没说什么。他可能太了解我了，知道我不会算的。&lt;/p&gt;
+&lt;p&gt;我每年寒假会和几个同学回学校，每次都从附近商场的花店买点花，去找老师聊聊天。前两年我给化学老师发微信说打算明天去拜访，老师说他已经辞职了，最近在老家呆着。后来一次去，已经升任副校长的数学老师说，他跳槽去了个课外辅导机构。现任副校长说化学老师也真是狠得下心，五十岁的人了从学校辞职去退休工资没保障的课外机构。我就想起来他存在电脑里那封“中年人的烦恼”，我觉得他的课值得付钱，他值得赚很多钱。&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">New_year_2019</title>
+            <link rel="alternate" type="text/html" href="http://yue2.github.io/hugosite/posts/new_year_2019/" />
+            <id>http://yue2.github.io/hugosite/posts/new_year_2019/</id>
+            <updated>2021-12-08T13:22:57&#43;08:00</updated>
+            <published>2019-01-09T03:47:22&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天是2019年的第8天，新学期第一周的周二。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;今天是2019年的第8天，新学期第一周的周二。&lt;/p&gt;
+&lt;p&gt;本学期的学业目标确实是不给人白嫖作业。上学期那个同学每周都来要作业抄让我觉得很烦，甚至他把抄作业似乎是算进了自己的写作业计划里，比如说直白地告诉我们周五要交的数学作业可以先不急，因为我们几个会先写，他可以到周三周四再来抄。这样说让我觉得他好像根本没有考虑过我不同意给他抄作业的情况，我很讨厌别人预估我的意志，而且居然还明目张胆地告诉我。所以这学期不想给他抄作业了，就算同专业有好几节课一样也不给。讨论作业很好，就是交流，算不得白嫖。讨论的前提是自己写了作业。&lt;/p&gt;
+&lt;p&gt;工作方面尽量每周参加组会，下午在实验室四处看看再回学校，大概是每周7h的投入。读文献的话根据上学期的经验大约2h可以读一篇，每周两篇再加上讨论是5h。其他方面的学习主要是计算机，统计课要求用R，应该会在作业压力下速成一下。python可能也会学一些，我发现自己在proj中会学的比较快，比教科书目录的顺序要快很多。可能这也是自学的一个有效之处，发现要用什么了就去学一下，目的性非常强所以效率会比较高。&lt;/p&gt;
+&lt;p&gt;过去一年没有读什么书，明显感到贫瘠。今年计划读一些，可是阅读工具很有限。纸质书非常贵，能买到的也都是英文书。kindle留在家里给妈妈用了，而且旧Kindle电池很不够用了，可能看看有没有合适的再买一个吧，或者上ebay买个二手的。想读一些各种历史方面的，觉得中学的时候读的历史太少了，课程太粗浅，后来又没有再学过。另外希望可以尽快找到值得信赖的新闻source，最好是podcast，可以每天在校车上听听。毕竟新闻都从微博上看有点太…太多不可信的煽动的奇怪的东西了。互联网审查让大家莫名其妙养成了一些“被删掉的都是真的”这样的思路，不怎么好。&lt;/p&gt;
+&lt;p&gt;生活习惯上，计划更多带饭盒更多在家吃，一方面省钱另一方面可以多吃一些蔬菜水果。我觉得蔬菜还是吃的比较少了，然后计划减少一些调味，我觉得钠还是摄入有点太多了。希望减少一些垃圾产生，多买散装的产品和可以重复使用的。按照我自己锻炼的运动量，其实并不大，可以每天都锻炼。但是总有几天比较懒，所以可能每周锻炼5天，每次大概45-60min。健身房很容易无聊就更容易偷懒，但是和不怎么熟的同学一起去健身房也很尴尬。因为现在不住在学校里了，去球场游泳馆的成本更高一些，所以一直没找到一起活动的伙伴。春季学期可以开始游泳了，大三的时候大约是每周800m，我觉得比较合适，不是特别累。也可以再多加一些试试。&lt;/p&gt;
+&lt;p&gt;按前几年的经验来说，新年计划的第一道坎儿是春节，第二个是暑假。这些是比较可行的计划，希望今年可以坚持更久。另外希望新的一年可以更了解自己的情绪，我觉得能够更了解自己、安抚自己、娱乐自己，在relationship中也很重要。不能算是自私，让别人理解自己其实是有点主动的过程，因为你也并不是展览在那里让人一寸一寸看，这样的。是需要一点主动展开，告诉别人，我是这样的。所以理解自己几乎是让别人理解你的前提。说的有点复杂了，还要再想想。&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://yue2.github.io/hugosite/tags/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                             
