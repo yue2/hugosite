@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Middle of Nowhere</title>
-        <link>http://yue2.github.io/hugosite/</link>
+        <link>https://yue2.github.io/hugosite/</link>
         <description>Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</description>
         <generator>Hugo 0.79.0 https://gohugo.io/</generator>
         
@@ -19,15 +19,115 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Wed, 08 Dec 2021 13:34:49 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 22 Dec 2021 23:59:56 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="http://yue2.github.io/hugosite/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://yue2.github.io/hugosite/rss.xml" />
         
         
             <item>
+                <title>隔离日记（二）</title>
+                <link>https://yue2.github.io/hugosite/posts/2021-wk51/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/2021-wk51/</guid>
+                <pubDate>Mon, 20 Dec 2021 21:19:17 &#43;0800</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;昨晚姑父烧扁尖老鸭汤，扁尖笋放多了，特别咸，但是香，特别香，八角、香叶、鸭、扁尖，这几味炖汤的香味浓烈又特殊，我立刻想起来上一次吃扁尖老鸭汤还是两年前在芝加哥。&lt;/p&gt;
+&lt;p&gt;我们那时候都住在学校附近的郊区，一个平常爱吃爱玩的同学打听到了城里的上海菜馆叫我一起去吃，菜单早就发在群里，提前订好菜才能吃，特别是一锅扁尖老鸭汤，至少提前24小时预定。刚好那个周末扁老师来拜访，我以为扁老师不喜欢陌生人很多的社交场合，还在犹豫要不要拒绝同学邀请，结果扁老师欣然同意一起去吃饭，于是我们就凑上了这一桌宴席。&lt;/p&gt;
+&lt;p&gt;鸭汤是很好，的确就是八角、香叶、鸭、扁尖炖出来的香味，又额外放了大块的芋头，像软糯的海绵吸足了鸭油和鲜味，煮散的芋头碎又给汤勾上一点芡。昨天姑妈想往汤里加山药，想来也会是一样的效果，但是被姑父拒绝了，因为他不想汤变浑。话又说回芝加哥的老鸭汤，整整一大砂锅，我们每人喝了一碗后就收手等着打包了。那家店门脸是一家日本料理，当然菜单和柜台看起来也并不非常日本，不如说是“中国人理解里的日本料理在美国中西部的实践”，黄瓜卷、牛油果卷、海苔外卷饭再裹鱼子，应有尽有。如果只是平常路过进来吃饭，恐怕就只能吃到这些，会以为这就是一家不算高级的日本料理店吧。但是经过了靠门口的几张小方桌，里面的圆台面上每桌都有一个大砂锅——就是老鸭汤，席间聊天语言都变成了上海话。&lt;/p&gt;
+&lt;p&gt;除了这锅鸭汤我还记得吃了爆鱼，做得很好吃，鱼炸得不算太干，红烧的汤汁也是我喜欢的样式，并不粘稠红亮，那样的都太甜，要轻薄一些的酱汁才能浸满炸过的鱼而不是挂在表面。最后甜品一人一碗酒酿小圆子，汤可能是藕粉冲的，有一点点浅淡的香气。这一碗吃完扁老师立刻陷入food coma, 回去的路上都快睡着在同学的车上。&lt;/p&gt;
+&lt;p&gt;我们后来还给住附近城市的朋友推荐过，说了几次要再去吃结果最后还是没再有机会。扁老师还加上了老板娘的微信，逢年过节能在朋友圈看到卖粽子和点心。&lt;/p&gt;
+&lt;p&gt;这就是所谓一期一会吗？这辈子恐怕都很难有机会再拜访的地方，散落在记忆的角落里。&lt;/p&gt;
+&lt;p&gt;我能想到的另一个例子是斯德哥尔摩市中心的鱼汤店。叫什么想不起来了，店具体在哪儿也想不起来了。我记得是市中心一个车站的底楼，像是一个市场，有卖鱼卖肉的、点心饼干的，周围一圈就是小餐馆。最尽头是一家卖鱼汤的。那家店是不是只有鱼汤一种产品？我想不起来了，但是我每次去都是吃鱼汤。根本不需要懂瑞典语，就说一份鱼汤，柜台边上就是海桶，服务员流水线式地舀上一碗鱼汤，再顶一坨鱼油（还是奶油？），再下一个安排几块饼干面包，齐活。那个汤红彤彤的，或许是虾油熬的。质地很浓郁，如果不是在北欧的冬天里我一定会嫌油腻，但那就是北欧的冬天，天好像永远是黑的，屋里永远亮着灯，下午三点捧着鱼汤也会以为在吃夜宵。先趁热喝小半碗，等它没有那么烫了就用面包片蘸着继续吃，吃干抹净，走了。&lt;/p&gt;
+&lt;p&gt;那家店我去吃过好几次，权作冬日慰藉，但好像从来没有意识到最后一次可能是最后一次。可能那时候年纪小，什么都觉得有下次，世界尽头也能再来一次。&lt;/p&gt;
+&lt;p&gt;紧急去下厨房搜了搜，瑞典鱼汤原来是有番茄和洋葱的，那红彤彤的或许是番茄！&lt;/p&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Media Play Test</title>
+                <link>https://yue2.github.io/hugosite/posts/shortcode_test/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/shortcode_test/</guid>
+                <pubDate>Wed, 08 Dec 2021 15:46:20 &#43;0800</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;bilibili-embedded-play&#34;&gt;bilibili embedded play&lt;/h2&gt;
+&lt;p&gt;share link
+&lt;a href=&#34;https://www.bilibili.com/video/BV1ri4y1G7vC?share_source=copy_web&#34;&gt;https://www.bilibili.com/video/BV1ri4y1G7vC?share_source=copy_web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;iframe&lt;/p&gt;
+&lt;iframe src=&#34;https://yue2.github.io/hugosite//player.bilibili.com/player.html?aid=541136693&amp;bvid=BV1ri4y1G7vC&amp;cid=208086890&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;0&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;fullscreen picture-in-picture encrypted-media&#34; width=&#34;100%&#34; height=&#34;auto&#34;&gt; &lt;/iframe&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+&lt;p&gt;iframe embedded&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/_yReBfDw2vU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;spotify&#34;&gt;spotify&lt;/h2&gt;
+&lt;p&gt;iframe&lt;/p&gt;
+&lt;iframe src=&#34;https://open.spotify.com/embed/episode/1KC9Y7ZXWeC2DrtxnncpED?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;152&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;&gt;&lt;/iframe&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/tags/tester/">tester</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>隔离日记（一）</title>
-                <link>http://yue2.github.io/hugosite/posts/quarantine-diary-1/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/quarantine-diary-1/</guid>
+                <link>https://yue2.github.io/hugosite/posts/quarantine-diary-1/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/quarantine-diary-1/</guid>
                 <pubDate>Tue, 07 Dec 2021 21:26:48 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -38,7 +138,7 @@
 &lt;p&gt;家里人觉得我每天在隔离房间里无所事事，我妈变本加厉地每天都给我打视频。我理智上知道已经很久没有见他们了，而且长辈们年纪大了我也确实应该多关心他们，而且他们为了我回来都很高兴做了这样那样的事儿；但心理上我快被每天二三十分钟的无聊对话逼疯了，我妈变着花样旁敲侧击让我找男人，问我学校里男生怎么样，朋友的男友怎么样，他们又认识我的哪个同龄人要结婚了。以前每周应付一次之后都要缓一缓，现在每天都来真的快把我逼疯了，我一个人呆着可没有这么烦躁。&lt;/p&gt;
 &lt;p&gt;对于这十几二十天隔离期的安排，我在休假前做了一大波实验，准备在酒店房间处理数据，到现在还什么都没做。给老板发了资格考试需要的准备，到现在也一篇文章都还没看。还计划着趁有时间好好装一下服务器，到现在也没打开&lt;code&gt;Termius&lt;/code&gt;。还计划整理一下博客，好好装修一下写两篇东西，这两天可算是做了一点装修。&lt;/p&gt;
 &lt;p&gt;我知道有一个管理工作事项的方法就是四象限标记，也就是把“重要”、“紧急”分别画成横纵坐标，这样就能划出四个象限，以此安排工作的顺序。但是从上一段里不难看出，我总是在待办事项里精心挑选出最不紧急不重要的事情来做，然后拖到重要的事情死线临头才开始疯狂操作。要我说，问题不是不知道合理的工作顺序，而是没法说服自己做正确的事儿。或许吧，或许我已经浪费了太多人生。&lt;/p&gt;
-&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;http://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</description>
+&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;https://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</description>
                 
                 
                 
@@ -50,7 +150,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -60,13 +160,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
                                 
                             
                         
@@ -76,8 +176,8 @@
         
             <item>
                 <title>Construction Log</title>
-                <link>http://yue2.github.io/hugosite/posts/construction-log/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/construction-log/</guid>
+                <link>https://yue2.github.io/hugosite/posts/construction-log/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/construction-log/</guid>
                 <pubDate>Mon, 06 Dec 2021 23:47:14 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -139,7 +239,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
                                 
                             
                         
@@ -149,7 +249,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
                                 
                             
                         
@@ -159,13 +259,13 @@
         
             <item>
                 <title>荧光和磷光</title>
-                <link>http://yue2.github.io/hugosite/posts/spontaneous-emission/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/spontaneous-emission/</guid>
+                <link>https://yue2.github.io/hugosite/posts/spontaneous-emission/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/spontaneous-emission/</guid>
                 <pubDate>Mon, 15 Nov 2021 16:04:14 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
-                    <description>&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;http://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
+                    <description>&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
 &lt;p&gt;【本回内容】但是激发态不宜久留，电子自己也会回到基态，多余的能量就会辐射出光子，这个过程叫自发辐射。自发辐射又可以分为荧光(fluorescence)和磷光(phosphorescence)，不同之处主要在于这两个过程产生辐射的激发态不一样。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.researchgate.net/profile/Michael-Eck-2/publication/279824911/figure/fig10/AS:614322640257035@1523477339543/Jablonski-diagram-explaining-the-occurrence-of-fluorescence-and.png&#34; alt=&#34;Jablonski diagram&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图1是电子能级示意图，S&lt;sub&gt;0&lt;/sub&gt;基态，吸收一个紫色光子被激发到了S&lt;sub&gt;1&lt;/sub&gt;激发态，如果从S&lt;sub&gt;1&lt;/sub&gt;直接落回基态，这就是荧光。由于降落过程中会以振动形式损失一些能量，所以荧光发射的光可能是绿色的，从吸收光到发射光的波长差叫做斯托克斯位移。如果没有从S&lt;sub&gt;1&lt;/sub&gt;直接回到S&lt;sub&gt;0&lt;/sub&gt;，而是先来到了T&lt;/sub&gt;1&lt;/sub&gt;态再回到S&lt;sub&gt;0&lt;/sub&gt;，那这个发光过程叫磷光。&lt;/p&gt;
@@ -189,7 +289,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -199,7 +299,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
                                 
                             
                         
@@ -209,8 +309,8 @@
         
             <item>
                 <title>扁平足</title>
-                <link>http://yue2.github.io/hugosite/posts/physio/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/physio/</guid>
+                <link>https://yue2.github.io/hugosite/posts/physio/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/physio/</guid>
                 <pubDate>Sat, 30 Oct 2021 19:19:17 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -234,7 +334,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -244,7 +344,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -254,8 +354,8 @@
         
             <item>
                 <title>Ch3</title>
-                <link>http://yue2.github.io/hugosite/posts/ch3/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/ch3/</guid>
+                <link>https://yue2.github.io/hugosite/posts/ch3/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/ch3/</guid>
                 <pubDate>Sat, 02 Oct 2021 20:41:53 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -290,7 +390,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -300,19 +400,19 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/">小说</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/">小说</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
                                 
                             
                         
@@ -322,8 +422,8 @@
         
             <item>
                 <title>Ch2</title>
-                <link>http://yue2.github.io/hugosite/posts/ch2/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/ch2/</guid>
+                <link>https://yue2.github.io/hugosite/posts/ch2/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/ch2/</guid>
                 <pubDate>Sat, 02 Oct 2021 20:38:50 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -362,19 +462,19 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/">小说</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/">小说</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
                                 
                             
                         
@@ -384,8 +484,8 @@
         
             <item>
                 <title>Image Post Test</title>
-                <link>http://yue2.github.io/hugosite/posts/image-post/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/image-post/</guid>
+                <link>https://yue2.github.io/hugosite/posts/image-post/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/image-post/</guid>
                 <pubDate>Sat, 02 Oct 2021 18:16:15 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -405,7 +505,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/">图册</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/">图册</category>
                                 
                             
                         
@@ -417,8 +517,8 @@
         
             <item>
                 <title>Blog Roll</title>
-                <link>http://yue2.github.io/hugosite/posts/blog-roll/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/blog-roll/</guid>
+                <link>https://yue2.github.io/hugosite/posts/blog-roll/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/blog-roll/</guid>
                 <pubDate>Sun, 26 Sep 2021 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -440,8 +540,8 @@
         
             <item>
                 <title>做一个激光需要几步</title>
-                <link>http://yue2.github.io/hugosite/posts/laser/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/laser/</guid>
+                <link>https://yue2.github.io/hugosite/posts/laser/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/laser/</guid>
                 <pubDate>Mon, 23 Aug 2021 16:53:21 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -467,7 +567,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -477,13 +577,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
                                 
                             
                         
@@ -493,8 +593,8 @@
         
             <item>
                 <title>Albert and Marie</title>
-                <link>http://yue2.github.io/hugosite/posts/albert-and-marie/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/albert-and-marie/</guid>
+                <link>https://yue2.github.io/hugosite/posts/albert-and-marie/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/albert-and-marie/</guid>
                 <pubDate>Tue, 06 Jul 2021 12:06:58 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -518,7 +618,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -528,7 +628,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%BF%BB%E8%AF%91/">翻译</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%BF%BB%E8%AF%91/">翻译</category>
                                 
                             
                         
@@ -538,8 +638,8 @@
         
             <item>
                 <title>六月底</title>
-                <link>http://yue2.github.io/hugosite/posts/late-june/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/late-june/</guid>
+                <link>https://yue2.github.io/hugosite/posts/late-june/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/late-june/</guid>
                 <pubDate>Wed, 23 Jun 2021 06:07:45 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -562,7 +662,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -572,7 +672,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -582,8 +682,8 @@
         
             <item>
                 <title>SEM - 扫描电子显微镜</title>
-                <link>http://yue2.github.io/hugosite/posts/sem/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/sem/</guid>
+                <link>https://yue2.github.io/hugosite/posts/sem/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/sem/</guid>
                 <pubDate>Mon, 07 Jun 2021 20:22:30 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -613,7 +713,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -623,7 +723,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/">科普</category>
                                 
                             
                         
@@ -633,8 +733,8 @@
         
             <item>
                 <title>打工谈20210601 - podcast</title>
-                <link>http://yue2.github.io/hugosite/posts/worktalk-podcast/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/worktalk-podcast/</guid>
+                <link>https://yue2.github.io/hugosite/posts/worktalk-podcast/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/worktalk-podcast/</guid>
                 <pubDate>Tue, 01 Jun 2021 12:23:57 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -654,7 +754,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -664,13 +764,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/podcast/">podcast</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/podcast/">podcast</category>
                                 
                             
                         
@@ -680,8 +780,8 @@
         
             <item>
                 <title>嗑学评论</title>
-                <link>http://yue2.github.io/hugosite/posts/fandom-talk/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/fandom-talk/</guid>
+                <link>https://yue2.github.io/hugosite/posts/fandom-talk/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/fandom-talk/</guid>
                 <pubDate>Fri, 21 May 2021 06:30:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -706,7 +806,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -716,13 +816,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
                                 
                             
                         
@@ -732,8 +832,8 @@
         
             <item>
                 <title>锡纸大虾</title>
-                <link>http://yue2.github.io/hugosite/posts/bbq-shrimp/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/bbq-shrimp/</guid>
+                <link>https://yue2.github.io/hugosite/posts/bbq-shrimp/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/bbq-shrimp/</guid>
                 <pubDate>Thu, 20 May 2021 12:45:43 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -778,7 +878,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -788,7 +888,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                         
@@ -798,8 +898,8 @@
         
             <item>
                 <title>Ugly Delicious Netflix</title>
-                <link>http://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</guid>
+                <link>https://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</guid>
                 <pubDate>Thu, 20 May 2021 12:16:30 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -820,7 +920,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -830,13 +930,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%BD%B1/">影</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%BD%B1/">影</category>
                                 
                             
                         
@@ -846,8 +946,8 @@
         
             <item>
                 <title>Pan pizza (not really)</title>
-                <link>http://yue2.github.io/hugosite/posts/pan-pizza-not-really/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/pan-pizza-not-really/</guid>
+                <link>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</guid>
                 <pubDate>Sat, 15 May 2021 16:22:09 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -922,7 +1022,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -932,13 +1032,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/">记录</category>
                                 
                             
                         
@@ -948,8 +1048,8 @@
         
             <item>
                 <title>关于时事的反思</title>
-                <link>http://yue2.github.io/hugosite/posts/reflection-on-politics/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/reflection-on-politics/</guid>
+                <link>https://yue2.github.io/hugosite/posts/reflection-on-politics/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/reflection-on-politics/</guid>
                 <pubDate>Thu, 13 May 2021 07:15:44 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -972,7 +1072,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -982,7 +1082,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -992,8 +1092,8 @@
         
             <item>
                 <title>你喜欢搭乐高吗</title>
-                <link>http://yue2.github.io/hugosite/posts/atomic-lego/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/atomic-lego/</guid>
+                <link>https://yue2.github.io/hugosite/posts/atomic-lego/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/atomic-lego/</guid>
                 <pubDate>Thu, 06 May 2021 19:25:38 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1020,7 +1120,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -1030,7 +1130,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
                                 
                             
                         
@@ -1040,8 +1140,8 @@
         
             <item>
                 <title>分享一个商战故事</title>
-                <link>http://yue2.github.io/hugosite/posts/hdd-biz-war/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/hdd-biz-war/</guid>
+                <link>https://yue2.github.io/hugosite/posts/hdd-biz-war/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/hdd-biz-war/</guid>
                 <pubDate>Mon, 12 Apr 2021 11:55:53 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1066,7 +1166,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -1076,7 +1176,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">论文导读</category>
                                 
                             
                         
@@ -1086,8 +1186,8 @@
         
             <item>
                 <title>《正义联盟施耐德版》 - 电影</title>
-                <link>http://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</guid>
+                <link>https://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</guid>
                 <pubDate>Sun, 21 Mar 2021 15:47:18 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1109,7 +1209,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1119,13 +1219,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%BD%B1/">影</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%BD%B1/">影</category>
                                 
                             
                         
@@ -1135,8 +1235,8 @@
         
             <item>
                 <title>《飞行家》 - 双雪涛 - 短篇小说集</title>
-                <link>http://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</guid>
+                <link>https://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</guid>
                 <pubDate>Fri, 19 Feb 2021 06:26:56 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1159,7 +1259,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1169,13 +1269,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1185,8 +1285,8 @@
         
             <item>
                 <title>《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</title>
-                <link>http://yue2.github.io/hugosite/posts/fsq-fiction-lin/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/fsq-fiction-lin/</guid>
+                <link>https://yue2.github.io/hugosite/posts/fsq-fiction-lin/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/fsq-fiction-lin/</guid>
                 <pubDate>Fri, 19 Feb 2021 06:25:38 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1205,7 +1305,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1215,13 +1315,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1231,8 +1331,8 @@
         
             <item>
                 <title>小高姐烤鸡翅</title>
-                <link>http://yue2.github.io/hugosite/posts/chicken-wings/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/chicken-wings/</guid>
+                <link>https://yue2.github.io/hugosite/posts/chicken-wings/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/chicken-wings/</guid>
                 <pubDate>Wed, 10 Feb 2021 03:10:39 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1273,7 +1373,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -1283,7 +1383,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                         
@@ -1293,13 +1393,14 @@
         
             <item>
                 <title>Amanda春川辣炒鸡</title>
-                <link>http://yue2.github.io/hugosite/posts/korean-chicken/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/korean-chicken/</guid>
+                <link>https://yue2.github.io/hugosite/posts/korean-chicken/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/korean-chicken/</guid>
                 <pubDate>Wed, 10 Feb 2021 03:05:58 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
-                    <description>&lt;p&gt;视频地址：&lt;a href=&#34;https://www.youtube.com/watch?v=46C7UIre4Nc&#34;&gt;https://www.youtube.com/watch?v=46C7UIre4Nc&lt;/a&gt;&lt;/p&gt;
+                    <description>&lt;p&gt;教程视频：&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/46C7UIre4Nc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;ol&gt;
 &lt;li&gt;鸡腿肉（去骨/不去骨），切成bite size，大一点也行，big bite&lt;/li&gt;
 &lt;li&gt;酱料：
@@ -1324,7 +1425,8 @@
 &lt;li&gt;加cheese&lt;/li&gt;
 &lt;li&gt;搅拌，吃&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1g5411478Z&#34;&gt;成功经验&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1g5411478Z&#34;&gt;成功经验&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;https://yue2.github.io/hugosite//player.bilibili.com/player.html?aid=455528185&amp;bvid=BV1g5411478Z&amp;cid=189237404&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;</description>
                 
                 
                 
@@ -1336,7 +1438,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -1346,7 +1448,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                         
@@ -1356,8 +1458,8 @@
         
             <item>
                 <title>胖哥俩类似鸡爪煲</title>
-                <link>http://yue2.github.io/hugosite/posts/chicken-feet-stew/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/chicken-feet-stew/</guid>
+                <link>https://yue2.github.io/hugosite/posts/chicken-feet-stew/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/chicken-feet-stew/</guid>
                 <pubDate>Tue, 09 Feb 2021 09:16:17 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1390,7 +1492,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -1400,7 +1502,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                         
@@ -1410,8 +1512,8 @@
         
             <item>
                 <title>农师傅椒麻鸡</title>
-                <link>http://yue2.github.io/hugosite/posts/spicy-chicken-salad/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/spicy-chicken-salad/</guid>
+                <link>https://yue2.github.io/hugosite/posts/spicy-chicken-salad/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/spicy-chicken-salad/</guid>
                 <pubDate>Tue, 09 Feb 2021 09:13:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1460,7 +1562,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -1470,7 +1572,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/">菜谱</category>
                                 
                             
                         
@@ -1480,8 +1582,8 @@
         
             <item>
                 <title>我的播客制作经验</title>
-                <link>http://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</guid>
+                <link>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</guid>
                 <pubDate>Mon, 08 Feb 2021 11:51:45 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1504,7 +1606,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                         
@@ -1514,13 +1616,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/podcast/">podcast</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/podcast/">podcast</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
                                 
                             
                         
@@ -1530,8 +1632,8 @@
         
             <item>
                 <title>网站搭建尝试</title>
-                <link>http://yue2.github.io/hugosite/posts/web-construction/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/web-construction/</guid>
+                <link>https://yue2.github.io/hugosite/posts/web-construction/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/web-construction/</guid>
                 <pubDate>Sat, 06 Feb 2021 10:58:07 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1551,7 +1653,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
                                 
                             
                         
@@ -1561,8 +1663,8 @@
         
             <item>
                 <title>一场纪念</title>
-                <link>http://yue2.github.io/hugosite/posts/a-monument/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/a-monument/</guid>
+                <link>https://yue2.github.io/hugosite/posts/a-monument/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/a-monument/</guid>
                 <pubDate>Sat, 06 Feb 2021 08:33:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1580,7 +1682,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1590,13 +1692,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -1606,8 +1708,8 @@
         
             <item>
                 <title>关于</title>
-                <link>http://yue2.github.io/hugosite/posts/about/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/about/</guid>
+                <link>https://yue2.github.io/hugosite/posts/about/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/about/</guid>
                 <pubDate>Mon, 01 Feb 2021 10:59:09 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1629,8 +1731,8 @@
         
             <item>
                 <title>《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</title>
-                <link>http://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</guid>
+                <link>https://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</guid>
                 <pubDate>Sat, 23 Jan 2021 06:28:25 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1652,7 +1754,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1662,13 +1764,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1678,8 +1780,8 @@
         
             <item>
                 <title>大纲</title>
-                <link>http://yue2.github.io/hugosite/posts/outline/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/outline/</guid>
+                <link>https://yue2.github.io/hugosite/posts/outline/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/outline/</guid>
                 <pubDate>Thu, 17 Dec 2020 10:31:49 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1698,7 +1800,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1708,13 +1810,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/">同人</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">哈利波特</category>
                                 
                             
                         
@@ -1724,8 +1826,8 @@
         
             <item>
                 <title>《爱因斯坦自选集》 - Albert Einstein - 杂文集</title>
-                <link>http://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</guid>
+                <link>https://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</guid>
                 <pubDate>Tue, 24 Nov 2020 06:23:48 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1744,7 +1846,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1754,13 +1856,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1770,8 +1872,8 @@
         
             <item>
                 <title>《红星照耀中国》 - Edgar Snow - 非虚构</title>
-                <link>http://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</guid>
+                <link>https://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</guid>
                 <pubDate>Mon, 23 Nov 2020 06:22:02 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1790,7 +1892,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1800,13 +1902,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1816,8 +1918,8 @@
         
             <item>
                 <title>我有一个登机箱</title>
-                <link>http://yue2.github.io/hugosite/posts/my-carry-on/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/my-carry-on/</guid>
+                <link>https://yue2.github.io/hugosite/posts/my-carry-on/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/my-carry-on/</guid>
                 <pubDate>Mon, 05 Oct 2020 10:58:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1838,7 +1940,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1848,7 +1950,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -1858,8 +1960,8 @@
         
             <item>
                 <title>学术生涯困惑</title>
-                <link>http://yue2.github.io/hugosite/posts/before_phd/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/before_phd/</guid>
+                <link>https://yue2.github.io/hugosite/posts/before_phd/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/before_phd/</guid>
                 <pubDate>Tue, 08 Sep 2020 22:32:31 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1881,7 +1983,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/">学术</category>
                                 
                             
                         
@@ -1891,13 +1993,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
                                 
                             
                         
@@ -1907,8 +2009,8 @@
         
             <item>
                 <title>《新婚之夜》 - 辽京 - 中短篇小说集</title>
-                <link>http://yue2.github.io/hugosite/posts/newwed-fiction-liao/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/newwed-fiction-liao/</guid>
+                <link>https://yue2.github.io/hugosite/posts/newwed-fiction-liao/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/newwed-fiction-liao/</guid>
                 <pubDate>Mon, 03 Aug 2020 06:21:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1927,7 +2029,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1937,13 +2039,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/">评论</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E4%B9%A6/">书</category>
                                 
                             
                         
@@ -1953,8 +2055,8 @@
         
             <item>
                 <title>疫区周记</title>
-                <link>http://yue2.github.io/hugosite/posts/weekly-in-quarantine/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/weekly-in-quarantine/</guid>
+                <link>https://yue2.github.io/hugosite/posts/weekly-in-quarantine/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/weekly-in-quarantine/</guid>
                 <pubDate>Fri, 10 Apr 2020 11:04:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1977,7 +2079,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -1987,13 +2089,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/">疫情</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2002,9 +2104,9 @@
             </item>
         
             <item>
-                <title>My_Highschool_teacher</title>
-                <link>http://yue2.github.io/hugosite/posts/my_highschool_teacher/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/my_highschool_teacher/</guid>
+                <title>一个我喜欢的老师</title>
+                <link>https://yue2.github.io/hugosite/posts/my_highschool_teacher/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/my_highschool_teacher/</guid>
                 <pubDate>Fri, 10 May 2019 04:44:22 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2028,7 +2130,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2038,7 +2140,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2047,9 +2149,9 @@
             </item>
         
             <item>
-                <title>New_year_2019</title>
-                <link>http://yue2.github.io/hugosite/posts/new_year_2019/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/new_year_2019/</guid>
+                <title>2019新年计划</title>
+                <link>https://yue2.github.io/hugosite/posts/new_year_2019/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/new_year_2019/</guid>
                 <pubDate>Wed, 09 Jan 2019 03:47:22 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2071,7 +2173,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
                                 
                             
                         
@@ -2081,13 +2183,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E7%94%9F%E6%B4%BB/">生活</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2097,8 +2199,8 @@
         
             <item>
                 <title>22岁生日留念</title>
-                <link>http://yue2.github.io/hugosite/posts/22-birthday/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/22-birthday/</guid>
+                <link>https://yue2.github.io/hugosite/posts/22-birthday/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/22-birthday/</guid>
                 <pubDate>Mon, 05 Mar 2018 23:46:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2121,7 +2223,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2131,13 +2233,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/bday/">bday</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/bday/">bday</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2147,8 +2249,8 @@
         
             <item>
                 <title>一个恐怖故事</title>
-                <link>http://yue2.github.io/hugosite/posts/random-horror-story/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/random-horror-story/</guid>
+                <link>https://yue2.github.io/hugosite/posts/random-horror-story/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/random-horror-story/</guid>
                 <pubDate>Sun, 05 Nov 2017 11:20:54 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2202,7 +2304,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2212,7 +2314,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2222,8 +2324,8 @@
         
             <item>
                 <title>21岁生日留念</title>
-                <link>http://yue2.github.io/hugosite/posts/21-birthday/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/21-birthday/</guid>
+                <link>https://yue2.github.io/hugosite/posts/21-birthday/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/21-birthday/</guid>
                 <pubDate>Wed, 01 Mar 2017 11:23:42 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2253,7 +2355,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2263,13 +2365,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/bday/">bday</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/bday/">bday</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2279,8 +2381,8 @@
         
             <item>
                 <title>20岁生日留念</title>
-                <link>http://yue2.github.io/hugosite/posts/20-birthday/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/20-birthday/</guid>
+                <link>https://yue2.github.io/hugosite/posts/20-birthday/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/20-birthday/</guid>
                 <pubDate>Mon, 20 Jun 2016 11:26:23 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2321,7 +2423,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2331,13 +2433,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/bday/">bday</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/bday/">bday</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
@@ -2347,8 +2449,8 @@
         
             <item>
                 <title>论食堂菜系</title>
-                <link>http://yue2.github.io/hugosite/posts/on-school-canteen/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/on-school-canteen/</guid>
+                <link>https://yue2.github.io/hugosite/posts/on-school-canteen/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/on-school-canteen/</guid>
                 <pubDate>Fri, 11 Sep 2015 07:34:54 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2382,7 +2484,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2392,13 +2494,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/">某档美食栏目</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/">某档美食栏目</category>
                                 
                             
                         
@@ -2408,8 +2510,8 @@
         
             <item>
                 <title>成年自述</title>
-                <link>http://yue2.github.io/hugosite/posts/stepping-into-adulthood/</link>
-                <guid isPermaLink="true">http://yue2.github.io/hugosite/posts/stepping-into-adulthood/</guid>
+                <link>https://yue2.github.io/hugosite/posts/stepping-into-adulthood/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/stepping-into-adulthood/</guid>
                 <pubDate>Fri, 14 Mar 2014 11:27:20 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2436,7 +2538,7 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/">文章</category>
                                 
                             
                         
@@ -2446,13 +2548,13 @@
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/bday/">bday</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/bday/">bday</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
                                 
                             
                         
