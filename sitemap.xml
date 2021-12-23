@@ -4,22 +4,42 @@
   
   <url>
     <loc>https://yue2.github.io/hugosite/categories/</loc>
-    <lastmod>2021-12-22T23:59:48+08:00</lastmod>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yue2.github.io/hugosite/</loc>
-    <lastmod>2021-12-22T23:59:48+08:00</lastmod>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yue2.github.io/hugosite/posts/</loc>
-    <lastmod>2021-12-22T23:59:48+08:00</lastmod>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yue2.github.io/hugosite/tags/</loc>
-    <lastmod>2021-12-22T23:59:48+08:00</lastmod>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yue2.github.io/hugosite/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yue2.github.io/hugosite/posts/hugo-build-host/</loc>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yue2.github.io/hugosite/categories/%E7%BD%91%E9%A1%B5/</loc>
+    <lastmod>2021-12-24T00:08:18+08:00</lastmod>
   </url>
   
   <url>
@@ -329,11 +349,6 @@
   
   <url>
     <loc>https://yue2.github.io/hugosite/posts/before_phd/</loc>
-    <lastmod>2021-12-08T13:19:46+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-12-08T13:19:46+08:00</lastmod>
   </url>
   

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2021-12-22T23:59:56&#43;08:00</updated>
+    <updated>2021-12-24T00:08:58&#43;08:00</updated>
     <id>https://yue2.github.io/hugosite/</id>
     <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/" />
     <link rel="self" type="application/atom&#43;xml" href="https://yue2.github.io/hugosite/atom.xml" />
@@ -14,6 +14,130 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
+        <entry>
+            <title type="text">用VPS部署静态网页</title>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/hugo-build-host/" />
+            <id>https://yue2.github.io/hugosite/posts/hugo-build-host/</id>
+            <updated>2021-12-24T00:08:18&#43;08:00</updated>
+            <published>2021-12-23T23:21:08&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;目标是用自己的vps host静态博客网页&lt;/li&gt;
+&lt;li&gt;用hugo生成网页&lt;/li&gt;
+&lt;li&gt;用git把网页文件传到vps上&lt;/li&gt;
+&lt;li&gt;用nginx host 网页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;HUGO&lt;/h2&gt;
+&lt;p&gt;所谓静态网页，就是写完这个网页所需的所有html文件，然后通过site map索引就能实现基本的网页功能。如果完全从html和css自己写当然很麻烦，因此就有static site generator来辅助实现，实际上只要写简单的命令行就可以生成，写文章则是在任何文档编辑器里写md就好了。hugo就是其中一个被广泛使用的生成器。我从wordpress换成这个方案有几个原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我对数据库一窍不通，mysql完全是按教程装卸的，一旦出问题完全不会修理。而静态网页反正就是html, 全都崩盘了换个地方部署也不过是复制粘贴html文件。&lt;/li&gt;
+&lt;li&gt;我原本觉得wordpress可以在移动端写作发布很方便，后来发现真的写长一点的文章还是在用电脑，所以移动端编辑变得没有那么重要，真的有什么灵感也可以在app里写了复制粘贴，目前我在用的是simple note。&lt;/li&gt;
+&lt;li&gt;wordpress占据了我这个最便宜套餐1G vps的不少空间，如果还想装其他服务可能会有点麻烦，而文字文档当然占的地方小多了。&lt;/li&gt;
+&lt;li&gt;html和css都是很容易读懂的语言，调试和修改都很容易找到资源。这一点对于我这种完全不会写代码全靠google建站的人来说非常重要！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo official site&lt;/a&gt; 有完整教程和很多其他资源，我就不说怎么用了。&lt;/p&gt;
+&lt;h2 id=&#34;把html传到vps上用的是git&#34;&gt;把html传到vps上——用的是git&lt;/h2&gt;
+&lt;p&gt;首先在vps——我的是ubuntu 18.0——上安装git&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建一个用户，管理git, I called them gitter
+add gitter to the root group&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ssh&#34; data-lang=&#34;ssh&#34;&gt;adduser gitter
+su - gitter
+// in root user
+usermod -aG sudo gitter
+apt install git
+// after installation, check the version
+git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;pair the remote git to local repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ssh&#34; data-lang=&#34;ssh&#34;&gt;// add a git in the gitter root directory
+mkdir new.git &amp;amp;&amp;amp; cd new.git
+git init
+// ** do not use bare git because bare git does not show explicit files **
+
+mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 0700 ~/.ssh
+gitter@midofnowhere:~$ touch ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ chmod 0600 ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ git init --bare ~/hugoblog.git
+Initialized empty Git repository in /home/gitter/hugoblog.git/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;check local ssh keygen in local git bash &lt;code&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt; then copy the keygen to vps authorized key file.&lt;/p&gt;
+&lt;p&gt;go to local git repo directory:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git init
+git remote set-url origin gitter@myip:hugoblog.git
+git add . 
+git commit -m &amp;quot;commit message&amp;quot;
+git push --set-upstream origin main 
+//no branches in remote git yet so set up a main branch
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;some basic frequently used operations in git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git branch &amp;lt;new branch name&amp;gt;
+git checkout &amp;lt;go to the branch need to checkout&amp;gt;
+git branch -a ##display all branches
+git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;branch name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;cannot push to the branch currently checked out according to this &lt;a href=&#34;https://stackoverflow.com/questions/2816369/git-push-error-remote-rejected-master-master-branch-is-currently-checked&#34;&gt;stack overflow qs&lt;/a&gt; so I created a temporary branch &lt;code&gt;git branch temp &amp;amp;&amp;amp; git checkout temp&lt;/code&gt; then push from local repository.&lt;/p&gt;
+&lt;p&gt;Successfully pushed.&lt;/p&gt;
+&lt;h2 id=&#34;nginx代理&#34;&gt;NGINX代理&lt;/h2&gt;
+&lt;p&gt;这一部分我不懂，看的是这个&lt;a href=&#34;https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940&#34;&gt;tutorial&lt;/a&gt;, 我目前用的是默认80端口。&lt;/p&gt;
+&lt;h2 id=&#34;工作流&#34;&gt;工作流&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;从本地目录新建md文档，在obsidian或者atom中编辑。&lt;/li&gt;
+&lt;li&gt;用hugo生成预览 &lt;code&gt;hugo server&lt;/code&gt; 查看效果，满意的话生成整个网站 &lt;code&gt;hugo&lt;/code&gt; ，所有文档就会生成好放在 &lt;code&gt;/public&lt;/code&gt; 文件夹里。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/public&lt;/code&gt; 文件夹里的git就是连接在vps上的，因此进入这个文件夹，用git把最新的文件push到服务器上。&lt;/li&gt;
+&lt;li&gt;就好了！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;还需要改进的地方&#34;&gt;还需要改进的地方&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;添加互动模块：用waline评论或接入fediverse动态显示。&lt;/li&gt;
+&lt;li&gt;configure NGINX 改用其他端口以安装多个服务或网站。&lt;/li&gt;
+&lt;li&gt;把博客搬到子域名。&lt;/li&gt;
+&lt;li&gt;用action或hook实现新文章自动部署。&lt;/li&gt;
+&lt;/ul&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%BD%91%E9%A1%B5/" term="网页" label="网页" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">隔离日记（二）</title>
             <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/2021-wk51/" />
