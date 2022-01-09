@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2021-12-22T23:59:56&#43;08:00</updated>
+    <updated>2022-01-09T23:27:00&#43;08:00</updated>
     <id>https://yue2.github.io/hugosite/</id>
     <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/" />
     <link rel="self" type="application/atom&#43;xml" href="https://yue2.github.io/hugosite/atom.xml" />
@@ -14,6 +14,200 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
+        <entry>
+            <title type="text">2022新年展望</title>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/new-year-2022/" />
+            <id>https://yue2.github.io/hugosite/posts/new-year-2022/</id>
+            <updated>2022-01-09T23:26:51&#43;08:00</updated>
+            <published>2022-01-09T22:11:10&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。&lt;/p&gt;
+&lt;p&gt;出发前我正好在家翻到自己2017年的日记本，那里面记着一次我回北京找扁老师吃饭，彼时她在国贸的大公司实习，我羽绒服里穿着牛仔衬衫，和整栋楼格格不入。那时我说，感觉扁老师已经成长为大人了，而我还像个小傻子，我们恐怕今后会渐行渐远。这次相见偶尔也会有同样的感觉，觉得扁老师长成了独当一面的大人，而我还在为打电话紧张。但是我在这几年间已经知道了，扁老师的漂亮大衣还是原来那一件，里面的衬衫裤子全是优衣库，而且在我多番提醒下才换掉了破旧双肩包——换成了贵点儿的双肩包，所以我好像也不担心会走远。&lt;/p&gt;
+&lt;p&gt;前两天一起探讨了一下新一年的计划，躺在一起开诚布公，颇有些雄心壮志，不知道能坚持多久。记下我这部分：&lt;/p&gt;
+&lt;h3 id=&#34;锻炼&#34;&gt;锻炼&lt;/h3&gt;
+&lt;p&gt;我觉得每周要锻炼3次，内容是在宿舍跳操，操课继续从t25开始，因为很久没锻炼了体能真的很差，坚持做完一轮t25再换max30, 这样预计每次30分钟锻炼，然后去洗澡，一共大概1小时。希望放在周中晚上八点到九点，这样九点我洗完澡还有两小时工作时间。
+除此之外每周打球或者游泳一次，这个项目有一点社交功能，一般会安排在周末。&lt;/p&gt;
+&lt;h3 id=&#34;生活&#34;&gt;生活&lt;/h3&gt;
+&lt;p&gt;饮食方面我肯定还是吃食堂为主，周末做做饭。希望在食堂多吃杂菜饭少吃炸物吧。周末一般会吃一两回馆子，问题不大。
+另外扁老师觉得我还是应该去Physical therapy看一下拇指外翻的问题，至少花一次钱去看一个咨询。不知道具体要花多少钱，我有机会约一个。常规的体检我还是等系里安排，然后或许花钱加一些项目，到时候看。年度洗牙还是要去，在六月份左右，预算一百块。&lt;/p&gt;
+&lt;h3 id=&#34;工作&#34;&gt;工作&lt;/h3&gt;
+&lt;p&gt;这个学期要过两次资格考试，感觉有压力。基础知识的补课上学期看了一段教科书，后来又半途而废了，现在又很慌。近在眼前的这一次文献评判，按照师兄的说法并不很严格，可以作为新一年工作的上手。
+新的项目还没有计划，要和师姐讨论一下，但是我发现好像这应该还是我的项目，不能指望师姐太多。以下一次MRS作为目标的话，就要在8月份之前得到主要数据，以春季会作为目标的话就是在11月份提交，时间还是很紧张。我希望能够在这个项目上正轨，按照工作计划进行的时候再谋划下一个项目，不要像上个学期一样青黄不接了半年。
+当然这半年里我刷了1/3的工时，不算太白费。助教工时的大头已经完成了，接下来只要维持这些superuser和带本科生的工作量，应该就能顺利完成。&lt;/p&gt;
+&lt;h3 id=&#34;业余&#34;&gt;业余&lt;/h3&gt;
+&lt;p&gt;我之前看到一篇关于时间管理的文章，说人每天的时间大概分为4个slots, 其中两个是工作，剩下的可以安排给业余爱好。我觉得我每天没有4个slots, 算来算去也就三个——早上、下午、晚上。我的一个业余slot安排给了锻炼身体，还有一些零散和周末的时间我觉得还可以再安排一个。但是我有好多想做的事情：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;橡皮章：买了新的橡皮砖和印泥，或许还是可以玩玩，计划中的项目是学会彩色套印，想做花花草草/小动物，下一步的想法是做敦煌壁画或者学版画。&lt;/li&gt;
+&lt;li&gt;维护网站：如果不折腾就没有太多要维护的，也就是时不时地写一篇博客。要折腾起来那我本来打算装一个pleroma然后给静态网站添加评论等等。&lt;/li&gt;
+&lt;li&gt;3D建模：这次酒店隔离学了点blender 自娱自乐也够用，打算重建一个分手厨房里的food truck 并且给自己做个3D形象，进元宇宙的时候就不是裸奔了。&lt;/li&gt;
+&lt;li&gt;播客：扁老师说希望能继续播客事业，我掐指一算问题也不大，如果我们目标是每个月更新一次，那就只要在一个周末筹划，下一个周末录制，然后再一个周末剪辑发布，半个小时的节目大概需要4h的工作，摊下来就是每周做一个小时，我觉得可以做到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;或许就会再次三天打鱼两天晒网，全都半途而废了。&lt;/p&gt;
+&lt;p&gt;为这一年买了国誉的时间轴纸作为计划手账。深受网友启发，我才发现journal可以有不止一本，所以日记也可以继续写，不必日日都写，但那本本子可以继续用下去了。&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%96%B0%E5%B9%B4nyr/" term="新年NYR" label="新年NYR" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">用VPS部署静态网页</title>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/hugo-build-host/" />
+            <id>https://yue2.github.io/hugosite/posts/hugo-build-host/</id>
+            <updated>2021-12-24T00:30:23&#43;08:00</updated>
+            <published>2021-12-23T23:21:08&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;目标是用自己的vps host静态博客网页&lt;/li&gt;
+&lt;li&gt;用hugo生成网页&lt;/li&gt;
+&lt;li&gt;用git把网页文件传到vps上&lt;/li&gt;
+&lt;li&gt;用nginx host 网页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;HUGO&lt;/h2&gt;
+&lt;p&gt;所谓静态网页，就是写完这个网页所需的所有html文件，然后通过site map索引就能实现基本的网页功能。如果完全从html和css自己写当然很麻烦，因此就有static site generator来辅助实现，实际上只要写简单的命令行就可以生成，写文章则是在任何文档编辑器里写md就好了。hugo就是其中一个被广泛使用的生成器。我从wordpress换成这个方案有几个原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我对数据库一窍不通，mysql完全是按教程装卸的，一旦出问题完全不会修理。而静态网页反正就是html, 全都崩盘了换个地方部署也不过是复制粘贴html文件。&lt;/li&gt;
+&lt;li&gt;我原本觉得wordpress可以在移动端写作发布很方便，后来发现真的写长一点的文章还是在用电脑，所以移动端编辑变得没有那么重要，真的有什么灵感也可以在app里写了复制粘贴，目前我在用的是simple note。&lt;/li&gt;
+&lt;li&gt;wordpress占据了我这个最便宜套餐1G vps的不少空间，如果还想装其他服务可能会有点麻烦，而文字文档当然占的地方小多了。&lt;/li&gt;
+&lt;li&gt;html和css都是很容易读懂的语言，调试和修改都很容易找到资源。这一点对于我这种完全不会写代码全靠google建站的人来说非常重要！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo official site&lt;/a&gt; 有完整教程和很多其他资源，我就不说怎么用了。&lt;/p&gt;
+&lt;h2 id=&#34;把html传到vps上用的是git&#34;&gt;把html传到vps上——用的是git&lt;/h2&gt;
+&lt;p&gt;首先在vps——我的是ubuntu 18.0——上安装git&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建一个用户，管理git, I called them gitter
+add gitter to the root group&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ssh&#34; data-lang=&#34;ssh&#34;&gt;adduser gitter
+su - gitter
+// in root user
+usermod -aG sudo gitter
+apt install git
+// after installation, check the version
+git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;pair the remote git to local repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ssh&#34; data-lang=&#34;ssh&#34;&gt;// add a git in the gitter root directory
+mkdir new.git &amp;amp;&amp;amp; cd new.git
+git init
+// ** do not use bare git because bare git does not show explicit files **
+
+mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 0700 ~/.ssh
+gitter@midofnowhere:~$ touch ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ chmod 0600 ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ git init --bare ~/hugoblog.git
+Initialized empty Git repository in /home/gitter/hugoblog.git/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;check local ssh keygen in local git bash &lt;code&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt; then copy the keygen to vps authorized key file.&lt;/p&gt;
+&lt;p&gt;go to local git repo directory:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git init
+git remote set-url origin gitter@myip:hugoblog.git
+git add . 
+git commit -m &amp;quot;commit message&amp;quot;
+git push --set-upstream origin main 
+//no branches in remote git yet so set up a main branch
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;some basic frequently used operations in git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git branch &amp;lt;new branch name&amp;gt;
+git checkout &amp;lt;go to the branch need to checkout&amp;gt;
+git branch -a ##display all branches
+git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;branch name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;cannot push to the branch currently checked out according to this &lt;a href=&#34;https://stackoverflow.com/questions/2816369/git-push-error-remote-rejected-master-master-branch-is-currently-checked&#34;&gt;stack overflow qs&lt;/a&gt; so I created a temporary branch &lt;code&gt;git branch temp &amp;amp;&amp;amp; git checkout temp&lt;/code&gt; then push from local repository.&lt;/p&gt;
+&lt;p&gt;Successfully pushed.&lt;/p&gt;
+&lt;h2 id=&#34;nginx代理&#34;&gt;NGINX代理&lt;/h2&gt;
+&lt;p&gt;这一部分我不懂，看的是这个&lt;a href=&#34;https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940&#34;&gt;tutorial&lt;/a&gt;, 我目前用的是默认80端口。&lt;/p&gt;
+&lt;h2 id=&#34;工作流&#34;&gt;工作流&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;从本地目录新建md文档，在obsidian或者atom中编辑。&lt;/li&gt;
+&lt;li&gt;用hugo生成预览 &lt;code&gt;hugo server&lt;/code&gt; 查看效果，满意的话生成整个网站 &lt;code&gt;hugo&lt;/code&gt; ，所有文档就会生成好放在 &lt;code&gt;/public&lt;/code&gt; 文件夹里。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/public&lt;/code&gt; 文件夹里的git就是连接在vps上的，因此进入这个文件夹，用git把最新的文件push到服务器上。&lt;/li&gt;
+&lt;li&gt;就好了！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;还需要改进的地方&#34;&gt;还需要改进的地方&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;添加互动模块：用waline评论或接入fediverse动态显示。&lt;/li&gt;
+&lt;li&gt;configure NGINX 改用其他端口以安装多个服务或网站。&lt;/li&gt;
+&lt;li&gt;把博客搬到子域名。&lt;/li&gt;
+&lt;li&gt;用action或hook实现新文章自动部署。&lt;/li&gt;
+&lt;/ul&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%BD%91%E9%A1%B5/" term="网页" label="网页" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">隔离日记（二）</title>
             <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/2021-wk51/" />
