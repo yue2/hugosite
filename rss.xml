@@ -19,10 +19,65 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sat, 12 Feb 2022 17:09:37 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 16 Feb 2022 11:05:10 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://yue2.github.io/hugosite/rss.xml" />
         
+        
+            <item>
+                <title>站点装修记录</title>
+                <link>https://yue2.github.io/hugosite/posts/site-construction/</link>
+                <guid isPermaLink="true">https://yue2.github.io/hugosite/posts/site-construction/</guid>
+                <pubDate>Wed, 16 Feb 2022 10:56:23 &#43;0800</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;feb-16-2022&#34;&gt;Feb-16-2022&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;取消了冬季下雪特效。春天该到了！&lt;/li&gt;
+&lt;li&gt;修复了顶端导航栏链接，搜索功能还不能用。&lt;/li&gt;
+&lt;li&gt;添加了站点总文章数和总字数统计，感谢&lt;a href=&#34;https://mantyke.icu/2021/f9f0ec87/#%E4%BF%AE%E6%94%B9%E8%B6%85%E9%93%BE%E6%8E%A5%E6%98%BE%E7%A4%BA&#34;&gt;小球飞鱼&lt;/a&gt;和&lt;a href=&#34;https://immmmm.com/hugo-total-count/&#34;&gt;林木木&lt;/a&gt;，我是直接抄的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 由于多次导入导出，文章时间格式似乎不统一。&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修改超链接样式，现在的很不容易看清楚。&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修改夜间模式基本颜色，这也太黑了？！&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://yue2.github.io/hugosite/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>写笔记</title>
@@ -97,8 +152,8 @@
 &lt;p&gt;此后巴萨锋线拆散、瞎买人、换教练、高层打仗、财政问题越来越凸显，最后送走了梅西。&lt;/p&gt;
 &lt;p&gt;话又说回内马尔，他本周就满30岁了，当年执意离开巴萨本是说不甘在梅西的荫蔽下做二把手，远走法国要闯出一片天，四年多过去了梅西还在拿金球奖，内马尔则离足坛老大的位置越来越远。世事弄人，冒险做出的抉择居然毫不意外地兑现了高风险而没有得到想要的回报，内马尔在大巴黎又经历了动荡的教练、高层；俱乐部买来了更年轻更值钱的姆巴佩，让他还是不能坐稳老大的位置；内马尔自己又经历了花样百出的伤病，现在大家回忆里他的高光时刻竟然还是五年前在巴萨实现欧冠大逆转。&lt;/p&gt;
 &lt;p&gt;在内马尔想做老大离开巴萨的那个夏天，在世界的另一头，Kyrie也决定要做老大，他不想再生活在老詹的荫蔽下。凯尔特人签下了Kyrie, 意料之外情理之中。刚刚结束的赛季里凯尔特人打到了分区决赛，核心是地表最强175小托马斯。安吉老头觉得重建期是时候结束了，凯尔特人又是一支争冠队伍，那当然不能再靠精致的战术来喂175，需要一个真正的球星——两个也行。于是顺理成章签下了海沃德和欧文，欧文也有不怎么好的纪律风评，但是凯尔特人嘛，铁血绿军，自信能把浪子拴进体系里。&lt;/p&gt;
-&lt;p&gt;欧文真正做了半个多赛季的老大，几次三番大出手力挽狂澜于既倒。又多过了几场大家明白了，这既倒的危局就是你欧文在比赛前段不好好听从安排给搞出来的。忍了他两年，凯尔特人又送走了。现在再看到欧文的消息，就是他不愿意打疫苗，和球馆所在城市的规定相左闹出的风波了。&lt;/p&gt;
-&lt;p&gt;说到这里，我该写点个人感悟和人生道理，但是体育界斗转星移世事无常，我实在没法说他们的决定是不是做错了。而且精英运动员的生涯本来就有无穷变数，像c罗、梅西、老詹这样高水平输出20年的才是难得一遇，欧文和内马尔是奉献过超神表现的顶尖选手。&lt;/p&gt;</description>
+&lt;p&gt;欧文真正做了半个多赛季的老大，几次三番大出手力挽狂澜于既倒。又多看了几场，大家明白了，这既倒的危局就是你欧文在比赛前段不好好听从安排给搞出来的。忍了他两年，凯尔特人又送走了。现在再看到欧文的消息，就是他不愿意打疫苗，和球馆所在城市的规定相左闹出的风波了。&lt;/p&gt;
+&lt;p&gt;说到这里，我该写点个人感悟和人生道理，但是体育界斗转星移世事无常，我实在没法说他们的决定是不是做错了。而且精英运动员的生涯本来就有无穷变数，像c罗、梅西、老詹这样高水平输出20年的才是难得一遇，欧文和内马尔不管怎么说，都是奉献过超神表现的顶尖选手。&lt;/p&gt;</description>
                 
                 
                 

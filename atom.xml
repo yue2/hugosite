@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2022-02-12T17:09:37&#43;08:00</updated>
+    <updated>2022-02-16T11:05:10&#43;08:00</updated>
     <id>https://yue2.github.io/hugosite/</id>
     <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/" />
     <link rel="self" type="application/atom&#43;xml" href="https://yue2.github.io/hugosite/atom.xml" />
@@ -15,6 +15,65 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
         <entry>
+            <title type="text">站点装修记录</title>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/site-construction/" />
+            <id>https://yue2.github.io/hugosite/posts/site-construction/</id>
+            <updated>2022-02-16T11:04:22&#43;08:00</updated>
+            <published>2022-02-16T10:56:23&#43;08:00</published>
+            <author>
+                    <name>陆博学</name>
+                    <uri>https://io-oi.me/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Feb-16-2022 取消了冬季下雪特效。春天该到了！ 修复了顶端导航栏链接，搜索功能还不能用。 添加了站点…</summary>
+            
+                <content type="html">&lt;h2 id=&#34;feb-16-2022&#34;&gt;Feb-16-2022&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;取消了冬季下雪特效。春天该到了！&lt;/li&gt;
+&lt;li&gt;修复了顶端导航栏链接，搜索功能还不能用。&lt;/li&gt;
+&lt;li&gt;添加了站点总文章数和总字数统计，感谢&lt;a href=&#34;https://mantyke.icu/2021/f9f0ec87/#%E4%BF%AE%E6%94%B9%E8%B6%85%E9%93%BE%E6%8E%A5%E6%98%BE%E7%A4%BA&#34;&gt;小球飞鱼&lt;/a&gt;和&lt;a href=&#34;https://immmmm.com/hugo-total-count/&#34;&gt;林木木&lt;/a&gt;，我是直接抄的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 由于多次导入导出，文章时间格式似乎不统一。&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修改超链接样式，现在的很不容易看清楚。&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修改夜间模式基本颜色，这也太黑了？！&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%8D%9A%E5%AE%A2/" term="博客" label="博客" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">写笔记</title>
             <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/note-taking/" />
             <id>https://yue2.github.io/hugosite/posts/note-taking/</id>
@@ -24,7 +83,7 @@
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;记录一下目前的工作流程。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;记录一下目前的工作流程。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;记录一下目前的工作流程。&lt;/p&gt;
 &lt;h2 id=&#34;日程安排&#34;&gt;日程安排&lt;/h2&gt;
@@ -80,13 +139,13 @@
             <title type="text">看足球和篮球</title>
             <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/watching-sports/" />
             <id>https://yue2.github.io/hugosite/posts/watching-sports/</id>
-            <updated>2022-02-09T23:02:24&#43;08:00</updated>
+            <updated>2022-02-12T17:13:33&#43;08:00</updated>
             <published>2022-02-01T20:18:10&#43;08:00</published>
             <author>
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;——总的来说就是我不会打瞎看又看得格外投入的几种球。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;——总的来说就是我不会打瞎看又看得格外投入的几种球。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;——总的来说就是我不会打瞎看又看得格外投入的几种球。&lt;/p&gt;
 &lt;p&gt;巴萨的登贝莱还有半年合同就结束了，正陷入交易风波，没想到他这五年巴萨合同，就剩最后半年了。按时间顺序来讲，恐怕要回到2015还是2016年的夏天，那年多特蒙德夏季赛中国行，要到北京，我回家过暑假了，于是把这个消息分享给也喜欢多特蒙德的同学，他买了票去鸟巢看。看完回来他就跟我说，新买的这个小黑哥可以，很骚，就是爱盘带，有点独。这里说的当然是时年十七八岁的登贝莱。&lt;/p&gt;
@@ -95,8 +154,8 @@
 &lt;p&gt;此后巴萨锋线拆散、瞎买人、换教练、高层打仗、财政问题越来越凸显，最后送走了梅西。&lt;/p&gt;
 &lt;p&gt;话又说回内马尔，他本周就满30岁了，当年执意离开巴萨本是说不甘在梅西的荫蔽下做二把手，远走法国要闯出一片天，四年多过去了梅西还在拿金球奖，内马尔则离足坛老大的位置越来越远。世事弄人，冒险做出的抉择居然毫不意外地兑现了高风险而没有得到想要的回报，内马尔在大巴黎又经历了动荡的教练、高层；俱乐部买来了更年轻更值钱的姆巴佩，让他还是不能坐稳老大的位置；内马尔自己又经历了花样百出的伤病，现在大家回忆里他的高光时刻竟然还是五年前在巴萨实现欧冠大逆转。&lt;/p&gt;
 &lt;p&gt;在内马尔想做老大离开巴萨的那个夏天，在世界的另一头，Kyrie也决定要做老大，他不想再生活在老詹的荫蔽下。凯尔特人签下了Kyrie, 意料之外情理之中。刚刚结束的赛季里凯尔特人打到了分区决赛，核心是地表最强175小托马斯。安吉老头觉得重建期是时候结束了，凯尔特人又是一支争冠队伍，那当然不能再靠精致的战术来喂175，需要一个真正的球星——两个也行。于是顺理成章签下了海沃德和欧文，欧文也有不怎么好的纪律风评，但是凯尔特人嘛，铁血绿军，自信能把浪子拴进体系里。&lt;/p&gt;
-&lt;p&gt;欧文真正做了半个多赛季的老大，几次三番大出手力挽狂澜于既倒。又多过了几场大家明白了，这既倒的危局就是你欧文在比赛前段不好好听从安排给搞出来的。忍了他两年，凯尔特人又送走了。现在再看到欧文的消息，就是他不愿意打疫苗，和球馆所在城市的规定相左闹出的风波了。&lt;/p&gt;
-&lt;p&gt;说到这里，我该写点个人感悟和人生道理，但是体育界斗转星移世事无常，我实在没法说他们的决定是不是做错了。而且精英运动员的生涯本来就有无穷变数，像c罗、梅西、老詹这样高水平输出20年的才是难得一遇，欧文和内马尔是奉献过超神表现的顶尖选手。&lt;/p&gt;</content>
+&lt;p&gt;欧文真正做了半个多赛季的老大，几次三番大出手力挽狂澜于既倒。又多看了几场，大家明白了，这既倒的危局就是你欧文在比赛前段不好好听从安排给搞出来的。忍了他两年，凯尔特人又送走了。现在再看到欧文的消息，就是他不愿意打疫苗，和球馆所在城市的规定相左闹出的风波了。&lt;/p&gt;
+&lt;p&gt;说到这里，我该写点个人感悟和人生道理，但是体育界斗转星移世事无常，我实在没法说他们的决定是不是做错了。而且精英运动员的生涯本来就有无穷变数，像c罗、梅西、老詹这样高水平输出20年的才是难得一遇，欧文和内马尔不管怎么说，都是奉献过超神表现的顶尖选手。&lt;/p&gt;</content>
             
             
             
@@ -142,7 +201,7 @@
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我从寒假返工已经一整周多了。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我从寒假返工已经一整周多了。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我从寒假返工已经一整周多了。&lt;/p&gt;
 &lt;p&gt;从周一起忙碌又高效地工作了两三天，脑子的背景里在为周五讲组会报告非常焦虑，终于周四一整天什么也没做，拖拖拉拉地写了ppt, 又因为白天拖拉，直到晚上十点多才开始奋发，一下子写到了半夜一点半，良好作息前功尽弃。&lt;/p&gt;
@@ -199,7 +258,7 @@
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。&lt;/p&gt;
 &lt;p&gt;出发前我正好在家翻到自己2017年的日记本，那里面记着一次我回北京找扁老师吃饭，彼时她在国贸的大公司实习，我羽绒服里穿着牛仔衬衫，和整栋楼格格不入。那时我说，感觉扁老师已经成长为大人了，而我还像个小傻子，我们恐怕今后会渐行渐远。这次相见偶尔也会有同样的感觉，觉得扁老师长成了独当一面的大人，而我还在为打电话紧张。但是我在这几年间已经知道了，扁老师的漂亮大衣还是原来那一件，里面的衬衫裤子全是优衣库，而且在我多番提醒下才换掉了破旧双肩包——换成了贵点儿的双肩包，所以我好像也不担心会走远。&lt;/p&gt;
@@ -269,7 +328,7 @@
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。&lt;/p&gt;
 &lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
@@ -393,7 +452,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;昨晚姑父烧扁尖老鸭汤，扁尖笋放多了，特别咸，但是香，特别香，八角、香叶、鸭、扁尖，这几味炖汤的香味浓烈又特殊，我立刻想起来上一次吃扁尖老鸭汤还是两年前在芝加哥。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;昨晚姑父烧扁尖老鸭汤，扁尖笋放多了，特别咸，但是香，特别香，八角、香叶、鸭、扁尖，这几味炖汤的香味浓烈又特殊，我立刻想起来上一次吃扁尖老鸭汤还是两年前在芝加哥。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;昨晚姑父烧扁尖老鸭汤，扁尖笋放多了，特别咸，但是香，特别香，八角、香叶、鸭、扁尖，这几味炖汤的香味浓烈又特殊，我立刻想起来上一次吃扁尖老鸭汤还是两年前在芝加哥。&lt;/p&gt;
 &lt;p&gt;我们那时候都住在学校附近的郊区，一个平常爱吃爱玩的同学打听到了城里的上海菜馆叫我一起去吃，菜单早就发在群里，提前订好菜才能吃，特别是一锅扁尖老鸭汤，至少提前24小时预定。刚好那个周末扁老师来拜访，我以为扁老师不喜欢陌生人很多的社交场合，还在犹豫要不要拒绝同学邀请，结果扁老师欣然同意一起去吃饭，于是我们就凑上了这一桌宴席。&lt;/p&gt;
@@ -443,7 +502,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;h2 id=&#34;bilibili-embedded-play&#34;&gt;bilibili embedded play&lt;/h2&gt;
 &lt;p&gt;share link
@@ -501,7 +560,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;转眼过来已经是周二晚上了，我在隔离酒店已经住了四五天了吧。今次回国还是让我觉得很糟心，落地在机场排队时前后有人大受感动，说了些祖国的空气都是甜的之类的话，而我想到前前后后的折磨，只希望再也不要回来了。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;转眼过来已经是周二晚上了，我在隔离酒店已经住了四五天了吧。今次回国还是让我觉得很糟心，落地在机场排队时前后有人大受感动，说了些祖国的空气都是甜的之类的话，而我想到前前后后的折磨，只希望再也不要回来了。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;转眼过来已经是周二晚上了，我在隔离酒店已经住了四五天了吧。今次回国还是让我觉得很糟心，落地在机场排队时前后有人大受感动，说了些祖国的空气都是甜的之类的话，而我想到前前后后的折磨，只希望再也不要回来了。&lt;/p&gt;
 &lt;p&gt;这一路算起来都很顺利，只是太磨人，虽然从起飞前几个礼拜每天都非常焦虑，但是所虑也都解决了。阿婆或许会说是老天保佑，但我很少这么想，我觉得是我按规矩做了所有的事情付了所有的钱，与其说是迎刃而解，我觉得更像是用钝刀子切大颗的卷心菜，推来拉去，用力向下压，一层层菜叶咔咔裂开——确实都解决了，但力气总花了不少。&lt;/p&gt;
@@ -555,7 +614,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;h2 id=&#34;2021-12-06&#34;&gt;2021-12-06&lt;/h2&gt;
 &lt;ul&gt;
@@ -642,7 +701,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
 &lt;p&gt;【本回内容】但是激发态不宜久留，电子自己也会回到基态，多余的能量就会辐射出光子，这个过程叫自发辐射。自发辐射又可以分为荧光(fluorescence)和磷光(phosphorescence)，不同之处主要在于这两个过程产生辐射的激发态不一样。&lt;/p&gt;
@@ -696,7 +755,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我按照网上看来的&lt;a href=&#34;https://www.physio-pedia.com/Feiss_Line_Test&#34;&gt;教程&lt;/a&gt;给自己诊断了扁平足，一下子觉得前半辈子的许多小问题都得到了解释。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我按照网上看来的&lt;a href=&#34;https://www.physio-pedia.com/Feiss_Line_Test&#34;&gt;教程&lt;/a&gt;给自己诊断了扁平足，一下子觉得前半辈子的许多小问题都得到了解释。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我按照网上看来的&lt;a href=&#34;https://www.physio-pedia.com/Feiss_Line_Test&#34;&gt;教程&lt;/a&gt;给自己诊断了扁平足，一下子觉得前半辈子的许多小问题都得到了解释。&lt;/p&gt;
 &lt;p&gt;我从小就被长辈说是扁平足，但大人们并不以为这是问题，反而觉得可爱，我妈会怜爱地称之为“面包脚”，就是像一个小面包一样，圆圆扁扁白乎乎的。我的脚力也非常差，走一小段路就脚酸，很小的时候就让爸妈抱，大一些了就要背着走，晚上回家还会哭唧唧地要揉揉小腿。最夸张的一次是我大概六七岁的暑假，表哥在我家借住。表哥彼时是个初中生，跟我一起锁在家里看电视当然没意思，他很快就打电话叫来了几个哥们儿，他们商量着要一起去逛超市，但是我哥又不能把我一个人锁在家，只好带我一起去。超市在一千米以内，我想不起来去程是不是自己走完的，反正返程我就完全没法走路了，是这几个初中男生轮流把我背回家的，而那时候我爸已经下班发现家里没人急得骑上小摩托在附近徘徊了。&lt;/p&gt;
@@ -746,7 +805,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <uri>https://io-oi.me/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;chapter 3&lt;/p&gt;
-&lt;p&gt;列车到站了，赫敏背上包向教授道别：“那么有机会下次再见了，祝您工作顺利，麦格教授。”麦格点点头：“很高兴认识您，格兰杰探员，也祝您工作顺利。”&lt;/p&gt;</summary>
+&lt;p&gt;列车到站了，赫敏背上包向教授道别：“那么有机会下次再见了，祝您工作顺利，麦格教授。”麦格点点头：“很高兴认识您，格兰杰探员，也祝您工作顺利。”&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;chapter 3&lt;/p&gt;
 &lt;p&gt;列车到站了，赫敏背上包向教授道别：“那么有机会下次再见了，祝您工作顺利，麦格教授。”麦格点点头：“很高兴认识您，格兰杰探员，也祝您工作顺利。”&lt;/p&gt;
@@ -818,7 +877,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;&amp;ldquo;会很久吗？这趟出差？&amp;ldquo;罗恩问正在收拾行李的赫敏。他的未婚妻回答道：“嗯，大概10天吧，顺利的话可能一周就结案回来了。”赫敏无声地挥舞魔杖叠着衣服，看起来像是在指挥一场衣柜交响乐。她转头对罗恩说：“你下周要不去茉莉那儿吃饭吧。”罗恩无奈地点点头：“好吧好吧，有几个月没回去了，也是时候自投罗网给我妈念叨念叨了。代我向麦格校长问好吧。”&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;&amp;ldquo;会很久吗？这趟出差？&amp;ldquo;罗恩问正在收拾行李的赫敏。他的未婚妻回答道：“嗯，大概10天吧，顺利的话可能一周就结案回来了。”赫敏无声地挥舞魔杖叠着衣服，看起来像是在指挥一场衣柜交响乐。她转头对罗恩说：“你下周要不去茉莉那儿吃饭吧。”罗恩无奈地点点头：“好吧好吧，有几个月没回去了，也是时候自投罗网给我妈念叨念叨了。代我向麦格校长问好吧。”&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;&amp;ldquo;会很久吗？这趟出差？&amp;ldquo;罗恩问正在收拾行李的赫敏。他的未婚妻回答道：“嗯，大概10天吧，顺利的话可能一周就结案回来了。”赫敏无声地挥舞魔杖叠着衣服，看起来像是在指挥一场衣柜交响乐。她转头对罗恩说：“你下周要不去茉莉那儿吃饭吧。”罗恩无奈地点点头：“好吧好吧，有几个月没回去了，也是时候自投罗网给我妈念叨念叨了。代我向麦格校长问好吧。”&lt;/p&gt;
 &lt;p&gt;“嗯。”赫敏应下。她告诉了罗恩自己要回霍格沃茨查一个案子，没说是35年前的霍格沃茨。&lt;/p&gt;
@@ -948,7 +1007,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;上礼拜的&lt;a href=&#34;https://moresci.sale/@boxue/106786970968565921&#34;&gt;投票&lt;/a&gt;显示很多朋友不知道laser是啥意思，所以这个话题我们从头说起：LASER是 light amplification by stimulated emission of radiation 的缩写，意思是激光是一个光放大过程。这个光咋放大的呢？通过受激辐射放大的。（所以激光这个翻译非常准确，据说是钱学森提议的。）&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;上礼拜的&lt;a href=&#34;https://moresci.sale/@boxue/106786970968565921&#34;&gt;投票&lt;/a&gt;显示很多朋友不知道laser是啥意思，所以这个话题我们从头说起：LASER是 light amplification by stimulated emission of radiation 的缩写，意思是激光是一个光放大过程。这个光咋放大的呢？通过受激辐射放大的。（所以激光这个翻译非常准确，据说是钱学森提议的。）&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;上礼拜的&lt;a href=&#34;https://moresci.sale/@boxue/106786970968565921&#34;&gt;投票&lt;/a&gt;显示很多朋友不知道laser是啥意思，所以这个话题我们从头说起：LASER是 light amplification by stimulated emission of radiation 的缩写，意思是激光是一个光放大过程。这个光咋放大的呢？通过受激辐射放大的。（所以激光这个翻译非常准确，据说是钱学森提议的。）&lt;/p&gt;
 &lt;p&gt;啥叫受激辐射呢？电子或其他一些准粒子的能量状态是离散的而非连续的，就像是台阶而非传送带，因此从基态到激发态就像上一个台阶，从激发态再回到基态就下一个台阶，损失的能量以光的形式散发出来，这就是一种辐射（radiative emission）。很明显台阶的高度是固定的，因此从激发态回到基态损失的能量总是固定的，辐射光子的波长因此也是固定的。如果被能量恰好是这个能级差（台阶高度）的光子照射，激发态的电子就会落到基态，同时辐射出和入射光子波长、相位都一样的光，这就叫受激辐射（图1 &lt;a href=&#34;https://en.wikipedia.org/wiki/Laser#Laser_physics&#34;&gt;来自wikipedia&lt;/a&gt;）。&lt;/p&gt;
@@ -1005,7 +1064,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;因为bot打架新关注的朋友可能不知道，这个账号偶尔也会发 #论文导读 🧐今天不是哈，今天是既然说到 @mature 接受同人文投稿，就提到了与之齐名的nature有科幻短篇栏目。然后我又发现了science有推书栏目，最近一期推荐了The Soul of Genius，讲了爱因斯坦和玛丽居里的深厚情谊——（节选翻译）&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;因为bot打架新关注的朋友可能不知道，这个账号偶尔也会发 #论文导读 🧐今天不是哈，今天是既然说到 @mature 接受同人文投稿，就提到了与之齐名的nature有科幻短篇栏目。然后我又发现了science有推书栏目，最近一期推荐了The Soul of Genius，讲了爱因斯坦和玛丽居里的深厚情谊——（节选翻译）&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;因为bot打架新关注的朋友可能不知道，这个账号偶尔也会发 #论文导读 🧐今天不是哈，今天是既然说到 @mature 接受同人文投稿，就提到了与之齐名的nature有科幻短篇栏目。然后我又发现了science有推书栏目，最近一期推荐了The Soul of Genius，讲了爱因斯坦和玛丽居里的深厚情谊——（节选翻译）&lt;/p&gt;
 &lt;p&gt;在爱因斯坦晚年时，有人问他最尊敬的物理学家是谁，他给出了两个名字：“亨德里克·洛伦兹和玛丽·居里。”他提到理论物理学家洛伦兹并不让人意外，但是爱因斯坦提名玛丽居里就不那么好理解了。尽管她确实是放射领域的伟大先驱者，但是这并不是爱因斯坦通常感兴趣的方向，而且爱因斯坦以往对居里也并不总是赞誉，他曾说过玛丽居里“非常聪明，但是冷酷得像条鱼”。&lt;/p&gt;
@@ -1054,7 +1113,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;再没过两三天，我们就谈恋爱三周年了。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;再没过两三天，我们就谈恋爱三周年了。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;再没过两三天，我们就谈恋爱三周年了。&lt;/p&gt;
 &lt;p&gt;这样写下来，好像确实是很长的一段时间了，但其实在此之前我们做了十多年的朋友，距离我们10岁认识，已经过去十五年了。可是我这人，很容易习惯现在，很容易忘记过去，认定此刻的状态就是正确的状态，而且仿佛从来都是这样。我已经一点儿也想不起来我们做好朋友的模样，是怎么做的？如果并肩走时没有牵着手，那手放在哪里？如果目光相接之后没有亲吻，那眼睛移去了哪里？在前十多年里，她会对我说“今天想吃xxx，就要吃”吗？好像不会。我会每个月都在她面前哭吗？不可能。&lt;/p&gt;
@@ -1102,7 +1161,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天高考了，我又想起了2015年安徽作文题提到的“……让同学们亲手操作扫描式电子显微镜，观察蝴蝶的翅膀。通过这台可以看清纳米尺度物体三维结构的显微镜，同学们惊奇地发现：原本色彩斑斓的蝴蝶翅膀竟然失去了色彩，显现出奇妙的凹凸不平的结构。”&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天高考了，我又想起了2015年安徽作文题提到的“……让同学们亲手操作扫描式电子显微镜，观察蝴蝶的翅膀。通过这台可以看清纳米尺度物体三维结构的显微镜，同学们惊奇地发现：原本色彩斑斓的蝴蝶翅膀竟然失去了色彩，显现出奇妙的凹凸不平的结构。”&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;今天高考了，我又想起了2015年安徽作文题提到的“……让同学们亲手操作扫描式电子显微镜，观察蝴蝶的翅膀。通过这台可以看清纳米尺度物体三维结构的显微镜，同学们惊奇地发现：原本色彩斑斓的蝴蝶翅膀竟然失去了色彩，显现出奇妙的凹凸不平的结构。”&lt;/p&gt;
 &lt;p&gt;这段材料前后有好几处科学事实混乱，本嘟嘟就只解释一下扫描电子显微镜（scanning electron microscope, SEM）是怎么回事。这次是比较基础的知识，应该不少朋友都知道，如果我说得不对麻烦大家指正。&lt;/p&gt;
@@ -1157,7 +1216,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天听了这集&lt;a href=&#34;https://open.spotify.com/episode/3lHtL1tI3elp1yziYkOael?si=EaOH2n2ZRCa54gWEDT_s9g&#34;&gt;打工谈儿童节节目&lt;/a&gt; ，讲得还挺好的。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天听了这集&lt;a href=&#34;https://open.spotify.com/episode/3lHtL1tI3elp1yziYkOael?si=EaOH2n2ZRCa54gWEDT_s9g&#34;&gt;打工谈儿童节节目&lt;/a&gt; ，讲得还挺好的。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;今天听了这集&lt;a href=&#34;https://open.spotify.com/episode/3lHtL1tI3elp1yziYkOael?si=EaOH2n2ZRCa54gWEDT_s9g&#34;&gt;打工谈儿童节节目&lt;/a&gt; ，讲得还挺好的。&lt;/p&gt;
 &lt;p&gt;我觉得很多时候我们往椅背上一靠，说烂透了没救了世界毁灭吧，实际上显示出一种居高临下的悲观；但是实地在做公益工作或者前线报道的人反而更乐观，他们会觉得还有救，我猜可能是行动带来的力量感吧。他们提到随迁上学，我想起来上大学搞辩论的时候也讨论过就近入学，但是那时候所有人都在说学区房和重点学校，我们甚至没能想象到流动人口，不认为这个问题会和他们有关。为当年无知的自己感到羞愧！他们也提到了近期热聊的鸡娃教育，两位致力于服务农民工子弟的嘉宾说，因为能在社交网络上参加讨论的群体都和中产鸡娃更近，和村小更远，他们也觉得我们对留守儿童和流动儿童的关注远远不够，讨论远远不够。魏佳羽老师预测按户籍上学的政策迟早会被推翻，就像独生子女一样，完全不符合规律的政策是持续不下去的。可是那独生子女政策的代价也是三十年里多少夭折的婴儿、上环的妇女啊，再等十年户籍入学制度又会牺牲多少没能受到应得教育的小朋友？&lt;/p&gt;
@@ -1208,7 +1267,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;回顾一些礼节性嗑过的cp, 主要是rps，都是我的个人揣测，但会说得很肯定，因为我对自己的揣测比较自信。可能会冒犯其他粉丝朋友，但是没关系估计也没人看，可能只会冒犯到扁老师。; )&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;回顾一些礼节性嗑过的cp, 主要是rps，都是我的个人揣测，但会说得很肯定，因为我对自己的揣测比较自信。可能会冒犯其他粉丝朋友，但是没关系估计也没人看，可能只会冒犯到扁老师。; )&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;回顾一些礼节性嗑过的cp, 主要是rps，都是我的个人揣测，但会说得很肯定，因为我对自己的揣测比较自信。可能会冒犯其他粉丝朋友，但是没关系估计也没人看，可能只会冒犯到扁老师。; )&lt;/p&gt;
 &lt;h2 id=&#34;社交网络双男主&#34;&gt;《社交网络》双男主&lt;/h2&gt;
@@ -1264,7 +1323,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;改编自阿曼达锡纸花甲 &lt;a href=&#34;https://www.youtube.com/watch?v=RmF&#34;&gt;https://www.youtube.com/watch?v=RmF&lt;/a&gt;_HQLdDec&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;改编自阿曼达锡纸花甲 &lt;a href=&#34;https://www.youtube.com/watch?v=RmF&#34;&gt;https://www.youtube.com/watch?v=RmF&lt;/a&gt;_HQLdDec&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;改编自阿曼达锡纸花甲 &lt;a href=&#34;https://www.youtube.com/watch?v=RmF&#34;&gt;https://www.youtube.com/watch?v=RmF&lt;/a&gt;_HQLdDec&lt;/p&gt;
 &lt;ol&gt;
@@ -1334,7 +1393,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我知道这个剧集是从The Daily Show访谈里看到的David Chang，他说拍摄的过程中让他学习了很多、思考了很多，尤其是关于炸鸡和黑人历史的那一段拍摄。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我知道这个剧集是从The Daily Show访谈里看到的David Chang，他说拍摄的过程中让他学习了很多、思考了很多，尤其是关于炸鸡和黑人历史的那一段拍摄。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我知道这个剧集是从The Daily Show访谈里看到的David Chang，他说拍摄的过程中让他学习了很多、思考了很多，尤其是关于炸鸡和黑人历史的那一段拍摄。&lt;/p&gt;
 &lt;p&gt;这句话让我太好奇了，因为我也知道炸鸡是一个关于美国南部黑人的刻板印象，同时出现在这个印象里的还有西瓜和红薯。这些都是我喜欢吃的东西！而且我的同胞中国人也都喜欢炸鸡和西瓜！我很惊讶这竟是一个歧视性刻板印象，明明是你们白人不会吃！&lt;/p&gt;
@@ -1386,7 +1445,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;小高姐菜谱 &lt;a href=&#34;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&#34;&gt;https://www.youtube.com/watch?v=ATEnM1YPQQE&amp;amp;t=178s&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -1492,7 +1551,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;想说的是成都49中一个小男生坠楼身亡的事。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;想说的是成都49中一个小男生坠楼身亡的事。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;想说的是成都49中一个小男生坠楼身亡的事。&lt;/p&gt;
 &lt;p&gt;前两日群情激愤，家长、市民、师兄师姐带白花去学校悼念，被网友说是境外势力图谋不轨，策划颜色革命。&lt;/p&gt;
@@ -1540,7 +1599,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;2010年诺贝尔物理学奖发给了安德烈·盖姆爵爷，表彰他在石墨烯研究方面的卓越贡献。你小时候或许也听说过这项“透明胶扯出来的诺贝尔奖”，意思是用透明胶反复剥离石墨，可以获得只有一层碳原子厚的石墨烯。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;2010年诺贝尔物理学奖发给了安德烈·盖姆爵爷，表彰他在石墨烯研究方面的卓越贡献。你小时候或许也听说过这项“透明胶扯出来的诺贝尔奖”，意思是用透明胶反复剥离石墨，可以获得只有一层碳原子厚的石墨烯。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;2010年诺贝尔物理学奖发给了安德烈·盖姆爵爷，表彰他在石墨烯研究方面的卓越贡献。你小时候或许也听说过这项“透明胶扯出来的诺贝尔奖”，意思是用透明胶反复剥离石墨，可以获得只有一层碳原子厚的石墨烯。&lt;/p&gt;
 &lt;p&gt;这是因为石墨是一种范德瓦尔斯(van der Waals, vdW)晶体，每一层内的碳原子由共价键相连，形成蜂窝状六边形结构，片层之间的相互作用力则是非常弱的范德瓦尔斯力，可以轻松用胶带分离开。关于石墨烯的报道引发了众多关注，很快研究者就获得了其他的单层二维材料，比如说和石墨烯一样是蜂窝结构的二维氮化硼，还有许多种过渡金属二硫化物（TMDs）比如二硫化钼。那既然我们可以从三维vdW晶体中剥离出单层，可不可以再把这些单层叠起来呢？&lt;/p&gt;
@@ -1592,7 +1651,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。&lt;/p&gt;
 &lt;p&gt;但，你正在使用的硬盘或许来自美国公司希捷和西部数据，或许来自日本公司日立和东芝，为什么和欧洲都没有关系呢？到底是谁从这一科学成果中赚到了钱呢？2015年的这篇文章[1]认为，美国制造了最多的GMR读写头，赚了最多钱的是日本，德国和法国都没赚到钱💸&lt;/p&gt;
@@ -1642,7 +1701,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;两天看完了新出的施耐德重制版《正义联盟》。 最近几个月复习了一通超级英雄，回顾了三部《钢铁侠》，看了3小时版的bvs，刚好前两周才看了两部《不义联盟》的游戏剧情电影，实际上用游戏的结构来理解这个四小时超级英雄马拉松我觉得非常合适。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;两天看完了新出的施耐德重制版《正义联盟》。 最近几个月复习了一通超级英雄，回顾了三部《钢铁侠》，看了3小时版的bvs，刚好前两周才看了两部《不义联盟》的游戏剧情电影，实际上用游戏的结构来理解这个四小时超级英雄马拉松我觉得非常合适。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;两天看完了新出的施耐德重制版《正义联盟》。 最近几个月复习了一通超级英雄，回顾了三部《钢铁侠》，看了3小时版的bvs，刚好前两周才看了两部《不义联盟》的游戏剧情电影，实际上用游戏的结构来理解这个四小时超级英雄马拉松我觉得非常合适。&lt;/p&gt;
 &lt;p&gt;可以这么想，开头十分钟是一段开场背景介绍，然后进第一章，蝙蝠视角，去冰岛找人和海王打了一架，打赢了然后海王跳进水里走了。第二章，神奇女侠视角，把挟持人质要炸大楼的恐怖分子揍了一顿，获得资讯去了蝙蝠洞。之后当然还有很明显的一章闪电侠视角，超人复活之后又走了一段超人视角，把所有人都揍了一遍回家抱老婆和妈了。从这个思路来看，这部电影章节之间的割裂感、打戏里过多的慢镜头，以及长段的其他世界线插叙，就变得容易理解了一点。所以我猜测爱看原版漫画和玩过DC几部游戏的观众会觉得不错，而电影观众可能觉得这些都是缺点。&lt;/p&gt;
@@ -1695,7 +1754,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;微信阅读&lt;/p&gt;
 &lt;h2 id=&#34;刺杀小说家&#34;&gt;刺杀小说家&lt;/h2&gt;
@@ -1749,7 +1808,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;kindle&lt;/p&gt;
 &lt;h1 id=&#34;第三章&#34;&gt;第三章&lt;/h1&gt;
@@ -1799,7 +1858,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;视频链接：&lt;a href=&#34;https://www.youtube.com/watch?v=oCsVPRiBWWs&#34;&gt;https://www.youtube.com/watch?v=oCsVPRiBWWs&lt;/a&gt;&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;视频链接：&lt;a href=&#34;https://www.youtube.com/watch?v=oCsVPRiBWWs&#34;&gt;https://www.youtube.com/watch?v=oCsVPRiBWWs&lt;/a&gt;&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;视频链接：&lt;a href=&#34;https://www.youtube.com/watch?v=oCsVPRiBWWs&#34;&gt;https://www.youtube.com/watch?v=oCsVPRiBWWs&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -1866,7 +1925,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <uri>https://io-oi.me/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;教程视频：&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/46C7UIre4Nc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/46C7UIre4Nc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;…</summary>
             
                 <content type="html">&lt;p&gt;教程视频：&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/46C7UIre4Nc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -1935,7 +1994,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;来自下厨房app，链接找不到了&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;来自下厨房app，链接找不到了&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;来自下厨房app，链接找不到了&lt;/p&gt;
 &lt;ol&gt;
@@ -1993,7 +2052,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;视频地址：&lt;a href=&#34;https://www.bilibili.com/video/BV1Rk4y1d7ss&#34;&gt;https://www.bilibili.com/video/BV1Rk4y1d7ss&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -2067,7 +2126,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;写这个题目对我来说是真的大言不惭，因为我们的节目也不火，更新断断续续的，也没做多久，也没参加从业者交流会。本文充其量算是我的播客制作self assessment吧。&lt;/p&gt;
 &lt;p&gt;我们（我和搭档）从2019年9月开通了一个播客《&lt;a href=&#34;https://anchor.fm/ashley-xu&#34;&gt;我的锅&lt;/a&gt;》，开始讲一些吃吃喝喝和烧菜的事情。那时候我们住在一起，搭档在家待业了一段时间，更新得比较勤快。过了两个月搭档在另一个城市找到了工作，就更加有一搭没一搭地录节目。到了2020年疫情爆发，我们又一起work from home了，想讲的屁事远远超出了吃喝烹饪，《我的锅》就走向了一档什么屁事儿都聊的节目。因为播出大半年了听众群体依然停留在大概五人，所以逐渐放飞自我，把该节目从每集二十分钟唠到了一个多小时。&lt;/p&gt;
@@ -2121,7 +2180,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的&lt;a href=&#34;http://podcast.midofnowhere.link&#34;&gt;播客节目&lt;/a&gt;的网页。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的&lt;a href=&#34;http://podcast.midofnowhere.link&#34;&gt;播客节目&lt;/a&gt;的网页。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的&lt;a href=&#34;http://podcast.midofnowhere.link&#34;&gt;播客节目&lt;/a&gt;的网页。&lt;/p&gt;
 &lt;p&gt;把这个网页从github map到了我买的域名上，加载很快，但是jekyll生成很慢，只有这点内容要两三秒，很不爽。用了第三方的评论插件，还插入了google form作为送信功能。因为本节目也不怎么火，本人也不怎么火，所以实际上也没什么人点击，更新频率也很低，维护不是太麻烦。我觉得html还是比较好懂的语言。 一旦加入服务器和数据库，这个事情就变得比较复杂了。现在这个博客网页是由infinity free托管的wordpress网站。因为托管商是完全免费的，所以整个控制面板看起来很垃圾，弹窗广告到处都是，网页加载速度也很垃圾。好处是到目前为止都还没有遇到很复杂的maintain任务，也就是还没有需要debug的时候。wp的插件非常丰富，想要的功能基本上都有人已经实现过了。 现在的问题是我还没能成功把这个网站map到我买的域名上，我的域名商提供ssl，而这个网站现在没有https。第二是有没有必要买一个服务器装wp，改善加载体验。第三是，毋庸置疑地，wp网站功能比jekyll生成的静态网站丰富很多，主题也很漂亮，要修改起来比较方便，所以要不要把另一个网站也改成wp网站？ 起名儿的时候想了几个备选，一个就是目前的mid of nowhere，还有一个是tipsy gypsy，还有一个是world of goldfish。middle of nowhere就是字面意思，漂在海上，迷失在林间，反正就是举目四望哪儿也不是，符合我的路盲体质。tipsy gypsy押韵押得很好所以觉得有意思，其实我不喝酒，汉族人。最后一个world of goldfish来自大侦探福尔摩斯，麦考夫特跟夏洛克说，我们太聪明了，其他人都是傻子，你看着这个世界，不觉得这就是小金鱼们的世界吗？我的上一个博客（QQ空间）就叫这个名字，但是我买域名的时候想了想，觉得这个域名仿佛一家水族店，world of goldfish，本店出售金鱼热带鱼鱼缸鱼食，质优价廉童叟无欺。最后就是这样了，也可能会改，如果我想出了更喜欢的名字的话。&lt;/p&gt;</content>
@@ -2156,7 +2215,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;刚上大学的时候修公共演讲英文课，有一节课的主题是畅想十年后。我那时候喜欢坐靠窗，烘着暖气走神。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;刚上大学的时候修公共演讲英文课，有一节课的主题是畅想十年后。我那时候喜欢坐靠窗，烘着暖气走神。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;刚上大学的时候修公共演讲英文课，有一节课的主题是畅想十年后。我那时候喜欢坐靠窗，烘着暖气走神。&lt;/p&gt;
 &lt;p&gt;我的大学在长安街延长线上，窗外是一个天桥，天桥上挂着横幅，红底黄字，“热烈庆祝反法西斯战争胜利70周年”。我同桌小声地笑了：“十年后就是反法西斯战争胜利80周年。” 我也笑了。我都能想象到十年后这个一模一样的视角，一模一样的场景，横幅上的字体也是一模一样的，只是换了一个数字。我当时恐怕也以为十年对世界来说是很小的一个单位，没想到五六年之内能发生这么多事情。 实名化的中国其实也差不多是从十年前开始的。我那时候还在上中学，寒暑假会坐火车去外婆家。买火车票突然要实名身份信息了，而我是个没有身份证的未成年人，我拿着全家的户口本买了几次火车票以后，我爸觉得不行，带我去派出所办了身份证。这应该是第一步，没有身份证不能顺利出行。 然后我去上大学，办新的手机号，移动公司问我要身份证。那一年其实也刚开始实名办手机号，没有身份证也能办，但是用身份证的话流程会特别快，还送一点话费。之后没有身份证就办不了手机号了。 再后来当然就是网络安全法发布，所有社交网络都需要手机验证码了。其实这也是一步一步来的，微信和支付宝搞出了抢红包的玩法，一开始大家也不管有事没事就往群里发红包，我为了抢红包还摔碎过一块手机屏幕。微信账号上有钱了以后，如果想提现，就得绑定手机号和银行卡。再后来没有手机验证码就不能发微博，后来连登录也要手机号。 我记得零几年的时候发生了好几起非常严重的网络暴力，那时候还叫“人肉搜索”和“出征”，小说和电影《搜索》好像就是基于这几个案子改编的。那时候人们开始在微博上反思社交网络时代的弊端，很多人提出的解决方案就是网络实名化，认为这样可以震慑网络暴力的施暴者，让他们知道作恶是有后果的。但是我们开始考虑隐私，反而是在实名化之后，大家突然发现了把信息拱手相让给当权者，好像也不是什么好主意。 “棱镜”计划爆出的时候举世震动，很多人去《疑犯追踪》的豆瓣页面里评论说没想到这是一部纪录片。我也喜欢这部电视剧，从它刚出第一季的时候我就在追，那时候我上高中，每周周末才能回家看一集。但我那时候从来没觉得这是一部科幻片，我对“棱镜”也并不很惊讶，因为十几岁的我以为所有政府都是这样做的，都会监控民众。我有这种印象可能是因为，早在“棱镜”之前，我记得QQ邮箱和网易邮箱就被爆出过类似的事情，公安完全可以看到你的电子邮件内容，就像犹太人的家书被拆开看完又封上，苏联茶馆的烟灰缸底下粘着窃听器一样（我小时候真的很喜欢看阴谋论）。 等我意识到不该如此，又是上大学的时候了。共享单车方兴未艾，所有公司都在耍花样吸引顾客，“小蓝车”在那一年的初夏搞了个策划，把附近的车的标识从自行车改成了坦克。一个完全没必要纯粹吸引眼球的策划，让这个公司直接倒掉了。这个公司当然跟我没什么关系，但是我有一个同学把小蓝坦克的截图发进了年级QQ群里，那个群直接消失了，这个同学被带去问话了。好像不算特别严重，是公安来学校找了他，还有辅导员老师在场。后来我参加了辩论社团的活动，头几个议题里就有“社交网络应不应该被审查”，那还是我第一次学censor这个词。 我还记得很多事。 我记得北京申冬奥，重新划了自然保护区，恰好留出了规划中的高山滑雪场。很多生态学家都说不行，都被删了，Nature也发了一篇新闻稿，中文版发在微信公众号上，也被删了。 我记得修宪法那年北京一整个冬天干燥多霾，就在开完会后的三月份下了一场大雪。 我记得有人开大G进故宫，有人拿捐给小女孩的钱去给男生买相机。 我记得我准备毕业的时候，同样快要毕业的岳昕不见了。 我记得有一个维族小伙子回家放暑假，飞机落地就被带去录入了指纹声纹，还抽了血，扣了他的护照让他差点赶不上飞机。 我记得红十字会拦下了所有捐赠的口罩，给并不收治呼吸道感染病人的中医诊所发了好几箱。 我记得李医生被晾在ICU孤独死去，他的同事们再抢救了一夜他的尸体。 记得有用吗？可能没有。但是我怕我不记下来，就少了一个人记得。我也怀疑记忆的真实性，这些东西是真的发生过，还是被我的脑子糅在了一起？ 我希望李医生的孩子长大后不用面对他父亲曾面对的处境；我希望他如果万不得已走到了这个处境，还愿意做出和他父亲一样的决定；我希望他的决定不会给他招致他父亲的悲剧。这是我们这一辈的使命，因为这是我们欠李医生的。&lt;/p&gt;</content>
@@ -2205,7 +2264,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;这是博学的个人博客，到目前为止所有内容都是学学和扁扁俩人原创。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;这是博学的个人博客，到目前为止所有内容都是学学和扁扁俩人原创。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;这是博学的个人博客，到目前为止所有内容都是学学和扁扁俩人原创。&lt;/p&gt;
 &lt;p&gt;学学是一个： 卖队友国家二级运动员 100K无脑文儿 吐槽向泡面番废柴主角 国家八级拆台师 Proud Hufflepuff 学学的特长有： 半途而废、浅尝辄止、打退堂鼓、收拾行李 学学还和扁扁共同主持着一个犯罪故事类播客节目，可以在这里收听：&lt;a href=&#34;https://anchor.fm/christine3563&#34;&gt;《午时已到》&lt;/a&gt; 喜欢午时已到或者喜欢本博客的话，欢迎给学学打赏&lt;a href=&#34;https://www.buymeacoffee.com/closurethepod&#34;&gt;冰可乐&lt;/a&gt;，非常感谢！&lt;/p&gt;</content>
@@ -2232,7 +2291,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;电子版 还行吧，要点其实就两个：&lt;/p&gt;
 &lt;ol&gt;
@@ -2285,7 +2344,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;早上看了一篇哈利波特同人，居然是赫敏和麦格教授，我完全没有考虑过这两个人。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;早上看了一篇哈利波特同人，居然是赫敏和麦格教授，我完全没有考虑过这两个人。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;早上看了一篇哈利波特同人，居然是赫敏和麦格教授，我完全没有考虑过这两个人。&lt;/p&gt;
 &lt;p&gt;但是设定里赫敏在魔法部神奇动物司工作，因为一起“默默然”事件要回到几十年前，在这个默默然还是一个低年级生，但是不能控制自己的魔法因而被同学霸凌的时候，试图解决这个问题。所以格兰杰小姐认识了去霍格沃茨履新的青年教师麦格，然后她们好上了。 我觉得这个设定还不错，但是后面的展开有点粗糙了。实际上我可以想象她们两个会在二十几岁的年纪互相吸引：在麦格老师（late 20s presumably）看来，赫敏·格兰杰是一个聪明勇敢，对自己的工作非常专注的年轻姑娘，她有着不同于现实的新鲜感（因为来自未来但麦老师并不知道）；而在赫敏（early 20s）心目中，麦格教授是永远的神啊，是她少年时代的家长和偶像，能了解她的过往是自己从前想都不敢想的事情。 所以我觉得她们的展开也可能是这样： 假设这时候是赫敏和罗恩婚前，她对结婚、和ron结婚，产生了一点犹豫，所以接下了这趟穿越时间线的出差。Ron当然很好，爱她、欣赏她的脑子、支持她，但是罗恩能理解她的理想吗？比如说为什么要做spew? 赫敏可能自己也很迷茫，她在战后重建期的魔法部工作，她希望的和平的世界应该是怎样的呢？这些问题她恐怕很难和罗恩讨论。 假设米勒娃·麦格一直在走学术路线，从霍格沃茨毕业后读了研究所，工作了几年，写了专著，现在又被邓布利多忽悠来教中学（原著有说这一段吗？我完全不记得了在凭空瞎编）。那个年代也绝非完美，格林德沃掀起的风波没有过太久，肯定还有很多人支持纯血至上，邓布利多因为和格林德沃的暧昧关系，在霍格沃茨担任要职也会有很大争议。嘴炮之王邓布利多跟她说了什么？她为什么选择了初等教育作为事业？她是打算通过教育来实现自己对未来的期望吗？她的职业生涯刚刚开始，当然也并不十分坚定。 所以她们很容易成为知己。 对赫敏来说，知道了恩师年轻时也经历过挣扎和迷茫，对她来说会是巨大的鼓舞。她和几乎同龄的麦格教授讨论人生、讨论世界会非常坦诚，麦老师的学术背景能给她更多反馈，也因此赫敏可以思考得更深入。对麦格来说，格兰杰小姐聪明勇敢，是一个行动派，有这么好的脑子但没有走向学术，反而一头扎进社会，让她敬佩，甚至觉得自己虚长几岁。但是赫敏因为知道未来，所以会不停地夸麦格教授，告诉她你会成为一个特别特别好的老师，会做院长，然后会做校长，会成为同学们的偶像。 中间有没有谈恋爱有没有上床我觉得都行吧。 麦格第一次叫赫敏first name的时候，格兰杰小姐肯定虎躯一震！赫敏第一次被老师要求叫自己first name的时候肯定也觉得特别不好意思，这个Millie叫出口简直是在乱伦😂 但是这个关系注定是暂时的，办完案子公务员格兰杰小姐就该回去了。临别她应该掉个马，说我是您的学生，我永远感念您的养育。这应该也会给麦老师巨大的鼓舞：我在这片校园里短暂陪伴过的孩子，会长成这么优秀的年轻人。然后为了最小化对时间线的影响，格兰杰小姐要给老师下遗忘咒了，麦格肯定清楚这一点，在被消除记忆之前，她会把这段情丝存进小瓶子里吗？可是她会忘记瓶子藏在了哪里，甚至忘记藏过一个瓶子。赫敏会带走什么纪念品吗？会带什么呢？ 好了都结束了，赫敏就该拧时间转换器回去了。记得赫敏人生第一次用时间转换器，正是麦格教授给她的。      &lt;/p&gt;
@@ -2335,7 +2394,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;微信阅读&lt;/p&gt;
 &lt;h1 id=&#34;95774&#34;&gt;95/774&lt;/h1&gt;
@@ -2385,7 +2444,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">…</summary>
             
                 <content type="html">&lt;p&gt;微信阅读限时免费&lt;/p&gt;
 &lt;h1 id=&#34;229947&#34;&gt;229/947&lt;/h1&gt;
@@ -2435,7 +2494,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我的小登机箱有点坏了。一个轮子的橡胶皮掉了，内胎也磨损得很明显，所有的路拉起来都像鹅卵石路。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我的小登机箱有点坏了。一个轮子的橡胶皮掉了，内胎也磨损得很明显，所有的路拉起来都像鹅卵石路。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我的小登机箱有点坏了。一个轮子的橡胶皮掉了，内胎也磨损得很明显，所有的路拉起来都像鹅卵石路。&lt;/p&gt;
 &lt;p&gt;这大概是刚上大学的时候买的，后来在故宫刚开淘宝店的时候又买了个贴纸装饰了一下。 所以算起来它也陪了我好几年了，在光荣退休之前我得帮它回顾一下职业生涯。&lt;/p&gt;
@@ -2481,7 +2540,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;写在申请phD前。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;写在申请phD前。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;写在申请phD前。&lt;/p&gt;
 &lt;p&gt;我现在回顾自己的简历，觉得杂乱而浮躁，看不出成长轨迹。本科四年混迹于三四个组但都没做过多久，跟了很多个很难说相关联的proj，最糟糕的是我觉得很难总结出自己的skillset：我会养细胞，但是很皮毛，我连细胞周期和干细胞用多久会分化都搞不清；我会做一点材料力学表征，可是材料力学又恰好学的很差，只是会操作流变仪而已；上个学年做了一些clean room的事情，可是长晶体和光刻我也不精通。&lt;/p&gt;
@@ -2534,7 +2593,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;买了kindle版，两块钱，只有第一篇，气死。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;买了kindle版，两块钱，只有第一篇，气死。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;买了kindle版，两块钱，只有第一篇，气死。&lt;/p&gt;
 &lt;h1 id=&#34;新婚之夜&#34;&gt;新婚之夜&lt;/h1&gt;
@@ -2584,7 +2643,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;——轮到我啦&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;——轮到我啦&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;——轮到我啦&lt;/p&gt;
 &lt;p&gt;在家两周了，现在想来上一个工作日仿佛是十年前。我最后一天去学校上班是一个星期四，那周从周一开始就已经风声鹤唳了，但是我早就计划了工作到周四，所以还在每天早晚坐校车去学校，带饭盒去办公室吃。我们楼道里都是感应灯，平常到晚上十一点还灯火通明，在那一周下午四点就很暗了——组里的人也不去上班了。校车上只有零星的几个人，但还是只有我和另一个看起来是亚洲人的姑娘戴口罩。&lt;/p&gt;
@@ -2638,7 +2697,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。&lt;/p&gt;
 &lt;p&gt;我开口就一股东北味儿：K&lt;sub&gt;a&lt;/sub&gt;（kěi ēi），我自己都笑了。我说我高中化学老师是东北人。&lt;/p&gt;
@@ -2687,7 +2746,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天是2019年的第8天，新学期第一周的周二。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;今天是2019年的第8天，新学期第一周的周二。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;今天是2019年的第8天，新学期第一周的周二。&lt;/p&gt;
 &lt;p&gt;本学期的学业目标确实是不给人白嫖作业。上学期那个同学每周都来要作业抄让我觉得很烦，甚至他把抄作业似乎是算进了自己的写作业计划里，比如说直白地告诉我们周五要交的数学作业可以先不急，因为我们几个会先写，他可以到周三周四再来抄。这样说让我觉得他好像根本没有考虑过我不同意给他抄作业的情况，我很讨厌别人预估我的意志，而且居然还明目张胆地告诉我。所以这学期不想给他抄作业了，就算同专业有好几节课一样也不给。讨论作业很好，就是交流，算不得白嫖。讨论的前提是自己写了作业。&lt;/p&gt;
@@ -2740,7 +2799,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。&lt;/p&gt;
 &lt;p&gt;后来去上幼儿园，我常常生病，就常常去医院。有个儿科大夫家小孩跟我同岁，非常照顾我，我也眼见着她从普通门诊成了专家门诊。三五岁的我又迷恋上那件白大褂，纯净威严，胸前别枝钢笔，写一些没人看得懂的字。我在那个年纪上表达欲旺盛，大肆宣扬长大了要做医生。不过除了阿婆遭牙疼困扰时提起过等我以后学了医给她拔牙之外，实在是没人当真，渐渐也就不提这事儿了。十来岁的时候开始看小说，被福尔摩斯红发会那个故事吓得要死要活，但就是想跟华生一样做个军医，枪林弹雨中救死扶伤。后来看了更多侦探小说，又觉得做法医也很好，在案发现场搜寻蛛丝马迹，破案之后深藏功与名。一直到上中学，听说第二军医大的新生军训跟新兵营一样，负重拉练值班站岗样样都来，连训三个月，怂了。&lt;/p&gt;
@@ -2794,7 +2853,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。&lt;/p&gt;
 &lt;p&gt;事情是这样，我昨天下午和我校十大美少女之首，兼本项赛事发起者及评审人，叫她M好了，相约去吃师姐推荐的中餐馆。那时四点还缺几分钟，天已经有点黑了，北欧的冬天就是这样的烦人。她说我收拾一下，二十分钟吧。 半个多小时后，我们终于能出门了。&lt;/p&gt;
@@ -2873,7 +2932,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。&lt;/p&gt;
 &lt;p&gt;家里总做大排面吃，红烧大排，照常见的形容应该说是浓油赤酱。但并不，这个词听起来像是发甜油腻腻的走油蹄髈。红烧大排不是那样的，就是菜刀背敲松了的猪大排，放酱油红烧，不放糖，不勾芡，汤汁的粘滞系数不大。因为我不喜欢吃葱，所以家里烧菜不切葱花，整根整根的小葱扎成一束放进去烧。阿婆会把这道菜让给阿公烧，因为他，一个文革前的土木系大学生，快退休那两年天天在办公室打连连看的老头，烧这道菜更好一些。&lt;/p&gt;
@@ -2934,7 +2993,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;挺久之前写的给自己的二十岁贺文。但好像这几个月过去了我又已经不是这样的人了。经历了一些想了一些，没那么清楚接下来的路要怎么走。但好像也没那么重要，本来就没人知道前路是什么。&lt;/p&gt;
 &lt;p&gt;七岁的时候我跟班里的同学午休时间趴在花坛边上捉小蝴蝶。白色的那种，蠢蠢的，一停在花上叶子上，翅膀就并起来，小心地伸手别惊动它，一把捏住翅膀就能抓住。&lt;/p&gt;
@@ -3006,7 +3065,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;英美俄日法德意奥，鲁川粤闽苏浙湘徽。世界八国联军、我朝八大菜系，浓妆淡抹酸甜苦辣，在吃货的世界里争奇斗艳气象万千。&lt;/p&gt;
 &lt;p&gt;这么折腾矫情的段落确实不是我的风格。其实吧是这样，我有个朋友是韩国人，他说HSK的作文考试要求五百字内用十几个成语，我忍不住想尝试一下。&lt;/p&gt;
@@ -3071,7 +3130,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。&lt;/p&gt;…</summary>
             
                 <content type="html">&lt;p&gt;一 我以前从未被《读者》卷首文打动过，但是那一篇开头就写： 如果可以，我真想穿越回去告诉五年前的自己，请千万不要放弃，因为五年后你会过上你想要的生活。&lt;/p&gt;
 &lt;p&gt;我很感谢作者告诉今天的我：五年后你也可以过上你想要的生活，请不要放弃。好，我不会放弃。不会放弃这让我手足无措的生活。&lt;/p&gt;
