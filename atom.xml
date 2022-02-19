@@ -4,20 +4,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
     <title type="text">Middle of Nowhere</title>
     <subtitle type="html">Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.</subtitle>
-    <updated>2022-02-19T22:42:26&#43;08:00</updated>
-    <id>https://notes.midofnowhere.link/</id>
-    <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://notes.midofnowhere.link/atom.xml" />
+    <updated>2022-02-19T22:48:05&#43;08:00</updated>
+    <id>https://yue2.github.io/hugosite/</id>
+    <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://yue2.github.io/hugosite/atom.xml" />
     <author>
             <name>陆博学</name>
-            <uri>https://notes.midofnowhere.link/</uri>
+            <uri>https://yue2.github.io/</uri>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.79.0">Hugo</generator>
         <entry>
             <title type="text">站点装修记录</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/site-construction/" />
-            <id>https://notes.midofnowhere.link/posts/site-construction/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/site-construction/" />
+            <id>https://yue2.github.io/hugosite/posts/site-construction/</id>
             <updated>2022-02-19T22:20:36&#43;08:00</updated>
             <published>2022-02-16T10:56:23&#43;08:00</published>
             <author>
@@ -59,7 +59,7 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -69,13 +69,13 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%8D%9A%E5%AE%A2/" term="博客" label="博客" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%8D%9A%E5%AE%A2/" term="博客" label="博客" />
                             
                         
                     
@@ -85,8 +85,8 @@
     
         <entry>
             <title type="text">写笔记</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/note-taking/" />
-            <id>https://notes.midofnowhere.link/posts/note-taking/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/note-taking/" />
+            <id>https://yue2.github.io/hugosite/posts/note-taking/</id>
             <updated>2022-02-12T17:09:24&#43;08:00</updated>
             <published>2022-02-12T15:14:11&#43;08:00</published>
             <author>
@@ -121,7 +121,7 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -131,13 +131,13 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%96%B9%E6%B3%95/" term="方法" label="方法" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%96%B9%E6%B3%95/" term="方法" label="方法" />
                             
                         
                     
@@ -147,8 +147,8 @@
     
         <entry>
             <title type="text">看足球和篮球</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/watching-sports/" />
-            <id>https://notes.midofnowhere.link/posts/watching-sports/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/watching-sports/" />
+            <id>https://yue2.github.io/hugosite/posts/watching-sports/</id>
             <updated>2022-02-12T17:13:33&#43;08:00</updated>
             <published>2022-02-01T20:18:10&#43;08:00</published>
             <author>
@@ -177,7 +177,7 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -187,13 +187,13 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%BF%90%E5%8A%A8/" term="运动" label="运动" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%BF%90%E5%8A%A8/" term="运动" label="运动" />
                             
                         
                     
@@ -203,8 +203,8 @@
     
         <entry>
             <title type="text">Wk3 2022</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/wk3-2022/" />
-            <id>https://notes.midofnowhere.link/posts/wk3-2022/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/wk3-2022/" />
+            <id>https://yue2.github.io/hugosite/posts/wk3-2022/</id>
             <updated>2022-01-23T23:07:26&#43;08:00</updated>
             <published>2022-01-22T10:24:45&#43;08:00</published>
             <author>
@@ -218,7 +218,7 @@
 &lt;p&gt;新的一年本来计划规律作息重新做人，于是买了一个带闹钟的小夜灯，把手机充电器从床头柜转移到了书桌上，经过一周的实践，事实证明调整起床时间很有效，工作日八点左右能自己醒来，就算今天周六关掉了闹钟，睡到九点也还是醒了。问题出在了晚上还是不愿睡得早，拖拖拉拉玩玩闹闹总也要搞到一两点。最近还用上了手环的睡觉监测功能，本来这个手环买来只是为了锻炼用，从未发现有睡觉功能，但是寒假里陪扁老师买了苹果表，于是决定自己也用一用手环。华为的睡眠质量算法很严格，老说我深度睡眠太少！深度睡眠还不连续！偏偏我一个小镇做题家，看到带评分的就想刷，每天早上醒来躺在床上都要等我的前一夜评分打出来才肯起床。更奇妙的是，我本来前一晚一点半过了才睡八点又醒，感觉睡不够，还没发起床气呢，一看手机发现它给我评分80，我一下子就觉得昨夜睡得也不错，挺清醒的，又能起床了。&lt;/p&gt;
 &lt;p&gt;上周在会议室开了组会，从我入学这一两年来恐怕只开过个位数的线下会议，这个大会议室只来过一次，上次开完秘书姐姐问我要学号，帮我开了门禁，我竟再没有机会刷开这个门！Physically 看见老板我甚至还有点不习惯，一边讲一边脑子里闪过“老板原来长这样吗？”。结果报告讲得很顺利，老板也觉得挺不错，我又在后悔周四这么紧张！&lt;/p&gt;
 &lt;p&gt;给自己买了新的ipad mini 作为新年礼物，非常开心地折腾，来回试用app, 再一比较先前一直在用的2017版，突然就显得屏幕也旧了 touch ID 也慢，但是用到现在还完全不卡，苹果也是有一首哈哈。&lt;/p&gt;
-&lt;p&gt;根据&lt;a href=&#34;https://notes.midofnowhere.link/posts/new-year-2022/&#34;&gt;新年计划&lt;/a&gt;，本周勉勉强强偷工减料地锻炼了三天，周末没搞社交性体育活动。&lt;/p&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://yue2.github.io/hugosite/posts/new-year-2022/&#34;&gt;新年计划&lt;/a&gt;，本周勉勉强强偷工减料地锻炼了三天，周末没搞社交性体育活动。&lt;/p&gt;
 &lt;p&gt;周中工作的时候，只要是我一个人宁静而忙碌地窝超净间，我都会听耳机，这周打开了《有点田园》在回顾，不禁发了一点&lt;a href=&#34;https://pullopen.xyz/@boxue/107649464223796700&#34;&gt;感想&lt;/a&gt;：
 “这两天在cleanroom安详工作的时候听起了《有点田园》以前没听过的几集节目，以前没听是因为觉得制作水平太参差了，几个人的音量都拉不平，一会儿声大一会儿声小，而且大多数是远程录制的，视频对话的间隔也没剪干净。结果在我对整个中文播客都厌倦了的时候想起来听的居然还是《有点田园》，发现我最近慢慢想通的事情他们2019年就想过了，想得还比我好、比我深入、比我彻底，他们一直在想还在一直进步，节目也做得越来越好。站在今日的世界，回头再看肖美丽前两年遭受的无妄之灾，竟冥冥中似是必然。&lt;br&gt;
 我还在豆瓣开过这个节目的条目，被豆瓣悄没声儿删了。”&lt;/p&gt;
@@ -234,7 +234,7 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -244,13 +244,13 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%91%A8%E8%AE%B0/" term="周记" label="周记" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%91%A8%E8%AE%B0/" term="周记" label="周记" />
                             
                         
                     
@@ -260,8 +260,8 @@
     
         <entry>
             <title type="text">2022新年展望</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/new-year-2022/" />
-            <id>https://notes.midofnowhere.link/posts/new-year-2022/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/new-year-2022/" />
+            <id>https://yue2.github.io/hugosite/posts/new-year-2022/</id>
             <updated>2022-01-09T23:26:51&#43;08:00</updated>
             <published>2022-01-09T22:11:10&#43;08:00</published>
             <author>
@@ -304,7 +304,7 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -314,13 +314,13 @@
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%96%B0%E5%B9%B4nyr/" term="新年NYR" label="新年NYR" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%96%B0%E5%B9%B4nyr/" term="新年NYR" label="新年NYR" />
                             
                         
                     
@@ -330,8 +330,8 @@
     
         <entry>
             <title type="text">用VPS部署静态网页</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/hugo-build-host/" />
-            <id>https://notes.midofnowhere.link/posts/hugo-build-host/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/hugo-build-host/" />
+            <id>https://yue2.github.io/hugosite/posts/hugo-build-host/</id>
             <updated>2021-12-24T00:30:23&#43;08:00</updated>
             <published>2021-12-23T23:21:08&#43;08:00</published>
             <author>
@@ -411,7 +411,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;还需要改进的地方&#34;&gt;还需要改进的地方&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://notes.midofnowhere.link/posts/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;添加互动模块：用waline评论或接入fediverse动态显示。&lt;/li&gt;
 &lt;li&gt;configure NGINX 改用其他端口以安装多个服务或网站。&lt;/li&gt;
 &lt;li&gt;把博客搬到子域名。&lt;/li&gt;
@@ -428,7 +428,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -438,13 +438,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%BD%91%E9%A1%B5/" term="网页" label="网页" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%BD%91%E9%A1%B5/" term="网页" label="网页" />
                             
                         
                     
@@ -454,8 +454,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">隔离日记（二）</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/2021-wk51/" />
-            <id>https://notes.midofnowhere.link/posts/2021-wk51/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/2021-wk51/" />
+            <id>https://yue2.github.io/hugosite/posts/2021-wk51/</id>
             <updated>2021-12-22T23:59:48&#43;08:00</updated>
             <published>2021-12-20T21:19:17&#43;08:00</published>
             <author>
@@ -484,7 +484,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -494,7 +494,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -504,8 +504,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Media Play Test</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/shortcode_test/" />
-            <id>https://notes.midofnowhere.link/posts/shortcode_test/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/shortcode_test/" />
+            <id>https://yue2.github.io/hugosite/posts/shortcode_test/</id>
             <updated>2021-12-20T21:24:06&#43;08:00</updated>
             <published>2021-12-08T15:46:20&#43;08:00</published>
             <author>
@@ -518,7 +518,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;p&gt;share link
 &lt;a href=&#34;https://www.bilibili.com/video/BV1ri4y1G7vC?share_source=copy_web&#34;&gt;https://www.bilibili.com/video/BV1ri4y1G7vC?share_source=copy_web&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;iframe&lt;/p&gt;
-&lt;iframe src=&#34;https://notes.midofnowhere.link//player.bilibili.com/player.html?aid=541136693&amp;bvid=BV1ri4y1G7vC&amp;cid=208086890&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;0&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;fullscreen picture-in-picture encrypted-media&#34; width=&#34;100%&#34; height=&#34;auto&#34;&gt; &lt;/iframe&gt;
+&lt;iframe src=&#34;https://yue2.github.io/hugosite//player.bilibili.com/player.html?aid=541136693&amp;bvid=BV1ri4y1G7vC&amp;cid=208086890&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;0&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;fullscreen picture-in-picture encrypted-media&#34; width=&#34;100%&#34; height=&#34;auto&#34;&gt; &lt;/iframe&gt;
 &lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
 &lt;p&gt;iframe embedded&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/_yReBfDw2vU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -536,7 +536,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -546,13 +546,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/tester/" term="tester" label="tester" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/tester/" term="tester" label="tester" />
                             
                         
                     
@@ -562,8 +562,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">隔离日记（一）</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/quarantine-diary-1/" />
-            <id>https://notes.midofnowhere.link/posts/quarantine-diary-1/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/quarantine-diary-1/" />
+            <id>https://yue2.github.io/hugosite/posts/quarantine-diary-1/</id>
             <updated>2021-12-07T22:16:34&#43;08:00</updated>
             <published>2021-12-07T21:26:48&#43;08:00</published>
             <author>
@@ -578,7 +578,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;p&gt;家里人觉得我每天在隔离房间里无所事事，我妈变本加厉地每天都给我打视频。我理智上知道已经很久没有见他们了，而且长辈们年纪大了我也确实应该多关心他们，而且他们为了我回来都很高兴做了这样那样的事儿；但心理上我快被每天二三十分钟的无聊对话逼疯了，我妈变着花样旁敲侧击让我找男人，问我学校里男生怎么样，朋友的男友怎么样，他们又认识我的哪个同龄人要结婚了。以前每周应付一次之后都要缓一缓，现在每天都来真的快把我逼疯了，我一个人呆着可没有这么烦躁。&lt;/p&gt;
 &lt;p&gt;对于这十几二十天隔离期的安排，我在休假前做了一大波实验，准备在酒店房间处理数据，到现在还什么都没做。给老板发了资格考试需要的准备，到现在也一篇文章都还没看。还计划着趁有时间好好装一下服务器，到现在也没打开&lt;code&gt;Termius&lt;/code&gt;。还计划整理一下博客，好好装修一下写两篇东西，这两天可算是做了一点装修。&lt;/p&gt;
 &lt;p&gt;我知道有一个管理工作事项的方法就是四象限标记，也就是把“重要”、“紧急”分别画成横纵坐标，这样就能划出四个象限，以此安排工作的顺序。但是从上一段里不难看出，我总是在待办事项里精心挑选出最不紧急不重要的事情来做，然后拖到重要的事情死线临头才开始疯狂操作。要我说，问题不是不知道合理的工作顺序，而是没法说服自己做正确的事儿。或许吧，或许我已经浪费了太多人生。&lt;/p&gt;
-&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;https://notes.midofnowhere.link/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</content>
+&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;https://yue2.github.io/hugosite/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</content>
             
             
             
@@ -590,7 +590,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -600,13 +600,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
                             
                         
                     
@@ -616,8 +616,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Construction Log</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/construction-log/" />
-            <id>https://notes.midofnowhere.link/posts/construction-log/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/construction-log/" />
+            <id>https://yue2.github.io/hugosite/posts/construction-log/</id>
             <updated>2021-12-07T19:50:12&#43;08:00</updated>
             <published>2021-12-06T23:47:14&#43;08:00</published>
             <author>
@@ -683,7 +683,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -693,7 +693,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -703,17 +703,17 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">荧光和磷光</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/spontaneous-emission/" />
-            <id>https://notes.midofnowhere.link/posts/spontaneous-emission/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/spontaneous-emission/" />
+            <id>https://yue2.github.io/hugosite/posts/spontaneous-emission/</id>
             <updated>2021-12-07T22:12:14&#43;08:00</updated>
             <published>2021-11-15T16:04:14&#43;08:00</published>
             <author>
                     <name>陆博学</name>
                     <uri>https://io-oi.me/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://notes.midofnowhere.link/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;…</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;…</summary>
             
-                <content type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://notes.midofnowhere.link/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
+                <content type="html">&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://yue2.github.io/hugosite/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
 &lt;p&gt;【本回内容】但是激发态不宜久留，电子自己也会回到基态，多余的能量就会辐射出光子，这个过程叫自发辐射。自发辐射又可以分为荧光(fluorescence)和磷光(phosphorescence)，不同之处主要在于这两个过程产生辐射的激发态不一样。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.researchgate.net/profile/Michael-Eck-2/publication/279824911/figure/fig10/AS:614322640257035@1523477339543/Jablonski-diagram-explaining-the-occurrence-of-fluorescence-and.png&#34; alt=&#34;Jablonski diagram&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图1是电子能级示意图，S&lt;sub&gt;0&lt;/sub&gt;基态，吸收一个紫色光子被激发到了S&lt;sub&gt;1&lt;/sub&gt;激发态，如果从S&lt;sub&gt;1&lt;/sub&gt;直接落回基态，这就是荧光。由于降落过程中会以振动形式损失一些能量，所以荧光发射的光可能是绿色的，从吸收光到发射光的波长差叫做斯托克斯位移。如果没有从S&lt;sub&gt;1&lt;/sub&gt;直接回到S&lt;sub&gt;0&lt;/sub&gt;，而是先来到了T&lt;/sub&gt;1&lt;/sub&gt;态再回到S&lt;sub&gt;0&lt;/sub&gt;，那这个发光过程叫磷光。&lt;/p&gt;
@@ -737,7 +737,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -747,7 +747,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
                             
                         
                     
@@ -757,8 +757,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">扁平足</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/physio/" />
-            <id>https://notes.midofnowhere.link/posts/physio/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/physio/" />
+            <id>https://yue2.github.io/hugosite/posts/physio/</id>
             <updated>2021-12-06T22:07:30&#43;08:00</updated>
             <published>2021-10-30T19:19:17&#43;08:00</published>
             <author>
@@ -786,7 +786,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -796,7 +796,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -806,8 +806,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Ch3</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/ch3/" />
-            <id>https://notes.midofnowhere.link/posts/ch3/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/ch3/" />
+            <id>https://yue2.github.io/hugosite/posts/ch3/</id>
             <updated>2021-12-05T22:39:29&#43;08:00</updated>
             <published>2021-10-02T20:41:53&#43;08:00</published>
             <author>
@@ -847,7 +847,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -857,19 +857,19 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -879,8 +879,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Ch2</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/ch2/" />
-            <id>https://notes.midofnowhere.link/posts/ch2/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/ch2/" />
+            <id>https://yue2.github.io/hugosite/posts/ch2/</id>
             <updated>2021-10-03T16:28:54&#43;08:00</updated>
             <published>2021-10-02T20:38:50&#43;08:00</published>
             <author>
@@ -923,19 +923,19 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%B0%8F%E8%AF%B4/" term="小说" label="小说" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -945,8 +945,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Image Post Test</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/image-post/" />
-            <id>https://notes.midofnowhere.link/posts/image-post/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/image-post/" />
+            <id>https://yue2.github.io/hugosite/posts/image-post/</id>
             <updated>2021-12-05T22:41:36&#43;08:00</updated>
             <published>2021-10-02T18:16:15&#43;08:00</published>
             <author>
@@ -970,7 +970,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/" term="图册" label="图册" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%9B%BE%E5%86%8C/" term="图册" label="图册" />
                             
                         
                     
@@ -982,8 +982,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Blog Roll</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/blog-roll/" />
-            <id>https://notes.midofnowhere.link/posts/blog-roll/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/blog-roll/" />
+            <id>https://yue2.github.io/hugosite/posts/blog-roll/</id>
             <updated>2021-12-07T15:41:34&#43;08:00</updated>
             <published>2021-09-26T00:00:00&#43;00:00</published>
             <author>
@@ -1009,8 +1009,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">做一个激光需要几步</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/laser/" />
-            <id>https://notes.midofnowhere.link/posts/laser/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/laser/" />
+            <id>https://yue2.github.io/hugosite/posts/laser/</id>
             <updated>2021-12-06T21:59:39&#43;08:00</updated>
             <published>2021-08-23T16:53:21&#43;08:00</published>
             <author>
@@ -1040,7 +1040,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1050,13 +1050,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -1066,8 +1066,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Albert and Marie</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/albert-and-marie/" />
-            <id>https://notes.midofnowhere.link/posts/albert-and-marie/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/albert-and-marie/" />
+            <id>https://yue2.github.io/hugosite/posts/albert-and-marie/</id>
             <updated>2021-12-06T21:47:55&#43;08:00</updated>
             <published>2021-07-06T12:06:58&#43;08:00</published>
             <author>
@@ -1095,7 +1095,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1105,7 +1105,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
                             
                         
                     
@@ -1115,8 +1115,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">六月底</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/late-june/" />
-            <id>https://notes.midofnowhere.link/posts/late-june/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/late-june/" />
+            <id>https://yue2.github.io/hugosite/posts/late-june/</id>
             <updated>2021-12-05T22:41:58&#43;08:00</updated>
             <published>2021-06-23T06:07:45&#43;00:00</published>
             <author>
@@ -1143,7 +1143,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1153,7 +1153,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -1163,8 +1163,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">SEM - 扫描电子显微镜</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/sem/" />
-            <id>https://notes.midofnowhere.link/posts/sem/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/sem/" />
+            <id>https://yue2.github.io/hugosite/posts/sem/</id>
             <updated>2021-12-06T21:59:28&#43;08:00</updated>
             <published>2021-06-07T20:22:30&#43;08:00</published>
             <author>
@@ -1198,7 +1198,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1208,7 +1208,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%A7%91%E6%99%AE/" term="科普" label="科普" />
                             
                         
                     
@@ -1218,8 +1218,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">打工谈20210601 - podcast</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/worktalk-podcast/" />
-            <id>https://notes.midofnowhere.link/posts/worktalk-podcast/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/worktalk-podcast/" />
+            <id>https://yue2.github.io/hugosite/posts/worktalk-podcast/</id>
             <updated>2021-12-05T22:43:59&#43;08:00</updated>
             <published>2021-06-01T12:23:57&#43;00:00</published>
             <author>
@@ -1243,7 +1243,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1253,13 +1253,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/podcast/" term="podcast" label="podcast" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/podcast/" term="podcast" label="podcast" />
                             
                         
                     
@@ -1269,8 +1269,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">嗑学评论</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/fandom-talk/" />
-            <id>https://notes.midofnowhere.link/posts/fandom-talk/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/fandom-talk/" />
+            <id>https://yue2.github.io/hugosite/posts/fandom-talk/</id>
             <updated>2021-12-05T22:41:14&#43;08:00</updated>
             <published>2021-05-21T06:30:08&#43;00:00</published>
             <author>
@@ -1299,7 +1299,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1309,13 +1309,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -1325,8 +1325,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">锡纸大虾</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/bbq-shrimp/" />
-            <id>https://notes.midofnowhere.link/posts/bbq-shrimp/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/bbq-shrimp/" />
+            <id>https://yue2.github.io/hugosite/posts/bbq-shrimp/</id>
             <updated>2021-12-05T22:40:36&#43;08:00</updated>
             <published>2021-05-20T12:45:43&#43;00:00</published>
             <author>
@@ -1375,7 +1375,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1385,7 +1385,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1395,8 +1395,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Ugly Delicious Netflix</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/ugly-delicious-netflix-reality-show/" />
-            <id>https://notes.midofnowhere.link/posts/ugly-delicious-netflix-reality-show/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/" />
+            <id>https://yue2.github.io/hugosite/posts/ugly-delicious-netflix-reality-show/</id>
             <updated>2021-12-05T22:43:38&#43;08:00</updated>
             <published>2021-05-20T12:16:30&#43;00:00</published>
             <author>
@@ -1421,7 +1421,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1431,13 +1431,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%BD%B1/" term="影" label="影" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%BD%B1/" term="影" label="影" />
                             
                         
                     
@@ -1447,8 +1447,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Pan pizza (not really)</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/pan-pizza-not-really/" />
-            <id>https://notes.midofnowhere.link/posts/pan-pizza-not-really/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/pan-pizza-not-really/" />
+            <id>https://yue2.github.io/hugosite/posts/pan-pizza-not-really/</id>
             <updated>2021-12-05T22:42:32&#43;08:00</updated>
             <published>2021-05-15T16:22:09&#43;00:00</published>
             <author>
@@ -1527,7 +1527,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1537,13 +1537,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AE%B0%E5%BD%95/" term="记录" label="记录" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AE%B0%E5%BD%95/" term="记录" label="记录" />
                             
                         
                     
@@ -1553,8 +1553,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">关于时事的反思</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/reflection-on-politics/" />
-            <id>https://notes.midofnowhere.link/posts/reflection-on-politics/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/reflection-on-politics/" />
+            <id>https://yue2.github.io/hugosite/posts/reflection-on-politics/</id>
             <updated>2021-12-05T22:43:16&#43;08:00</updated>
             <published>2021-05-13T07:15:44&#43;00:00</published>
             <author>
@@ -1581,7 +1581,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1591,7 +1591,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -1601,8 +1601,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">你喜欢搭乐高吗</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/atomic-lego/" />
-            <id>https://notes.midofnowhere.link/posts/atomic-lego/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/atomic-lego/" />
+            <id>https://yue2.github.io/hugosite/posts/atomic-lego/</id>
             <updated>2021-12-06T21:59:04&#43;08:00</updated>
             <published>2021-05-06T19:25:38&#43;08:00</published>
             <author>
@@ -1633,7 +1633,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1643,7 +1643,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -1653,8 +1653,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">分享一个商战故事</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/hdd-biz-war/" />
-            <id>https://notes.midofnowhere.link/posts/hdd-biz-war/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/hdd-biz-war/" />
+            <id>https://yue2.github.io/hugosite/posts/hdd-biz-war/</id>
             <updated>2021-12-06T21:57:43&#43;08:00</updated>
             <published>2021-04-12T11:55:53&#43;08:00</published>
             <author>
@@ -1683,7 +1683,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -1693,7 +1693,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/" term="论文导读" label="论文导读" />
                             
                         
                     
@@ -1703,8 +1703,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《正义联盟施耐德版》 - 电影</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/justice-league-schneider-movie/" />
-            <id>https://notes.midofnowhere.link/posts/justice-league-schneider-movie/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/justice-league-schneider-movie/" />
+            <id>https://yue2.github.io/hugosite/posts/justice-league-schneider-movie/</id>
             <updated>2021-12-05T22:41:45&#43;08:00</updated>
             <published>2021-03-21T15:47:18&#43;00:00</published>
             <author>
@@ -1730,7 +1730,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1740,13 +1740,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%BD%B1/" term="影" label="影" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%BD%B1/" term="影" label="影" />
                             
                         
                     
@@ -1756,8 +1756,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《飞行家》 - 双雪涛 - 短篇小说集</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/pilot-fiction-shuang/" />
-            <id>https://notes.midofnowhere.link/posts/pilot-fiction-shuang/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/pilot-fiction-shuang/" />
+            <id>https://yue2.github.io/hugosite/posts/pilot-fiction-shuang/</id>
             <updated>2021-12-05T22:42:45&#43;08:00</updated>
             <published>2021-02-19T06:26:56&#43;00:00</published>
             <author>
@@ -1784,7 +1784,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1794,13 +1794,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1810,8 +1810,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/fsq-fiction-lin/" />
-            <id>https://notes.midofnowhere.link/posts/fsq-fiction-lin/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/fsq-fiction-lin/" />
+            <id>https://yue2.github.io/hugosite/posts/fsq-fiction-lin/</id>
             <updated>2021-12-05T22:41:22&#43;08:00</updated>
             <published>2021-02-19T06:25:38&#43;00:00</published>
             <author>
@@ -1834,7 +1834,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -1844,13 +1844,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -1860,8 +1860,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">小高姐烤鸡翅</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/chicken-wings/" />
-            <id>https://notes.midofnowhere.link/posts/chicken-wings/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/chicken-wings/" />
+            <id>https://yue2.github.io/hugosite/posts/chicken-wings/</id>
             <updated>2021-12-05T22:40:53&#43;08:00</updated>
             <published>2021-02-10T03:10:39&#43;00:00</published>
             <author>
@@ -1906,7 +1906,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1916,7 +1916,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1926,8 +1926,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">Amanda春川辣炒鸡</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/korean-chicken/" />
-            <id>https://notes.midofnowhere.link/posts/korean-chicken/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/korean-chicken/" />
+            <id>https://yue2.github.io/hugosite/posts/korean-chicken/</id>
             <updated>2021-12-08T16:05:23&#43;08:00</updated>
             <published>2021-02-10T03:05:58&#43;00:00</published>
             <author>
@@ -1964,7 +1964,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;li&gt;搅拌，吃&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1g5411478Z&#34;&gt;成功经验&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src=&#34;https://notes.midofnowhere.link//player.bilibili.com/player.html?aid=455528185&amp;bvid=BV1g5411478Z&amp;cid=189237404&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;</content>
+&lt;iframe src=&#34;https://yue2.github.io/hugosite//player.bilibili.com/player.html?aid=455528185&amp;bvid=BV1g5411478Z&amp;cid=189237404&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;</content>
             
             
             
@@ -1976,7 +1976,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -1986,7 +1986,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -1996,8 +1996,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">胖哥俩类似鸡爪煲</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/chicken-feet-stew/" />
-            <id>https://notes.midofnowhere.link/posts/chicken-feet-stew/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/chicken-feet-stew/" />
+            <id>https://yue2.github.io/hugosite/posts/chicken-feet-stew/</id>
             <updated>2021-12-05T22:40:45&#43;08:00</updated>
             <published>2021-02-09T09:16:17&#43;00:00</published>
             <author>
@@ -2034,7 +2034,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -2044,7 +2044,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -2054,8 +2054,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">农师傅椒麻鸡</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/spicy-chicken-salad/" />
-            <id>https://notes.midofnowhere.link/posts/spicy-chicken-salad/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/spicy-chicken-salad/" />
+            <id>https://yue2.github.io/hugosite/posts/spicy-chicken-salad/</id>
             <updated>2021-12-05T22:43:23&#43;08:00</updated>
             <published>2021-02-09T09:13:08&#43;00:00</published>
             <author>
@@ -2108,7 +2108,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -2118,7 +2118,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%8F%9C%E8%B0%B1/" term="菜谱" label="菜谱" />
                             
                         
                     
@@ -2128,8 +2128,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">我的播客制作经验</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/how-to-produce-a-podcast/" />
-            <id>https://notes.midofnowhere.link/posts/how-to-produce-a-podcast/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/" />
+            <id>https://yue2.github.io/hugosite/posts/how-to-produce-a-podcast/</id>
             <updated>2021-12-05T22:41:29&#43;08:00</updated>
             <published>2021-02-08T11:51:45&#43;00:00</published>
             <author>
@@ -2156,7 +2156,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                     
@@ -2166,13 +2166,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/podcast/" term="podcast" label="podcast" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/podcast/" term="podcast" label="podcast" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -2182,8 +2182,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">网站搭建尝试</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/web-construction/" />
-            <id>https://notes.midofnowhere.link/posts/web-construction/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/web-construction/" />
+            <id>https://yue2.github.io/hugosite/posts/web-construction/</id>
             <updated>2021-10-02T15:18:38&#43;08:00</updated>
             <published>2021-02-06T10:58:07&#43;00:00</published>
             <author>
@@ -2207,7 +2207,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -2217,8 +2217,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">一场纪念</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/a-monument/" />
-            <id>https://notes.midofnowhere.link/posts/a-monument/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/a-monument/" />
+            <id>https://yue2.github.io/hugosite/posts/a-monument/</id>
             <updated>2021-12-05T22:40:20&#43;08:00</updated>
             <published>2021-02-06T08:33:27&#43;00:00</published>
             <author>
@@ -2240,7 +2240,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2250,13 +2250,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2266,8 +2266,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">关于</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/about/" />
-            <id>https://notes.midofnowhere.link/posts/about/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/about/" />
+            <id>https://yue2.github.io/hugosite/posts/about/</id>
             <updated>2021-10-05T23:15:38&#43;08:00</updated>
             <published>2021-02-01T10:59:09&#43;00:00</published>
             <author>
@@ -2293,8 +2293,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/pomodero-method-nonfic/" />
-            <id>https://notes.midofnowhere.link/posts/pomodero-method-nonfic/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/pomodero-method-nonfic/" />
+            <id>https://yue2.github.io/hugosite/posts/pomodero-method-nonfic/</id>
             <updated>2021-12-05T22:42:52&#43;08:00</updated>
             <published>2021-01-23T06:28:25&#43;00:00</published>
             <author>
@@ -2320,7 +2320,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2330,13 +2330,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -2346,8 +2346,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">大纲</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/outline/" />
-            <id>https://notes.midofnowhere.link/posts/outline/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/outline/" />
+            <id>https://yue2.github.io/hugosite/posts/outline/</id>
             <updated>2021-12-05T22:39:42&#43;08:00</updated>
             <published>2020-12-17T10:31:49&#43;00:00</published>
             <author>
@@ -2370,7 +2370,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2380,13 +2380,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/" term="哈利波特" label="哈利波特" />
                             
                         
                     
@@ -2396,8 +2396,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《爱因斯坦自选集》 - Albert Einstein - 杂文集</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/einstein-nonfic-einstein/" />
-            <id>https://notes.midofnowhere.link/posts/einstein-nonfic-einstein/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/" />
+            <id>https://yue2.github.io/hugosite/posts/einstein-nonfic-einstein/</id>
             <updated>2021-12-05T22:41:06&#43;08:00</updated>
             <published>2020-11-24T06:23:48&#43;00:00</published>
             <author>
@@ -2420,7 +2420,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2430,13 +2430,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -2446,8 +2446,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《红星照耀中国》 - Edgar Snow - 非虚构</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/red-star-on-china-nonfic-snow/" />
-            <id>https://notes.midofnowhere.link/posts/red-star-on-china-nonfic-snow/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/" />
+            <id>https://yue2.github.io/hugosite/posts/red-star-on-china-nonfic-snow/</id>
             <updated>2021-12-05T22:43:06&#43;08:00</updated>
             <published>2020-11-23T06:22:02&#43;00:00</published>
             <author>
@@ -2470,7 +2470,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2480,13 +2480,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -2496,8 +2496,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">我有一个登机箱</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/my-carry-on/" />
-            <id>https://notes.midofnowhere.link/posts/my-carry-on/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/my-carry-on/" />
+            <id>https://yue2.github.io/hugosite/posts/my-carry-on/</id>
             <updated>2021-12-05T22:42:04&#43;08:00</updated>
             <published>2020-10-05T10:58:27&#43;00:00</published>
             <author>
@@ -2522,7 +2522,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2532,7 +2532,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2542,8 +2542,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">学术生涯困惑</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/before_phd/" />
-            <id>https://notes.midofnowhere.link/posts/before_phd/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/before_phd/" />
+            <id>https://yue2.github.io/hugosite/posts/before_phd/</id>
             <updated>2021-12-08T13:19:46&#43;08:00</updated>
             <published>2020-09-08T22:32:31&#43;08:00</published>
             <author>
@@ -2569,7 +2569,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E5%AD%A6%E6%9C%AF/" term="学术" label="学术" />
                             
                         
                     
@@ -2579,13 +2579,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -2595,8 +2595,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">《新婚之夜》 - 辽京 - 中短篇小说集</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/newwed-fiction-liao/" />
-            <id>https://notes.midofnowhere.link/posts/newwed-fiction-liao/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/newwed-fiction-liao/" />
+            <id>https://yue2.github.io/hugosite/posts/newwed-fiction-liao/</id>
             <updated>2021-12-05T22:42:19&#43;08:00</updated>
             <published>2020-08-03T06:21:27&#43;00:00</published>
             <author>
@@ -2619,7 +2619,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2629,13 +2629,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E8%AF%84%E8%AE%BA/" term="评论" label="评论" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E4%B9%A6/" term="书" label="书" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E4%B9%A6/" term="书" label="书" />
                             
                         
                     
@@ -2645,8 +2645,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">疫区周记</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/weekly-in-quarantine/" />
-            <id>https://notes.midofnowhere.link/posts/weekly-in-quarantine/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/weekly-in-quarantine/" />
+            <id>https://yue2.github.io/hugosite/posts/weekly-in-quarantine/</id>
             <updated>2021-12-05T22:43:48&#43;08:00</updated>
             <published>2020-04-10T11:04:08&#43;00:00</published>
             <author>
@@ -2673,7 +2673,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2683,13 +2683,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%96%AB%E6%83%85/" term="疫情" label="疫情" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2699,8 +2699,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">一个我喜欢的老师</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/my_highschool_teacher/" />
-            <id>https://notes.midofnowhere.link/posts/my_highschool_teacher/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/my_highschool_teacher/" />
+            <id>https://yue2.github.io/hugosite/posts/my_highschool_teacher/</id>
             <updated>2021-12-08T13:38:39&#43;08:00</updated>
             <published>2019-05-10T04:44:22&#43;08:00</published>
             <author>
@@ -2728,7 +2728,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2738,7 +2738,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2748,8 +2748,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">2019新年计划</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/new_year_2019/" />
-            <id>https://notes.midofnowhere.link/posts/new_year_2019/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/new_year_2019/" />
+            <id>https://yue2.github.io/hugosite/posts/new_year_2019/</id>
             <updated>2021-12-08T13:38:52&#43;08:00</updated>
             <published>2019-01-09T03:47:22&#43;08:00</published>
             <author>
@@ -2775,7 +2775,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
                             
                         
                     
@@ -2785,13 +2785,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2801,8 +2801,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">22岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/22-birthday/" />
-            <id>https://notes.midofnowhere.link/posts/22-birthday/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/22-birthday/" />
+            <id>https://yue2.github.io/hugosite/posts/22-birthday/</id>
             <updated>2021-12-05T22:40:09&#43;08:00</updated>
             <published>2018-03-05T23:46:08&#43;00:00</published>
             <author>
@@ -2829,7 +2829,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2839,13 +2839,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/bday/" term="bday" label="bday" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2855,8 +2855,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">一个恐怖故事</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/random-horror-story/" />
-            <id>https://notes.midofnowhere.link/posts/random-horror-story/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/random-horror-story/" />
+            <id>https://yue2.github.io/hugosite/posts/random-horror-story/</id>
             <updated>2021-12-05T22:42:59&#43;08:00</updated>
             <published>2017-11-05T11:20:54&#43;00:00</published>
             <author>
@@ -2914,7 +2914,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2924,7 +2924,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2934,8 +2934,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">21岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/21-birthday/" />
-            <id>https://notes.midofnowhere.link/posts/21-birthday/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/21-birthday/" />
+            <id>https://yue2.github.io/hugosite/posts/21-birthday/</id>
             <updated>2021-12-05T22:40:03&#43;08:00</updated>
             <published>2017-03-01T11:23:42&#43;00:00</published>
             <author>
@@ -2969,7 +2969,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -2979,13 +2979,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/bday/" term="bday" label="bday" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -2995,8 +2995,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">20岁生日留念</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/20-birthday/" />
-            <id>https://notes.midofnowhere.link/posts/20-birthday/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/20-birthday/" />
+            <id>https://yue2.github.io/hugosite/posts/20-birthday/</id>
             <updated>2021-12-05T22:39:53&#43;08:00</updated>
             <published>2016-06-20T11:26:23&#43;00:00</published>
             <author>
@@ -3041,7 +3041,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -3051,13 +3051,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/bday/" term="bday" label="bday" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
@@ -3067,8 +3067,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">论食堂菜系</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/on-school-canteen/" />
-            <id>https://notes.midofnowhere.link/posts/on-school-canteen/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/on-school-canteen/" />
+            <id>https://yue2.github.io/hugosite/posts/on-school-canteen/</id>
             <updated>2021-12-05T22:42:25&#43;08:00</updated>
             <published>2015-09-11T07:34:54&#43;00:00</published>
             <author>
@@ -3106,7 +3106,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -3116,13 +3116,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/" term="某档美食栏目" label="某档美食栏目" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E6%9F%90%E6%A1%A3%E7%BE%8E%E9%A3%9F%E6%A0%8F%E7%9B%AE/" term="某档美食栏目" label="某档美食栏目" />
                             
                         
                     
@@ -3132,8 +3132,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
     
         <entry>
             <title type="text">成年自述</title>
-            <link rel="alternate" type="text/html" href="https://notes.midofnowhere.link/posts/stepping-into-adulthood/" />
-            <id>https://notes.midofnowhere.link/posts/stepping-into-adulthood/</id>
+            <link rel="alternate" type="text/html" href="https://yue2.github.io/hugosite/posts/stepping-into-adulthood/" />
+            <id>https://yue2.github.io/hugosite/posts/stepping-into-adulthood/</id>
             <updated>2021-12-05T22:43:29&#43;08:00</updated>
             <published>2014-03-14T11:27:20&#43;00:00</published>
             <author>
@@ -3164,7 +3164,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
+                                <category scheme="https://yue2.github.io/hugosite/categories/%E6%96%87%E7%AB%A0/" term="文章" label="文章" />
                             
                         
                     
@@ -3174,13 +3174,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/bday/" term="bday" label="bday" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/bday/" term="bday" label="bday" />
                             
                         
                             
                             
                             
-                                <category scheme="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                                <category scheme="https://yue2.github.io/hugosite/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
                             
                         
                     
