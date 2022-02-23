@@ -3,47 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.midofnowhere.link/blogroll/</loc>
+    <lastmod>2022-02-23T23:35:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/posts/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-20T19:30:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/site-construction/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <loc>https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2022-02-20T19:30:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-02-19T22:53:46+08:00</lastmod>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/note-taking/</loc>
+    <loc>https://notes.midofnowhere.link/2022/%E5%86%99%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-02-12T17:09:24+08:00</lastmod>
   </url>
   
@@ -63,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/watching-sports/</loc>
+    <loc>https://notes.midofnowhere.link/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/</loc>
     <lastmod>2022-02-12T17:13:33+08:00</lastmod>
   </url>
   
@@ -78,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/wk3-2022/</loc>
+    <loc>https://notes.midofnowhere.link/2022/wk3-2022/</loc>
     <lastmod>2022-01-23T23:07:26+08:00</lastmod>
   </url>
   
@@ -88,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/new-year-2022/</loc>
+    <loc>https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/</loc>
     <lastmod>2022-01-09T23:26:51+08:00</lastmod>
   </url>
   
@@ -98,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/hugo-build-host/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E7%94%A8vps%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/</loc>
     <lastmod>2021-12-24T00:30:23+08:00</lastmod>
   </url>
   
@@ -108,18 +113,18 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/2021-wk51/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%BA%8C/</loc>
     <lastmod>2021-12-22T23:59:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/shortcode_test/</loc>
-    <lastmod>2021-12-20T21:24:06+08:00</lastmod>
+    <loc>https://notes.midofnowhere.link/2021/media-play-test/</loc>
+    <lastmod>2022-02-22T23:41:59+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/tester/</loc>
-    <lastmod>2021-12-20T21:24:06+08:00</lastmod>
+    <lastmod>2022-02-22T23:41:59+08:00</lastmod>
   </url>
   
   <url>
@@ -128,13 +133,13 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/quarantine-diary-1/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%B8%80/</loc>
     <lastmod>2021-12-07T22:16:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/construction-log/</loc>
-    <lastmod>2021-12-07T19:50:12+08:00</lastmod>
+    <loc>https://notes.midofnowhere.link/2021/construction-log/</loc>
+    <lastmod>2022-02-23T23:27:08+08:00</lastmod>
   </url>
   
   <url>
@@ -148,17 +153,17 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/spontaneous-emission/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E8%8D%A7%E5%85%89%E5%92%8C%E7%A3%B7%E5%85%89/</loc>
     <lastmod>2021-12-07T22:12:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/physio/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E6%89%81%E5%B9%B3%E8%B6%B3/</loc>
     <lastmod>2021-12-06T22:07:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/ch3/</loc>
+    <loc>https://notes.midofnowhere.link/2021/ch3/</loc>
     <lastmod>2021-12-05T22:39:29+08:00</lastmod>
   </url>
   
@@ -178,23 +183,18 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/ch2/</loc>
+    <loc>https://notes.midofnowhere.link/2021/ch2/</loc>
     <lastmod>2021-10-03T16:28:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/image-post/</loc>
+    <loc>https://notes.midofnowhere.link/2021/image-post-test/</loc>
     <lastmod>2021-12-05T22:41:36+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/</loc>
     <lastmod>2021-12-05T22:41:36+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/posts/blog-roll/</loc>
-    <lastmod>2021-12-07T15:41:34+08:00</lastmod>
   </url>
   
   <url>
@@ -208,7 +208,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/laser/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%81%9A%E4%B8%80%E4%B8%AA%E6%BF%80%E5%85%89%E9%9C%80%E8%A6%81%E5%87%A0%E6%AD%A5/</loc>
     <lastmod>2021-12-06T21:59:39+08:00</lastmod>
   </url>
   
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/albert-and-marie/</loc>
+    <loc>https://notes.midofnowhere.link/2021/albert-and-marie/</loc>
     <lastmod>2021-12-06T21:47:55+08:00</lastmod>
   </url>
   
@@ -228,12 +228,12 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/late-june/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%85%AD%E6%9C%88%E5%BA%95/</loc>
     <lastmod>2021-12-05T22:41:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/sem/</loc>
+    <loc>https://notes.midofnowhere.link/2021/sem-%E6%89%AB%E6%8F%8F%E7%94%B5%E5%AD%90%E6%98%BE%E5%BE%AE%E9%95%9C/</loc>
     <lastmod>2021-12-06T21:59:28+08:00</lastmod>
   </url>
   
@@ -243,7 +243,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/worktalk-podcast/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E6%89%93%E5%B7%A5%E8%B0%8820210601-podcast/</loc>
     <lastmod>2021-12-05T22:43:59+08:00</lastmod>
   </url>
   
@@ -253,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/fandom-talk/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%97%91%E5%AD%A6%E8%AF%84%E8%AE%BA/</loc>
     <lastmod>2021-12-05T22:41:14+08:00</lastmod>
   </url>
   
@@ -268,12 +268,12 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/bbq-shrimp/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E9%94%A1%E7%BA%B8%E5%A4%A7%E8%99%BE/</loc>
     <lastmod>2021-12-05T22:40:36+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/ugly-delicious-netflix-reality-show/</loc>
+    <loc>https://notes.midofnowhere.link/2021/ugly-delicious-netflix/</loc>
     <lastmod>2021-12-05T22:43:38+08:00</lastmod>
   </url>
   
@@ -283,7 +283,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/pan-pizza-not-really/</loc>
+    <loc>https://notes.midofnowhere.link/2021/pan-pizza-not-really/</loc>
     <lastmod>2021-12-05T22:42:32+08:00</lastmod>
   </url>
   
@@ -293,27 +293,32 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/reflection-on-politics/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%85%B3%E4%BA%8E%E6%97%B6%E4%BA%8B%E7%9A%84%E5%8F%8D%E6%80%9D/</loc>
     <lastmod>2021-12-05T22:43:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/atomic-lego/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/</loc>
     <lastmod>2021-12-06T21:59:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/hdd-biz-war/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/</loc>
     <lastmod>2021-12-06T21:57:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/justice-league-schneider-movie/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-12-05T22:41:45+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/pilot-fiction-shuang/</loc>
+    <loc>https://notes.midofnowhere.link/aboutme/</loc>
+    <lastmod>2022-02-23T23:27:40+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</loc>
     <lastmod>2021-12-05T22:42:45+08:00</lastmod>
   </url>
   
@@ -323,77 +328,72 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/fsq-fiction-lin/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-12-05T22:41:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/chicken-wings/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%B0%8F%E9%AB%98%E5%A7%90%E7%83%A4%E9%B8%A1%E7%BF%85/</loc>
     <lastmod>2021-12-05T22:40:53+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/korean-chicken/</loc>
+    <loc>https://notes.midofnowhere.link/2021/amanda%E6%98%A5%E5%B7%9D%E8%BE%A3%E7%82%92%E9%B8%A1/</loc>
     <lastmod>2021-12-08T16:05:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/chicken-feet-stew/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E8%83%96%E5%93%A5%E4%BF%A9%E7%B1%BB%E4%BC%BC%E9%B8%A1%E7%88%AA%E7%85%B2/</loc>
     <lastmod>2021-12-05T22:40:45+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/spicy-chicken-salad/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E5%86%9C%E5%B8%88%E5%82%85%E6%A4%92%E9%BA%BB%E9%B8%A1/</loc>
     <lastmod>2021-12-05T22:43:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/how-to-produce-a-podcast/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E6%88%91%E7%9A%84%E6%92%AD%E5%AE%A2%E5%88%B6%E4%BD%9C%E7%BB%8F%E9%AA%8C/</loc>
     <lastmod>2021-12-05T22:41:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/web-construction/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/</loc>
     <lastmod>2021-10-02T15:18:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/a-monument/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/</loc>
     <lastmod>2021-12-05T22:40:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/about/</loc>
-    <lastmod>2021-10-05T23:15:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/posts/pomodero-method-nonfic/</loc>
+    <loc>https://notes.midofnowhere.link/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2021-12-05T22:42:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/outline/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E5%A4%A7%E7%BA%B2/</loc>
     <lastmod>2021-12-05T22:39:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/einstein-nonfic-einstein/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/</loc>
     <lastmod>2021-12-05T22:41:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/red-star-on-china-nonfic-snow/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E7%BA%A2%E6%98%9F%E7%85%A7%E8%80%80%E4%B8%AD%E5%9B%BD-edgar-snow-%E9%9D%9E%E8%99%9A%E6%9E%84/</loc>
     <lastmod>2021-12-05T22:43:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/my-carry-on/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AA%E7%99%BB%E6%9C%BA%E7%AE%B1/</loc>
     <lastmod>2021-12-05T22:42:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/before_phd/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E5%AD%A6%E6%9C%AF%E7%94%9F%E6%B6%AF%E5%9B%B0%E6%83%91/</loc>
     <lastmod>2021-12-08T13:19:46+08:00</lastmod>
   </url>
   
@@ -403,22 +403,22 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/newwed-fiction-liao/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E6%96%B0%E5%A9%9A%E4%B9%8B%E5%A4%9C-%E8%BE%BD%E4%BA%AC-%E4%B8%AD%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</loc>
     <lastmod>2021-12-05T22:42:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/weekly-in-quarantine/</loc>
+    <loc>https://notes.midofnowhere.link/2020/%E7%96%AB%E5%8C%BA%E5%91%A8%E8%AE%B0/</loc>
     <lastmod>2021-12-05T22:43:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/my_highschool_teacher/</loc>
+    <loc>https://notes.midofnowhere.link/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/</loc>
     <lastmod>2021-12-08T13:38:39+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/new_year_2019/</loc>
+    <loc>https://notes.midofnowhere.link/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/</loc>
     <lastmod>2021-12-08T13:38:52+08:00</lastmod>
   </url>
   
@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/22-birthday/</loc>
+    <loc>https://notes.midofnowhere.link/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</loc>
     <lastmod>2021-12-05T22:40:09+08:00</lastmod>
   </url>
   
@@ -438,17 +438,17 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/random-horror-story/</loc>
+    <loc>https://notes.midofnowhere.link/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/</loc>
     <lastmod>2021-12-05T22:42:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/21-birthday/</loc>
+    <loc>https://notes.midofnowhere.link/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</loc>
     <lastmod>2021-12-05T22:40:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/20-birthday/</loc>
+    <loc>https://notes.midofnowhere.link/2016/20%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</loc>
     <lastmod>2021-12-05T22:39:53+08:00</lastmod>
   </url>
   
@@ -458,12 +458,12 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/on-school-canteen/</loc>
+    <loc>https://notes.midofnowhere.link/2015/%E8%AE%BA%E9%A3%9F%E5%A0%82%E8%8F%9C%E7%B3%BB/</loc>
     <lastmod>2021-12-05T22:42:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/posts/stepping-into-adulthood/</loc>
+    <loc>https://notes.midofnowhere.link/2014/%E6%88%90%E5%B9%B4%E8%87%AA%E8%BF%B0/</loc>
     <lastmod>2021-12-05T22:43:29+08:00</lastmod>
   </url>
   

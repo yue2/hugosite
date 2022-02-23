@@ -19,15 +19,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 20 Feb 2022 19:17:38 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 23 Feb 2022 23:38:19 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://notes.midofnowhere.link/rss.xml" />
         
         
             <item>
                 <title>站点装修记录</title>
-                <link>https://notes.midofnowhere.link/posts/site-construction/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/site-construction/</guid>
+                <link>https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid>
                 <pubDate>Wed, 16 Feb 2022 10:56:23 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -57,6 +57,8 @@
 &lt;ul&gt;
 &lt;li&gt;主要就是我在Hugo的config.toml里写baseurl是谁？？还是github吗&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;问题结局了&#34;&gt;问题结局了&lt;/h3&gt;
+&lt;p&gt;baseurl 用得就是最后发布的url, 所以换成我的域名就对了。现在已经可以正常访问，看起来vercel的功能就是接管git仓库，管理自定义域名，并且管理ssl证书。还是有用的但是我没感受到巨——大的改动。目前的工作流还是一样的，要在本地修改后用Hugo自动构建网站，然后用git 推上github, 此时vercel会抓过github里的改动。&lt;/p&gt;
 </description>
                 
                 
@@ -95,8 +97,8 @@
         
             <item>
                 <title>写笔记</title>
-                <link>https://notes.midofnowhere.link/posts/note-taking/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/note-taking/</guid>
+                <link>https://notes.midofnowhere.link/2022/%E5%86%99%E7%AC%94%E8%AE%B0/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2022/%E5%86%99%E7%AC%94%E8%AE%B0/</guid>
                 <pubDate>Sat, 12 Feb 2022 15:14:11 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -153,8 +155,8 @@
         
             <item>
                 <title>看足球和篮球</title>
-                <link>https://notes.midofnowhere.link/posts/watching-sports/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/watching-sports/</guid>
+                <link>https://notes.midofnowhere.link/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/</guid>
                 <pubDate>Tue, 01 Feb 2022 20:18:10 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -205,8 +207,8 @@
         
             <item>
                 <title>Wk3 2022</title>
-                <link>https://notes.midofnowhere.link/posts/wk3-2022/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/wk3-2022/</guid>
+                <link>https://notes.midofnowhere.link/2022/wk3-2022/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2022/wk3-2022/</guid>
                 <pubDate>Sat, 22 Jan 2022 10:24:45 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -216,7 +218,7 @@
 &lt;p&gt;新的一年本来计划规律作息重新做人，于是买了一个带闹钟的小夜灯，把手机充电器从床头柜转移到了书桌上，经过一周的实践，事实证明调整起床时间很有效，工作日八点左右能自己醒来，就算今天周六关掉了闹钟，睡到九点也还是醒了。问题出在了晚上还是不愿睡得早，拖拖拉拉玩玩闹闹总也要搞到一两点。最近还用上了手环的睡觉监测功能，本来这个手环买来只是为了锻炼用，从未发现有睡觉功能，但是寒假里陪扁老师买了苹果表，于是决定自己也用一用手环。华为的睡眠质量算法很严格，老说我深度睡眠太少！深度睡眠还不连续！偏偏我一个小镇做题家，看到带评分的就想刷，每天早上醒来躺在床上都要等我的前一夜评分打出来才肯起床。更奇妙的是，我本来前一晚一点半过了才睡八点又醒，感觉睡不够，还没发起床气呢，一看手机发现它给我评分80，我一下子就觉得昨夜睡得也不错，挺清醒的，又能起床了。&lt;/p&gt;
 &lt;p&gt;上周在会议室开了组会，从我入学这一两年来恐怕只开过个位数的线下会议，这个大会议室只来过一次，上次开完秘书姐姐问我要学号，帮我开了门禁，我竟再没有机会刷开这个门！Physically 看见老板我甚至还有点不习惯，一边讲一边脑子里闪过“老板原来长这样吗？”。结果报告讲得很顺利，老板也觉得挺不错，我又在后悔周四这么紧张！&lt;/p&gt;
 &lt;p&gt;给自己买了新的ipad mini 作为新年礼物，非常开心地折腾，来回试用app, 再一比较先前一直在用的2017版，突然就显得屏幕也旧了 touch ID 也慢，但是用到现在还完全不卡，苹果也是有一首哈哈。&lt;/p&gt;
-&lt;p&gt;根据&lt;a href=&#34;https://notes.midofnowhere.link/posts/new-year-2022/&#34;&gt;新年计划&lt;/a&gt;，本周勉勉强强偷工减料地锻炼了三天，周末没搞社交性体育活动。&lt;/p&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/&#34;&gt;新年计划&lt;/a&gt;，本周勉勉强强偷工减料地锻炼了三天，周末没搞社交性体育活动。&lt;/p&gt;
 &lt;p&gt;周中工作的时候，只要是我一个人宁静而忙碌地窝超净间，我都会听耳机，这周打开了《有点田园》在回顾，不禁发了一点&lt;a href=&#34;https://pullopen.xyz/@boxue/107649464223796700&#34;&gt;感想&lt;/a&gt;：
 “这两天在cleanroom安详工作的时候听起了《有点田园》以前没听过的几集节目，以前没听是因为觉得制作水平太参差了，几个人的音量都拉不平，一会儿声大一会儿声小，而且大多数是远程录制的，视频对话的间隔也没剪干净。结果在我对整个中文播客都厌倦了的时候想起来听的居然还是《有点田园》，发现我最近慢慢想通的事情他们2019年就想过了，想得还比我好、比我深入、比我彻底，他们一直在想还在一直进步，节目也做得越来越好。站在今日的世界，回头再看肖美丽前两年遭受的无妄之灾，竟冥冥中似是必然。&lt;br&gt;
 我还在豆瓣开过这个节目的条目，被豆瓣悄没声儿删了。”&lt;/p&gt;
@@ -258,8 +260,8 @@
         
             <item>
                 <title>2022新年展望</title>
-                <link>https://notes.midofnowhere.link/posts/new-year-2022/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/new-year-2022/</guid>
+                <link>https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/</guid>
                 <pubDate>Sun, 09 Jan 2022 22:11:10 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -324,8 +326,8 @@
         
             <item>
                 <title>用VPS部署静态网页</title>
-                <link>https://notes.midofnowhere.link/posts/hugo-build-host/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/hugo-build-host/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E7%94%A8vps%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E7%94%A8vps%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/</guid>
                 <pubDate>Thu, 23 Dec 2021 23:21:08 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -401,7 +403,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;还需要改进的地方&#34;&gt;还需要改进的地方&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://notes.midofnowhere.link/posts/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;博客网页本身还有一些bug, 详见&lt;a href=&#34;https://notes.midofnowhere.link/2021/construction-log/&#34;&gt;这篇&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;添加互动模块：用waline评论或接入fediverse动态显示。&lt;/li&gt;
 &lt;li&gt;configure NGINX 改用其他端口以安装多个服务或网站。&lt;/li&gt;
 &lt;li&gt;把博客搬到子域名。&lt;/li&gt;
@@ -444,8 +446,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>隔离日记（二）</title>
-                <link>https://notes.midofnowhere.link/posts/2021-wk51/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/2021-wk51/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%BA%8C/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%BA%8C/</guid>
                 <pubDate>Mon, 20 Dec 2021 21:19:17 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -490,8 +492,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Media Play Test</title>
-                <link>https://notes.midofnowhere.link/posts/shortcode_test/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/shortcode_test/</guid>
+                <link>https://notes.midofnowhere.link/2021/media-play-test/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/media-play-test/</guid>
                 <pubDate>Wed, 08 Dec 2021 15:46:20 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -504,9 +506,17 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
 &lt;p&gt;iframe embedded&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/_yReBfDw2vU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;hugo shortcode
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/M6DD504lDac&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;spotify&#34;&gt;spotify&lt;/h2&gt;
 &lt;p&gt;iframe&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/episode/1KC9Y7ZXWeC2DrtxnncpED?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;152&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;&gt;&lt;/iframe&gt;</description>
+&lt;iframe src=&#34;https://open.spotify.com/embed/episode/1KC9Y7ZXWeC2DrtxnncpED?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;152&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;picture-link-from-google-photos&#34;&gt;Picture link from google photos&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/qSAQeBUSNTy3cxELHAgD6gt5aTOKOcedms-YrJdd-NSfdEYgprYCy45_3ZjZU3tI9kgLbcElc5MLYpex0-S_prg2op9hk280MHX97WPRFvMrCwNdltj8kvFL5vs0NPCN8nxQ_gH7c_1dD9ZAzkzetwqbB-l6i9ogJDVybuz3bDsPJlguwKmT1lbj94ufgaHzDjXdrQyfzqzdkLtjExH5C11_WqhRBNnSnWRDdnjUAKcauORFiwr8AHhJiH18aoug_3SJNTFrI91D9s2dCI-L3lBai509LWETKDmxh-50PDc0sFkH3YPZt6LdK-SAHfEOFuMigf-BagjN3y7lByzC-BRwOAjrk9_R0NlwkKTnTtXB-KIBGJb2XsdcUhSpjfFcf1sdsFHokzVuL0IRoL0fLz6-k8j1KvJv0zw__0VmEl8zx9SYqBrPU0flLMeC--8yGSO9gRqKMYAlt57_n3emMeTmEp8CZGMtOCnSfABOtTCazonXdIc15IzBRHFsQ5r9PgyS8xTCdMSUZQ8VGbBTABxFRmlabr9-eR0G1FOrw0To6l26XvzWHaYoTGHPD9EknvHaz_BMv1bw7E1FJntmOiuKgjxs_Svsf9gTBUw9LSnZKYNhpIxi8L0CvhvSl9NOqNsQls6mfhuuAr2jm75d-xqsMWD0cbWvMj1IvpCKVhP97huIImVtpoyfzT8MqpqAtkY0FmXs4awHIbNjPOBoFdA=w1560-h878-no?authuser=0&#34; alt=&#34;Hogwarts-sunset&#34;&gt;&lt;/p&gt;</description>
                 
                 
                 
@@ -544,8 +554,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>隔离日记（一）</title>
-                <link>https://notes.midofnowhere.link/posts/quarantine-diary-1/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/quarantine-diary-1/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%B8%80/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%B8%80/</guid>
                 <pubDate>Tue, 07 Dec 2021 21:26:48 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -556,7 +566,7 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;p&gt;家里人觉得我每天在隔离房间里无所事事，我妈变本加厉地每天都给我打视频。我理智上知道已经很久没有见他们了，而且长辈们年纪大了我也确实应该多关心他们，而且他们为了我回来都很高兴做了这样那样的事儿；但心理上我快被每天二三十分钟的无聊对话逼疯了，我妈变着花样旁敲侧击让我找男人，问我学校里男生怎么样，朋友的男友怎么样，他们又认识我的哪个同龄人要结婚了。以前每周应付一次之后都要缓一缓，现在每天都来真的快把我逼疯了，我一个人呆着可没有这么烦躁。&lt;/p&gt;
 &lt;p&gt;对于这十几二十天隔离期的安排，我在休假前做了一大波实验，准备在酒店房间处理数据，到现在还什么都没做。给老板发了资格考试需要的准备，到现在也一篇文章都还没看。还计划着趁有时间好好装一下服务器，到现在也没打开&lt;code&gt;Termius&lt;/code&gt;。还计划整理一下博客，好好装修一下写两篇东西，这两天可算是做了一点装修。&lt;/p&gt;
 &lt;p&gt;我知道有一个管理工作事项的方法就是四象限标记，也就是把“重要”、“紧急”分别画成横纵坐标，这样就能划出四个象限，以此安排工作的顺序。但是从上一段里不难看出，我总是在待办事项里精心挑选出最不紧急不重要的事情来做，然后拖到重要的事情死线临头才开始疯狂操作。要我说，问题不是不知道合理的工作顺序，而是没法说服自己做正确的事儿。或许吧，或许我已经浪费了太多人生。&lt;/p&gt;
-&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;https://notes.midofnowhere.link/posts/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</description>
+&lt;p&gt;当然了我也不出所料地在&lt;a href=&#34;https://notes.midofnowhere.link/2021/construction-log/&#34;&gt;建设日志&lt;/a&gt;里全是bug的情况下率先实现了圣诞节首页小动画。但这个只是我抄来的&lt;code&gt;css&lt;/code&gt;，和我想象中这样那样的高级动画还是有很大差别。&lt;/p&gt;</description>
                 
                 
                 
@@ -594,8 +604,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Construction Log</title>
-                <link>https://notes.midofnowhere.link/posts/construction-log/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/construction-log/</guid>
+                <link>https://notes.midofnowhere.link/2021/construction-log/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/construction-log/</guid>
                 <pubDate>Mon, 06 Dec 2021 23:47:14 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -645,6 +655,16 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;em&gt;festive animation&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; try LaTex input.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; check out vercel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2022-02-22&#34;&gt;2022-02-22&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fixed navigation bar hyperlink. Internal page url is called &amp;lsquo;url&amp;rsquo; &lt;strong&gt;!!!&lt;/strong&gt; 模板里写的是internalref之类的，实际上并不是，页面链接就是url&lt;/li&gt;
+&lt;li&gt;The same thing happens for aboutme page. To set absolute url for posts just add &lt;code&gt;url = &amp;quot;&amp;quot;&lt;/code&gt; in the frontmatter!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2022-02-23&#34;&gt;2022-02-23&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;写了friendlink shortcode, 现在可以添加blogroll, 但是还有一点css上的问题，换成黑夜模式特别丑&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把文章按照最近修改时间排序&lt;/li&gt;
 &lt;/ul&gt;</description>
                 
                 
@@ -677,13 +697,13 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>荧光和磷光</title>
-                <link>https://notes.midofnowhere.link/posts/spontaneous-emission/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/spontaneous-emission/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E8%8D%A7%E5%85%89%E5%92%8C%E7%A3%B7%E5%85%89/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E8%8D%A7%E5%85%89%E5%92%8C%E7%A3%B7%E5%85%89/</guid>
                 <pubDate>Mon, 15 Nov 2021 16:04:14 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
-                    <description>&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://notes.midofnowhere.link/posts/laser/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
+                    <description>&lt;p&gt;【前情提要】上回我们说了&lt;a href=&#34;https://notes.midofnowhere.link/2021/%E5%81%9A%E4%B8%80%E4%B8%AA%E6%BF%80%E5%85%89%E9%9C%80%E8%A6%81%E5%87%A0%E6%AD%A5/&#34;&gt;受激辐射&lt;/a&gt;也就是激光的发光原理，是说激发态电子受到另一个光子的激发，回到基态并辐射出一个同样能量的光子。&lt;/p&gt;
 &lt;p&gt;【本回内容】但是激发态不宜久留，电子自己也会回到基态，多余的能量就会辐射出光子，这个过程叫自发辐射。自发辐射又可以分为荧光(fluorescence)和磷光(phosphorescence)，不同之处主要在于这两个过程产生辐射的激发态不一样。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.researchgate.net/profile/Michael-Eck-2/publication/279824911/figure/fig10/AS:614322640257035@1523477339543/Jablonski-diagram-explaining-the-occurrence-of-fluorescence-and.png&#34; alt=&#34;Jablonski diagram&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图1是电子能级示意图，S&lt;sub&gt;0&lt;/sub&gt;基态，吸收一个紫色光子被激发到了S&lt;sub&gt;1&lt;/sub&gt;激发态，如果从S&lt;sub&gt;1&lt;/sub&gt;直接落回基态，这就是荧光。由于降落过程中会以振动形式损失一些能量，所以荧光发射的光可能是绿色的，从吸收光到发射光的波长差叫做斯托克斯位移。如果没有从S&lt;sub&gt;1&lt;/sub&gt;直接回到S&lt;sub&gt;0&lt;/sub&gt;，而是先来到了T&lt;/sub&gt;1&lt;/sub&gt;态再回到S&lt;sub&gt;0&lt;/sub&gt;，那这个发光过程叫磷光。&lt;/p&gt;
@@ -727,8 +747,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>扁平足</title>
-                <link>https://notes.midofnowhere.link/posts/physio/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/physio/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E6%89%81%E5%B9%B3%E8%B6%B3/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E6%89%81%E5%B9%B3%E8%B6%B3/</guid>
                 <pubDate>Sat, 30 Oct 2021 19:19:17 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -772,8 +792,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Ch3</title>
-                <link>https://notes.midofnowhere.link/posts/ch3/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/ch3/</guid>
+                <link>https://notes.midofnowhere.link/2021/ch3/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/ch3/</guid>
                 <pubDate>Sat, 02 Oct 2021 20:41:53 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -840,8 +860,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Ch2</title>
-                <link>https://notes.midofnowhere.link/posts/ch2/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/ch2/</guid>
+                <link>https://notes.midofnowhere.link/2021/ch2/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/ch2/</guid>
                 <pubDate>Sat, 02 Oct 2021 20:38:50 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -902,8 +922,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Image Post Test</title>
-                <link>https://notes.midofnowhere.link/posts/image-post/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/image-post/</guid>
+                <link>https://notes.midofnowhere.link/2021/image-post-test/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/image-post-test/</guid>
                 <pubDate>Sat, 02 Oct 2021 18:16:15 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -934,32 +954,9 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
             </item>
         
             <item>
-                <title>Blog Roll</title>
-                <link>https://notes.midofnowhere.link/posts/blog-roll/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/blog-roll/</guid>
-                <pubDate>Sun, 26 Sep 2021 00:00:00 &#43;0000</pubDate>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
-                
-                    <description>&lt;h3 id=&#34;here-are-some-blogs-i-enjoy-a-lot-take-a-look-and-say-hi&#34;&gt;Here are some blogs I enjoy a lot! Take a look and say Hi!&lt;/h3&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>做一个激光需要几步</title>
-                <link>https://notes.midofnowhere.link/posts/laser/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/laser/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%81%9A%E4%B8%80%E4%B8%AA%E6%BF%80%E5%85%89%E9%9C%80%E8%A6%81%E5%87%A0%E6%AD%A5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%81%9A%E4%B8%80%E4%B8%AA%E6%BF%80%E5%85%89%E9%9C%80%E8%A6%81%E5%87%A0%E6%AD%A5/</guid>
                 <pubDate>Mon, 23 Aug 2021 16:53:21 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1011,8 +1008,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Albert and Marie</title>
-                <link>https://notes.midofnowhere.link/posts/albert-and-marie/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/albert-and-marie/</guid>
+                <link>https://notes.midofnowhere.link/2021/albert-and-marie/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/albert-and-marie/</guid>
                 <pubDate>Tue, 06 Jul 2021 12:06:58 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1056,8 +1053,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>六月底</title>
-                <link>https://notes.midofnowhere.link/posts/late-june/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/late-june/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%85%AD%E6%9C%88%E5%BA%95/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%85%AD%E6%9C%88%E5%BA%95/</guid>
                 <pubDate>Wed, 23 Jun 2021 06:07:45 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1100,8 +1097,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>SEM - 扫描电子显微镜</title>
-                <link>https://notes.midofnowhere.link/posts/sem/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/sem/</guid>
+                <link>https://notes.midofnowhere.link/2021/sem-%E6%89%AB%E6%8F%8F%E7%94%B5%E5%AD%90%E6%98%BE%E5%BE%AE%E9%95%9C/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/sem-%E6%89%AB%E6%8F%8F%E7%94%B5%E5%AD%90%E6%98%BE%E5%BE%AE%E9%95%9C/</guid>
                 <pubDate>Mon, 07 Jun 2021 20:22:30 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1151,8 +1148,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>打工谈20210601 - podcast</title>
-                <link>https://notes.midofnowhere.link/posts/worktalk-podcast/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/worktalk-podcast/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E6%89%93%E5%B7%A5%E8%B0%8820210601-podcast/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E6%89%93%E5%B7%A5%E8%B0%8820210601-podcast/</guid>
                 <pubDate>Tue, 01 Jun 2021 12:23:57 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1198,8 +1195,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>嗑学评论</title>
-                <link>https://notes.midofnowhere.link/posts/fandom-talk/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/fandom-talk/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%97%91%E5%AD%A6%E8%AF%84%E8%AE%BA/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%97%91%E5%AD%A6%E8%AF%84%E8%AE%BA/</guid>
                 <pubDate>Fri, 21 May 2021 06:30:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1250,8 +1247,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>锡纸大虾</title>
-                <link>https://notes.midofnowhere.link/posts/bbq-shrimp/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/bbq-shrimp/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E9%94%A1%E7%BA%B8%E5%A4%A7%E8%99%BE/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E9%94%A1%E7%BA%B8%E5%A4%A7%E8%99%BE/</guid>
                 <pubDate>Thu, 20 May 2021 12:45:43 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1316,8 +1313,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Ugly Delicious Netflix</title>
-                <link>https://notes.midofnowhere.link/posts/ugly-delicious-netflix-reality-show/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/ugly-delicious-netflix-reality-show/</guid>
+                <link>https://notes.midofnowhere.link/2021/ugly-delicious-netflix/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/ugly-delicious-netflix/</guid>
                 <pubDate>Thu, 20 May 2021 12:16:30 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1364,8 +1361,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Pan pizza (not really)</title>
-                <link>https://notes.midofnowhere.link/posts/pan-pizza-not-really/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/pan-pizza-not-really/</guid>
+                <link>https://notes.midofnowhere.link/2021/pan-pizza-not-really/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/pan-pizza-not-really/</guid>
                 <pubDate>Sat, 15 May 2021 16:22:09 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1466,8 +1463,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>关于时事的反思</title>
-                <link>https://notes.midofnowhere.link/posts/reflection-on-politics/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/reflection-on-politics/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%85%B3%E4%BA%8E%E6%97%B6%E4%BA%8B%E7%9A%84%E5%8F%8D%E6%80%9D/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%85%B3%E4%BA%8E%E6%97%B6%E4%BA%8B%E7%9A%84%E5%8F%8D%E6%80%9D/</guid>
                 <pubDate>Thu, 13 May 2021 07:15:44 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1510,8 +1507,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>你喜欢搭乐高吗</title>
-                <link>https://notes.midofnowhere.link/posts/atomic-lego/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/atomic-lego/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/</guid>
                 <pubDate>Thu, 06 May 2021 19:25:38 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1558,8 +1555,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>分享一个商战故事</title>
-                <link>https://notes.midofnowhere.link/posts/hdd-biz-war/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/hdd-biz-war/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/</guid>
                 <pubDate>Mon, 12 Apr 2021 11:55:53 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1604,8 +1601,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《正义联盟施耐德版》 - 电影</title>
-                <link>https://notes.midofnowhere.link/posts/justice-league-schneider-movie/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/justice-league-schneider-movie/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/</guid>
                 <pubDate>Sun, 21 Mar 2021 15:47:18 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1653,8 +1650,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《飞行家》 - 双雪涛 - 短篇小说集</title>
-                <link>https://notes.midofnowhere.link/posts/pilot-fiction-shuang/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/pilot-fiction-shuang/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</guid>
                 <pubDate>Fri, 19 Feb 2021 06:26:56 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1703,8 +1700,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</title>
-                <link>https://notes.midofnowhere.link/posts/fsq-fiction-lin/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/fsq-fiction-lin/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/</guid>
                 <pubDate>Fri, 19 Feb 2021 06:25:38 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1749,8 +1746,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>小高姐烤鸡翅</title>
-                <link>https://notes.midofnowhere.link/posts/chicken-wings/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/chicken-wings/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%B0%8F%E9%AB%98%E5%A7%90%E7%83%A4%E9%B8%A1%E7%BF%85/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%B0%8F%E9%AB%98%E5%A7%90%E7%83%A4%E9%B8%A1%E7%BF%85/</guid>
                 <pubDate>Wed, 10 Feb 2021 03:10:39 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1811,8 +1808,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>Amanda春川辣炒鸡</title>
-                <link>https://notes.midofnowhere.link/posts/korean-chicken/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/korean-chicken/</guid>
+                <link>https://notes.midofnowhere.link/2021/amanda%E6%98%A5%E5%B7%9D%E8%BE%A3%E7%82%92%E9%B8%A1/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/amanda%E6%98%A5%E5%B7%9D%E8%BE%A3%E7%82%92%E9%B8%A1/</guid>
                 <pubDate>Wed, 10 Feb 2021 03:05:58 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1876,8 +1873,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>胖哥俩类似鸡爪煲</title>
-                <link>https://notes.midofnowhere.link/posts/chicken-feet-stew/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/chicken-feet-stew/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E8%83%96%E5%93%A5%E4%BF%A9%E7%B1%BB%E4%BC%BC%E9%B8%A1%E7%88%AA%E7%85%B2/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E8%83%96%E5%93%A5%E4%BF%A9%E7%B1%BB%E4%BC%BC%E9%B8%A1%E7%88%AA%E7%85%B2/</guid>
                 <pubDate>Tue, 09 Feb 2021 09:16:17 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -1930,8 +1927,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>农师傅椒麻鸡</title>
-                <link>https://notes.midofnowhere.link/posts/spicy-chicken-salad/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/spicy-chicken-salad/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E5%86%9C%E5%B8%88%E5%82%85%E6%A4%92%E9%BA%BB%E9%B8%A1/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E5%86%9C%E5%B8%88%E5%82%85%E6%A4%92%E9%BA%BB%E9%B8%A1/</guid>
                 <pubDate>Tue, 09 Feb 2021 09:13:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2000,8 +1997,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>我的播客制作经验</title>
-                <link>https://notes.midofnowhere.link/posts/how-to-produce-a-podcast/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/how-to-produce-a-podcast/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E6%88%91%E7%9A%84%E6%92%AD%E5%AE%A2%E5%88%B6%E4%BD%9C%E7%BB%8F%E9%AA%8C/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E6%88%91%E7%9A%84%E6%92%AD%E5%AE%A2%E5%88%B6%E4%BD%9C%E7%BB%8F%E9%AA%8C/</guid>
                 <pubDate>Mon, 08 Feb 2021 11:51:45 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2050,8 +2047,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>网站搭建尝试</title>
-                <link>https://notes.midofnowhere.link/posts/web-construction/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/web-construction/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/</guid>
                 <pubDate>Sat, 06 Feb 2021 10:58:07 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2081,8 +2078,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>一场纪念</title>
-                <link>https://notes.midofnowhere.link/posts/a-monument/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/a-monument/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/</guid>
                 <pubDate>Sat, 06 Feb 2021 08:33:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2125,32 +2122,9 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
             </item>
         
             <item>
-                <title>关于</title>
-                <link>https://notes.midofnowhere.link/posts/about/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/about/</guid>
-                <pubDate>Mon, 01 Feb 2021 10:59:09 &#43;0000</pubDate>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
-                
-                    <description>&lt;p&gt;这是博学的个人博客，到目前为止所有内容都是学学和扁扁俩人原创。&lt;/p&gt;
-&lt;p&gt;学学是一个： 卖队友国家二级运动员 100K无脑文儿 吐槽向泡面番废柴主角 国家八级拆台师 Proud Hufflepuff 学学的特长有： 半途而废、浅尝辄止、打退堂鼓、收拾行李 学学还和扁扁共同主持着一个犯罪故事类播客节目，可以在这里收听：&lt;a href=&#34;https://anchor.fm/christine3563&#34;&gt;《午时已到》&lt;/a&gt; 喜欢午时已到或者喜欢本博客的话，欢迎给学学打赏&lt;a href=&#34;https://www.buymeacoffee.com/closurethepod&#34;&gt;冰可乐&lt;/a&gt;，非常感谢！&lt;/p&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</title>
-                <link>https://notes.midofnowhere.link/posts/pomodero-method-nonfic/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/pomodero-method-nonfic/</guid>
+                <link>https://notes.midofnowhere.link/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/</guid>
                 <pubDate>Sat, 23 Jan 2021 06:28:25 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2198,8 +2172,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>大纲</title>
-                <link>https://notes.midofnowhere.link/posts/outline/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/outline/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E5%A4%A7%E7%BA%B2/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E5%A4%A7%E7%BA%B2/</guid>
                 <pubDate>Thu, 17 Dec 2020 10:31:49 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2244,8 +2218,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《爱因斯坦自选集》 - Albert Einstein - 杂文集</title>
-                <link>https://notes.midofnowhere.link/posts/einstein-nonfic-einstein/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/einstein-nonfic-einstein/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/</guid>
                 <pubDate>Tue, 24 Nov 2020 06:23:48 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2290,8 +2264,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《红星照耀中国》 - Edgar Snow - 非虚构</title>
-                <link>https://notes.midofnowhere.link/posts/red-star-on-china-nonfic-snow/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/red-star-on-china-nonfic-snow/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E7%BA%A2%E6%98%9F%E7%85%A7%E8%80%80%E4%B8%AD%E5%9B%BD-edgar-snow-%E9%9D%9E%E8%99%9A%E6%9E%84/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E7%BA%A2%E6%98%9F%E7%85%A7%E8%80%80%E4%B8%AD%E5%9B%BD-edgar-snow-%E9%9D%9E%E8%99%9A%E6%9E%84/</guid>
                 <pubDate>Mon, 23 Nov 2020 06:22:02 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2336,8 +2310,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>我有一个登机箱</title>
-                <link>https://notes.midofnowhere.link/posts/my-carry-on/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/my-carry-on/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AA%E7%99%BB%E6%9C%BA%E7%AE%B1/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AA%E7%99%BB%E6%9C%BA%E7%AE%B1/</guid>
                 <pubDate>Mon, 05 Oct 2020 10:58:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2378,8 +2352,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>学术生涯困惑</title>
-                <link>https://notes.midofnowhere.link/posts/before_phd/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/before_phd/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E5%AD%A6%E6%9C%AF%E7%94%9F%E6%B6%AF%E5%9B%B0%E6%83%91/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E5%AD%A6%E6%9C%AF%E7%94%9F%E6%B6%AF%E5%9B%B0%E6%83%91/</guid>
                 <pubDate>Tue, 08 Sep 2020 22:32:31 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2427,8 +2401,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>《新婚之夜》 - 辽京 - 中短篇小说集</title>
-                <link>https://notes.midofnowhere.link/posts/newwed-fiction-liao/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/newwed-fiction-liao/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E6%96%B0%E5%A9%9A%E4%B9%8B%E5%A4%9C-%E8%BE%BD%E4%BA%AC-%E4%B8%AD%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E6%96%B0%E5%A9%9A%E4%B9%8B%E5%A4%9C-%E8%BE%BD%E4%BA%AC-%E4%B8%AD%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/</guid>
                 <pubDate>Mon, 03 Aug 2020 06:21:27 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2473,8 +2447,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>疫区周记</title>
-                <link>https://notes.midofnowhere.link/posts/weekly-in-quarantine/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/weekly-in-quarantine/</guid>
+                <link>https://notes.midofnowhere.link/2020/%E7%96%AB%E5%8C%BA%E5%91%A8%E8%AE%B0/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2020/%E7%96%AB%E5%8C%BA%E5%91%A8%E8%AE%B0/</guid>
                 <pubDate>Fri, 10 Apr 2020 11:04:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2523,8 +2497,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>一个我喜欢的老师</title>
-                <link>https://notes.midofnowhere.link/posts/my_highschool_teacher/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/my_highschool_teacher/</guid>
+                <link>https://notes.midofnowhere.link/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/</guid>
                 <pubDate>Fri, 10 May 2019 04:44:22 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2568,8 +2542,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>2019新年计划</title>
-                <link>https://notes.midofnowhere.link/posts/new_year_2019/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/new_year_2019/</guid>
+                <link>https://notes.midofnowhere.link/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/</guid>
                 <pubDate>Wed, 09 Jan 2019 03:47:22 &#43;0800</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2617,8 +2591,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>22岁生日留念</title>
-                <link>https://notes.midofnowhere.link/posts/22-birthday/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/22-birthday/</guid>
+                <link>https://notes.midofnowhere.link/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</guid>
                 <pubDate>Mon, 05 Mar 2018 23:46:08 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2667,8 +2641,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>一个恐怖故事</title>
-                <link>https://notes.midofnowhere.link/posts/random-horror-story/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/random-horror-story/</guid>
+                <link>https://notes.midofnowhere.link/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/</guid>
                 <pubDate>Sun, 05 Nov 2017 11:20:54 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2742,8 +2716,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>21岁生日留念</title>
-                <link>https://notes.midofnowhere.link/posts/21-birthday/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/21-birthday/</guid>
+                <link>https://notes.midofnowhere.link/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</guid>
                 <pubDate>Wed, 01 Mar 2017 11:23:42 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2799,8 +2773,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>20岁生日留念</title>
-                <link>https://notes.midofnowhere.link/posts/20-birthday/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/20-birthday/</guid>
+                <link>https://notes.midofnowhere.link/2016/20%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2016/20%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/</guid>
                 <pubDate>Mon, 20 Jun 2016 11:26:23 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2867,8 +2841,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>论食堂菜系</title>
-                <link>https://notes.midofnowhere.link/posts/on-school-canteen/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/on-school-canteen/</guid>
+                <link>https://notes.midofnowhere.link/2015/%E8%AE%BA%E9%A3%9F%E5%A0%82%E8%8F%9C%E7%B3%BB/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2015/%E8%AE%BA%E9%A3%9F%E5%A0%82%E8%8F%9C%E7%B3%BB/</guid>
                 <pubDate>Fri, 11 Sep 2015 07:34:54 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
@@ -2928,8 +2902,8 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
         
             <item>
                 <title>成年自述</title>
-                <link>https://notes.midofnowhere.link/posts/stepping-into-adulthood/</link>
-                <guid isPermaLink="true">https://notes.midofnowhere.link/posts/stepping-into-adulthood/</guid>
+                <link>https://notes.midofnowhere.link/2014/%E6%88%90%E5%B9%B4%E8%87%AA%E8%BF%B0/</link>
+                <guid isPermaLink="true">https://notes.midofnowhere.link/2014/%E6%88%90%E5%B9%B4%E8%87%AA%E8%BF%B0/</guid>
                 <pubDate>Fri, 14 Mar 2014 11:27:20 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
