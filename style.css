@@ -26,9 +26,11 @@
   width: 550px;
 }
 
-.post-title{
-  font-size: 1.675rem;
+.post-title {
+  font-size: 1.625rem;
+  text-align: center;
 }
+
 
 a{
   color:inherit;
@@ -39,34 +41,59 @@ a:hover {
   color: var(--primaryColor);
 }
 
-/* friend link */
-img #friend-favicon{
-  float: left;
-  margin-right: 10%;
-  margin-left: 5%;
-}
-
-.friend-card a{
-  text-align: left;
-  text-decoration: none;
-  line-height: normal;
-}
-
-.friend-card h3{
-  line-height: 1rem;
-  vertical-align: top;
-}
-
-
-.friend-card {
+/* friend link need to nest*/
+ .friend {
+  background-color: var(--header);
   margin-top:32px;
   margin-bottom: 32px;
   height: 100%;
 }
 
+.friend  h3 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+.friend  img{
+    float: left;
+    margin:16px;
+    margin-left: 24px;
+  }
+
+.friend a{
+  text-decoration: none;
+}
+
+.friend a:hover{
+  box-shadow: 2px 2px 8px var(--background-secondary);
+}
+
+/*related posts*/
+.related-posts{
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  width: 85%;
+  max-width: 800px;
+  border-style: dashed;
+  border-color: var(--primaryColor);
+  box-shadow: 2px 2px 8px var(--background-secondary);
+  padding: 16px;
+}
+
+.related-item{
+  text-align: left;
+}
+
+.related-link {
+  text-decoration: none;
+}
+
+/*about me at the footer*/
 #aboutme .container {
   align-items: center;
 }
+
 
 .pagination__buttons{
   margin-left: 20px;
