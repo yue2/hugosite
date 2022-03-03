@@ -1,0 +1,75 @@
+:root{
+  --primaryColor: #25a07c
+}
+
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: block;
+  overflow: auto;
+  z-index: 9;
+}
+
+.logo__cursor{
+  background-color: var(--primaryColor);
+}
+
+.footer .slogan{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 550px;
+}
+
+.post-title{
+  font-size: 1.675rem;
+}
+
+a{
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+/* friend link */
+img #friend-favicon{
+  float: left;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.friend-card a{
+  text-align: left;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.friend-card h3{
+  line-height: 1rem;
+  vertical-align: top;
+}
+
+
+.friend-card {
+  margin-top:32px;
+  margin-bottom: 32px;
+  height: 100%;
+}
+
+#aboutme .container {
+  align-items: center;
+}
+
+.pagination__buttons{
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}

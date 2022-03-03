@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 27 Feb 2022 17:11:20 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 01 Mar 2022 18:59:51 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://notes.midofnowhere.link/rss.xml" />
         
@@ -717,7 +717,9 @@ git branch &amp;lt;branch name&amp;gt; --set-upstream-to remotes/origin/&amp;lt;
 &lt;ul&gt;
 &lt;li&gt;写了friendlink shortcode, 现在可以添加blogroll, 但是还有一点css上的问题，换成黑夜模式特别丑&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把文章按照最近修改时间排序&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;h3 id=&#34;shortcode&#34;&gt;shortcode&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/&#34;&gt;Hugo document&lt;/a&gt; on creating shortcode. 我用了最简单的named parameters, 在md文档中直接调用就好了。&lt;/p&gt;</description>
                 
                 
                 
