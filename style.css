@@ -12,6 +12,9 @@
   z-index: 9;
 }
 
+.menu{
+  position: static;
+}
 .logo__cursor{
   background-color: var(--primaryColor);
 }
@@ -31,6 +34,9 @@
   text-align: center;
 }
 
+.post-content{
+  line-height: 1.64;
+}
 
 a{
   color:inherit;
