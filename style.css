@@ -1,5 +1,5 @@
 :root{
-  --primaryColor: #25a07c
+  --primaryColor: #25a07c;
 }
 
 .header{
@@ -38,6 +38,16 @@
   line-height: 1.64;
 }
 
+@media screen and (min-width:1435px) {
+  .toc {
+    float: right;
+    position: fixed;
+    display:block;
+    max-width: 160px;
+    right: 10%;
+  }
+}
+
 a{
   color:inherit;
 }
@@ -48,22 +58,27 @@ a:hover {
 }
 
 /* friend link need to nest*/
- .friend {
+.friend-container {
+  position: relative;
   background-color: var(--header);
-  margin-top:32px;
-  margin-bottom: 32px;
-  height: 100%;
+  margin:32px auto;
+  height: fit-content();
+  min-height: 150px;
 }
 
-.friend  h3 {
-    font-size: 1.25rem;
-    text-align: center;
+.friend-info {
+    line-height: 2;
+    margin: 10px 25px auto 150px;
+    display: inline-block;
+    text-align: left;
   }
 
-.friend  img{
-    float: left;
-    margin:16px;
-    margin-left: 24px;
+.friend-avatar{
+    display: inline-block;
+    position: absolute;
+    margin:25px;
+    width: 100px;
+    height: 100px;
   }
 
 .friend a{
