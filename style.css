@@ -3,7 +3,7 @@
 }
 
 .header{
-  position: sticky;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -89,6 +89,13 @@ a:hover {
   box-shadow: 2px 2px 8px var(--background-secondary);
 }
 
+/*back to top*/
+.back-to-top{
+  position: absolute;
+  right: 10%;
+  bottom:5%;
+  line-height: 3rem;
+}
 /*related posts*/
 .related-posts{
   align-items: center;
