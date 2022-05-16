@@ -3,38 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.midofnowhere.link/message/</loc>
+    <lastmod>2022-05-15T20:35:15+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/2022/nginx-config/</loc>
+    <lastmod>2022-05-15T21:15:17+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/posts/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/tags/vps/</loc>
+    <lastmod>2022-05-15T21:15:17+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/2022/%E5%85%B3%E4%BA%8E%E5%A5%A5%E6%96%AF%E5%8D%A1%E6%80%A7%E5%88%AB%E6%94%B9%E9%9D%A9/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T20:42:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-05-15T21:15:17+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-05-15T21:15:17+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-04-27T21:08:15+08:00</lastmod>
+    <lastmod>2022-05-15T21:24:53+08:00</lastmod>
   </url>
   
   <url>
@@ -44,12 +69,12 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/</loc>
-    <lastmod>2022-03-02T19:44:25+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://notes.midofnowhere.link/blogroll/</loc>
-    <lastmod>2022-03-04T23:50:37+08:00</lastmod>
+    <lastmod>2022-05-15T15:26:29+08:00</lastmod>
   </url>
   
   <url>
@@ -58,17 +83,7 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-03-04T22:21:05+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-03-04T22:21:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-03-04T22:21:05+08:00</lastmod>
   </url>
   
@@ -124,7 +139,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/2021/%E9%9A%94%E7%A6%BB%E6%97%A5%E8%AE%B0%E4%BA%8C/</loc>
-    <lastmod>2021-12-22T23:59:48+08:00</lastmod>
+    <lastmod>2022-05-15T21:20:26+08:00</lastmod>
   </url>
   
   <url>
@@ -139,7 +154,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/</loc>
-    <lastmod>2021-12-07T22:16:34+08:00</lastmod>
+    <lastmod>2022-05-15T21:24:53+08:00</lastmod>
   </url>
   
   <url>
@@ -154,7 +169,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/</loc>
-    <lastmod>2021-12-08T13:19:46+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:34+08:00</lastmod>
   </url>
   
   <url>
@@ -224,7 +239,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/</loc>
-    <lastmod>2021-12-06T21:59:39+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:34+08:00</lastmod>
   </url>
   
   <url>
@@ -284,7 +299,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/tags/%E5%BD%B1/</loc>
-    <lastmod>2021-12-05T22:43:38+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
@@ -304,7 +319,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/</loc>
-    <lastmod>2021-12-06T21:59:04+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:34+08:00</lastmod>
   </url>
   
   <url>
@@ -314,7 +329,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/</loc>
-    <lastmod>2021-12-05T22:41:45+08:00</lastmod>
+    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
@@ -369,7 +384,7 @@
   
   <url>
     <loc>https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/</loc>
-    <lastmod>2021-12-05T22:40:20+08:00</lastmod>
+    <lastmod>2022-05-15T21:24:53+08:00</lastmod>
   </url>
   
   <url>
