@@ -3,33 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.midofnowhere.link/categories/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/posts/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/tags/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/2022/%E7%A6%BB%E5%BC%80%E5%8C%97%E4%BA%AC%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-06-06T12:00:04+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.midofnowhere.link/message/</loc>
     <lastmod>2022-05-15T20:35:15+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/</loc>
-    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://notes.midofnowhere.link/2022/nginx-config/</loc>
     <lastmod>2022-05-15T21:15:17+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/posts/</loc>
-    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/tags/</loc>
-    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
   </url>
   
   <url>
@@ -48,18 +63,8 @@
   </url>
   
   <url>
-    <loc>https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2022-05-15T21:25:59+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-05-15T21:15:17+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-05-15T21:24:53+08:00</lastmod>
   </url>
   
   <url>
