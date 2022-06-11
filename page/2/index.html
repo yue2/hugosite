@@ -22,6 +22,9 @@
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 
 <link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
@@ -172,9 +175,9 @@
   </span>
 </header>
 
-      <section class="" id="site-top">
+      <div class="" id="site-top">
 
-      </section>
+        </div>
 
       <div class="content">
         
@@ -189,219 +192,201 @@
 
   
 
-  <div class="posts">
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/">站点装修记录</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2022-02-16
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 2 min read</span>
-        
+  <div class="banner">
+  <div class="cover-img">
+      <img src="/bannerimg/13.jpg" alt="random picture">
+      <div class="cover-slogan">
+        <h3>Welcome to the Middle of Nowhere <span class="logo__cursor"></span></h3>
+        <p class="logo__text" id="site-subtitle">Thats right, absolute nowhere...</p>
       </div>
+  </div>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E5%8D%9A%E5%AE%A2/">#博客</a>&nbsp;
-          
-        </span>
-      
 
-      
+</div>
 
-      <div class="post-content">
-        
-          
-            Feb-16-2022 # 取消了冬季下雪特效。春天该到了！ 修复了顶端导航栏链接，搜索功能还不能用。 添加了站
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E5%86%99%E7%AC%94%E8%AE%B0/">写笔记</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2022-02-12
-          </span>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).on("load", function(){
+  $('.logo').addClass('hidden')
+  $("#site-subtitle").delay(2000).fadeOut("slow");
+});
+$(window).scroll(function(){
+  var hT = $('.pagination').offset().top,
+         hH = $('.pagination').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop();
+     if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+        $('.logo').removeClass('hidden')
+     } else {
+        $('.logo').addClass('hidden')
+     }
 
-          
-        
+})
+</script>
 
-        
 
+<div class="container" style="max-width:800px;">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="posts" style="padding:20px;">
+        <h3 style="text-align: left;">Recent Posts</h3>
         
-          <span class="post-read-time">— 6 min read</span>
-        
-      </div>
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E7%AB%99%E7%82%B9%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/">站点装修记录</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2022-02-16
+              </span>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E6%96%B9%E6%B3%95/">#方法</a>&nbsp;
-          
-        </span>
-      
+              
+            
 
-      
+            
 
-      <div class="post-content">
-        
-          
-            <p>记录一下目前的工作流程。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2022/%E5%86%99%E7%AC%94%E8%AE%B0/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/">看足球和篮球</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2022-02-01
-          </span>
+            
+              <span class="post-read-time">— 2 min read</span>
+            
+          </div>
 
           
-        
-
-        
-
-        
-          <span class="post-read-time">— 3 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E5%8D%9A%E5%AE%A2/">#博客</a>&nbsp;
+              
+            </span>
           
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%BF%90%E5%8A%A8/">#运动</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>——总的来说就是我不会打瞎看又看得格外投入的几种球。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2022/wk3-2022/">Wk3 2022</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2022-01-22
-          </span>
 
           
+        </div>
         
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E5%86%99%E7%AC%94%E8%AE%B0/">写笔记</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2022-02-12
+              </span>
 
-        
+              
+            
 
-        
-          <span class="post-read-time">— 3 min read</span>
-        
-      </div>
+            
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E5%91%A8%E8%AE%B0/">#周记</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>我从寒假返工已经一整周多了。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2022/wk3-2022/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/">2022新年展望</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2022-01-09
-          </span>
+            
+              <span class="post-read-time">— 6 min read</span>
+            
+          </div>
 
           
-        
-
-        
-
-        
-          <span class="post-read-time">— 4 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E6%96%B9%E6%B3%95/">#方法</a>&nbsp;
+              
+            </span>
           
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E6%96%B0%E5%B9%B4nyr/">#新年NYR</a>&nbsp;
-          
-        </span>
-      
 
-      
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2022/%E7%9C%8B%E8%B6%B3%E7%90%83%E5%92%8C%E7%AF%AE%E7%90%83/">看足球和篮球</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2022-02-01
+              </span>
 
-      <div class="post-content">
-        
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 3 min read</span>
+            
+          </div>
+
           
-            <p>在2022年1月1日和扁老师见了面，本来计划是在2021年12月31日的夜里，可以一起度过2021。但意外延宕，最后还是在新的一年才见到。想来我们相识于少时，前两年谈的是穷留学生的恋爱，直到这回才是两个拿工资的年轻人出来旅游。</p>
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%BF%90%E5%8A%A8/">#运动</a>&nbsp;
+              
+            </span>
           
+
+          
+        </div>
         
-      </div>
-      
-        <div><a class="read-more button" href="/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="pagination">
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2022/wk3-2022/">Wk3 2022</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2022-01-22
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 3 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E5%91%A8%E8%AE%B0/">#周记</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2022/2022%E6%96%B0%E5%B9%B4%E5%B1%95%E6%9C%9B/">2022新年展望</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2022-01-09
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 4 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E6%96%B0%E5%B9%B4nyr/">#新年NYR</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="pagination">
   <div class="pagination__buttons">
     
       <span class="button previous">
@@ -422,7 +407,40 @@
   </div>
 </div>
 
-    <div class="container content aboutme" id="aboutme">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="terms">
+        <h3>Categories</h3>
+        <ul class="terms__list">
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/">图册</a> <span class="terms__term-count">1</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/">学术</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/">文章</a> <span class="terms__term-count">35</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/">生活</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/">笔记</a> <span class="terms__term-count">6</span>
+            </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container content aboutme" id="aboutme">
     <div class="container centered">
     
         <div class="container" id="aboutme">
@@ -563,7 +581,6 @@
     </div>
     
 
-  </div>
 
         <div class="back-to-top" style="position: fixed;
 right: 10%;

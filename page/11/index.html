@@ -22,6 +22,9 @@
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 
 <link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
@@ -172,9 +175,9 @@
   </span>
 </header>
 
-      <section class="" id="site-top">
+      <div class="" id="site-top">
 
-      </section>
+        </div>
 
       <div class="content">
         
@@ -189,215 +192,197 @@
 
   
 
-  <div class="posts">
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/">一个我喜欢的老师</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2019-05-10
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 5 min read</span>
-        
+  <div class="banner">
+  <div class="cover-img">
+      <img src="/bannerimg/13.jpg" alt="random picture">
+      <div class="cover-slogan">
+        <h3>Welcome to the Middle of Nowhere <span class="logo__cursor"></span></h3>
+        <p class="logo__text" id="site-subtitle">Thats right, absolute nowhere...</p>
       </div>
+  </div>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
 
-      
+</div>
 
-      <div class="post-content">
-        
-          
-            <p>今天中午和同学去食堂吃饭，聊起来下周journal club要讲的文献，我俩分到的是一篇药物动力学建模，说到底就是一个酸碱反应的动力学方程。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/">2019新年计划</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2019-01-09
-          </span>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).on("load", function(){
+  $('.logo').addClass('hidden')
+  $("#site-subtitle").delay(2000).fadeOut("slow");
+});
+$(window).scroll(function(){
+  var hT = $('.pagination').offset().top,
+         hH = $('.pagination').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop();
+     if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+        $('.logo').removeClass('hidden')
+     } else {
+        $('.logo').addClass('hidden')
+     }
 
-          
-        
+})
+</script>
 
-        
 
+<div class="container" style="max-width:800px;">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="posts" style="padding:20px;">
+        <h3 style="text-align: left;">Recent Posts</h3>
         
-          <span class="post-read-time">— 3 min read</span>
-        
-      </div>
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2019/%E4%B8%80%E4%B8%AA%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E8%80%81%E5%B8%88/">一个我喜欢的老师</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2019-05-10
+              </span>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E7%94%9F%E6%B4%BB/">#生活</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
+              
+            
 
-      
+            
 
-      <div class="post-content">
-        
-          
-            <p>今天是2019年的第8天，新学期第一周的周二。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">22岁生日留念</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2018-03-05
-          </span>
+            
+              <span class="post-read-time">— 5 min read</span>
+            
+          </div>
 
           
-        
-
-        
-
-        
-          <span class="post-read-time">— 4 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
           
-            <a href="https://notes.midofnowhere.link/tags/bday/">#bday</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>我小时候看到小区里邮递员的墨绿色大脚踏车，觉得特别好看，横杠格外高，把手是弯曲的牛角状，通身邮局绿，送报纸信件的时候在横杠上挂一个粗帆布褡裢，也是墨绿色的。就有那么一辆，时常停在阿婆家楼下，也不上锁，炫耀似的挺立着，随便我欣赏。于是邮递员是我人生中第一个职业理想：可以拥有一辆那样的脚踏车，整天骑着走街串巷。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/">一个恐怖故事</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2017-11-05
-          </span>
 
           
+        </div>
         
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2019/2019%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/">2019新年计划</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2019-01-09
+              </span>
 
-        
+              
+            
 
-        
-          <span class="post-read-time">— 7 min read</span>
-        
-      </div>
+            
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>分享一个真实的故事，同时对创作类型进行一些有益（也可能没有）的探索。应该会很啰嗦，大家多担待。 这个故事又叫做：人总不能对惊悚片儿套路太熟悉。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">21岁生日留念</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2017-03-01
-          </span>
+            
+              <span class="post-read-time">— 3 min read</span>
+            
+          </div>
 
           
-        
-
-        
-
-        
-          <span class="post-read-time">— 4 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E7%94%9F%E6%B4%BB/">#生活</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
           
-            <a href="https://notes.midofnowhere.link/tags/bday/">#bday</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
 
-      
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2018/22%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">22岁生日留念</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2018-03-05
+              </span>
 
-      <div class="post-content">
-        
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 4 min read</span>
+            
+          </div>
+
           
-            <p>三月份了，我又要过生日了，但并不期待。对于生日的面条倒是很期待的，当然还有蛋糕。</p>
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/bday/">#bday</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
           
+
+          
+        </div>
         
-      </div>
-      
-        <div><a class="read-more button" href="/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="pagination">
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2017/%E4%B8%80%E4%B8%AA%E6%81%90%E6%80%96%E6%95%85%E4%BA%8B/">一个恐怖故事</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2017-11-05
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 7 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2017/21%E5%B2%81%E7%94%9F%E6%97%A5%E7%95%99%E5%BF%B5/">21岁生日留念</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2017-03-01
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 4 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/bday/">#bday</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="pagination">
   <div class="pagination__buttons">
     
       <span class="button previous">
@@ -418,7 +403,40 @@
   </div>
 </div>
 
-    <div class="container content aboutme" id="aboutme">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="terms">
+        <h3>Categories</h3>
+        <ul class="terms__list">
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/">图册</a> <span class="terms__term-count">1</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/">学术</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/">文章</a> <span class="terms__term-count">35</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/">生活</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/">笔记</a> <span class="terms__term-count">6</span>
+            </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container content aboutme" id="aboutme">
     <div class="container centered">
     
         <div class="container" id="aboutme">
@@ -559,7 +577,6 @@
     </div>
     
 
-  </div>
 
         <div class="back-to-top" style="position: fixed;
 right: 10%;

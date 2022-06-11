@@ -22,6 +22,9 @@
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 
 <link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
@@ -172,9 +175,9 @@
   </span>
 </header>
 
-      <section class="" id="site-top">
+      <div class="" id="site-top">
 
-      </section>
+        </div>
 
       <div class="content">
         
@@ -189,217 +192,199 @@
 
   
 
-  <div class="posts">
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/">网站搭建尝试</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-02-06
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 2 min read</span>
-        
+  <div class="banner">
+  <div class="cover-img">
+      <img src="/bannerimg/13.jpg" alt="random picture">
+      <div class="cover-slogan">
+        <h3>Welcome to the Middle of Nowhere <span class="logo__cursor"></span></h3>
+        <p class="logo__text" id="site-subtitle">Thats right, absolute nowhere...</p>
       </div>
+  </div>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
-          
-        </span>
-      
 
-      
+</div>
 
-      <div class="post-content">
-        
-          
-            <p>我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的<a href="http://podcast.midofnowhere.link">播客节目</a>的网页。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/">一场纪念</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-02-06
-          </span>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).on("load", function(){
+  $('.logo').addClass('hidden')
+  $("#site-subtitle").delay(2000).fadeOut("slow");
+});
+$(window).scroll(function(){
+  var hT = $('.pagination').offset().top,
+         hH = $('.pagination').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop();
+     if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+        $('.logo').removeClass('hidden')
+     } else {
+        $('.logo').addClass('hidden')
+     }
 
-          
-        
+})
+</script>
 
-        
 
+<div class="container" style="max-width:800px;">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="posts" style="padding:20px;">
+        <h3 style="text-align: left;">Recent Posts</h3>
         
-          <span class="post-read-time">— 4 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/">#疫情</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>刚上大学的时候修公共演讲英文课，有一节课的主题是畅想十年后。我那时候喜欢坐靠窗，烘着暖气走神。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/">《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-01-23
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 1 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E5%B0%9D%E8%AF%95/">网站搭建尝试</a></h5>
+          <div class="post-meta" style="display: inline;">
             
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2020/%E5%A4%A7%E7%BA%B2/">大纲</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2020-12-17
-          </span>
+              <span class="post-date">
+                2021-02-06
+              </span>
 
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 3 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/">#同人</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">#哈利波特</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>早上看了一篇哈利波特同人，居然是赫敏和麦格教授，我完全没有考虑过这两个人。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2020/%E5%A4%A7%E7%BA%B2/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/">《爱因斯坦自选集》 - Albert Einstein - 杂文集</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2020-11-24
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 1 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
+              
             
+
+            
+
+            
+              <span class="post-read-time">— 2 min read</span>
+            
+          </div>
+
           
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
         
-      </div>
-      
-        <div><a class="read-more button" href="/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="pagination">
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E4%B8%80%E5%9C%BA%E7%BA%AA%E5%BF%B5/">一场纪念</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-02-06
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 4 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/">#疫情</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/">#随笔</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95-%E6%84%8F%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%E7%A7%91%E8%A5%BF%E9%87%8C%E6%B4%9B-%E6%95%88%E7%8E%87%E6%96%B9%E6%B3%95/">《番茄工作法》 - [意]弗朗西斯科·西里洛 - 效率方法</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-01-23
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 1 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2020/%E5%A4%A7%E7%BA%B2/">大纲</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2020-12-17
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 3 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E5%90%8C%E4%BA%BA/">#同人</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/">#哈利波特</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2020/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E8%87%AA%E9%80%89%E9%9B%86-albert-einstein-%E6%9D%82%E6%96%87%E9%9B%86/">《爱因斯坦自选集》 - Albert Einstein - 杂文集</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2020-11-24
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 1 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="pagination">
   <div class="pagination__buttons">
     
       <span class="button previous">
@@ -420,7 +405,40 @@
   </div>
 </div>
 
-    <div class="container content aboutme" id="aboutme">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="terms">
+        <h3>Categories</h3>
+        <ul class="terms__list">
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/">图册</a> <span class="terms__term-count">1</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/">学术</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/">文章</a> <span class="terms__term-count">35</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/">生活</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/">笔记</a> <span class="terms__term-count">6</span>
+            </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container content aboutme" id="aboutme">
     <div class="container centered">
     
         <div class="container" id="aboutme">
@@ -561,7 +579,6 @@
     </div>
     
 
-  </div>
 
         <div class="back-to-top" style="position: fixed;
 right: 10%;

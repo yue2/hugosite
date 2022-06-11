@@ -22,6 +22,9 @@
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 
 <link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
@@ -172,9 +175,9 @@
   </span>
 </header>
 
-      <section class="" id="site-top">
+      <div class="" id="site-top">
 
-      </section>
+        </div>
 
       <div class="content">
         
@@ -189,215 +192,197 @@
 
   
 
-  <div class="posts">
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/">你喜欢搭乐高吗</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-05-06
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 2 min read</span>
-        
+  <div class="banner">
+  <div class="cover-img">
+      <img src="/bannerimg/13.jpg" alt="random picture">
+      <div class="cover-slogan">
+        <h3>Welcome to the Middle of Nowhere <span class="logo__cursor"></span></h3>
+        <p class="logo__text" id="site-subtitle">Thats right, absolute nowhere...</p>
       </div>
+  </div>
 
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">#论文导读</a>&nbsp;
-          
-        </span>
-      
 
-      
+</div>
 
-      <div class="post-content">
-        
-          
-            <p>2010年诺贝尔物理学奖发给了安德烈·盖姆爵爷，表彰他在石墨烯研究方面的卓越贡献。你小时候或许也听说过这项“透明胶扯出来的诺贝尔奖”，意思是用透明胶反复剥离石墨，可以获得只有一层碳原子厚的石墨烯。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/">分享一个商战故事</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-04-12
-          </span>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).on("load", function(){
+  $('.logo').addClass('hidden')
+  $("#site-subtitle").delay(2000).fadeOut("slow");
+});
+$(window).scroll(function(){
+  var hT = $('.pagination').offset().top,
+         hH = $('.pagination').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop();
+     if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+        $('.logo').removeClass('hidden')
+     } else {
+        $('.logo').addClass('hidden')
+     }
 
-          
-        
+})
+</script>
 
-        
 
+<div class="container" style="max-width:800px;">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="posts" style="padding:20px;">
+        <h3 style="text-align: left;">Recent Posts</h3>
         
-          <span class="post-read-time">— 2 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">#论文导读</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/">《正义联盟施耐德版》 - 电影</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-03-21
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 5 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E5%BD%B1/">#影</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
-            <p>两天看完了新出的施耐德重制版《正义联盟》。 最近几个月复习了一通超级英雄，回顾了三部《钢铁侠》，看了3小时版的bvs，刚好前两周才看了两部《不义联盟》的游戏剧情电影，实际上用游戏的结构来理解这个四小时超级英雄马拉松我觉得非常合适。</p>
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/">《飞行家》 - 双雪涛 - 短篇小说集</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-02-19
-          </span>
-
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 3 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%90%AD%E4%B9%90%E9%AB%98%E5%90%97/">你喜欢搭乐高吗</a></h5>
+          <div class="post-meta" style="display: inline;">
             
-          
-        
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/">《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</a></h1>
-      <div class="post-meta">
-        
-          <span class="post-date">
-            2021-02-19
-          </span>
+              <span class="post-date">
+                2021-05-06
+              </span>
 
-          
-        
-
-        
-
-        
-          <span class="post-read-time">— 1 min read</span>
-        
-      </div>
-
-      
-        <span class="post-tags">
-          
-            <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
-          
-            <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
-          
-        </span>
-      
-
-      
-
-      <div class="post-content">
-        
-          
+              
             
+
+            
+
+            
+              <span class="post-read-time">— 2 min read</span>
+            
+          </div>
+
           
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">#论文导读</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
         
-      </div>
-      
-        <div><a class="read-more button" href="/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/">Read more →</a></div>
-      
-    </div>
-    
-    <div class="pagination">
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%95%86%E6%88%98%E6%95%85%E4%BA%8B/">分享一个商战故事</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-04-12
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 2 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">#论文导读</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F%E6%96%BD%E8%80%90%E5%BE%B7%E7%89%88-%E7%94%B5%E5%BD%B1/">《正义联盟施耐德版》 - 电影</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-03-21
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 5 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E5%BD%B1/">#影</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E9%A3%9E%E8%A1%8C%E5%AE%B6-%E5%8F%8C%E9%9B%AA%E6%B6%9B-%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E9%9B%86/">《飞行家》 - 双雪涛 - 短篇小说集</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-02-19
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 3 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="post on-list">
+          <h5 class="post-title"><a href="https://notes.midofnowhere.link/2021/%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD-%E6%9E%97%E5%A5%95%E5%90%AB-%E4%B8%AD%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/">《房思琪的初恋乐园》 - 林奕含 - 中长篇小说</a></h5>
+          <div class="post-meta" style="display: inline;">
+            
+              <span class="post-date">
+                2021-02-19
+              </span>
+
+              
+            
+
+            
+
+            
+              <span class="post-read-time">— 1 min read</span>
+            
+          </div>
+
+          
+            <span class="post-tags" style="display:inline;">
+              
+                <a href="https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/">#评论</a>&nbsp;
+              
+                <a href="https://notes.midofnowhere.link/tags/%E4%B9%A6/">#书</a>&nbsp;
+              
+            </span>
+          
+
+          
+        </div>
+        
+        <div class="pagination">
   <div class="pagination__buttons">
     
       <span class="button previous">
@@ -418,7 +403,40 @@
   </div>
 </div>
 
-    <div class="container content aboutme" id="aboutme">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="terms">
+        <h3>Categories</h3>
+        <ul class="terms__list">
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%9B%BE%E5%86%8C/">图册</a> <span class="terms__term-count">1</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E5%AD%A6%E6%9C%AF/">学术</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/">文章</a> <span class="terms__term-count">35</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/">生活</a> <span class="terms__term-count">7</span>
+            </li>
+        
+            <li class="terms__term">
+              <a href="https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/">笔记</a> <span class="terms__term-count">6</span>
+            </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container content aboutme" id="aboutme">
     <div class="container centered">
     
         <div class="container" id="aboutme">
@@ -559,7 +577,6 @@
     </div>
     
 
-  </div>
 
         <div class="back-to-top" style="position: fixed;
 right: 10%;
