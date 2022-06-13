@@ -11,6 +11,10 @@
   z-index: 9;
 }
 
+.header__inner{
+  flex-direction: row-reverse;
+}
+
 .logo .hidden{
   visibility: hidden;
 }
@@ -23,7 +27,7 @@
 }
 
 .cover-img{
-height: 20%;
+max-width: 760px;
 position: relative;
 background-color: var(--background);
 opacity: 0.7;
