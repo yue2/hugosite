@@ -93,7 +93,7 @@
         
       
         
-          <li><a href="/blogroll/">Friends</a></li>
+          <li><a href="/blogroll/">Links</a></li>
         
       
         
@@ -122,7 +122,7 @@
       
     
       
-        <li><a href="/blogroll/">Friends</a></li>
+        <li><a href="/blogroll/">Links</a></li>
       
     
       
@@ -255,6 +255,23 @@
 
     
 
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
 
   </div>
 

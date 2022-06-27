@@ -93,7 +93,7 @@
         
       
         
-          <li><a href="/blogroll/">Friends</a></li>
+          <li><a href="/blogroll/">Links</a></li>
         
       
         
@@ -122,7 +122,7 @@
       
     
       
-        <li><a href="/blogroll/">Friends</a></li>
+        <li><a href="/blogroll/">Links</a></li>
       
     
       
@@ -239,6 +239,23 @@
     
 
 
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
+
   </div>
 
       
@@ -249,15 +266,15 @@
             <ul class="related-list">
                 
                     <li class="related-item">
+                        <a href="/2022/%E5%AF%B9%E8%BA%AB%E4%BD%93%E7%9A%84%E5%8F%8D%E6%80%9D/" class="related-link">对身体的反思</a>
+                    </li>
+                
+                    <li class="related-item">
                         <a href="/2022/%E5%86%9B%E8%AE%AD%E6%84%9F%E6%83%B3/" class="related-link">军训感想</a>
                     </li>
                 
                     <li class="related-item">
                         <a href="/2022/%E6%88%91%E7%9A%84%E4%BD%93%E9%87%8D%E7%84%A6%E8%99%91/" class="related-link">我的体重焦虑</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/2022/%E7%A6%BB%E5%BC%80%E5%8C%97%E4%BA%AC%E7%9A%84%E5%8E%9F%E5%9B%A0/" class="related-link">离开北京的原因</a>
                     </li>
                 
             </ul>

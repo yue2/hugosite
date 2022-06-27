@@ -59,7 +59,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://notes.midofnowhere.link/blogroll/" />
 <meta property="article:published_time" content="2022-02-22T23:09:10+08:00" />
-<meta property="article:modified_time" content="2022-05-15T15:26:29+08:00" />
+<meta property="article:modified_time" content="2022-06-27T13:53:11+08:00" />
 
 
 
@@ -92,7 +92,7 @@
         
       
         
-          <li><a href="/blogroll/">Friends</a></li>
+          <li><a href="/blogroll/">Links</a></li>
         
       
         
@@ -121,7 +121,7 @@
       
     
       
-        <li><a href="/blogroll/">Friends</a></li>
+        <li><a href="/blogroll/">Links</a></li>
       
     
       
@@ -249,7 +249,7 @@
 
 <div class="friend-container">
   <a href="https://seviche.cc/" target="_blank">
-    <img class="friend-avatar" src="https://seviche.cc/Frame%201.png" alt="Serviche">
+    <img class="friend-avatar" src="https://seviche.cc/assets/avatar.avif" alt="Serviche">
     <div class="friend-info">
     <h3>Serviche</h3>
     <p >像一块石头，顺着坡滚下来似的/我到达了今天的日子—— 石川啄木</p>
@@ -291,11 +291,39 @@
 </div>
 
 
+<div class="friend-container">
+  <a href="https://blog.plaskier.ga/" target="_blank">
+    <img class="friend-avatar" src="https://blog.plaskier.ga/img/author_hu8260b76fa7073057eba76787cb8b07bc_341825_288x288_fill_box_smart1_3.png" alt="">
+    <div class="friend-info">
+    <h3></h3>
+    <p >A place for loooooong posts. 芋阿圆，嘎～</p>
+    </div>
+  </a>
+</div>
+
+
     </div>
 
 
     
 
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
 
   </div>
 
