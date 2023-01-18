@@ -15,10 +15,6 @@
   flex-direction: row-reverse;
 }
 
-.logo .hidden{
-  visibility: hidden;
-}
-
 .menu{
   position: static;
 }
@@ -186,9 +182,25 @@ a:hover {
   align-items: center;
 }
 
+/* festive animation */
+.explosion {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  pointer-events: none;
+}
+.explosion .particle {
+  position: absolute;
+  animation: pop 1s reverse forwards;
+}
 
-.pagination__buttons{
-  margin-left: 20px;
-  margin-right: 20px;
-  justify-content: space-between;
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
 }
