@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        网站搭建尝试 ::
+        Middle of Nowhere
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的播客节目的网页。
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://notes.midofnowhere.link/2021/web-construction/" />
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://notes.midofnowhere.link/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://notes.midofnowhere.link/img/favicon.png" />
+
+
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="网站搭建尝试"/>
+<meta name="twitter:description" content="我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的播客节目的网页。"/>
+
+
+
+<meta property="og:title" content="网站搭建尝试" />
+<meta property="og:description" content="我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的播客节目的网页。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2021/web-construction/" />
+<meta property="article:published_time" content="2021-02-06T10:58:07+00:00" />
+<meta property="article:modified_time" content="2021-10-02T15:18:38+08:00" />
+
+
+
+<script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+
+  <span class="header__inner">
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/message/">Message</a></li>
+        
+      
+        
+          <li><a href="/archive/">Archive</a></li>
+        
+      
+        
+          <li><a href="/tags/">Tags</a></li>
+        
+      
+        
+          <li><a href="/blogroll/">Links</a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/message/">Message</a></li>
+      
+    
+      
+        <li><a href="/archive/">Archive</a></li>
+      
+    
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+    
+      
+        <li><a href="/blogroll/">Links</a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+      <a
+  href="https://notes.midofnowhere.link/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+
+    <span class="logo__text">Middle of Nowhere</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+  </span>
+</header>
+
+      <div class="" id="site-top">
+
+        </div>
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post" style="margin-top:80px;">
+    <h1 class="post-title">网站搭建尝试</h1>
+    <h2 class="post-title"> </h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-02-06
+        </span>
+
+        
+          
+            
+
+
+  
+    <span class="post-moddate">
+      *edited 2021-10-02
+    </span>
+  
+
+
+          
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 2 min read</span
+        >
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    
+    <div class="post-content">
+
+      <p>我现在有一个由github托管的，jekyll生成的静态网页，是我共同主持的<a href="http://podcast.midofnowhere.link">播客节目</a>的网页。</p>
+<p>把这个网页从github map到了我买的域名上，加载很快，但是jekyll生成很慢，只有这点内容要两三秒，很不爽。用了第三方的评论插件，还插入了google form作为送信功能。因为本节目也不怎么火，本人也不怎么火，所以实际上也没什么人点击，更新频率也很低，维护不是太麻烦。我觉得html还是比较好懂的语言。 一旦加入服务器和数据库，这个事情就变得比较复杂了。现在这个博客网页是由infinity free托管的wordpress网站。因为托管商是完全免费的，所以整个控制面板看起来很垃圾，弹窗广告到处都是，网页加载速度也很垃圾。好处是到目前为止都还没有遇到很复杂的maintain任务，也就是还没有需要debug的时候。wp的插件非常丰富，想要的功能基本上都有人已经实现过了。 现在的问题是我还没能成功把这个网站map到我买的域名上，我的域名商提供ssl，而这个网站现在没有https。第二是有没有必要买一个服务器装wp，改善加载体验。第三是，毋庸置疑地，wp网站功能比jekyll生成的静态网站丰富很多，主题也很漂亮，要修改起来比较方便，所以要不要把另一个网站也改成wp网站？ 起名儿的时候想了几个备选，一个就是目前的mid of nowhere，还有一个是tipsy gypsy，还有一个是world of goldfish。middle of nowhere就是字面意思，漂在海上，迷失在林间，反正就是举目四望哪儿也不是，符合我的路盲体质。tipsy gypsy押韵押得很好所以觉得有意思，其实我不喝酒，汉族人。最后一个world of goldfish来自大侦探福尔摩斯，麦考夫特跟夏洛克说，我们太聪明了，其他人都是傻子，你看着这个世界，不觉得这就是小金鱼们的世界吗？我的上一个博客（QQ空间）就叫这个名字，但是我买域名的时候想了想，觉得这个域名仿佛一家水族店，world of goldfish，本店出售金鱼热带鱼鱼缸鱼食，质优价廉童叟无欺。最后就是这样了，也可能会改，如果我想出了更喜欢的名字的话。</p>
+    </div>
+
+
+    
+
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
+
+  </div>
+
+      
+    
+    
+        <div class="related-posts" style="max-width:720px;">
+            <h2 class="related-title">Related Posts</h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/2021/hugo-build-host/" class="related-link">用VPS部署静态网页</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2021/shortcode_test/" class="related-link">Media Play Test</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2021/construction-log/" class="related-link">Construction Log</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+
+        <div class="back-to-top" style="position: fixed;
+right: 10%;
+bottom:5%;
+font-size: 2rem;">
+  <a href="#site-top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+</div>
+
+      </div>
+      
+
+      
+        <footer class="footer">
+  <div class="copyright slogan">
+    Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.
+  </div>
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+         © 2014 - 2023
+      [CC BY-NC-SA 4.0]</div>
+      
+  </div>
+</footer>
+
+<script src="https://notes.midofnowhere.link/assets/main.js"></script>
+<script src="https://notes.midofnowhere.link/assets/prism.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/animation.js">  </script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

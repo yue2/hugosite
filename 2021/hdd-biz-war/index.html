@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        分享一个商战故事 ::
+        Middle of Nowhere
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://notes.midofnowhere.link/2021/hdd-biz-war/" />
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://notes.midofnowhere.link/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://notes.midofnowhere.link/img/favicon.png" />
+
+
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="分享一个商战故事"/>
+<meta name="twitter:description" content="硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。"/>
+
+
+
+<meta property="og:title" content="分享一个商战故事" />
+<meta property="og:description" content="硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2021/hdd-biz-war/" />
+<meta property="article:published_time" content="2021-04-12T11:55:53+08:00" />
+<meta property="article:modified_time" content="2021-12-06T21:57:43+08:00" />
+
+
+
+<script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+
+  <span class="header__inner">
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/message/">Message</a></li>
+        
+      
+        
+          <li><a href="/archive/">Archive</a></li>
+        
+      
+        
+          <li><a href="/tags/">Tags</a></li>
+        
+      
+        
+          <li><a href="/blogroll/">Links</a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/message/">Message</a></li>
+      
+    
+      
+        <li><a href="/archive/">Archive</a></li>
+      
+    
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+    
+      
+        <li><a href="/blogroll/">Links</a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+      <a
+  href="https://notes.midofnowhere.link/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+
+    <span class="logo__text">Middle of Nowhere</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+  </span>
+</header>
+
+      <div class="" id="site-top">
+
+        </div>
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post" style="margin-top:80px;">
+    <h1 class="post-title">分享一个商战故事</h1>
+    <h2 class="post-title"> </h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-04-12
+        </span>
+
+        
+          
+            
+
+
+  
+    <span class="post-moddate">
+      *edited 2021-12-06
+    </span>
+  
+
+
+          
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 2 min read</span
+        >
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://notes.midofnowhere.link/tags/%E8%AE%BA%E6%96%87%E5%AF%BC%E8%AF%BB/">#论文导读</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    
+    <div class="post-content">
+
+      <p>硬盘（hard disk drive, HDD）读写头背后最重要的科学原理是巨磁阻效应（GMR），也就是说，改变外磁场时，材料的电阻会发生巨大变化，我们就可以通过测量这个电阻变化来获得信息。巨磁阻效应在1988年由法国人Albert Fert和德国人Peter Grunberg分别独立发现，他们于2007年共享了诺贝尔物理学奖。</p>
+<p>但，你正在使用的硬盘或许来自美国公司希捷和西部数据，或许来自日本公司日立和东芝，为什么和欧洲都没有关系呢？到底是谁从这一科学成果中赚到了钱呢？2015年的这篇文章[1]认为，美国制造了最多的GMR读写头，赚了最多钱的是日本，德国和法国都没赚到钱💸</p>
+<p>在GMR被发现之后，来自硅谷的IBM科学家Parkin发展了这项技术，终于在1997年，IBM率先将GMR读写头投入市场，迅速革命了硬盘科技。之后老牌存储设备生产商希捷获得了IBM的许可也开始生产，而初创企业西数开场就梭哈，也从IBM那里买了技术许可。之后的几年里美国的硬盘厂家遍地开花，到20世纪末期共有一两百家！创造了大量经济效益和工作岗位。但是在疯狂的价格战和收并购后，IBM顶不住了，于2002年卖掉了自己的硬盘生产部门，卖给了日本日立。日本的其他企业，比如富士和东芝，也趁着IBM遣散HDD部门时买货挖人，一举赶上了技术差距！截至2014年，日本企业的GMR销售额来到了整个市场的54%！早期几代iPod用的就都是东芝的硬盘。</p>
+<p>总之，日本血赚美国不亏，那欧洲怎么回事呢？Grunberg实际上也给自己的工作申请了专利，德国西门子也购买了这个专利，但是本文认为欧洲内部计算机产业相关制造商太少，因此硬盘市场并不大，于是西门子很快放弃了。在2008年，西门子向希捷提起专利诉讼，想赚一笔，但没有成功┑(￣Д ￣)┍</p>
+<p>本文最后认为，谁发现的不重要，谁做成了货才重要（学学认为这是废话）。本文还认为，美国的政策环境以及硅谷的产业聚集生态，都有助于科学发现迅速转化为产品；而欧洲保护现有企业的态度让他们的企业缺乏国际竞争力。但我以工程的背景来看，觉得这篇商学院文章没有很明白GMR读写头技术的发展，因为使得巨磁阻效应能真的在室温和较小能量下使用，最关键的就是Parkin在IBM实验室的工作，所以美国最先用上也并不奇怪。</p>
+<p>不是太有意思哈 大家随便看看</p>
+<ol>
+<li>Dedrick, Jason, and Kenneth L. Kraemer. “Who Captures Value from Science-Based Innovation? The Distribution of Benefits from GMR in the Hard Disk Drive Industry.” Research Policy 44, no. 8 (October 1, 2015): 1615–28.</li>
+</ol>
+    </div>
+
+
+    
+
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
+
+  </div>
+
+      
+    
+    
+        <div class="related-posts" style="max-width:720px;">
+            <h2 class="related-title">Related Posts</h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/2021/laser/" class="related-link">做一个激光需要几步</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2021/atomic-lego/" class="related-link">你喜欢搭乐高吗</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2021/spontaneous-emission/" class="related-link">荧光和磷光</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+
+        <div class="back-to-top" style="position: fixed;
+right: 10%;
+bottom:5%;
+font-size: 2rem;">
+  <a href="#site-top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+</div>
+
+      </div>
+      
+
+      
+        <footer class="footer">
+  <div class="copyright slogan">
+    Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.
+  </div>
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+         © 2014 - 2023
+      [CC BY-NC-SA 4.0]</div>
+      
+  </div>
+</footer>
+
+<script src="https://notes.midofnowhere.link/assets/main.js"></script>
+<script src="https://notes.midofnowhere.link/assets/prism.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/animation.js">  </script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

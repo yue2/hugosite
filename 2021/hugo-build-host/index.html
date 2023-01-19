@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        用VPS部署静态网页 ::
+        Middle of Nowhere
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://notes.midofnowhere.link/2021/hugo-build-host/" />
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://notes.midofnowhere.link/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://notes.midofnowhere.link/img/favicon.png" />
+
+
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="用VPS部署静态网页"/>
+<meta name="twitter:description" content="突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。"/>
+
+
+
+<meta property="og:title" content="用VPS部署静态网页" />
+<meta property="og:description" content="突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2021/hugo-build-host/" />
+<meta property="article:published_time" content="2021-12-23T23:21:08+08:00" />
+<meta property="article:modified_time" content="2021-12-24T00:30:23+08:00" />
+
+
+
+<script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+
+  <span class="header__inner">
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/message/">Message</a></li>
+        
+      
+        
+          <li><a href="/archive/">Archive</a></li>
+        
+      
+        
+          <li><a href="/tags/">Tags</a></li>
+        
+      
+        
+          <li><a href="/blogroll/">Links</a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/message/">Message</a></li>
+      
+    
+      
+        <li><a href="/archive/">Archive</a></li>
+      
+    
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+    
+      
+        <li><a href="/blogroll/">Links</a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+      <a
+  href="https://notes.midofnowhere.link/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+
+    <span class="logo__text">Middle of Nowhere</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+  </span>
+</header>
+
+      <div class="" id="site-top">
+
+        </div>
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post" style="margin-top:80px;">
+    <h1 class="post-title">用VPS部署静态网页</h1>
+    <h2 class="post-title"> </h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-12-23
+        </span>
+
+        
+          
+            
+
+
+  
+    <span class="post-moddate">
+      *edited 2021-12-24
+    </span>
+  
+
+
+          
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 3 min read</span
+        >
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+        
+          <a href="https://notes.midofnowhere.link/tags/%E7%BD%91%E9%A1%B5/">#网页</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    
+      
+      <div class="toc">
+        <h3>On This Page</h3>
+        <aside class="table-of-contents"><nav id="TableOfContents">
+  <ol>
+    <li><a href="#tldr">TLDR</a></li>
+    <li><a href="#hugo">HUGO</a></li>
+    <li><a href="#把html传到vps上用的是git">把html传到vps上——用的是git</a></li>
+    <li><a href="#nginx代理">NGINX代理</a></li>
+    <li><a href="#工作流">工作流</a></li>
+    <li><a href="#还需要改进的地方">还需要改进的地方</a></li>
+  </ol>
+</nav></aside>
+      </div>
+      
+    
+    <div class="post-content">
+
+      <p>突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。</p>
+<h2 id="tldr">
+  TLDR
+  <a href="#tldr" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>目标是用自己的vps host静态博客网页</li>
+<li>用hugo生成网页</li>
+<li>用git把网页文件传到vps上</li>
+<li>用nginx host 网页</li>
+</ul>
+<h2 id="hugo">
+  HUGO
+  <a href="#hugo" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>所谓静态网页，就是写完这个网页所需的所有html文件，然后通过site map索引就能实现基本的网页功能。如果完全从html和css自己写当然很麻烦，因此就有static site generator来辅助实现，实际上只要写简单的命令行就可以生成，写文章则是在任何文档编辑器里写md就好了。hugo就是其中一个被广泛使用的生成器。我从wordpress换成这个方案有几个原因：</p>
+<ul>
+<li>我对数据库一窍不通，mysql完全是按教程装卸的，一旦出问题完全不会修理。而静态网页反正就是html, 全都崩盘了换个地方部署也不过是复制粘贴html文件。</li>
+<li>我原本觉得wordpress可以在移动端写作发布很方便，后来发现真的写长一点的文章还是在用电脑，所以移动端编辑变得没有那么重要，真的有什么灵感也可以在app里写了复制粘贴，目前我在用的是simple note。</li>
+<li>wordpress占据了我这个最便宜套餐1G vps的不少空间，如果还想装其他服务可能会有点麻烦，而文字文档当然占的地方小多了。</li>
+<li>html和css都是很容易读懂的语言，调试和修改都很容易找到资源。这一点对于我这种完全不会写代码全靠google建站的人来说非常重要！</li>
+</ul>
+<p><a href="https://gohugo.io/">Hugo official site</a> 有完整教程和很多其他资源，我就不说怎么用了。</p>
+<h2 id="把html传到vps上用的是git">
+  把html传到vps上——用的是git
+  <a href="#%e6%8a%8ahtml%e4%bc%a0%e5%88%b0vps%e4%b8%8a%e7%94%a8%e7%9a%84%e6%98%afgit" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>首先在vps——我的是ubuntu 18.0——上安装git</p>
+<ul>
+<li>新建一个用户，管理git, I called them gitter
+add gitter to the root group</li>
+</ul>
+<pre><code class="language-ssh" data-lang="ssh">adduser gitter
+su - gitter
+// in root user
+usermod -aG sudo gitter
+apt install git
+// after installation, check the version
+git --version
+</code></pre><ul>
+<li>pair the remote git to local repository</li>
+</ul>
+<pre><code class="language-ssh" data-lang="ssh">// add a git in the gitter root directory
+mkdir new.git &amp;&amp; cd new.git
+git init
+// ** do not use bare git because bare git does not show explicit files **
+
+mkdir -p ~/.ssh &amp;&amp; chmod 0700 ~/.ssh
+gitter@midofnowhere:~$ touch ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ chmod 0600 ~/.ssh/authorized_keys
+gitter@midofnowhere:~$ git init --bare ~/hugoblog.git
+Initialized empty Git repository in /home/gitter/hugoblog.git/
+</code></pre><p>check local ssh keygen in local git bash <code>cat ~/.ssh/id_rsa.pub</code> then copy the keygen to vps authorized key file.</p>
+<p>go to local git repo directory:</p>
+<pre><code class="language-git" data-lang="git">git init
+git remote set-url origin gitter@myip:hugoblog.git
+git add . 
+git commit -m &quot;commit message&quot;
+git push --set-upstream origin main 
+//no branches in remote git yet so set up a main branch
+</code></pre><ul>
+<li>some basic frequently used operations in git</li>
+</ul>
+<pre><code class="language-git" data-lang="git">git branch &lt;new branch name&gt;
+git checkout &lt;go to the branch need to checkout&gt;
+git branch -a ##display all branches
+git branch &lt;branch name&gt; --set-upstream-to remotes/origin/&lt;branch name&gt;
+</code></pre><p>cannot push to the branch currently checked out according to this <a href="https://stackoverflow.com/questions/2816369/git-push-error-remote-rejected-master-master-branch-is-currently-checked">stack overflow qs</a> so I created a temporary branch <code>git branch temp &amp;&amp; git checkout temp</code> then push from local repository.</p>
+<p>Successfully pushed.</p>
+<h2 id="nginx代理">
+  NGINX代理
+  <a href="#nginx%e4%bb%a3%e7%90%86" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>这一部分我不懂，看的是这个<a href="https://jgefroh.medium.com/a-guide-to-using-nginx-for-static-websites-d96a9d034940">tutorial</a>, 我目前用的是默认80端口。</p>
+<h2 id="工作流">
+  工作流
+  <a href="#%e5%b7%a5%e4%bd%9c%e6%b5%81" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ol>
+<li>从本地目录新建md文档，在obsidian或者atom中编辑。</li>
+<li>用hugo生成预览 <code>hugo server</code> 查看效果，满意的话生成整个网站 <code>hugo</code> ，所有文档就会生成好放在 <code>/public</code> 文件夹里。</li>
+<li><code>/public</code> 文件夹里的git就是连接在vps上的，因此进入这个文件夹，用git把最新的文件push到服务器上。</li>
+<li>就好了！</li>
+</ol>
+<h2 id="还需要改进的地方">
+  还需要改进的地方
+  <a href="#%e8%bf%98%e9%9c%80%e8%a6%81%e6%94%b9%e8%bf%9b%e7%9a%84%e5%9c%b0%e6%96%b9" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>博客网页本身还有一些bug, 详见<a href="https://notes.midofnowhere.link/2021/construction-log/">这篇</a>。</li>
+<li>添加互动模块：用waline评论或接入fediverse动态显示。</li>
+<li>configure NGINX 改用其他端口以安装多个服务或网站。</li>
+<li>把博客搬到子域名。</li>
+<li>用action或hook实现新文章自动部署。</li>
+</ul>
+    </div>
+
+
+    
+
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
+
+  </div>
+
+      
+    
+    
+        <div class="related-posts" style="max-width:720px;">
+            <h2 class="related-title">Related Posts</h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/2021/shortcode_test/" class="related-link">Media Play Test</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2021/construction-log/" class="related-link">Construction Log</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2022/nginx/" class="related-link">NGINX Config</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+
+        <div class="back-to-top" style="position: fixed;
+right: 10%;
+bottom:5%;
+font-size: 2rem;">
+  <a href="#site-top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+</div>
+
+      </div>
+      
+
+      
+        <footer class="footer">
+  <div class="copyright slogan">
+    Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.
+  </div>
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+         © 2014 - 2023
+      [CC BY-NC-SA 4.0]</div>
+      
+  </div>
+</footer>
+
+<script src="https://notes.midofnowhere.link/assets/main.js"></script>
+<script src="https://notes.midofnowhere.link/assets/prism.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/animation.js">  </script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
