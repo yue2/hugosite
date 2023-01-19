@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        打扫网页迎新年 ::
+        Middle of Nowhere
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://notes.midofnowhere.link/2023/newyear-animation/" />
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/assets/style.css" />
+
+<link rel="stylesheet" href="https://notes.midofnowhere.link/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://notes.midofnowhere.link/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://notes.midofnowhere.link/img/favicon.png" />
+
+
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://notes.midofnowhere.link/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="打扫网页迎新年"/>
+<meta name="twitter:description" content="过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。"/>
+
+
+
+<meta property="og:title" content="打扫网页迎新年" />
+<meta property="og:description" content="过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2023/newyear-animation/" />
+<meta property="article:published_time" content="2023-01-19T13:32:39+08:00" />
+<meta property="article:modified_time" content="2023-01-19T16:14:02+08:00" />
+
+
+
+<script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+
+  <span class="header__inner">
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/message/">Message</a></li>
+        
+      
+        
+          <li><a href="/archive/">Archive</a></li>
+        
+      
+        
+          <li><a href="/tags/">Tags</a></li>
+        
+      
+        
+          <li><a href="/blogroll/">Links</a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+        
+          <li><a href=""></a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/message/">Message</a></li>
+      
+    
+      
+        <li><a href="/archive/">Archive</a></li>
+      
+    
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+    
+      
+        <li><a href="/blogroll/">Links</a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+      
+        <li><a href=""></a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+      <a
+  href="https://notes.midofnowhere.link/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+
+    <span class="logo__text">Middle of Nowhere</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+  </span>
+</header>
+
+      <div class="" id="site-top">
+
+        </div>
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post" style="margin-top:80px;">
+    <h1 class="post-title">打扫网页迎新年</h1>
+    <h2 class="post-title"> ——之用户的心才是产品经理的最高优先级啊混蛋</h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2023-01-19
+        </span>
+
+        
+          
+            
+
+
+  
+    <span class="post-moddate">
+      *edited 2023-01-19
+    </span>
+  
+
+
+          
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 4 min read</span
+        >
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/">#技术</a>&nbsp;
+        
+          <a href="https://notes.midofnowhere.link/tags/%E7%BD%91%E9%A1%B5/">#网页</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    
+      
+      <div class="toc">
+        <h3>On This Page</h3>
+        <aside class="table-of-contents"><nav id="TableOfContents">
+  <ol>
+    <li><a href="#技术力背景">技术力背景</a></li>
+    <li><a href="#实现效果">实现效果</a></li>
+    <li><a href="#开始抄代码">开始抄代码！</a>
+      <ol>
+        <li><a href="#js">js</a></li>
+        <li><a href="#css">css</a></li>
+        <li><a href="#链接到html文件里">链接到html文件里</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考阅读">参考阅读</a></li>
+    <li><a href="#what-else-had-happened">what else had happened</a></li>
+    <li><a href="#todo">todo</a></li>
+  </ol>
+</nav></aside>
+      </div>
+      
+    
+    <div class="post-content">
+
+      <p>过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。</p>
+<p>从网址 <a href="https://notes.midofnowhere.link">notes.midofnowhere.link</a> 进来的朋友可能已经看到了，现在点击网页就会从点击出放出一些红包灯笼小炮仗，没看到吗？<strong>再点一下！</strong> 这都是我抄来的，用css和js实现，非常简单，如果看到这里你也想要，请直接移步<a href="https://codepen.io/alek/pen/EyyLgp">codepen</a> 跟我一样抄上就好，接下来的内容只是我再转抄一遍。</p>
+<h2 id="技术力背景">
+  技术力背景
+  <a href="#%e6%8a%80%e6%9c%af%e5%8a%9b%e8%83%8c%e6%99%af" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>本博客网站是用 <a href="https://gohugo.io/">Hugo</a> 做的，因为只有这个工具我用得明白。具体Hugo是怎么生成网页的我不懂，但是我能碰到的部分除了写作时编辑的markdown, 就是单纯的html/css/js. 对这几部分我都有非常非常非常浅显的了解，css只会用plain css, 预处理完全不懂，scss我都看不懂。js基本上只会照着抄。好了铺垫就到这里，您可以另请高明或者陪伴笔者一起抄下去。</p>
+<h2 id="实现效果">
+  实现效果
+  <a href="#%e5%ae%9e%e7%8e%b0%e6%95%88%e6%9e%9c" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p><img src="https://github.com/yue2/picbed/blob/main/effect%20results.gif?raw=true" alt="gif image"></p>
+<p>要实现的就是这样一个简单的效果，在点击网页<code>body</code>时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：</p>
+<ol>
+<li>用 <code>event listner</code> 记录点击并触发动画</li>
+<li>动画开始：以点击处为中心产生一个装满图案的 <code>div</code></li>
+<li>动画过程：控制小图案的数量、品种、行动轨迹</li>
+<li>动画结束：<code>div</code> 消失</li>
+</ol>
+<h2 id="开始抄代码">
+  开始抄代码！
+  <a href="#%e5%bc%80%e5%a7%8b%e6%8a%84%e4%bb%a3%e7%a0%81" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="js">
+  js
+  <a href="#js" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>这里用到jQuery.</p>
+<pre><code>// click event listener
+$('body').on('click', function(e) {
+  explode(e.pageX, e.pageY);
+})
+</code></pre><p>好了上一节的第一步已经完成了，那么这个explode函数里是啥样的呢？</p>
+<pre><code>// explosion construction
+function explode(x, y) {
+// 决定就放15个红包，你想多放点也可以
+  var particles = 15,
+  
+    // explosion container and its reference to be able to delete it on animation end
+    explosion = $('&lt;div class=&quot;explosion&quot;&gt;&lt;/div&gt;');
+
+  // put the explosion container into the body to be able to get it's size
+  $('body').append(explosion);
+
+  // position the container to be centered on click
+  explosion.css('left', x - explosion.width() / 2);
+  explosion.css('top', y - explosion.height() / 2);
+
+  for (var i = 0; i &lt; particles; i++) {
+    // positioning x,y of the particle on the circle (little randomized radius)
+    // 以稍微不规则的圆形播撒红包
+    var x = (explosion.width() / 2) + rand(80, 150) * Math.cos(2 * Math.PI * i / rand(particles - 10, particles + 10)),
+      y = (explosion.height() / 2) + rand(80, 150) * Math.sin(2 * Math.PI * i / rand(particles - 10, particles + 10));
+        // particle element creation (could be anything other than div)
+        // 此处我用了网上下载的svg图，随机产生三种图案
+			var shapes = ['&lt;img src=&quot;chinese-new-year-lamp-svgrepo-com.svg&quot; alt=&quot;cny lamp&quot;/&gt;', '&lt;img src=&quot;envelope-chinese-new-year-svgrepo-com.svg&quot; alt=&quot;evelope&quot;/&gt;', '&lt;img src=&quot;fireworks-svgrepo-com.svg&quot; alt=&quot;firework&quot;/&gt;']
+			var getShape = Math.floor(Math.random() * shapes.length);
+      // 往div中添加图案
+      var elm = $('&lt;div class=&quot;particle&quot; style=&quot;' +
+        'top: ' + y + 'px; ' +
+        'left: ' + x + 'px&quot;&gt;' + shapes[getShape] + '&lt;/div&gt;');
+
+    if (i == 0) { // no need to add the listener on all generated elements
+      // css3 animation end detection
+      elm.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
+        explosion.remove(); 
+        // remove this explosion container when animation ended
+      });
+    }
+    explosion.append(elm);
+  }
+}
+
+</code></pre><p>其中 <code>shapes</code> 可以是你喜欢的任何东西，比如说 <code>&lt;i&gt; element</code> , 或者在css里直接画圆形方形都可以。我这里用到的是网页矢量图 svg, 这个图如果用 text editor 打开看起来是这样的：</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot;?&gt;
+&lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
+&lt;svg height=&quot;25px&quot; width=&quot;25px&quot; version=&quot;1.1&quot; id=&quot;Layer_1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; 
+	 viewBox=&quot;0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;
+&lt;path style=&quot;fill:#FF4B4B;&quot; d=&quot;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
+	l-24.71,90.599h229.517L363.705,6.505z&quot;/&gt;
+&lt;path style=&quot;fill:#C83741;&quot; d=&quot;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&quot;/&gt;
+&lt;path style=&quot;fill:#FF4B4B;&quot; d=&quot;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&quot;/&gt;
+&lt;g&gt;
+	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
+		s79.448,35.638,79.448,79.448S282.155,397.241,238.345,397.241z M238.345,256c-34.069,0-61.793,27.724-61.793,61.793
+		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&quot;/&gt;
+	&lt;circle style=&quot;fill:#FFCF65;&quot; cx=&quot;238.345&quot; cy=&quot;317.793&quot; r=&quot;35.31&quot;/&gt;
+	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
+		c2.845-3.957,8.371-4.836,12.328-1.983c16.621,12.019,36.216,18.371,56.655,18.371c20.423,0,40.009-6.345,56.638-18.345
+		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&quot;/&gt;
+	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
+		c-20.431,0-40.009,6.345-56.621,18.345c-3.975,2.854-9.483,1.965-12.328-1.983c-2.854-3.957-1.965-9.474,1.983-12.328
+		c19.647-14.189,42.803-21.689,66.966-21.689c24.181,0,47.345,7.509,67,21.716c3.948,2.862,4.836,8.38,1.983,12.328
+		C305.603,239.466,302.905,240.733,300.164,240.733z&quot;/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</code></pre><p>这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 <code>firecrack.svg</code>, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。</p>
+<h3 id="css">
+  css
+  <a href="#css" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>接下来在css文件里添加 <code>.explosion</code> 的样式：</p>
+<pre><code>.explosion {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  pointer-events: none;
+}
+.explosion .particle {
+  position: absolute;
+  animation: pop 1s reverse forwards;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+}
+</code></pre><p>第一部分是整个 explosion div 的大小，当然啦总不能无限飞满整个页面。第二部分是动画效果，用到了关键帧，我不懂，<strong>直接抄！</strong></p>
+<h3 id="链接到html文件里">
+  链接到html文件里
+  <a href="#%e9%93%be%e6%8e%a5%e5%88%b0html%e6%96%87%e4%bb%b6%e9%87%8c" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>如果你是单独写一个html, 那就直接链接css/js就好了，但是我用的是Hugo，所以要找一找文件放哪里。</p>
+<ol>
+<li>css 直接加到自定义 css 文件里了，因为这种节日气氛过段时间就会不用了，也需要方便删除啊！</li>
+<li>js 保存成一个文件比如说 <code>animation.js</code>, 我放在了static文件夹里面。</li>
+<li>在你的模板里找到链接 stylesheets 和 script 的地方，一般在 <code>/layout/partials/head.html</code> 和 <code>/layout/partials/foot.html</code> 这种地方。</li>
+</ol>
+<ul>
+<li>总的来说请参考Hugo和主题文档</li>
+</ul>
+<h2 id="参考阅读">
+  参考阅读
+  <a href="#%e5%8f%82%e8%80%83%e9%98%85%e8%af%bb" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ol>
+<li><a href="https://codepen.io/alek/pen/EyyLgp">explosion effect codepen</a></li>
+<li><a href="https://codemyui.com/explosion-of-shapes-like-plus-diamond-and-stars-on-button-click/">star and diamond button animation</a></li>
+<li><a href="https://gohugo.io/templates/lookup-order/">Hugo lookup order</a></li>
+</ol>
+<h2 id="what-else-had-happened">
+  what else had happened
+  <a href="#what-else-had-happened" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 取消了抬头字体消失特效，搞不懂去年本人的审美到底咋回事</li>
+<li><input checked="" disabled="" type="checkbox"> 修复了buy me a coffee链接，暗示现在可以顺利打钱</li>
+<li><input checked="" disabled="" type="checkbox"> 修改了permalink为英文，之前分享的几篇文章可能链接会出问题，不管了，爱看看不爱看拉倒。</li>
+<li><input checked="" disabled="" type="checkbox"> 将<a href="https://notes.midofnowhere.link/index.xml">rss feed</a>改为了全文，可以在您喜欢的rss reader中阅读全文，不再需要特地点进来看我马马虎虎的网页</li>
+</ul>
+<h2 id="todo">
+  todo
+  <a href="#todo" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 收拾分类和标签命名，怎么被我搞得这么混乱？</li>
+<li><input disabled="" type="checkbox"> 换个新鲜一点的头图</li>
+<li><input disabled="" type="checkbox"> 起个中文名，目前的备选是“茫茫居”</li>
+<li><input disabled="" type="checkbox"> 研究一下markdown的更多新鲜玩法，比如说高亮和隐藏</li>
+<li><input disabled="" type="checkbox"> 评论区的管理账号密码我忘了（……）考虑换一个服务</li>
+</ul>
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+<div class="">
+
+
+<h2>Comments</h2>
+<div id="comment-section"></div>
+</div>
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "my-hugoblog",
+  commentSectionId: "newyear-animation"
+})
+</script>
+    </div>
+
+
+    
+
+
+<div class="like-button">
+<span> <i class="fa-solid fa-heart"></i> </span> +1
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(".fa-heart").click(function(){
+
+  if($(this).hasClass("liked")){
+    $(this).removeClass("liked");
+  } else {
+    $(this).addClass("liked");
+  }
+})
+</script>
+
+  </div>
+
+      
+    
+    
+        <div class="related-posts" style="max-width:720px;">
+            <h2 class="related-title">Related Posts</h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/2021/hugo-build-host/" class="related-link">用VPS部署静态网页</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2022/nginx/" class="related-link">NGINX Config</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/2022/site-construction/" class="related-link">站点装修记录</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+
+        <div class="back-to-top" style="position: fixed;
+right: 10%;
+bottom:5%;
+font-size: 2rem;">
+  <a href="#site-top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+</div>
+
+      </div>
+      
+
+      
+        <footer class="footer">
+  <div class="copyright slogan">
+    Welcome to the middle of nowhere. That&#39;s right, absolute nowhere.
+  </div>
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+         © 2014 - 2023
+      [CC BY-NC-SA 4.0]</div>
+      
+  </div>
+</footer>
+
+<script src="https://notes.midofnowhere.link/assets/main.js"></script>
+<script src="https://notes.midofnowhere.link/assets/prism.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/animation.js">  </script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

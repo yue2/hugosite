@@ -10,10 +10,213 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Mon, 16 Jan 2023 23:56:28 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jan 2023 13:32:39 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>打扫网页迎新年</title>
+      <link>https://notes.midofnowhere.link/2023/newyear-animation/</link>
+      <pubDate>Thu, 19 Jan 2023 13:32:39 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2023/newyear-animation/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。&lt;/p&gt;
+&lt;p&gt;从网址 &lt;a href=&#34;https://notes.midofnowhere.link&#34;&gt;notes.midofnowhere.link&lt;/a&gt; 进来的朋友可能已经看到了，现在点击网页就会从点击出放出一些红包灯笼小炮仗，没看到吗？&lt;strong&gt;再点一下！&lt;/strong&gt; 这都是我抄来的，用css和js实现，非常简单，如果看到这里你也想要，请直接移步&lt;a href=&#34;https://codepen.io/alek/pen/EyyLgp&#34;&gt;codepen&lt;/a&gt; 跟我一样抄上就好，接下来的内容只是我再转抄一遍。&lt;/p&gt;
+&lt;h2 id=&#34;技术力背景&#34;&gt;
+  技术力背景
+  &lt;a href=&#34;#%e6%8a%80%e6%9c%af%e5%8a%9b%e8%83%8c%e6%99%af&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;本博客网站是用 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 做的，因为只有这个工具我用得明白。具体Hugo是怎么生成网页的我不懂，但是我能碰到的部分除了写作时编辑的markdown, 就是单纯的html/css/js. 对这几部分我都有非常非常非常浅显的了解，css只会用plain css, 预处理完全不懂，scss我都看不懂。js基本上只会照着抄。好了铺垫就到这里，您可以另请高明或者陪伴笔者一起抄下去。&lt;/p&gt;
+&lt;h2 id=&#34;实现效果&#34;&gt;
+  实现效果
+  &lt;a href=&#34;#%e5%ae%9e%e7%8e%b0%e6%95%88%e6%9e%9c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/yue2/picbed/blob/main/effect%20results.gif?raw=true&#34; alt=&#34;gif image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;要实现的就是这样一个简单的效果，在点击网页&lt;code&gt;body&lt;/code&gt;时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 &lt;code&gt;event listner&lt;/code&gt; 记录点击并触发动画&lt;/li&gt;
+&lt;li&gt;动画开始：以点击处为中心产生一个装满图案的 &lt;code&gt;div&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;动画过程：控制小图案的数量、品种、行动轨迹&lt;/li&gt;
+&lt;li&gt;动画结束：&lt;code&gt;div&lt;/code&gt; 消失&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;开始抄代码&#34;&gt;
+  开始抄代码！
+  &lt;a href=&#34;#%e5%bc%80%e5%a7%8b%e6%8a%84%e4%bb%a3%e7%a0%81&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id=&#34;js&#34;&gt;
+  js
+  &lt;a href=&#34;#js&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;这里用到jQuery.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// click event listener
+$(&#39;body&#39;).on(&#39;click&#39;, function(e) {
+  explode(e.pageX, e.pageY);
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;好了上一节的第一步已经完成了，那么这个explode函数里是啥样的呢？&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// explosion construction
+function explode(x, y) {
+// 决定就放15个红包，你想多放点也可以
+  var particles = 15,
+  
+    // explosion container and its reference to be able to delete it on animation end
+    explosion = $(&#39;&amp;lt;div class=&amp;quot;explosion&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&#39;);
+
+  // put the explosion container into the body to be able to get it&#39;s size
+  $(&#39;body&#39;).append(explosion);
+
+  // position the container to be centered on click
+  explosion.css(&#39;left&#39;, x - explosion.width() / 2);
+  explosion.css(&#39;top&#39;, y - explosion.height() / 2);
+
+  for (var i = 0; i &amp;lt; particles; i++) {
+    // positioning x,y of the particle on the circle (little randomized radius)
+    // 以稍微不规则的圆形播撒红包
+    var x = (explosion.width() / 2) + rand(80, 150) * Math.cos(2 * Math.PI * i / rand(particles - 10, particles + 10)),
+      y = (explosion.height() / 2) + rand(80, 150) * Math.sin(2 * Math.PI * i / rand(particles - 10, particles + 10));
+        // particle element creation (could be anything other than div)
+        // 此处我用了网上下载的svg图，随机产生三种图案
+			var shapes = [&#39;&amp;lt;img src=&amp;quot;chinese-new-year-lamp-svgrepo-com.svg&amp;quot; alt=&amp;quot;cny lamp&amp;quot;/&amp;gt;&#39;, &#39;&amp;lt;img src=&amp;quot;envelope-chinese-new-year-svgrepo-com.svg&amp;quot; alt=&amp;quot;evelope&amp;quot;/&amp;gt;&#39;, &#39;&amp;lt;img src=&amp;quot;fireworks-svgrepo-com.svg&amp;quot; alt=&amp;quot;firework&amp;quot;/&amp;gt;&#39;]
+			var getShape = Math.floor(Math.random() * shapes.length);
+      // 往div中添加图案
+      var elm = $(&#39;&amp;lt;div class=&amp;quot;particle&amp;quot; style=&amp;quot;&#39; +
+        &#39;top: &#39; + y + &#39;px; &#39; +
+        &#39;left: &#39; + x + &#39;px&amp;quot;&amp;gt;&#39; + shapes[getShape] + &#39;&amp;lt;/div&amp;gt;&#39;);
+
+    if (i == 0) { // no need to add the listener on all generated elements
+      // css3 animation end detection
+      elm.one(&#39;webkitAnimationEnd oanimationend msAnimationEnd animationend&#39;, function(e) {
+        explosion.remove(); 
+        // remove this explosion container when animation ended
+      });
+    }
+    explosion.append(elm);
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中 &lt;code&gt;shapes&lt;/code&gt; 可以是你喜欢的任何东西，比如说 &lt;code&gt;&amp;lt;i&amp;gt; element&lt;/code&gt; , 或者在css里直接画圆形方形都可以。我这里用到的是网页矢量图 svg, 这个图如果用 text editor 打开看起来是这样的：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;iso-8859-1&amp;quot;?&amp;gt;
+&amp;lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&amp;gt;
+&amp;lt;svg height=&amp;quot;25px&amp;quot; width=&amp;quot;25px&amp;quot; version=&amp;quot;1.1&amp;quot; id=&amp;quot;Layer_1&amp;quot; xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; xmlns:xlink=&amp;quot;http://www.w3.org/1999/xlink&amp;quot; 
+	 viewBox=&amp;quot;0 0 512 512&amp;quot; xml:space=&amp;quot;preserve&amp;quot;&amp;gt;
+&amp;lt;path style=&amp;quot;fill:#FF4B4B;&amp;quot; d=&amp;quot;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
+	l-24.71,90.599h229.517L363.705,6.505z&amp;quot;/&amp;gt;
+&amp;lt;path style=&amp;quot;fill:#C83741;&amp;quot; d=&amp;quot;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&amp;quot;/&amp;gt;
+&amp;lt;path style=&amp;quot;fill:#FF4B4B;&amp;quot; d=&amp;quot;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&amp;quot;/&amp;gt;
+&amp;lt;g&amp;gt;
+	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
+		s79.448,35.638,79.448,79.448S282.155,397.241,238.345,397.241z M238.345,256c-34.069,0-61.793,27.724-61.793,61.793
+		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&amp;quot;/&amp;gt;
+	&amp;lt;circle style=&amp;quot;fill:#FFCF65;&amp;quot; cx=&amp;quot;238.345&amp;quot; cy=&amp;quot;317.793&amp;quot; r=&amp;quot;35.31&amp;quot;/&amp;gt;
+	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
+		c2.845-3.957,8.371-4.836,12.328-1.983c16.621,12.019,36.216,18.371,56.655,18.371c20.423,0,40.009-6.345,56.638-18.345
+		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&amp;quot;/&amp;gt;
+	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
+		c-20.431,0-40.009,6.345-56.621,18.345c-3.975,2.854-9.483,1.965-12.328-1.983c-2.854-3.957-1.965-9.474,1.983-12.328
+		c19.647-14.189,42.803-21.689,66.966-21.689c24.181,0,47.345,7.509,67,21.716c3.948,2.862,4.836,8.38,1.983,12.328
+		C305.603,239.466,302.905,240.733,300.164,240.733z&amp;quot;/&amp;gt;
+&amp;lt;/g&amp;gt;
+&amp;lt;/svg&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 &lt;code&gt;firecrack.svg&lt;/code&gt;, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。&lt;/p&gt;
+&lt;h3 id=&#34;css&#34;&gt;
+  css
+  &lt;a href=&#34;#css&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;接下来在css文件里添加 &lt;code&gt;.explosion&lt;/code&gt; 的样式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.explosion {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  pointer-events: none;
+}
+.explosion .particle {
+  position: absolute;
+  animation: pop 1s reverse forwards;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一部分是整个 explosion div 的大小，当然啦总不能无限飞满整个页面。第二部分是动画效果，用到了关键帧，我不懂，&lt;strong&gt;直接抄！&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;链接到html文件里&#34;&gt;
+  链接到html文件里
+  &lt;a href=&#34;#%e9%93%be%e6%8e%a5%e5%88%b0html%e6%96%87%e4%bb%b6%e9%87%8c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;如果你是单独写一个html, 那就直接链接css/js就好了，但是我用的是Hugo，所以要找一找文件放哪里。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;css 直接加到自定义 css 文件里了，因为这种节日气氛过段时间就会不用了，也需要方便删除啊！&lt;/li&gt;
+&lt;li&gt;js 保存成一个文件比如说 &lt;code&gt;animation.js&lt;/code&gt;, 我放在了static文件夹里面。&lt;/li&gt;
+&lt;li&gt;在你的模板里找到链接 stylesheets 和 script 的地方，一般在 &lt;code&gt;/layout/partials/head.html&lt;/code&gt; 和 &lt;code&gt;/layout/partials/foot.html&lt;/code&gt; 这种地方。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;总的来说请参考Hugo和主题文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考阅读&#34;&gt;
+  参考阅读
+  &lt;a href=&#34;#%e5%8f%82%e8%80%83%e9%98%85%e8%af%bb&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://codepen.io/alek/pen/EyyLgp&#34;&gt;explosion effect codepen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codemyui.com/explosion-of-shapes-like-plus-diamond-and-stars-on-button-click/&#34;&gt;star and diamond button animation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/lookup-order/&#34;&gt;Hugo lookup order&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-else-had-happened&#34;&gt;
+  what else had happened
+  &lt;a href=&#34;#what-else-had-happened&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 取消了抬头字体消失特效，搞不懂去年本人的审美到底咋回事&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修复了buy me a coffee链接，暗示现在可以顺利打钱&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修改了permalink为英文，之前分享的几篇文章可能链接会出问题，不管了，爱看看不爱看拉倒。&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 将&lt;a href=&#34;https://notes.midofnowhere.link/index.xml&#34;&gt;rss feed&lt;/a&gt;改为了全文，可以在您喜欢的rss reader中阅读全文，不再需要特地点进来看我马马虎虎的网页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;todo&#34;&gt;
+  todo
+  &lt;a href=&#34;#todo&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 收拾分类和标签命名，怎么被我搞得这么混乱？&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 换个新鲜一点的头图&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 起个中文名，目前的备选是“茫茫居”&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 研究一下markdown的更多新鲜玩法，比如说高亮和隐藏&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 评论区的管理账号密码我忘了（……）考虑换一个服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://latest.cactus.chat/cactus.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://latest.cactus.chat/style.css&#34; type=&#34;text/css&#34;&gt;
+&lt;div class=&#34;&#34;&gt;
+
+
+&lt;h2&gt;Comments&lt;/h2&gt;
+&lt;div id=&#34;comment-section&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+initComments({
+  node: document.getElementById(&#34;comment-section&#34;),
+  defaultHomeserverUrl: &#34;https://matrix.cactus.chat:8448&#34;,
+  serverName: &#34;cactus.chat&#34;,
+  siteName: &#34;my-hugoblog&#34;,
+  commentSectionId: &#34;newyear-animation&#34;
+})
+&lt;/script&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>2022 购物总结</title>
@@ -517,49 +720,6 @@ initComments({
   serverName: &#34;cactus.chat&#34;,
   siteName: &#34;my-hugoblog&#34;,
   commentSectionId: &#34;yan-geling-novel-review&#34;
-})
-&lt;/script&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>本周随想 2022w28</title>
-      <link>https://notes.midofnowhere.link/2022/weekly-wondering-2022-28/</link>
-      <pubDate>Sun, 10 Jul 2022 21:33:02 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2022/weekly-wondering-2022-28/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;怎么会有人每周都有这么多屁话想说？&lt;/p&gt;
-&lt;p&gt;首先还是从身体情况说起来吧。按照在线计算器的估测，我的体脂率下降了一个点，我对此多有怀疑，因为我知道这一个点的变化来自于我的臀围少了一两厘米。这一两厘米完全在误差范围内吧，我想，不过是我绕卷尺的时候手松一点紧一点。&lt;/p&gt;
-&lt;p&gt;虽然如此，我心理上确实觉得自己瘦了，我又开始照照镜子拍拍照，琢磨着想买新衣服了。人的脑子真是玄妙，想着自己瘦了仿佛就是真的瘦了，走路都轻盈一些。或许是因为最近勤于运动，体力变好了，走路确实要轻盈一些。&lt;/p&gt;
-&lt;p&gt;不喝甜饮料运动已经完成了五周，已经养成了出去吃饭就喝零度可乐的习惯，当然这其实也不好，碳酸饮料无论如何是对牙齿有害的，但是想喝的时候还是喝一点吧。没有称体重已经两三周了，我昨天在豆瓣看到一个&lt;a href=&#34;https://www.douban.com/group/topic/268992700/?_dtcc=1&amp;amp;_i=7707718XAtECqn&#34;&gt;很热门的帖子&lt;/a&gt;叫大家不要在意体重数字，话是这么说，但是我还不信任自己的体验，今天觉得挺好体力不错，明天又会跳到腰围还是这么多，一整圈的love handle不知有多重。&lt;/p&gt;
-&lt;p&gt;本周还去上了抱石攀岩体验课，太痛苦了，非常有挫败感。这项运动不适合我，就地放弃。&lt;/p&gt;
-&lt;p&gt;我在使用默认配色两三年之后，突然点进了手机输入法的皮肤设置，上下翻了翻，左右瞧了瞧，换上了一个跟默认设置差不太多的皮肤，只是回车键换成了清新绿色。这一套操作完美展现了我的审美偏好，我就喜欢用最普适、最平常、最默认的设计，我相信被绝大多数人测试过的设计、买的人最多的牌子、最不出挑的模样，如果要有一点个性，那也只有一点点。&lt;/p&gt;
-&lt;p&gt;前几年我第一次去给自己办银行卡的时候，柜员大姐给我看了一堆卡面图案，我挑了默认的没有图案的纯蓝色卡片，柜员大姐跟我开玩笑：“就选这个adult款哈？”说的就是默认款无趣而平常，成年人才会想都不想就选这个，小年轻们总要在迪斯尼城堡和hello kitty等等之间犹豫徘徊几回。&lt;/p&gt;
-&lt;p&gt;我这毛病早就被发现了，我中学时和同学去逛书店——中学生还能有什么娱乐活动——看到有本杂志封面话题叫《闷骚十年》，我同学说：“这不就是你？”我笑：“何止十年。”这样算下来，如今我大概已经闷骚二十多年了。&lt;/p&gt;
-&lt;p&gt;闷骚的意思就是我喜欢不起眼的东西，尤其喜欢乍一看不起眼但实际上花了心思的东西：我买全白色没有花样的帆布鞋，但是鞋带扣眼儿是彩虹的。这是我一点微不足道的审美趣味。&lt;/p&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://latest.cactus.chat/cactus.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://latest.cactus.chat/style.css&#34; type=&#34;text/css&#34;&gt;
-&lt;div class=&#34;&#34;&gt;
-
-
-&lt;h2&gt;Comments&lt;/h2&gt;
-&lt;div id=&#34;comment-section&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-initComments({
-  node: document.getElementById(&#34;comment-section&#34;),
-  defaultHomeserverUrl: &#34;https://matrix.cactus.chat:8448&#34;,
-  serverName: &#34;cactus.chat&#34;,
-  siteName: &#34;my-hugoblog&#34;,
-  commentSectionId: &#34;weekly-wondering-2022-28&#34;
 })
 &lt;/script&gt;
         
