@@ -57,13 +57,16 @@
 <meta property="og:title" content="NGINX Config" />
 <meta property="og:description" content="Overview # Environment: Ubuntu 18.04. Objective: Use NGINX as proxy for multiple applications on the same VPS. Install NGINX on vps # Reference tutorial NGINX comes with the default ubuntu repository sudo apt update sudo apt install nginx add firewall rules. first" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.midofnowhere.link/2022/nginx/" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2022/nginx/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-04-25T14:38:52+08:00" />
 <meta property="article:modified_time" content="2022-05-15T21:15:17+08:00" />
 
 
 
 <script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 
 
   </head>
@@ -80,7 +83,7 @@
     
       
         
-          <li><a href="/message/">Message</a></li>
+          <li><a href="/photos/">Photos</a></li>
         
       
         
@@ -109,7 +112,7 @@
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/message/">Message</a></li>
+        <li><a href="/photos/">Photos</a></li>
       
     
       
@@ -268,26 +271,25 @@ Objective: Use NGINX as proxy for multiple applications on the same VPS.</p>
 <ol>
 <li>NGINX comes with the default ubuntu repository</li>
 </ol>
-<pre><code>sudo apt update
+<pre tabindex="0"><code>sudo apt update
 sudo apt install nginx
 </code></pre><ol start="2">
 <li>
 <p>add firewall rules.</p>
 <ol>
 <li>first check the current firewall list
-<pre><code>sudo ufw status
+<pre tabindex="0"><code>sudo ufw status
 sudo ufw app list
 </code></pre></li>
 <li>app list will list all available apps for the firewall. Because no ssl certificate at this point, Nginx HTTP is sufficient.
-<pre><code>sudo ufw allow 'Nginx HTTP'
+<pre tabindex="0"><code>sudo ufw allow &#39;Nginx HTTP&#39;
 </code></pre></li>
 </ol>
 <p>check ufw status again to make sure Nginx is allowed.</p>
 <ol start="3">
 <li>check Nginx status to make sure the service is running
-<pre><code>systemctl status nginx
-</code></pre><p>``</p>
-</li>
+<pre tabindex="0"><code>systemctl status nginx
+</code></pre></li>
 </ol>
 </li>
 </ol>
@@ -296,7 +298,7 @@ sudo ufw app list
   <a href="#setting-up-server-blocks" class="h-anchor" aria-hidden="true">#</a>
 </h2>
 <p>Using server blocks to encapsulate configuration details and host more than 1 domain from a sigle server.</p>
-<pre><code>sudo mkdir -p /var/www/your_domain/html
+<pre tabindex="0"><code>sudo mkdir -p /var/www/your_domain/html
 sudo chown -R $USER:$USER /var/www/your_domain/html //$USER:$USER-group is set as the environment variables to assign the ownership of the file
 sudo chmod -R 755 /var/www/your_domain
 nano /var/www/your_domain/html/index.html
@@ -304,7 +306,7 @@ nano /var/www/your_domain/html/index.html
 <p>Save the html file.</p>
 <p>Edit nginx configuration file. Make a new configuration file at <code>/etc/nginx/sites-available/your_domain</code></p>
 <p>A typical http configuration file looks like:</p>
-<pre><code>server {
+<pre tabindex="0"><code>server {
         listen 80;
         listen [::]:80;
 
@@ -318,7 +320,7 @@ nano /var/www/your_domain/html/index.html
         }
 }
 </code></pre><p>Next, soft link it to <code>sites-enabled</code></p>
-<pre><code>sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
+<pre tabindex="0"><code>sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
 </code></pre><h2 id="restart-nginx-to-生效">
   Restart Nginx to 生效
   <a href="#restart-nginx-to-%e7%94%9f%e6%95%88" class="h-anchor" aria-hidden="true">#</a>
@@ -326,12 +328,12 @@ nano /var/www/your_domain/html/index.html
 <ul>
 <li>test the configuration file</li>
 </ul>
-<pre><code>sudo nginx -t
+<pre tabindex="0"><code>sudo nginx -t
 </code></pre><p>when pass successfully</p>
 <ul>
 <li>restart nginx</li>
 </ul>
-<pre><code>sudo systemctl restart nginx
+<pre tabindex="0"><code>sudo systemctl restart nginx
 </code></pre><h2 id="add-a-new-subdomain-and-setting-proxy-with-nginx">
   Add a new subdomain and setting proxy with Nginx
   <a href="#add-a-new-subdomain-and-setting-proxy-with-nginx" class="h-anchor" aria-hidden="true">#</a>
@@ -350,7 +352,7 @@ nano /var/www/your_domain/html/index.html
 <ul>
 <li>set up a new server block for www2:</li>
 </ul>
-<pre><code>sudo mkdir -p /var/www/www2/html
+<pre tabindex="0"><code>sudo mkdir -p /var/www/www2/html
 sudo chown -R $USER:$USER /var/www/www2/html //$USER:$USER-group is set as the environment variables to assign the ownership of the file
 sudo chmod -R 755 /var/www/your_domain
 nano /var/www/www2/html/index.html
@@ -359,7 +361,7 @@ nano /var/www/www2/html/index.html
 <li>Make a new configuration file at <code>/etc/nginx/sites-available/www2</code></li>
 </ul>
 <p>Use another port e.g 8080</p>
-<pre><code>server {
+<pre tabindex="0"><code>server {
         listen 8080;
         listen [::]:8080;
 
@@ -373,12 +375,12 @@ nano /var/www/www2/html/index.html
         }
 }
 </code></pre><p>Next, soft link this new configuration file to <code>sites-enabled</code></p>
-<pre><code>sudo ln -s /etc/nginx/sites-available/www2 /etc/nginx/sites-enabled/
+<pre tabindex="0"><code>sudo ln -s /etc/nginx/sites-available/www2 /etc/nginx/sites-enabled/
 </code></pre><p><strong>To avoid symbolic link error, use absolute path in this line.</strong></p>
 <ul>
 <li>Test and restart Nginx:</li>
 </ul>
-<pre><code>sudo nginx -t
+<pre tabindex="0"><code>sudo nginx -t
 sudo systemctl restart nginx
 </code></pre><p><a href="https://fedingo.com/how-to-host-multiple-domains-on-one-server-in-nginx/">Another tutorial</a> that I referred to.
 <a href="https://www.cnblogs.com/beifei/archive/2011/09/07/2170301.html">This post</a> shared the simple fix to symbolic link error.</p>
@@ -479,7 +481,7 @@ font-size: 2rem;">
 <script src="https://notes.midofnowhere.link/assets/main.js"></script>
 <script src="https://notes.midofnowhere.link/assets/prism.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/animation.js">  </script>
+
 
 
       

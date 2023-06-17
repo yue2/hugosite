@@ -58,13 +58,16 @@
 <meta property="og:title" content="打扫网页迎新年" />
 <meta property="og:description" content="过年KPI冲到了最后一篇，居然是个技术文，居然我这么菜的水平都要搞技术文了！昨天大型摸鱼一整晚，完成了这个点击撒红包动画。没错！这就是本博客现在最需要的功能。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.midofnowhere.link/2023/newyear-animation/" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2023/newyear-animation/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-01-19T13:32:39+08:00" />
 <meta property="article:modified_time" content="2023-01-19T16:14:02+08:00" />
 
 
 
 <script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 
 
   </head>
@@ -81,7 +84,7 @@
     
       
         
-          <li><a href="/message/">Message</a></li>
+          <li><a href="/photos/">Photos</a></li>
         
       
         
@@ -110,7 +113,7 @@
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/message/">Message</a></li>
+        <li><a href="/photos/">Photos</a></li>
       
     
       
@@ -269,7 +272,7 @@
   <a href="#%e5%ae%9e%e7%8e%b0%e6%95%88%e6%9e%9c" class="h-anchor" aria-hidden="true">#</a>
 </h2>
 <p><img src="https://github.com/yue2/picbed/blob/main/effect%20results.gif?raw=true" alt="gif image"></p>
-<p>要实现的就是这样一个简单的效果，在点击网页<code>body</code>时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：</p>
+<p>要实现的就是这样一个简单的效果，在点击网页<code> body</code>时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：</p>
 <ol>
 <li>用 <code>event listner</code> 记录点击并触发动画</li>
 <li>动画开始：以点击处为中心产生一个装满图案的 <code>div</code></li>
@@ -285,25 +288,25 @@
   <a href="#js" class="h-anchor" aria-hidden="true">#</a>
 </h3>
 <p>这里用到jQuery.</p>
-<pre><code>// click event listener
-$('body').on('click', function(e) {
+<pre tabindex="0"><code>// click event listener
+$(&#39;body&#39;).on(&#39;click&#39;, function(e) {
   explode(e.pageX, e.pageY);
 })
 </code></pre><p>好了上一节的第一步已经完成了，那么这个explode函数里是啥样的呢？</p>
-<pre><code>// explosion construction
+<pre tabindex="0"><code>// explosion construction
 function explode(x, y) {
 // 决定就放15个红包，你想多放点也可以
   var particles = 15,
   
     // explosion container and its reference to be able to delete it on animation end
-    explosion = $('&lt;div class=&quot;explosion&quot;&gt;&lt;/div&gt;');
+    explosion = $(&#39;&lt;div class=&#34;explosion&#34;&gt;&lt;/div&gt;&#39;);
 
-  // put the explosion container into the body to be able to get it's size
-  $('body').append(explosion);
+  // put the explosion container into the body to be able to get it&#39;s size
+  $(&#39;body&#39;).append(explosion);
 
   // position the container to be centered on click
-  explosion.css('left', x - explosion.width() / 2);
-  explosion.css('top', y - explosion.height() / 2);
+  explosion.css(&#39;left&#39;, x - explosion.width() / 2);
+  explosion.css(&#39;top&#39;, y - explosion.height() / 2);
 
   for (var i = 0; i &lt; particles; i++) {
     // positioning x,y of the particle on the circle (little randomized radius)
@@ -312,16 +315,16 @@ function explode(x, y) {
       y = (explosion.height() / 2) + rand(80, 150) * Math.sin(2 * Math.PI * i / rand(particles - 10, particles + 10));
         // particle element creation (could be anything other than div)
         // 此处我用了网上下载的svg图，随机产生三种图案
-			var shapes = ['&lt;img src=&quot;chinese-new-year-lamp-svgrepo-com.svg&quot; alt=&quot;cny lamp&quot;/&gt;', '&lt;img src=&quot;envelope-chinese-new-year-svgrepo-com.svg&quot; alt=&quot;evelope&quot;/&gt;', '&lt;img src=&quot;fireworks-svgrepo-com.svg&quot; alt=&quot;firework&quot;/&gt;']
+			var shapes = [&#39;&lt;img src=&#34;chinese-new-year-lamp-svgrepo-com.svg&#34; alt=&#34;cny lamp&#34;/&gt;&#39;, &#39;&lt;img src=&#34;envelope-chinese-new-year-svgrepo-com.svg&#34; alt=&#34;evelope&#34;/&gt;&#39;, &#39;&lt;img src=&#34;fireworks-svgrepo-com.svg&#34; alt=&#34;firework&#34;/&gt;&#39;]
 			var getShape = Math.floor(Math.random() * shapes.length);
       // 往div中添加图案
-      var elm = $('&lt;div class=&quot;particle&quot; style=&quot;' +
-        'top: ' + y + 'px; ' +
-        'left: ' + x + 'px&quot;&gt;' + shapes[getShape] + '&lt;/div&gt;');
+      var elm = $(&#39;&lt;div class=&#34;particle&#34; style=&#34;&#39; +
+        &#39;top: &#39; + y + &#39;px; &#39; +
+        &#39;left: &#39; + x + &#39;px&#34;&gt;&#39; + shapes[getShape] + &#39;&lt;/div&gt;&#39;);
 
     if (i == 0) { // no need to add the listener on all generated elements
       // css3 animation end detection
-      elm.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
+      elm.one(&#39;webkitAnimationEnd oanimationend msAnimationEnd animationend&#39;, function(e) {
         explosion.remove(); 
         // remove this explosion container when animation ended
       });
@@ -329,39 +332,38 @@ function explode(x, y) {
     explosion.append(elm);
   }
 }
-
 </code></pre><p>其中 <code>shapes</code> 可以是你喜欢的任何东西，比如说 <code>&lt;i&gt; element</code> , 或者在css里直接画圆形方形都可以。我这里用到的是网页矢量图 svg, 这个图如果用 text editor 打开看起来是这样的：</p>
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot;?&gt;
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34; encoding=&#34;iso-8859-1&#34;?&gt;
 &lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&gt;
-&lt;svg height=&quot;25px&quot; width=&quot;25px&quot; version=&quot;1.1&quot; id=&quot;Layer_1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; 
-	 viewBox=&quot;0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;
-&lt;path style=&quot;fill:#FF4B4B;&quot; d=&quot;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
-	l-24.71,90.599h229.517L363.705,6.505z&quot;/&gt;
-&lt;path style=&quot;fill:#C83741;&quot; d=&quot;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
-	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&quot;/&gt;
-&lt;path style=&quot;fill:#FF4B4B;&quot; d=&quot;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
-	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&quot;/&gt;
+&lt;svg height=&#34;25px&#34; width=&#34;25px&#34; version=&#34;1.1&#34; id=&#34;Layer_1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; 
+	 viewBox=&#34;0 0 512 512&#34; xml:space=&#34;preserve&#34;&gt;
+&lt;path style=&#34;fill:#FF4B4B;&#34; d=&#34;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
+	l-24.71,90.599h229.517L363.705,6.505z&#34;/&gt;
+&lt;path style=&#34;fill:#C83741;&#34; d=&#34;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&#34;/&gt;
+&lt;path style=&#34;fill:#FF4B4B;&#34; d=&#34;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&#34;/&gt;
 &lt;g&gt;
-	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
+	&lt;path style=&#34;fill:#FFCF65;&#34; d=&#34;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
 		s79.448,35.638,79.448,79.448S282.155,397.241,238.345,397.241z M238.345,256c-34.069,0-61.793,27.724-61.793,61.793
-		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&quot;/&gt;
-	&lt;circle style=&quot;fill:#FFCF65;&quot; cx=&quot;238.345&quot; cy=&quot;317.793&quot; r=&quot;35.31&quot;/&gt;
-	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
+		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&#34;/&gt;
+	&lt;circle style=&#34;fill:#FFCF65;&#34; cx=&#34;238.345&#34; cy=&#34;317.793&#34; r=&#34;35.31&#34;/&gt;
+	&lt;path style=&#34;fill:#FFCF65;&#34; d=&#34;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
 		c2.845-3.957,8.371-4.836,12.328-1.983c16.621,12.019,36.216,18.371,56.655,18.371c20.423,0,40.009-6.345,56.638-18.345
-		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&quot;/&gt;
-	&lt;path style=&quot;fill:#FFCF65;&quot; d=&quot;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
+		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&#34;/&gt;
+	&lt;path style=&#34;fill:#FFCF65;&#34; d=&#34;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
 		c-20.431,0-40.009,6.345-56.621,18.345c-3.975,2.854-9.483,1.965-12.328-1.983c-2.854-3.957-1.965-9.474,1.983-12.328
 		c19.647-14.189,42.803-21.689,66.966-21.689c24.181,0,47.345,7.509,67,21.716c3.948,2.862,4.836,8.38,1.983,12.328
-		C305.603,239.466,302.905,240.733,300.164,240.733z&quot;/&gt;
+		C305.603,239.466,302.905,240.733,300.164,240.733z&#34;/&gt;
 &lt;/g&gt;
 &lt;/svg&gt;
-</code></pre><p>这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 <code>firecrack.svg</code>, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。</p>
+</code></pre><p>这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 <code> firecrack.svg</code>, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。</p>
 <h3 id="css">
   css
   <a href="#css" class="h-anchor" aria-hidden="true">#</a>
 </h3>
 <p>接下来在css文件里添加 <code>.explosion</code> 的样式：</p>
-<pre><code>.explosion {
+<pre tabindex="0"><code>.explosion {
   position: absolute;
   width: 600px;
   height: 600px;
@@ -521,7 +523,7 @@ font-size: 2rem;">
 <script src="https://notes.midofnowhere.link/assets/main.js"></script>
 <script src="https://notes.midofnowhere.link/assets/prism.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/animation.js">  </script>
+
 
 
       

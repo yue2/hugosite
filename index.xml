@@ -10,10 +10,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Fri, 14 Apr 2023 23:25:16 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Apr 2023 22:45:14 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First photo post</title>
+      <link>https://notes.midofnowhere.link/photos/first-photo/</link>
+      <pubDate>Sat, 29 Apr 2023 22:45:14 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/photos/first-photo/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;Here is some text before the images.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://notes.midofnowhere.link/images/cutepic.png&#34; alt=&#34;cutepic&#34;&gt;
+shortcode called!
+
+&lt;div class=&#34;polaroid-frame&#34;&gt;
+  &lt;div class=&#34;polaroid-image&#34;&gt;
+    &lt;img src=&#34;https://notes.midofnowhere.link/images/cutepic.png&#34; alt=&#34;blog-images&#34;&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;polaroid-caption&#34;&gt;
+  blog-images
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Here is some text after the images.&lt;/p&gt;
+
+        
+        </description>
+    </item>
     
     <item>
       <title>如何构建论点</title>
@@ -367,7 +399,7 @@ initComments({
   &lt;a href=&#34;#%e5%ae%9e%e7%8e%b0%e6%95%88%e6%9e%9c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://github.com/yue2/picbed/blob/main/effect%20results.gif?raw=true&#34; alt=&#34;gif image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;要实现的就是这样一个简单的效果，在点击网页&lt;code&gt;body&lt;/code&gt;时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：&lt;/p&gt;
+&lt;p&gt;要实现的就是这样一个简单的效果，在点击网页&lt;code&gt; body&lt;/code&gt;时，从鼠标或触摸点击处绽放开一些小图案。因此需要做的就是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;用 &lt;code&gt;event listner&lt;/code&gt; 记录点击并触发动画&lt;/li&gt;
 &lt;li&gt;动画开始：以点击处为中心产生一个装满图案的 &lt;code&gt;div&lt;/code&gt;&lt;/li&gt;
@@ -383,25 +415,25 @@ initComments({
   &lt;a href=&#34;#js&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;这里用到jQuery.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// click event listener
-$(&#39;body&#39;).on(&#39;click&#39;, function(e) {
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// click event listener
+$(&amp;#39;body&amp;#39;).on(&amp;#39;click&amp;#39;, function(e) {
   explode(e.pageX, e.pageY);
 })
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;好了上一节的第一步已经完成了，那么这个explode函数里是啥样的呢？&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// explosion construction
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// explosion construction
 function explode(x, y) {
 // 决定就放15个红包，你想多放点也可以
   var particles = 15,
   
     // explosion container and its reference to be able to delete it on animation end
-    explosion = $(&#39;&amp;lt;div class=&amp;quot;explosion&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&#39;);
+    explosion = $(&amp;#39;&amp;lt;div class=&amp;#34;explosion&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;);
 
-  // put the explosion container into the body to be able to get it&#39;s size
-  $(&#39;body&#39;).append(explosion);
+  // put the explosion container into the body to be able to get it&amp;#39;s size
+  $(&amp;#39;body&amp;#39;).append(explosion);
 
   // position the container to be centered on click
-  explosion.css(&#39;left&#39;, x - explosion.width() / 2);
-  explosion.css(&#39;top&#39;, y - explosion.height() / 2);
+  explosion.css(&amp;#39;left&amp;#39;, x - explosion.width() / 2);
+  explosion.css(&amp;#39;top&amp;#39;, y - explosion.height() / 2);
 
   for (var i = 0; i &amp;lt; particles; i++) {
     // positioning x,y of the particle on the circle (little randomized radius)
@@ -410,16 +442,16 @@ function explode(x, y) {
       y = (explosion.height() / 2) + rand(80, 150) * Math.sin(2 * Math.PI * i / rand(particles - 10, particles + 10));
         // particle element creation (could be anything other than div)
         // 此处我用了网上下载的svg图，随机产生三种图案
-			var shapes = [&#39;&amp;lt;img src=&amp;quot;chinese-new-year-lamp-svgrepo-com.svg&amp;quot; alt=&amp;quot;cny lamp&amp;quot;/&amp;gt;&#39;, &#39;&amp;lt;img src=&amp;quot;envelope-chinese-new-year-svgrepo-com.svg&amp;quot; alt=&amp;quot;evelope&amp;quot;/&amp;gt;&#39;, &#39;&amp;lt;img src=&amp;quot;fireworks-svgrepo-com.svg&amp;quot; alt=&amp;quot;firework&amp;quot;/&amp;gt;&#39;]
+			var shapes = [&amp;#39;&amp;lt;img src=&amp;#34;chinese-new-year-lamp-svgrepo-com.svg&amp;#34; alt=&amp;#34;cny lamp&amp;#34;/&amp;gt;&amp;#39;, &amp;#39;&amp;lt;img src=&amp;#34;envelope-chinese-new-year-svgrepo-com.svg&amp;#34; alt=&amp;#34;evelope&amp;#34;/&amp;gt;&amp;#39;, &amp;#39;&amp;lt;img src=&amp;#34;fireworks-svgrepo-com.svg&amp;#34; alt=&amp;#34;firework&amp;#34;/&amp;gt;&amp;#39;]
 			var getShape = Math.floor(Math.random() * shapes.length);
       // 往div中添加图案
-      var elm = $(&#39;&amp;lt;div class=&amp;quot;particle&amp;quot; style=&amp;quot;&#39; +
-        &#39;top: &#39; + y + &#39;px; &#39; +
-        &#39;left: &#39; + x + &#39;px&amp;quot;&amp;gt;&#39; + shapes[getShape] + &#39;&amp;lt;/div&amp;gt;&#39;);
+      var elm = $(&amp;#39;&amp;lt;div class=&amp;#34;particle&amp;#34; style=&amp;#34;&amp;#39; +
+        &amp;#39;top: &amp;#39; + y + &amp;#39;px; &amp;#39; +
+        &amp;#39;left: &amp;#39; + x + &amp;#39;px&amp;#34;&amp;gt;&amp;#39; + shapes[getShape] + &amp;#39;&amp;lt;/div&amp;gt;&amp;#39;);
 
     if (i == 0) { // no need to add the listener on all generated elements
       // css3 animation end detection
-      elm.one(&#39;webkitAnimationEnd oanimationend msAnimationEnd animationend&#39;, function(e) {
+      elm.one(&amp;#39;webkitAnimationEnd oanimationend msAnimationEnd animationend&amp;#39;, function(e) {
         explosion.remove(); 
         // remove this explosion container when animation ended
       });
@@ -427,39 +459,38 @@ function explode(x, y) {
     explosion.append(elm);
   }
 }
-
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中 &lt;code&gt;shapes&lt;/code&gt; 可以是你喜欢的任何东西，比如说 &lt;code&gt;&amp;lt;i&amp;gt; element&lt;/code&gt; , 或者在css里直接画圆形方形都可以。我这里用到的是网页矢量图 svg, 这个图如果用 text editor 打开看起来是这样的：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;iso-8859-1&amp;quot;?&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;iso-8859-1&amp;#34;?&amp;gt;
 &amp;lt;!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --&amp;gt;
-&amp;lt;svg height=&amp;quot;25px&amp;quot; width=&amp;quot;25px&amp;quot; version=&amp;quot;1.1&amp;quot; id=&amp;quot;Layer_1&amp;quot; xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; xmlns:xlink=&amp;quot;http://www.w3.org/1999/xlink&amp;quot; 
-	 viewBox=&amp;quot;0 0 512 512&amp;quot; xml:space=&amp;quot;preserve&amp;quot;&amp;gt;
-&amp;lt;path style=&amp;quot;fill:#FF4B4B;&amp;quot; d=&amp;quot;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
-	l-24.71,90.599h229.517L363.705,6.505z&amp;quot;/&amp;gt;
-&amp;lt;path style=&amp;quot;fill:#C83741;&amp;quot; d=&amp;quot;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
-	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&amp;quot;/&amp;gt;
-&amp;lt;path style=&amp;quot;fill:#FF4B4B;&amp;quot; d=&amp;quot;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
-	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&amp;quot;/&amp;gt;
+&amp;lt;svg height=&amp;#34;25px&amp;#34; width=&amp;#34;25px&amp;#34; version=&amp;#34;1.1&amp;#34; id=&amp;#34;Layer_1&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; xmlns:xlink=&amp;#34;http://www.w3.org/1999/xlink&amp;#34; 
+	 viewBox=&amp;#34;0 0 512 512&amp;#34; xml:space=&amp;#34;preserve&amp;#34;&amp;gt;
+&amp;lt;path style=&amp;#34;fill:#FF4B4B;&amp;#34; d=&amp;#34;M363.705,6.505C362.658,2.665,359.169,0,355.189,0H192.122c-3.98,0-7.469,2.665-8.516,6.505
+	l-24.71,90.599h229.517L363.705,6.505z&amp;#34;/&amp;gt;
+&amp;lt;path style=&amp;#34;fill:#C83741;&amp;#34; d=&amp;#34;M379.586,88.276H167.724c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V97.103C388.414,92.228,384.462,88.276,379.586,88.276z&amp;#34;/&amp;gt;
+&amp;lt;path style=&amp;#34;fill:#FF4B4B;&amp;#34; d=&amp;#34;M344.276,123.586H132.414c-4.875,0-8.828,3.953-8.828,8.828v370.759c0,4.875,3.953,8.828,8.828,8.828
+	h211.862c4.875,0,8.828-3.953,8.828-8.828V132.414C353.103,127.539,349.152,123.586,344.276,123.586z&amp;#34;/&amp;gt;
 &amp;lt;g&amp;gt;
-	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
+	&amp;lt;path style=&amp;#34;fill:#FFCF65;&amp;#34; d=&amp;#34;M238.345,397.241c-43.81,0-79.448-35.638-79.448-79.448s35.638-79.448,79.448-79.448
 		s79.448,35.638,79.448,79.448S282.155,397.241,238.345,397.241z M238.345,256c-34.069,0-61.793,27.724-61.793,61.793
-		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&amp;quot;/&amp;gt;
-	&amp;lt;circle style=&amp;quot;fill:#FFCF65;&amp;quot; cx=&amp;quot;238.345&amp;quot; cy=&amp;quot;317.793&amp;quot; r=&amp;quot;35.31&amp;quot;/&amp;gt;
-	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
+		s27.724,61.793,61.793,61.793s61.793-27.724,61.793-61.793S272.414,256,238.345,256z&amp;#34;/&amp;gt;
+	&amp;lt;circle style=&amp;#34;fill:#FFCF65;&amp;#34; cx=&amp;#34;238.345&amp;#34; cy=&amp;#34;317.793&amp;#34; r=&amp;#34;35.31&amp;#34;/&amp;gt;
+	&amp;lt;path style=&amp;#34;fill:#FFCF65;&amp;#34; d=&amp;#34;M238.345,432.552c-24.181,0-47.345-7.509-67-21.716c-3.948-2.862-4.836-8.38-1.983-12.328
 		c2.845-3.957,8.371-4.836,12.328-1.983c16.621,12.019,36.216,18.371,56.655,18.371c20.423,0,40.009-6.345,56.638-18.345
-		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&amp;quot;/&amp;gt;
-	&amp;lt;path style=&amp;quot;fill:#FFCF65;&amp;quot; d=&amp;quot;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
+		c3.939-2.862,9.465-1.974,12.319,1.992c2.854,3.948,1.965,9.465-1.992,12.319C285.664,425.053,262.509,432.552,238.345,432.552z&amp;#34;/&amp;gt;
+	&amp;lt;path style=&amp;#34;fill:#FFCF65;&amp;#34; d=&amp;#34;M300.164,240.733c-1.793,0-3.604-0.543-5.164-1.673c-16.62-12.017-36.215-18.37-56.655-18.37
 		c-20.431,0-40.009,6.345-56.621,18.345c-3.975,2.854-9.483,1.965-12.328-1.983c-2.854-3.957-1.965-9.474,1.983-12.328
 		c19.647-14.189,42.803-21.689,66.966-21.689c24.181,0,47.345,7.509,67,21.716c3.948,2.862,4.836,8.38,1.983,12.328
-		C305.603,239.466,302.905,240.733,300.164,240.733z&amp;quot;/&amp;gt;
+		C305.603,239.466,302.905,240.733,300.164,240.733z&amp;#34;/&amp;gt;
 &amp;lt;/g&amp;gt;
 &amp;lt;/svg&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 &lt;code&gt;firecrack.svg&lt;/code&gt;, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这些数字就是每个节点的坐标，如果你把这些复制到写字板里然后保存成 &lt;code&gt; firecrack.svg&lt;/code&gt;, 然后再用浏览器打开，就可以看到图片了。用这个格式的好处显然一是矢量图，二是可以直接在 svg class 里修改图片的尺寸和颜色。&lt;/p&gt;
 &lt;h3 id=&#34;css&#34;&gt;
   css
   &lt;a href=&#34;#css&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;接下来在css文件里添加 &lt;code&gt;.explosion&lt;/code&gt; 的样式：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.explosion {
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.explosion {
   position: absolute;
   width: 600px;
   height: 600px;
@@ -858,69 +889,6 @@ initComments({
   serverName: &#34;cactus.chat&#34;,
   siteName: &#34;my-hugoblog&#34;,
   commentSectionId: &#34;weekly-wondering-2022-35&#34;
-})
-&lt;/script&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>每周感想 2022 34</title>
-      <link>https://notes.midofnowhere.link/2022/weekly-wondering-2022-34/</link>
-      <pubDate>Sat, 20 Aug 2022 16:10:08 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2022/weekly-wondering-2022-34/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;昨夜睡得太晚，醒来时昏昏沉沉，脑子眼睛都不舒服，心跳也混乱，无论如何没法从床上把自己拔起来。&lt;/p&gt;
-&lt;p&gt;“把自己拔起来”在我的脑子里有非常形象的画面，源自我小学时候很喜欢看的《吹牛大王历险记》。是话说吹牛大王什么什么男爵，一日骑骏马去打猎，男爵实在是有冒险精神，信马由缰地那就踏入了一片沼泽。丛林沼泽啊，吞没一切，就在这一人一马深陷其中千钧一发之际，男爵膂力惊人啊，拽着自己的头发就把自己拔了出来，完了又把骏马也拔出来了。&lt;/p&gt;
-&lt;p&gt;我读这书时大概已经快十岁，当然知道这是在吹牛，但我还是特别喜欢。多么有意思！&lt;/p&gt;
-&lt;p&gt;书是我在校门口的三轮车上自己买的，多半是盗版，但是也有黑白色速写式的插图。我想不起来有没有这一幅力拔自己气盖世了，或许没有，或许是我作为一个画面型读者在脑子里演出了全套记到了现在。&lt;/p&gt;
-&lt;p&gt;总之是我没能把自己拔起来。&lt;/p&gt;
-&lt;p&gt;在床上躺着玩手机，竟然一口气刷到下午快三点，白白花掉50%手机电量，我躺不下去了，终于起来。洗澡刷牙，去除身上的隔夜气，拉开冰箱门找吃的。&lt;/p&gt;
-&lt;p&gt;冷冻柜一个塑料饭盒装着从同学家带回来的糯米烧卖，是上周六同学叫我去她家玩儿一起做的。我们是中学同学，但从来也不是很熟，因为初中高中都不在一个班。我的母校总共也没多大，一届上只有百来个人，个个见着眼熟，因此也没有陌生感。刚发现有中学同学在本地时，三个人约出来吃了南京大排档，大家都没有怎么变，但长成了体面的成年人，这小十年里各自发生了什么聊得点到即止。&lt;/p&gt;
-&lt;p&gt;同学说想吃糯米烧卖，在国外的中餐点心都是粤式的，黄色的皮猪肉的馅儿。她想吃学校食堂早饭那种，酱油糯米肉末香菇，白色薄面皮的烧卖。这么一提起来，我也没买到过，于是也想吃起来。我在母校最喜欢的就是食堂一顿早饭，热门单品有韭菜蛋饼、香菇青菜大包子、猪肉大包子、然后才能轮到烧卖。说来也巧，我初一被送去住宿学校，正是爸妈觉得在家没人给我准备早饭，后来上大学为了睡觉，渐渐放弃了吃早饭，我对早饭的印象正正就是这六年的食堂早饭。同学说找了个靠谱菜谱，还叫了其他两个朋友，约去她家一起做烧卖。&lt;/p&gt;
-&lt;p&gt;做起来很简单，自己在家做又特别贪心，一个个烧卖都塞了得有半两米，巨大。猪油也放得格外多，第一笼蒸出来香气直冲天花板，我当场就吃了两个。剩下的都冷冻了，散场时每人带了一盒走。&lt;/p&gt;
-&lt;p&gt;第二天我早上起来从冰箱里又掏出一个烧卖，我不像同学家里有蒸锅，于是直接放碗里扔进微波炉。微波炉转热的烧卖，顶上一点皮太干了，发硬，吃起来更像中学食堂了。我高中时候吃早饭总是跟室友们坐一桌，有个室友喜欢品评早点，“今天的菜包很不错，但我最爱的还是大肉包”，如此这番。这个室友已经在家乡高中任职，带过两年高考班了。&lt;/p&gt;
-&lt;p&gt;而我，在一个头昏脑胀仿佛宿醉醒来的周六下午起床，煮上一包辛拉面，脑子里跑过这些。我往锅里扔进几朵冷冻西兰花，放下面饼，打开蔬菜包倒在手心里，从里面挑“泡菜”放进锅里。我不吃葱，脱水葱花也不吃。不知道扁扁会不会把我这个操作列为世界无聊大赛锦标项目。也许不会，因为这个泡面蔬菜包内容物太少，挑不了两下就结束了，虽然无聊但也不耗精神。&lt;/p&gt;
-&lt;p&gt;我再敲下一个鸡蛋，等面条煮软，倒出一杯冷泡茶喝着，心绪继续跑马。&lt;/p&gt;
-&lt;p&gt;锅子再滚了一会儿，我关火上桌，一筷子夹开鸡蛋，蛋黄意料之外地涌了出来——我还以为早就煮过了。这鸡蛋是我刚搬进来时去附近的高级超市买的，结账时贵得我咬牙切齿，当即刷了爸爸的信用卡，现下看到这明晃晃的橙红色蛋黄，我一边感叹果然好吃，一边冷哼不过是鸡饲料不同，都是拿来骗有钱人的东西。&lt;/p&gt;
-&lt;p&gt;但是我想，如果本年度的好运气都用在了煮泡面里敲的蛋都是完美溏心，说实话我对老天爷也并无怨言。&lt;/p&gt;
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-&lt;h3 id=&#34;烧卖菜谱&#34;&gt;
-  烧卖菜谱
-  &lt;a href=&#34;#%e7%83%a7%e5%8d%96%e8%8f%9c%e8%b0%b1&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;糯米：圆糯米为佳，长粒糯米亦可。不要泡，加水蒸熟，放凉。&lt;/li&gt;
-&lt;li&gt;肉末香菇：香菇切细。锅烧热，下猪油，下葱段姜片，爆香后捞出弃之。下肉末，炒散，烹入料酒少许，老抽少许，加一个干辣椒，翻炒至六七成熟，加香菇粒，炒炒。加水没过馅料，大火煮开，转小火再煮20mins.&lt;/li&gt;
-&lt;li&gt;开盖儿，再补入一点水，弥补刚刚蒸发掉的部分，捞出干辣椒弃之。调味：老抽、盐、糖、味精、白胡椒粉。所有的米都靠这个味道，所以多加一点。&lt;/li&gt;
-&lt;li&gt;把蒸熟的糯米拌入这锅肉馅汤，轻柔搅拌，不要碾碎米粒。糯米均匀吸收完所有汤汁即可，备用。&lt;/li&gt;
-&lt;li&gt;皮：超市买的饺子皮几个一叠擀开，中间厚边缘薄，擀出荷叶边为佳。&lt;/li&gt;
-&lt;li&gt;包的手法和包包子类似，把皮窝在手心，打入糯米馅，虎口收口，不用收紧，掐出腰就行。把挤出来多余的馅料刮平。&lt;/li&gt;
-&lt;li&gt;蒸锅上汽后放烧卖，蒸7mins, 中途开盖喷一次水以免皮干。&lt;/li&gt;
-&lt;li&gt;吃！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://latest.cactus.chat/cactus.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://latest.cactus.chat/style.css&#34; type=&#34;text/css&#34;&gt;
-&lt;div class=&#34;&#34;&gt;
-
-
-&lt;h2&gt;Comments&lt;/h2&gt;
-&lt;div id=&#34;comment-section&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-initComments({
-  node: document.getElementById(&#34;comment-section&#34;),
-  defaultHomeserverUrl: &#34;https://matrix.cactus.chat:8448&#34;,
-  serverName: &#34;cactus.chat&#34;,
-  siteName: &#34;my-hugoblog&#34;,
-  commentSectionId: &#34;weekly-wondering-2022-34&#34;
 })
 &lt;/script&gt;
         

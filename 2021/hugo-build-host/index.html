@@ -58,13 +58,16 @@
 <meta property="og:title" content="用VPS部署静态网页" />
 <meta property="og:description" content="突然发现前两礼拜做的部署没问题（这也能突然发现？），所以记录一下。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.midofnowhere.link/2021/hugo-build-host/" />
+<meta property="og:url" content="https://notes.midofnowhere.link/2021/hugo-build-host/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-23T23:21:08+08:00" />
 <meta property="article:modified_time" content="2021-12-24T00:30:23+08:00" />
 
 
 
 <script src="https://kit.fontawesome.com/50e8b0d7ba.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 
 
   </head>
@@ -81,7 +84,7 @@
     
       
         
-          <li><a href="/message/">Message</a></li>
+          <li><a href="/photos/">Photos</a></li>
         
       
         
@@ -110,7 +113,7 @@
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/message/">Message</a></li>
+        <li><a href="/photos/">Photos</a></li>
       
     
       
@@ -283,7 +286,7 @@
 <li>新建一个用户，管理git, I called them gitter
 add gitter to the root group</li>
 </ul>
-<pre><code class="language-ssh" data-lang="ssh">adduser gitter
+<pre tabindex="0"><code class="language-ssh" data-lang="ssh">adduser gitter
 su - gitter
 // in root user
 usermod -aG sudo gitter
@@ -293,7 +296,7 @@ git --version
 </code></pre><ul>
 <li>pair the remote git to local repository</li>
 </ul>
-<pre><code class="language-ssh" data-lang="ssh">// add a git in the gitter root directory
+<pre tabindex="0"><code class="language-ssh" data-lang="ssh">// add a git in the gitter root directory
 mkdir new.git &amp;&amp; cd new.git
 git init
 // ** do not use bare git because bare git does not show explicit files **
@@ -305,16 +308,16 @@ gitter@midofnowhere:~$ git init --bare ~/hugoblog.git
 Initialized empty Git repository in /home/gitter/hugoblog.git/
 </code></pre><p>check local ssh keygen in local git bash <code>cat ~/.ssh/id_rsa.pub</code> then copy the keygen to vps authorized key file.</p>
 <p>go to local git repo directory:</p>
-<pre><code class="language-git" data-lang="git">git init
+<pre tabindex="0"><code class="language-git" data-lang="git">git init
 git remote set-url origin gitter@myip:hugoblog.git
 git add . 
-git commit -m &quot;commit message&quot;
+git commit -m &#34;commit message&#34;
 git push --set-upstream origin main 
 //no branches in remote git yet so set up a main branch
 </code></pre><ul>
 <li>some basic frequently used operations in git</li>
 </ul>
-<pre><code class="language-git" data-lang="git">git branch &lt;new branch name&gt;
+<pre tabindex="0"><code class="language-git" data-lang="git">git branch &lt;new branch name&gt;
 git checkout &lt;go to the branch need to checkout&gt;
 git branch -a ##display all branches
 git branch &lt;branch name&gt; --set-upstream-to remotes/origin/&lt;branch name&gt;
@@ -424,7 +427,7 @@ font-size: 2rem;">
 <script src="https://notes.midofnowhere.link/assets/main.js"></script>
 <script src="https://notes.midofnowhere.link/assets/prism.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/animation.js">  </script>
+
 
 
       
