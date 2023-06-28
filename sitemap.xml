@@ -2,23 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://notes.midofnowhere.link/photos/first-photo/</loc>
-    <lastmod>2023-04-30T23:45:55+08:00</lastmod>
+    <loc>https://notes.midofnowhere.link/categories/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/posts/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/tags/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/2023/%E6%91%84%E5%BD%B1%E4%BD%9C%E4%B8%BA%E4%B8%80%E4%B8%AA%E7%88%B1%E5%A5%BD/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/tags/%E6%91%84%E5%BD%B1/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2023-06-28T21:13:14+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/photos/first-photo/</loc>
     <lastmod>2023-04-30T23:45:55+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/photos/</loc>
     <lastmod>2023-04-30T23:45:55+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2023-04-15T22:51:53+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/posts/</loc>
-    <lastmod>2023-04-15T22:51:53+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/tags/</loc>
-    <lastmod>2023-04-15T22:51:53+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2023/how-to-develop-an-argument/</loc>
     <lastmod>2023-04-15T22:51:53+08:00</lastmod>
@@ -45,10 +60,7 @@
     <lastmod>2023-01-19T16:14:02+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-01-19T16:14:02+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-01-19T16:14:02+08:00</lastmod>
+    <lastmod>2023-06-26T21:22:13+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E7%BD%91%E9%A1%B5/</loc>
     <lastmod>2023-01-19T16:14:02+08:00</lastmod>
@@ -57,12 +69,6 @@
     <lastmod>2023-01-17T21:21:21+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2023/xiamen-travel/</loc>
-    <lastmod>2023-01-13T14:39:45+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/categories/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2023-01-13T14:39:45+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-01-13T14:39:45+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2022/healthy-habbit-2022/</loc>
@@ -165,10 +171,10 @@
     <lastmod>2022-05-15T21:20:26+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2021/shortcode_test/</loc>
-    <lastmod>2022-06-13T13:06:19+08:00</lastmod>
+    <lastmod>2023-06-26T21:22:13+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/tester/</loc>
-    <lastmod>2022-06-13T13:06:19+08:00</lastmod>
+    <lastmod>2023-06-26T21:22:13+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E7%96%AB%E6%83%85/</loc>
     <lastmod>2022-05-15T21:24:53+08:00</lastmod>
