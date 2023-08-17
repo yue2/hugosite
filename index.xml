@@ -10,10 +10,180 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Thu, 10 Aug 2023 17:23:55 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2023 12:07:25 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>像素画 72h</title>
+      <link>https://notes.midofnowhere.link/2023/pixel-art-72h/</link>
+      <pubDate>Thu, 17 Aug 2023 12:07:25 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2023/pixel-art-72h/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;我在三月份的时候说想玩像素画，小半年过去了，一共只画了71.3h，但是因为72听起来比较整，所以起了这么个题目，来分享一下我们三分钟热度也会有的三分钟经验。&lt;/p&gt;
+&lt;h2 id=&#34;怎么开始&#34;&gt;
+  怎么开始
+  &lt;a href=&#34;#%e6%80%8e%e4%b9%88%e5%bc%80%e5%a7%8b&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;起因是这样：
+&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/109/988/442/664/974/057/original/16e65d9dac8c0342.png&#34; alt=&#34;聊天截图&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我上学期参加了一个拼豆小活动，做了一个小挂件。我一边做一边就想，这不就是传说中的 pixel art, 只是做成了实体，也就是豆。那我既然能拼豆，也能数码拼豆吧？——即为像素画。我觉得这事儿可行，于是上网征求网友意见：&lt;/p&gt;
+&lt;iframe src=&#34;https://moresci.sale/@boxue/109988248266320616/embed&#34; class=&#34;mastodon-embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;400&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;https://moresci.sale/embed.js&#34; async=&#34;async&#34;&gt;&lt;/script&gt;
+&lt;p&gt;网友们推荐了很多，其中最重要的我认为只有提到软件的这一条，那就是大家都用 aseprite, 而且这个软件在 steam 上购买比较便宜。&lt;/p&gt;
+&lt;h3 id=&#34;选择软件&#34;&gt;
+  选择软件
+  &lt;a href=&#34;#%e9%80%89%e6%8b%a9%e8%bd%af%e4%bb%b6&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;aseprite 在steam上其实也没有很便宜，折合人民币一百块。我当时刚搬家一个人住并且为此付出了非常贵的房租，所以虽然一百块这个绝对值不算高，但是还根本不知道自己会不会用呢，就要花一百块买个画画软件，这件事给我的心理压力非常大。&lt;/p&gt;
+&lt;p&gt;现在看来当然是很值的，毕竟一百块的游戏可能都玩不了70h。这个软件是专业选手也会用的，所以在功能上不用担心有任何别人能做你做不了的。大多数能找到的网上视频也都是用这个软件画的，所以也比较容易学。&lt;/p&gt;
+&lt;p&gt;如果想用免费的，在ipad上也有一些，功能简单很多，就是一格一格上色这样的画法。当然了，理论上讲画像素画并不需要任何特殊软件，在电脑自带的画图上，把笔刷设置成方块儿，画出来的自然也是像素画。但是这个对于新手来说一点帮助也没有，就像人家说想学写代码，你说：“想写就能写！打开记事本立刻开写！”这是非常不负责的推荐。&lt;/p&gt;
+&lt;p&gt;专门的软件，在这里说的就是aseprite, 有很多实用功能，比如说自动去重合线（anti-liasing）、缩略视图、预设色盘、自动加边框等等，老少咸宜、事半功倍！但是这个软件是设计给鼠标+键盘/手绘板使用的，我也试过用 steam link 到 ipad 上画，操作起来非常难用，完全不推荐！&lt;/p&gt;
+&lt;h3 id=&#34;这个艺术形式的优点&#34;&gt;
+  这个艺术形式的优点
+  &lt;a href=&#34;#%e8%bf%99%e4%b8%aa%e8%89%ba%e6%9c%af%e5%bd%a2%e5%bc%8f%e7%9a%84%e4%bc%98%e7%82%b9&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;像素画这个形式，最大的优点就是成本低。你可能要说，这不是才花了一百块买个专门的画图软件？——是的，但是它对电脑的硬件要求非常低，毕竟这只有几百个像素。我还玩过不要钱的软件blender, 但是没有独立显卡，这个甜甜圈渲染了我二十多分钟：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/107/444/391/599/184/884/original/7e1de81198d32f5f.png&#34; alt=&#34;blender donut scene&#34;&gt;&lt;/p&gt;
+&lt;p&gt;而实体的画画又要买耗材，画出来的画还得有地方放，约等于还得买个房。所以不管怎么算，像素画都是非常低成本的活动。&lt;/p&gt;
+&lt;p&gt;那像素画的另一大优点就是门槛低，也就是说不需要什么美术基础，光影、色彩在像素画里都是被高度概括的，而且因为像素的限制，复杂程度低了很多，还有很多人会分享色盘给大家参考（直接抄）。&lt;/p&gt;
+&lt;h2 id=&#34;在哪里可以学到&#34;&gt;
+  在哪里可以学到
+  &lt;a href=&#34;#%e5%9c%a8%e5%93%aa%e9%87%8c%e5%8f%af%e4%bb%a5%e5%ad%a6%e5%88%b0&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我用到的学习资源主要都是youtube, 总结一下我看过的博主。以我的冲浪经验来看，像素画作画是非常小众的，大家做像素画主要是为了做游戏。这些博主大部分是游戏开发者，和我的目标并不一致，我只是想画画，而且我平常也不爱玩游戏，所以他们说的很多都跟我没关系，我就会跳着看。&lt;/p&gt;
+&lt;h3 id=&#34;pixel-art-101&#34;&gt;
+  pixel art 101
+  &lt;a href=&#34;#pixel-art-101&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/51u9ZgrEThg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这个是很多人都推荐的系列，但是我并不太喜欢，因为这个人没有按照任何规律来安排教程，除了前几个教怎么用软件的，后面都是以画了什么 object 来安排的视频，对新手来说有点东一榔头西一棒槌。这个博主作为艺术家和开发者，技术是很好的，也有很多 insights, 但是我觉得这个教学水平不行。&lt;/p&gt;
+&lt;p&gt;——不好意思我们小聪明就是会 judge 老师的。&lt;/p&gt;
+&lt;p&gt;但是他有一些小撇步说的很好很有用，其中最重要的就是打开一个 pinterest 收藏板，把你看到的所有喜欢的像素画都放进去，不拘风格形式，只要是你喜欢的想参考的都加上。如果你用 twitter, 还可以添加一个关注列表，把像素画艺术家都加进去，有事没事刷一刷，培养自己的品味。&lt;/p&gt;
+&lt;h3 id=&#34;pixel-art-class-by-adamcyounis&#34;&gt;
+  pixel art class by AdamCYounis
+  &lt;a href=&#34;#pixel-art-class-by-adamcyounis&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Iv4ZgH0bbSY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这个视频列表我觉得更合适，博主讲得很慢很细，所以每个视频都挺长，可以1.2倍速观看。他会解释整个创作流程，从 freehand 草图开始，到每一步的细化，不会让人感觉开场面对空白画布很迷茫。但是这位博主也是游戏开发者，而且目前正在一生悬命，专职 solo dev 命中注定的作品，所以他的教程列表里大部分是和游戏场景更相关的图，还有很多动画教程。当然了对新手来说学啥都是学，所以也不错。&lt;/p&gt;
+&lt;h3 id=&#34;pixel-art-tutorials-by-saultoons&#34;&gt;
+  pixel art tutorials by Saultoons
+  &lt;a href=&#34;#pixel-art-tutorials-by-saultoons&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/11mBKkltki8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这个光头佬的视频比较简短，很容易看。光头佬也在开发一个小游戏，他的开发日志做得很幽默，我还挺爱看。他每年会发布一个30天挑战，给大家提供画画的主题。这个很有用，因为题目很简单，限制也很多，是很容易上手的练习，不用担心不知道画什么。我就画了一些这个 1 bit 小动物主题：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/110/898/696/130/475/766/original/1d7ed5bb8d68741b.jpg&#34; alt=&#34;1 bit animals&#34;&gt;&lt;/p&gt;
+&lt;p&gt;很可爱，只有16x16个像素那么大，而且只有黑色和白色，但是很神奇，你在画之前不会感觉到256个像素点能放下这么多信息，而你真的画出来就会发现，这些动物甚至能有表情有性格！而且这个狗，它不光是个狗，他还是个比格！&lt;/p&gt;
+&lt;p&gt;像素画的成就感来得就是这么快，你觉得只是闲暇时光点点鼠标，居然就能画出像模像样的简笔画。&lt;/p&gt;
+&lt;h3 id=&#34;getting-started-with-pixel-art&#34;&gt;
+  getting started with pixel art
+  &lt;a href=&#34;#getting-started-with-pixel-art&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ad-3dn2qUUs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;还有一个我喜欢的博主是 Brandon Greer, 他的教程更简短，有点太短了，不适合跟着学习，但是他还有很多创作过程的 time lapse, 我很爱看，可以看到他的工作流程。比如说他喜欢先用粗笔刷打草稿画出剪影轮廓，前面提到的Adam也是这样操作的。因为他们认为像素画是高度概括的表现形式，那就应该让特征非常明显，光看轮廓也能看出是什么。&lt;/p&gt;
+&lt;p&gt;猴哥（I mean Brandon）喜欢用 photoshop 画图，他的风格和配色都很有意思，我也挺喜欢。&lt;/p&gt;
+&lt;h3 id=&#34;动画&#34;&gt;
+  动画
+  &lt;a href=&#34;#%e5%8a%a8%e7%94%bb&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;做动画是另一门专业，但是像素画非常容易做成动画，而且会动！多有意思！前面几位的像素画教程里多少也有提到，但是我也看了一些动画的基本原理，其中最有用的是这个：&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4uvlCjcT7oM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这可是 Genndy Tartakovsky! 传奇动画家！代表作有：飞天小女警等。别的就不说了，飞天小女警就是最重要的 ╰(&lt;em&gt;°▽°&lt;/em&gt;)╯&lt;/p&gt;
+&lt;p&gt;他在这个问答里提到了动画的几个基本原则，像是变形和 anticipation, 只要用上就能让动画像模像样，一种点石成铁的作用——想做成金子还是需要更多水平。&lt;/p&gt;
+&lt;h2 id=&#34;技与道&#34;&gt;
+  技与道
+  &lt;a href=&#34;#%e6%8a%80%e4%b8%8e%e9%81%93&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id=&#34;收藏参考就像一个仓鼠&#34;&gt;
+  收藏参考就像一个仓鼠
+  &lt;a href=&#34;#%e6%94%b6%e8%97%8f%e5%8f%82%e8%80%83%e5%b0%b1%e5%83%8f%e4%b8%80%e4%b8%aa%e4%bb%93%e9%bc%a0&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;像素画形式简单，但是可以实现的风格非常多样。有这种方方的、有线条但是很柔和的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/1a/62/2b/1a622bd7a17e0b639726bba1803762a1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还有这种完全不勾线，几乎是印象派的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/ea/32/1d/ea321d2e73d5921b5b91e43dba67cf98.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还有这样硬勾线的、非常经典动画风格的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/bb/6d/76/bb6d7677244c8427db85c4d7e2a903ca.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因此不必拘泥于任何风格，可以多多欣赏多多收藏。就像前面提到的，我把这些都收藏在 pinterest 里，也不分类也不总结，看到喜欢的就点收藏，然后想起来就看一看。我还会收藏游戏截图，赛博酒吧va-11就是作画很优美的一个像素风游戏。&lt;/p&gt;
+&lt;p&gt;除了像素画的参考，我也会针对想画的东西收藏很多其它形式的参考，比如说三次元照片、动画场景etc&lt;/p&gt;
+&lt;h3 id=&#34;主要靠观众脑补&#34;&gt;
+  主要靠观众脑补
+  &lt;a href=&#34;#%e4%b8%bb%e8%a6%81%e9%9d%a0%e8%a7%82%e4%bc%97%e8%84%91%e8%a1%a5&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;本文前面也提到很多次了，像素画是一个高度概括的艺术形式，哪怕是这样&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/eb/b0/82/ebb082ee74dce32b96482836a73d3eb8.jpg&#34; alt=&#34;世界名画&#34;&gt;&lt;/p&gt;
+&lt;p&gt;你也能认出这都是什么东西。&lt;/p&gt;
+&lt;p&gt;靠的就是观众朋友们的脑补。因而创作者的一部分工作，就是 manipulate 观众的脑补。这部分我还没学会，只知道是这么回事儿。所以一方面像素画好像每个像素的位置都很重要；另一方面好像一整块一整块的色块，只要排布成差不多的形状，看起来都挺像样。&lt;/p&gt;
+&lt;h3 id=&#34;做一个项目我学任何东西的方法&#34;&gt;
+  做一个项目——我学任何东西的方法
+  &lt;a href=&#34;#%e5%81%9a%e4%b8%80%e4%b8%aa%e9%a1%b9%e7%9b%ae%e6%88%91%e5%ad%a6%e4%bb%bb%e4%bd%95%e4%b8%9c%e8%a5%bf%e7%9a%84%e6%96%b9%e6%b3%95&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;我在上手了基本操作之后，就会想做一个项目。这是我学习任何东西必经的道路，就是会想象我要用这个工具来做什么，然后做自己的项目经理，详细提出一个方案。如果教程就是 project-oriented 那最好，比如说那个 &lt;a href=&#34;https://www.youtube.com/watch?v=nIoXOplUvAw&amp;amp;list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&amp;amp;ab_channel=BlenderGuru&#34;&gt;blender 甜甜圈教程&lt;/a&gt;；如果不是，那我必然半路脱缰，开始操作！而且做一个小项目必然会用到入门教程没有教的内容，我就会一边做一边谷歌，一边谷歌再一边做。所以我很难完成一个教程，因此也很难扎实地学完任何东西。&lt;/p&gt;
+&lt;p&gt;但是我已经和自己和解了，我们工程师就是这样的，能用就行，一切都是为了解决问题！&lt;/p&gt;
+&lt;p&gt;所以（在所以什么？）我就想给自己的 &lt;a href=&#34;https://pottypod.wordpress.com/&#34;&gt;podcast 节目《我的锅》&lt;/a&gt;做个开场动画。首先想到的是给主播们做Q版形象，效果是这样&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/110/898/911/056/941/501/original/6f8e2d18d27d6176.png&#34; alt=&#34;猫狗表情&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因为我自己的上网形象就是一个黄眼睛黑猫，而扁扁是只狗。所以先画了这两位的几个表情。但是后来没用上这个。&lt;/p&gt;
+&lt;p&gt;为了搭配上 intro 音效的微波炉，最后做了这个小动画&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://notes.midofnowhere.link/images/potsnpans-animation.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这个非常简单的小项目就告一段落。接下来为了保持新鲜感，我会为自己提其他项目，现在备选的有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;西游记主角重置但是用像素画而且导出后放到三次元照片上，就像甘宝妙世界的画风&lt;/li&gt;
+&lt;li&gt;哈利波特第一部的闯关小游戏做得像真的游戏画面视图并且大家都是洛克人的姿势&lt;/li&gt;
+&lt;li&gt;家养植物（盆栽）图鉴而且有进化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;形式与媒介变化多端但创造力来自脑子&#34;&gt;
+  形式与媒介变化多端但创造力来自脑子
+  &lt;a href=&#34;#%e5%bd%a2%e5%bc%8f%e4%b8%8e%e5%aa%92%e4%bb%8b%e5%8f%98%e5%8c%96%e5%a4%9a%e7%ab%af%e4%bd%86%e5%88%9b%e9%80%a0%e5%8a%9b%e6%9d%a5%e8%87%aa%e8%84%91%e5%ad%90&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;形式是内容的一部分，形式可以影响内容创作的思路，但是产生创作的还是创作者的脑子。像素画在很大程度上减轻了技术要求，但是想要不断进步还是很难的。而创造力又是不会被形式束缚的，我觉得好的作品都是利用表现形式做出的表达，是互相选择而结合的产物。&lt;/p&gt;
+&lt;p&gt;当然了，我对自己这种业余涂鸦没有什么要求，但是我在欣赏其他作品的时候是会这样看的。&lt;/p&gt;
+&lt;h2 id=&#34;个人感想&#34;&gt;
+  个人感想
+  &lt;a href=&#34;#%e4%b8%aa%e4%ba%ba%e6%84%9f%e6%83%b3&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;对我来说，这像素画72h里的阵痛主要来自于眼高手低，也就是我的审美趣味和实现水平之间的巨大落差。理智上很好理解，就是我作为一个观众已经在鉴赏水平上训练了太多，而我从来没有画过画，所以水平很菜。&lt;/p&gt;
+&lt;p&gt;另一方面因为&lt;a href=&#34;https://notes.midofnowhere.link/2023/taking-photos/&#34;&gt;我平常喜欢拍照&lt;/a&gt;，所以对光影明暗关系和颜色有一点了解，感觉学起来很容易上手。我同时也感觉到了这给我带来的限制。因为我对色彩的了解几乎完全来自三次元，我很难想到去用“不现实”的颜色，而这正是像素画的一大魅力。所以我也觉得学到很多，很有意思。&lt;/p&gt;
+&lt;p&gt;我自己是一个把创造，而不是消费，作为休闲娱乐的人。就是说我闲下来也会看书看电视，但是这种纯粹消费行为会让我觉得无聊，要解决无聊我会需要做出点什么。这两种方式当然没有高下之分，因为我也只是在制造垃圾。你可能看到成品觉得我画得也还行啊，像模像样的——那是因为我真的很聪明，学啥 tutorial 都能整个像模像样的。我是就凭借这点混到了现在，但是每当我想更进一步，就会感觉到阻力很大，于是又会看上另一个活动，开始下一个三分钟的热度。没关系，啥都学点又不是什么坏事。&lt;/p&gt;
+&lt;p&gt;总结来说，像素画是非常低成本的休闲娱乐，能很快获得成就感，制造出来的垃圾也不占地方，非常适合我。&lt;/p&gt;
+&lt;h2 id=&#34;参考链接之别人的像素画旅程&#34;&gt;
+  参考链接之别人的像素画旅程
+  &lt;a href=&#34;#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5%e4%b9%8b%e5%88%ab%e4%ba%ba%e7%9a%84%e5%83%8f%e7%b4%a0%e7%94%bb%e6%97%85%e7%a8%8b&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://saint11.org/blog/pixel-art-tutorials/&#34;&gt;Pixel art tutorial from Celeste game artist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.douchi.space/100-days-of-pixel-art/#gsc.tab=0&#34;&gt;像素画的一小步，我人生的一大步 —— 100 days of pixel art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/pixel-grimoire/how-to-start-making-pixel-art-2d1e31a5ceab&#34;&gt;How to start making pixel art #1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>思乡只是一个情绪</title>
@@ -896,59 +1066,6 @@ initComments({
   serverName: &#34;cactus.chat&#34;,
   siteName: &#34;my-hugoblog&#34;,
   commentSectionId: &#34;xiamen-travel&#34;
-})
-&lt;/script&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>培养两个习惯</title>
-      <link>https://notes.midofnowhere.link/2022/healthy-habbit-2022/</link>
-      <pubDate>Thu, 22 Sep 2022 13:38:59 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2022/healthy-habbit-2022/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;【本文会提及体重和量化力量】&lt;/p&gt;
-&lt;p&gt;六月初老板去放暑假，我于是给自己放摸鱼假，决定要休养身体，主要做两件事：停喝甜饮料、去健身房锻炼。站在九月底看来，这两件事差不多都做到了。&lt;/p&gt;
-&lt;p&gt;我平常用tick tick来记录待办事项，这个软件还有一个计划养成功能，可以自己设置目标，它每天提醒我打勾。我设定了100天不喝甜饮料，每天都要完成。&lt;/p&gt;
-&lt;p&gt;甜饮料含糖太多，喝了当然是有害无益，但是我对自己又下不了狠手，所以并不限制自己吃糖。随手抄起一盒蜂蜜柚子茶可见，250毫升的纸盒装，含糖20g，这样一小罐一会儿就喝完了。换成薄荷糖要吃10颗才有20g, 一整罐话梅肉含糖18.7g, 平常我都是吃一两片就不吃了。所以这样算下来糖果零食的糖分摄入没有甜饮料那么容易，就算是并不太严格的限制也可以有效减少摄入糖分。&lt;/p&gt;
-&lt;p&gt;关于甜饮料的定义，我和扁老师进行了深入讨论。第一个案子是绿豆汤，我说我们按照common law 来，扁律师说好，普通法遵循判例，如果我说绿豆汤和鲜芋仙一样是甜点，那扁律师就要先争取一个鲜芋仙不算糖水的precedent. 如果判例决定鲜芋仙不是糖水了，那也好办，我可以argue 说绿豆汤其实是珍珠奶茶！我说这样吵到最后，最高法就会规定固体物质量占比超过整杯（碗）41%的就不能算饮料，扁律师认为这样的话往鲜芋仙里狂加芋头就可以绕过这个法案。我说没错，《不让喝甜饮料法案》本来的目的就是避免三餐之外摄入过多糖分，吃了好多芋头就吃不下饭了，也可以算一顿。扁扁说没错，现在这个讨论就来到了立法本意！&lt;/p&gt;
-&lt;p&gt;我作为一个听了太多律政新闻的人，又发现了loophole: 如果芋头算固体，那么芋泥算不算呢？毕竟芋泥可以在液体中搅拌开来呀。扁律师于是在最高法法庭上call了专家证人，最高法决定增加流动性要素，确定加入时流动性低于多少的就是固体！&lt;/p&gt;
-&lt;p&gt;完成了小型司法实践后，我就开始行动了。奶茶不喝也就不喝了，平常我也不怎么爱喝。咖啡是重头，不能再喝食堂那种加奶加糖的便宜货了，星巴克一天五六块的又实在太贵了，于是我重新宠爱起摩卡壶，早上起来煮一杯。吃晚饭爱买的果汁也不能喝了，不喝就不喝吧，可以买个瓶装红茶喝喝。出去吃饭则几乎必配diet coke, 在社交场合也能融入，不显得尴尬。&lt;/p&gt;
-&lt;p&gt;酒精没有算在甜饮料里，但我本来也不喝酒，每年大概过年吃饭稍微喝一点，一年到头加起来也就两杯红酒一两瓶啤酒的水平。所以虽然酒精也是对身体不好的饮料，而且时常含很多糖，但是我没有加以限制。&lt;/p&gt;
-&lt;p&gt;这一百天的目标中间自然也有没忍住、场面没法避免、血糖指数岌岌可危十分需要紧急补充等等情况，累计下来大概有7天还是喝了甜饮料，没有完成目标。比如说昨天就是这样一天：我去吃泰国菜，点了很喜欢的青芒果沙拉，忘记要微辣了，辣得我涕泗横流，这时候我的打抛猪盖浇饭又上来了，新鲜热乎的白米饭简直是雪上加霜，我于是赶紧加了一杯泰国奶茶。&lt;/p&gt;
-&lt;p&gt;要我自己反思的话我大可以点一瓶矿泉水，但是我没有，我选了有糖有奶有咖啡因的饮料，是不是心里想利用这个看似不得已的场合喝点儿不该喝的呢？我想是有的，但是我原谅了自己，我也不告诉其他人我的小目标进展到第几天了，所以没人会说我。&lt;/p&gt;
-&lt;p&gt;实际上我自己也不太清楚进展到第几天了，因为打勾打到六十多天的时候我好像很习惯这个习惯了，一整天没喝甜饮料有时候都想不起来要打勾，是第二天补打的；但是数字来到八九十的时候我又突然感觉目标结束就在眼前，而一个目标既然会结束，我就忍不住想庆祝它的实现，庆祝方式当然是我在心里已经给自己点单了椰子冰沙加椰肉再顶椰椰雪糕球。这样不好，怎么能一个习惯养成当日就是打破之时呢？所以我在最后这十天半个月打算故意不去打勾，忘掉我还有这个目标，把它真正地变成习惯。&lt;/p&gt;
-&lt;p&gt;在卡路里天平的另一端，也就是消耗热量方面，我开始了力量训练，这事儿在前几周的周记里也有提到一点。&lt;/p&gt;
-&lt;p&gt;我跟上了一个八周的举铁计划，叫before the barbell, 计划内容都放在ig上了，直接搜索名字就能看到这个账号。一周三天，一共八周，安排得明明白白。这个计划正如其名，就是一个从完全新手进步到用杠铃锻炼的计划。拖拖拉拉做了10周，现在终于还剩最后一次就能完成了。&lt;/p&gt;
-&lt;p&gt;这个计划完美击穿我的痛点（痛点！），那就是不敢进健身房、不知道进去做什么、完全不知道该拿多重的哑铃、做几次……但与此同时我又不是一个平常不运动的人，我知道自己有一定肌肉量，在同龄人里应该算是力气比较大的，至少大学宿舍的饮水机都是我在换——因此我从训练视频应该就能学会，不需要私教的帮助。我在无聊的时候还会看健身youtuber, 仔细学习一些动作要领。&lt;/p&gt;
-&lt;p&gt;力量训练的三个大项：深蹲、硬拉、卧推，我的结课成绩分别是37.5kg, 35kg, 22.5kg, 是在这八周里从小哑铃逐渐加重量得到的成果。我的脑子依然觉得70斤是很重的东西，70斤啊！大半个我自己呢！实际上做起来觉得有点费劲，但是一组六个八个，蹲个三组好像也没啥大问题，并没有感觉到要被压垮。我觉得好像是我以前没做过这些动作，现在学会了，我的脑子被锻炼到了，会更好地动员起相关肌肉了。这当然都是很好的成就，我也很为自己学会这些感觉开心，但是我同时还是好奇，我的极限在哪里呢？&lt;/p&gt;
-&lt;p&gt;或许我还会继续力量训练，可能很快就能摸到天花板了。但是力量训练并没有关照到柔韧、平衡、爆发力等等我在其他运动上会需要的技能，所以我打算也练点别的，比如说关注一下球技。&lt;/p&gt;
-&lt;p&gt;在这一套健康生活习惯下，两个多月了，我的体重勉强减少了1kg, 腰围基本上没变化，所有我能得到的数据都表明我基本上一点儿没瘦。这也很好理解，因为我还是会吃零食巧克力、炸鸡、炒河粉、牛肉刀削面……按照youtuber的说法，我这就是在浪费最容易增肌减脂的新手期。但是我心态上更喜欢买衣服自拍了，觉得身材好像也还好。&lt;/p&gt;
-&lt;p&gt;上回说了我向往健康自信的中学生身材，或许是因为我的中学时代没能拥有过。后来看到有网友说看青春片完全不能代入，因为好像从来没有人获得过那样的中学时代。我没好意思说，这个认知又让我舒一口气：原来大家都没有，原来不是我的体重的问题。&lt;/p&gt;
-&lt;p&gt;那我现在拥有的是我满意的就可以了。&lt;/p&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://latest.cactus.chat/cactus.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://latest.cactus.chat/style.css&#34; type=&#34;text/css&#34;&gt;
-&lt;div class=&#34;&#34;&gt;
-
-
-&lt;h2&gt;Comments&lt;/h2&gt;
-&lt;div id=&#34;comment-section&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-initComments({
-  node: document.getElementById(&#34;comment-section&#34;),
-  defaultHomeserverUrl: &#34;https://matrix.cactus.chat:8448&#34;,
-  serverName: &#34;cactus.chat&#34;,
-  siteName: &#34;my-hugoblog&#34;,
-  commentSectionId: &#34;healthy-habbit-2022&#34;
 })
 &lt;/script&gt;
         
