@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://notes.midofnowhere.link/</loc>
+    <lastmod>2024-01-07T21:39:54+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/posts/</loc>
+    <lastmod>2024-01-07T21:39:54+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/2024/test/</loc>
+    <lastmod>2024-01-07T21:39:54+08:00</lastmod>
+  </url><url>
     <loc>https://notes.midofnowhere.link/2024/blog-keeping/</loc>
     <lastmod>2024-01-07T21:33:01+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/posts/</loc>
     <lastmod>2024-01-07T21:33:01+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/</loc>
