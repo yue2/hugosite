@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://notes.midofnowhere.link/2024/blog-keeping/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
-  </url><url>
     <loc>https://notes.midofnowhere.link/categories/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/posts/</loc>
-    <lastmod>2024-01-07T21:33:01+08:00</lastmod>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/2024/nyr-2024-1/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/categories/%E5%8F%A8%E5%8F%A8/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/tags/%E6%96%B0%E5%B9%B4nyr/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-01-15T01:29:33+08:00</lastmod>
+  </url><url>
+    <loc>https://notes.midofnowhere.link/2024/blog-keeping/</loc>
     <lastmod>2024-01-07T21:33:01+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E5%8D%9A%E5%AE%A2/</loc>
@@ -25,9 +40,6 @@
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-01-07T21:33:01+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/categories/%E5%8F%A8%E5%8F%A8/</loc>
-    <lastmod>2023-12-13T16:57:59+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2023-12-13T16:57:59+08:00</lastmod>
@@ -52,9 +64,6 @@
   </url><url>
     <loc>https://notes.midofnowhere.link/2023/care-and-detergent-2023/</loc>
     <lastmod>2023-11-30T20:30:14+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-12-07T17:05:34+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/tags/%E8%AF%84%E8%AE%BA/</loc>
     <lastmod>2023-11-30T20:45:26+08:00</lastmod>
@@ -120,9 +129,6 @@
     <lastmod>2023-11-25T16:16:12+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2022/healthy-habbit-2022/</loc>
-    <lastmod>2022-09-22T23:56:49+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-09-22T23:56:49+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2022/weekly-wondering-2022-36/</loc>
@@ -198,9 +204,6 @@
     <lastmod>2022-01-23T23:07:26+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2022/new-year-2022/</loc>
-    <lastmod>2022-01-09T23:26:51+08:00</lastmod>
-  </url><url>
-    <loc>https://notes.midofnowhere.link/tags/%E6%96%B0%E5%B9%B4nyr/</loc>
     <lastmod>2022-01-09T23:26:51+08:00</lastmod>
   </url><url>
     <loc>https://notes.midofnowhere.link/2021/hugo-build-host/</loc>
