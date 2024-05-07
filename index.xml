@@ -10,10 +10,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 22:02:51 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2024 20:22:57 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>带全自动胶卷相机去旅游</title>
+      <link>https://notes.midofnowhere.link/2024/filmcam-travel/</link>
+      <pubDate>Sat, 04 May 2024 20:22:57 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2024/filmcam-travel/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;这次出远门了十天，带的是全自动胶卷相机。这是我第一次只带胶卷机出门，这两天才收到洗好的两卷照片，是时候回顾一下这次的经验。本文主要讨论作为拍摄者的技术和想法，会放很多图，请注意流量。&lt;/p&gt;
+&lt;h2 id=&#34;为什么带了这只相机&#34;&gt;
+  为什么带了这只相机
+  &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%b8%a6%e4%ba%86%e8%bf%99%e5%8f%aa%e7%9b%b8%e6%9c%ba&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我有一台数码相机，是富士 fujifilm xt-20，已多年随我左右，也为它配了两个趁手的镜头。前几年又买了一只全自动胶片相机（俗称傻瓜机），因为想赶这个复古潮流。我平常的习惯是和人出去旅游、hiking 看小动物、帮同学拍毕业照和 LinkedIn profile 照片的时候带数码机，就是有人指望你produce“清晰美照”的场景；自己出去闲逛和约会这种没有人在乎对焦的时候就可以带傻瓜机，收获意料之外的惊喜。&lt;/p&gt;
+&lt;p&gt;在这个分配习惯下，我的胶片相机其实用得很少，平均一年才拍完一卷36张，通常是和数码相机一起带出门，气氛到了才会用一下傻瓜机。上次去旅游甚至出现了两个人带了三台相机的情况！&lt;/p&gt;
+&lt;p&gt;那这次怎么想到只带傻瓜机呢？&lt;/p&gt;
+&lt;p&gt;因为这次是去出差，旅游的机会只有周末而已，而且要多次穿梭机场和其他公共交通，数码相机还比较贵重，我担心拿进拿出的会有风险，所以就只带了胶片机。&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;
+  配置
+  &lt;a href=&#34;#%e9%85%8d%e7%bd%ae&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我这台傻瓜机是佳能 autoboy WT28，有 28mm 和 48mm 两个焦距可以切换，有一定的灵活性，48mm 是日常焦段，而 28mm 的小广角就很适合街景。
+&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/rqFjGXMHT9tY/NNbU6QcSsHhsn7QF3z9CwQjdOImsKcYZ8YKiyNw9.jpg&#34; alt=&#34;pike place market&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/nkhlg7nSltvI/i4rxW6oBeP3hC0KhRGIozNzHvTybUrUU5VKgHqZ9.jpg&#34; alt=&#34;looking over the wheel&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这个第一张就是 48mm 第二张是 28mm 的镜头，这张俯视的小广角我非常喜欢，显得像是乐高世界。虽然不是真的 &lt;a href=&#34;https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography&#34;&gt;tilt shift&lt;/a&gt; 镜头拍出来的&lt;a href=&#34;https://stock.adobe.com/sg/search/images?k=tilt+shift+new+york&#34;&gt;这种效果&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://as2.ftcdn.net/v2/jpg/01/08/78/09/1000_F_108780916_AXRxeIe7lNvxcfDxkXLEdQQY9UBEPm1Q.jpg&#34; alt=&#34;nyc tilt shift stock image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;但是也有类似的趣味。&lt;/p&gt;
+&lt;p&gt;胶片带的是一卷半 kodak ultramax 400, 其中半卷是上次拍了10张，还留在相机里的。400 是这个胶卷的感光度，数字越大就越容易感光，也就更适合室内和夜晚的环境。一般来说 100 只能在太阳光下拍；200 可以在自然光下用，也可以在室内开闪光灯；400 更灵活一些，我认为很适合出行；800 就是蹦迪很适合的胶卷；1600 恐怕是诺兰爱用好物（并无证据）。&lt;/p&gt;
+&lt;p&gt;没想到我这一卷半在旅游中用完了！当场又去超市巨资购买了一卷富士 200，目前这卷又留在相机里没拍完。&lt;/p&gt;
+&lt;h2 id=&#34;拍摄体验&#34;&gt;
+  拍摄体验
+  &lt;a href=&#34;#%e6%8b%8d%e6%91%84%e4%bd%93%e9%aa%8c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;全自动顾名思义就是全自动的相机。它内置了测光仪、闪光灯，还可以读取胶卷上的码，知道现在这卷胶卷的感光度是多少，然后根据测光结果，自动决定要不要开闪光灯。&lt;/p&gt;
+&lt;p&gt;所以傻瓜机就只给我留下了一件工作——按快门。&lt;/p&gt;
+&lt;p&gt;其实这个问题也在我脑子里好几年了：按快门的我到底做了什么呢？这些景物本来就在那里，成像的功劳又要归于照相机和镜头，那我怎么能说自己是创作者呢？按快门而已。&lt;/p&gt;
+&lt;p&gt;傻瓜机就是把这个问题推向了极致，真的只用按快门，但正是因为退化到只用按快门，我发现自己在按快门的时候会想很多事情，好像我的脑子多出来的算力又用上了。技术方面就是我发现自己确实会先用眼睛构图，走到这里东张西望一下，在脑子里会有一个画框来想象，效果也很明显，我觉得这次拍的照片有更多构图想法的痕迹。&lt;/p&gt;
+&lt;p&gt;特别明显的是这两张欠曝的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/APSWcLE602aD/S3YUlD8idyNfXdBjwYKzHctJFmRFpSF8oPY4ii2r.jpg&#34; alt=&#34;seattle street at dusk&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/WXQngJOB2H4z/JzDuDC76EjzhKpYG1XcYODJIwzGQGBvAd8upxQ4x.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因为特别欠曝，所以轮廓反而更明显，看到图我也能理解自己当时看到的、想要印在胶片上的是什么。&lt;/p&gt;
+&lt;p&gt;我还发现，因为只需要按快门，所以我愿意尝试更多平常不用的视角，比如说这张从桥上往下看的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/CNlcTx6am7Fs/hW4V8jtGRe1GOZDlJYfuIXJHxq7vqpr2C9HAvALu.jpg&#34; alt=&#34;park maple tree&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还有这张蹲得比平常要低很多：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/uN3OHinNc0W1/wGq3Tj5JF6MjIOfi4SNCvDOSRRbKF3biV4TbOEq1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;带胶片机的旅行体验&#34;&gt;
+  带胶片机的旅行体验
+  &lt;a href=&#34;#%e5%b8%a6%e8%83%b6%e7%89%87%e6%9c%ba%e7%9a%84%e6%97%85%e8%a1%8c%e4%bd%93%e9%aa%8c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;拍胶卷不像数码相机，按下快门后立刻就能看，要等一整卷都拍完了才能洗。之前主力数码相机、偶尔拍胶卷的时候还好，这次只有胶片机，被这个未知感急得抓耳挠腮，回来第二天就去了相片店。&lt;/p&gt;
+&lt;p&gt;在外面玩时坐在公园遮阳伞下吃零食，我等着相机咔咔回卷，朋友说：“这感觉跟小时候和我爸一起出门一样，玩了一会儿就要换胶卷。”&lt;/p&gt;
+&lt;p&gt;我说是的，我小时候家里也是一台傻瓜机，我妈近视很高度，应该还有散光斜视之类的问题，我妈拍出来的照片每张里人都在角落里。&lt;/p&gt;
+&lt;p&gt;后来傻瓜机坏了，每张照片都黑乎乎的，我爸于是巨资买了个数码相机，应该是 olympus 的 CCD，沿用了mju的设计，是划开快门盖儿的。实在太贵了，我爸被我妈大骂了一顿。&lt;/p&gt;
+&lt;p&gt;朋友接着问我：你爸现在还搞摄影吗？&lt;/p&gt;
+&lt;p&gt;我说他那也不是搞摄影，就是家里出去玩儿拍拍照。&lt;/p&gt;
+&lt;p&gt;现在想来可能就是这样吧，因为我出生了，所以买了台傻瓜机，其实对摄影毫无研究，也并不感兴趣要去研究，只是想家里出去玩的时候拍拍照。我还记得我爸常去洗胶卷的相片店，就在我幼儿园的那条路上。&lt;/p&gt;
+&lt;p&gt;傻瓜机差不多就是这个功能，让一切都回归到拍照留念，捏住这个时刻的记忆。&lt;/p&gt;
+&lt;p&gt;傻瓜机是纯塑料壳儿的，比数码相机轻不少，背起来完全不压肩膀。再加上除了按快门没有别的事情要做，所以对旅游这件事的影响非常小，不会太刻意地感觉“今天出来拍照！”。但是我这款太厚了，没法揣进口袋里，也是我没有更常用它的一个原因。&lt;/p&gt;
+&lt;p&gt;嗯……突然意识到，那为什么不直接用手机拍照呢？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/LS7DQItZFhD0/RNuu2uE3ejool18uDXsnuPQt3CpFbnybTEDC3Le1.jpg&#34; alt=&#34;plane view clouds&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/evwAaFkozT71/U9zr1eynQb86xNKL2zOSE1VrSn48epksU74TwIky.jpg&#34; alt=&#34;paramount theatre&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这不都是手机也能拍的照片吗？陷入沉思……&lt;/p&gt;
+&lt;h2 id=&#34;虽然叫傻瓜机但拍摄也可以有小技巧&#34;&gt;
+  虽然叫傻瓜机但拍摄也可以有小技巧
+  &lt;a href=&#34;#%e8%99%bd%e7%84%b6%e5%8f%ab%e5%82%bb%e7%93%9c%e6%9c%ba%e4%bd%86%e6%8b%8d%e6%91%84%e4%b9%9f%e5%8f%af%e4%bb%a5%e6%9c%89%e5%b0%8f%e6%8a%80%e5%b7%a7&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;胶卷相机其实很适合我，因为我之前说：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我发现我喜欢自然光、喜欢饱和度比较高、喜欢自然的场景，就好像我只是经过它们/他们/她们的生活，没有任何东西被打扰。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;饱和度高的自然光场景，正是胶片表现最好的场面呢！颜色和明度都有对比的场景在胶片摄影中会表现得非常好，比如说这个：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/3DUfFud9hsDp/VS07a33sK42oscwXLcKLOBNGEzTfgpkyp5dUldt5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还有一个不只是胶片摄影，在所有拍照场合都适用的小技巧是，凑得更近一点，比你以为合适的距离，再凑近一点。这好像是我听哪一期 life kit 学到的，其实也不是说所有照片都要拍成特写，只是在拍照的时候可以试试，在脑子里提醒自己，再凑近一点看看。&lt;/p&gt;
+&lt;h2 id=&#34;影响成片的其他因素&#34;&gt;
+  影响成片的其他因素
+  &lt;a href=&#34;#%e5%bd%b1%e5%93%8d%e6%88%90%e7%89%87%e7%9a%84%e5%85%b6%e4%bb%96%e5%9b%a0%e7%b4%a0&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;胶片要经过冲洗和扫描才能得到我们看到的照片，而这两步对最后的成果都至关重要。有一些人会自己在家洗胶卷，或者买自己的扫描仪在家扫，但我们这样的傻瓜机玩家恐怕是不会投资这么多的，因此就要去相片店。&lt;/p&gt;
+&lt;p&gt;因为胶片早已是上个时代的技术，现在全靠爱好者社区支撑，所以现在能洗胶卷的店也还是那些上个时代的老相片店。我去的这家也是一对老夫妻在维持。我从 google map 上找的，这家店在本地应该是口碑最好的。我也试过另一家，相比之下这家老店的扫描仪分辨率要高很多，所以最后我拿到的扫描回来的电子版照片也要清晰很多。每家店的负片罩色过程也略有不同，所以最后我们看到的色调也会不太一样。&lt;/p&gt;
+&lt;p&gt;开照相馆也是挺有意思的工作，毕竟我可是把世界带回来给老爷子看哎！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pxscdn.com/public/m/_v2/578837066028656907/7321b8e85-c3df53/9bzailED1eau/gf0YJ96LsMomKg1i7ofoUwveaxHGBEKaAyf1iHnR.jpg&#34; alt=&#34;sunset&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;你想试试吗&#34;&gt;
+  你想试试吗
+  &lt;a href=&#34;#%e4%bd%a0%e6%83%b3%e8%af%95%e8%af%95%e5%90%97&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;想尝试胶片摄影的话我是很推荐买一台傻瓜机的，这些通常在20世纪八九十年代生产的机器，已经有很多相当现代的功能，比如说自动对焦、自动测光，有些型号还有更多可玩的模式。我这台就是因为太老了，它的日历都不能到2024年，所以这些照片上都写了94年。想起来很有意思，一台都不相信能过到2024年的相机，还能定时拍摄和自动开闪光灯。&lt;/p&gt;
+&lt;p&gt;和最近又复古流行的一次性胶片机相比，傻瓜机的镜头要好很多，毕竟一次性相机的镜头只是一片塑料。在淘宝（和ebay）上可以买到成色相当新的旧相机，五百块人民币以内可以买到。&lt;/p&gt;
+&lt;p&gt;**胶片摄影主要还是耗材贵！**胶卷因为几乎没有产量了，所以近些年反而因为需求变大而越来越贵。上面提到的冲扫服务也是每36张照片就要付一次的钱。甚至不只是付钱的问题，这个行业就在逐渐凋亡，这就是复古的代价，毕竟已经作古，是我硬要接着玩儿。&lt;/p&gt;
+&lt;p&gt;更多照片放在了&lt;a href=&#34;https://pixelfed.social/i/web/profile/578837066028656907&#34;&gt;这个 pixelfed 账号&lt;/a&gt;上，感兴趣可以点进去看。&lt;/p&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>保持身体健康所需知识</title>
@@ -66,7 +164,7 @@
 &lt;p&gt;我喜欢打羽毛球，可是羽毛球是一项需要和别人一起玩的活动，每次凑人头还怪麻烦的，从十几个群里 blind date 新球友一直是让我觉得很头疼的一步。可是我很喜欢球类运动里 game 的这部分要素，就是需要我所有的注意力在这个对局上，需要在很短时间里做决定并且用身体来执行，平衡、柔韧、力量、爆发力，对这些都有要求。但是羽毛球又是对关节压力很大的活动，顶尖运动员十字韧带大伤的都不在少数，我一个业余球友肯定也不想因为娱乐球受伤。&lt;/p&gt;
 &lt;p&gt;所以我又想要享受球场、又想要锻炼到身体、但不太愿意付出太多社交精力、又想降低一些受伤风险。&lt;/p&gt;
 &lt;p&gt;除了打球，我还搞点力量训练，就是健身房举铁。&lt;/p&gt;
-&lt;p&gt;力量训练很好啊，能非常有效地锻炼肌肉，指哪儿打哪儿，增加大腿肌肉力量的话就对减少膝盖冲击很有帮助。而且健身房自己就能去，耳机一戴谁都不爱。但是举铁做久了怪无聊的，也没太多花样好变（是的，所有业余羽毛球选手都会练180度转身反手杀球），而且虽然举铁能增加肌肉力量，肌肉耐力、心肺功能、柔韧性就没有锻炼到呀。&lt;/p&gt;
+&lt;p&gt;力量训练很好啊，能非常有效地锻炼肌肉，指哪儿打哪儿，增加大腿肌肉力量的话就对减少膝盖冲击很有帮助。而且健身房自己就能去，耳机一戴谁都不爱。但是举铁做久了怪无聊的，也没太多花样好变（是的，所有业余羽毛球选手都会练&lt;a href=&#34;https://www.youtube.com/watch?v=wvumroWsMZw&amp;amp;t=52s&amp;amp;ab_channel=ShuttleFlash&#34;&gt;180度转身反手杀球&lt;/a&gt;），而且虽然举铁能增加肌肉力量，肌肉耐力、心肺功能、柔韧性就没有锻炼到呀。&lt;/p&gt;
 &lt;p&gt;所以我觉得每一项运动都有能帮到我的地方，但是又一定会忽略甚至可能不利于另一些地方，实为按下葫芦浮起瓢。但是作为业余水平选手，我想要的总体效果当然是全都要一点，但都不用很厉害，我想要健康地享受乐趣。&lt;/p&gt;
 &lt;p&gt;——答案就是掺着来！&lt;/p&gt;
 &lt;p&gt;既然想要的效果是全都要，那就把几种喜欢的活动混着来好了。&lt;/p&gt;
@@ -81,7 +179,7 @@
 &lt;p&gt;非常粗略地分块儿来看，人体最大的肌群是臀腿，所以能输出最大力量的部分就是臀腿，包括大腿前面后面以及臀部肌肉。所以在任何运动中想更有力气，更高更快更强，就该用到这部分。&lt;/p&gt;
 &lt;p&gt;比如说骑自行车，我们平常在路上通勤的骑法是身体坐正，主要用大腿前侧。但人家自行车运动员会把屁股翘老高，上半身往前凑，就是因为这个角度用更多臀部肌肉，更高更快更强！还比如说扔球，正对前方甩胳膊是没办法扔太远的，铅球运动员会侧身，后腿向下蹬一步——启动臀腿肌肉，然后把身体转正投出这颗球。&lt;/p&gt;
 &lt;p&gt;转身的这一步会用到核心肌群，就是我们稳定躯干用到的肌肉，也就是腰腹。核心肌群算是小肌群，体积比较小，不像屁股这么大一块，能输出的力量就没有这么大。但是它负责稳定、负责平衡、负责把臀腿的输出功率传给上半身。以前说到锻炼核心大家都会提腹肌，但其实后腰上脊柱两侧的肌肉也在这部分里。人的身体造成了这个样子，不允许有太多不平衡，如果腹肌很强但下背部很弱，对腰椎的压力就很大。&lt;/p&gt;
-&lt;p&gt;另一块大肌群是上肢的胸背部肌肉，自由泳就是用上肢输出的力量前进的。但是日常的活动里好像并不会经常用到，所以这部分是我刚开始锻炼时发现自己最菜的肌肉。&lt;/p&gt;
+&lt;p&gt;另一块大肌群是上肢的胸背部肌肉，自由泳就是用上肢输出的力量前进的。攀岩也是用上肢力量支撑自重来移动的。但是日常的活动里好像并不会经常用到，所以这部分是我刚开始锻炼时发现自己最菜的肌肉。&lt;/p&gt;
 &lt;p&gt;锻炼的时候用到的当然除了肌肉还有脑子。如果没有运动基础，有些肌肉很少用到，那我们的脑子是不能准确调动这块肌肉的，会有点陌生。但是脑子也很聪明，只要经过一些练习，就能接上这条路，知道要动哪块肌肉、会获得什么反馈。&lt;/p&gt;
 &lt;h2 id=&#34;总结一下&#34;&gt;
   总结一下
@@ -1017,109 +1115,6 @@
 &lt;/h3&gt;
 &lt;p&gt;Fidget cube, jellycat, 亚克力小牌子，啥花里胡哨有用没用的爱买就买点吧。这活儿虽然工资低，但是精神压力大啊！&lt;/p&gt;
 &lt;p&gt;花钱的时候是开心的，花完钱不会吃土，差不多就得了。&lt;/p&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>不太有名的旅游目的地</title>
-      <link>https://notes.midofnowhere.link/2023/travel-kuching/</link>
-      <pubDate>Tue, 05 Dec 2023 15:53:03 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2023/travel-kuching/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;上次去马来西亚旅游，目的地是东部砂拉越州的首府古晋市，我觉得还挺有意思的，但是别的去过的同学觉得小地方破破烂烂有啥好玩的。如果你也不喜欢破破烂烂的小地方，那你可能也不会喜欢，如果跟我一样就喜欢瞎逛逛那可能你也会喜欢。&lt;/p&gt;
-&lt;p&gt;多图少字！&lt;/p&gt;
-&lt;h2 id=&#34;地理知识&#34;&gt;
-  地理知识
-  &lt;a href=&#34;#%e5%9c%b0%e7%90%86%e7%9f%a5%e8%af%86&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;马来西亚领土分布在两个岛上，中间隔了很大一片海，简单来说就叫做东马和西马。西边是一个半岛，是泰国湾延伸下来的那部分，和泰国接壤。几个大城市，比如吉隆坡和槟城都在西马。东边这一整个岛叫婆罗洲，北部是马来西亚的领地，文莱也在这块，被马来西亚领土包围起来。婆罗洲的南边大部分的地盘是属于印度尼西亚的，印尼好像叫这个岛加里曼丹。&lt;/p&gt;
-&lt;p&gt;这次旅游去的古晋市就在婆罗洲的西北边，从飞机上看下去是这样：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/579978735094807433/embed?caption=false&amp;likes=false&amp;layout=compact&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;河流蜿蜒向北汇入海，很漂亮！&lt;/p&gt;
-&lt;h2 id=&#34;城市风光&#34;&gt;
-  城市风光
-  &lt;a href=&#34;#%e5%9f%8e%e5%b8%82%e9%a3%8e%e5%85%89&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;古晋市非常小，主街道感觉只有一两条，很窄的街两头都是这样东南亚风格的小楼：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/634305625141267310/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;临街是小店铺，二楼开窗住人。车辆不多，路边停着的比路上开着的多很多，当地人出行可能还是用摩托车更多。&lt;/p&gt;
-&lt;p&gt;图1背景里这个金碧辉煌的顶&lt;strong&gt;是婆罗洲文化博物馆，本文提到的文化历史知识全是从那里现学的&lt;/strong&gt;，可能有学错！这个博物馆很值得一去，知识介绍得非常详尽。票价比较贵，是全古晋市唯一物价赶上国际标准的场所。不得不说布展和导览并不是很好，但是婆罗洲的历史确实太复杂了，我从未了解过，还是学到了很多！&lt;/p&gt;
-&lt;p&gt;这个城市又叫猫城，因为kuching就是猫猫的意思。传说是因为英国殖民者来的时候，问本地向导这叫什么，人大总督手指的是这个城市，而向导以为他在指街上的猫猫，就说这叫猫猫啊！古晋因此得名。&lt;/p&gt;
-&lt;p&gt;真是很无聊的历史传说呢！但是因此古晋有很多猫猫雕塑，窨井盖上浮雕也是一只猫。&lt;/p&gt;
-&lt;p&gt;马来西亚有很多民族，华人大概占了人口的20%，古晋就是一个华人城市。我看&lt;a href=&#34;https://neodb.social/book/1k3TbuQRWbitUedT4aIJ7J&#34;&gt;《流俗地》&lt;/a&gt; 学的，马来西亚的学校教学语言有华文的也有英文的和马来文的，古晋城里唯一的高中看起来就是华文学校，看起来非常亲切，跟我家乡镇上的学校看起来特别像，这栋教学楼甚至叫“明德”。“大学之道在明明德”，多少学校抄了这句！谁这辈子没上过两家有“明德楼”的学校！&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/634306084710837235/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;h2 id=&#34;历史小故事&#34;&gt;
-  历史小故事
-  &lt;a href=&#34;#%e5%8e%86%e5%8f%b2%e5%b0%8f%e6%95%85%e4%ba%8b&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;h3 id=&#34;马来西亚是一个联邦&#34;&gt;
-  马来西亚是一个联邦
-  &lt;a href=&#34;#%e9%a9%ac%e6%9d%a5%e8%a5%bf%e4%ba%9a%e6%98%af%e4%b8%80%e4%b8%aa%e8%81%94%e9%82%a6&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;马来西亚是一个联邦制的国家，东马的部分，也就是婆罗洲岛被马来西亚占领的这部分，分为砂拉越和沙巴两个省，沙巴在整个岛的最北端。婆罗洲在二战前被英国殖民，在战时被日据过一段时间，最后是澳大利亚皇家海军来解放的。&lt;/p&gt;
-&lt;p&gt;然后对这片土地上的人来说，要建立一个怎样的社会就完全是全新的问题。他们经历过了殖民统治和法西斯占领，但是第一次要为自己回答，想要一个怎样的社会。马来西亚在1957年独立的时候只有西边，东边这两个州在1963年才加入。在60年代，马来西亚也经历了红色浪潮，就是共产主义者想夺权，在广袤的热带雨林里打游击，让当时的政府很头疼。当然啦，现在我们看到的历史都是胜利者写的，所以就是击退了赤匪，保护了联邦，现在还是一个民主选举的社会。&lt;/p&gt;
-&lt;p&gt;博物馆里讲的当然是官方宣传叙事，所以也吹了很多联邦政府。但实际上古晋街头建筑通常会挂两面旗，一边是马来西亚国旗，一边是砂拉越州旗，路边广告牌也经常写“更了解东马的品牌！”，我看你们和联邦政府关系很一般嘛！&lt;/p&gt;
-&lt;p&gt;联合早报刚好才出了一期讲东马的，我还没听，有兴趣可以听一下：&lt;/p&gt;
-&lt;iframe style=&#34;border-radius:12px&#34; src=&#34;https://open.spotify.com/embed/episode/0PbOAWjTB3VeOWtQb3xqyF?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;352&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;大航线上的重要一站&#34;&gt;
-  大航线上的重要一站
-  &lt;a href=&#34;#%e5%a4%a7%e8%88%aa%e7%ba%bf%e4%b8%8a%e7%9a%84%e9%87%8d%e8%a6%81%e4%b8%80%e7%ab%99&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;在英国人来之前，古晋曾经是在文莱王国的管辖之下的，而这条海岸线在大航线上是很重要的一站。丝绸布匹、瓷器香料，从广州和泉州一路向南，到菲律宾的马尼拉，然后就到文莱，再接着过马六甲海峡就进印度洋了，之后就是绕好望角再北上。所以南来北往，此地和泉州感觉还很有点相似之处，看看这第一张是古晋市里的庙：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/634309483570393090/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;这里第四张是泉州的关公庙：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/578854090767472209/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;看起来简直一模一样！&lt;/p&gt;
-&lt;p&gt;说错了不要怪我，请您指正！我没有信仰，也没啥文化，我看起来觉得一样。&lt;/p&gt;
-&lt;h3 id=&#34;原住民族&#34;&gt;
-  原住民族
-  &lt;a href=&#34;#%e5%8e%9f%e4%bd%8f%e6%b0%91%e6%97%8f&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;在更早之前，婆罗洲有很多种原住民族，具体有啥我忘记了！大概是分成靠山吃山靠水吃水的几种，就是在海岸线上捕鱼的人们、在低地种植的人们、还有在山间高地狩猎的人们。博物馆里有很多各个民族的编织品、祭祀品，还有一些信萨满的，陈列里还有萨满医生的药箱。&lt;/p&gt;
-&lt;p&gt;在这个岛上犀鸟是很重要的一个东西，一种图腾。犀鸟的喙曾经是当作货币流通的，部落的木雕面具也会模仿这个，海边还有一个犀鸟大雕塑：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/637862080960784563/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;h2 id=&#34;吃好喝好&#34;&gt;
-  吃好喝好
-  &lt;a href=&#34;#%e5%90%83%e5%a5%bd%e5%96%9d%e5%a5%bd&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;马来西亚币一个令吉兑人民币一块五，古晋在马来西亚物价也不算高的，吃饭大概是上海的六折，人民币十块钱能吃上鸡饭，加两块就是鸡腿饭。除了海南鸡饭那种白切鸡，还有一种炸鸡的鸡饭，很香，比白鸡饭更有风味。应该是整只鸡炸了再切的，面衣薄，调味挺重的，肉就没什么调味，就是很多汁的炸鸡。和白切鸡一样蘸葱姜辣椒水。&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/637908657377297269/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;本地的华人基本上都是潮汕人，所以吃饭约等于是潮州菜，街边大排档的炒果条都很香！砂拉越知名特产是哥罗面，但我没觉得特别好吃，就是一种香菇肉燥拌面。&lt;/p&gt;
-&lt;p&gt;吃海鲜我们去的这里：&lt;/p&gt;
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15953.411167450304!2d110.35096218752622!3d1.5530001443206431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba7ea4e7e9457%3A0x8b50b07ca672010f!2sTopspot%20Food%20Court!5e0!3m2!1sen!2ssg!4v1701844795358!5m2!1sen!2ssg&#34; width=&#34;100%&#34; height=&#34;450&#34; style=&#34;border:0;&#34; allowfullscreen=&#34;&#34; loading=&#34;lazy&#34; referrerpolicy=&#34;no-referrer-when-downgrade&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;应该是一个游客爱去场所，没问题，咱就是游客！比城里其他地方稍微贵一点，但是还是比较便宜的。这是一个半露天的大排档，去每个档口点菜，先选一个海鲜产品，然后选择烹调方法，有很多种做法，我觉得白煮鱿鱼切条然后凉拌成酸辣口的很好吃，酱炒蛤蜊也不错，蛤蜊还挺新鲜的。另外点的炒蔬菜也很新鲜。&lt;/p&gt;
-&lt;p&gt;夜宵吃了&lt;a href=&#34;https://maps.app.goo.gl/LtVw82Jffa5wnBFE6&#34;&gt;一家串串店&lt;/a&gt;，自己拿串儿然后可以选水煮或者油炸，油炸就是把你拿的串儿进面糊里滚一圈然后淅淅沥沥地进油锅，一种不太讲究的天妇罗。煮完或者炸完的串儿再蘸酱吃，有一个甜口的酱油膏，还有一种辣酱，都可以自己拿。吃到比较特别的串儿是地瓜叶子卷空心菜杆，这可真是天才的发明，地瓜叶子表面滑滑的味道很特别，但地瓜杆特别老完全嚼不烂，拿地瓜叶来卷空心菜杆子，这就是完美的！还有一个鱼饼卷金针菇，就跟什么培根、肉片、豆皮卷金针菇都一样，只是换成了鱼饼。是真的鱼虾做的鱼饼，还能吐出虾壳的程度。&lt;/p&gt;
-&lt;p&gt;奶茶店因为物价水平所以特别便宜，同行的朋友点了好几次霸王茶姬，我不喜欢喝奶茶所以没喝。&lt;/p&gt;
-&lt;h2 id=&#34;特产&#34;&gt;
-  特产
-  &lt;a href=&#34;#%e7%89%b9%e4%ba%a7&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;砂拉越是咖啡产区，没想到吧！婆罗洲岛上的山脊，适合咖啡生长，因为咖啡树就是喜欢长在低纬度高海拔的地方。东南亚传统上喝咖啡喜欢喝罗布斯塔和liberica，这是两个咖啡树的品种，一般被拿来做速溶咖啡，就是一种不太讲究的豆子。然后罗布斯塔还会被烘得非常深，黑乎乎的，特别苦，没什么风味了，茶档里就用这种咖啡粉浓浓地煮一锅，便宜醒脑，功用上像那种叶杆子俨茶。喝不了这么黑的？这边白咖啡不是加牛奶的，加的是罐装的炼乳和 evaporated milk, 应该是因为天气热，鲜牛奶放不了。然后这一杯就甜甜浓浓，加进大半杯冰块摇摇晃晃，又提神又胖人。&lt;/p&gt;
-&lt;p&gt;但是随着精品咖啡的流行，砂拉越也开始种更多风味的阿拉比卡，也有更多烘豆商追求更精细地处理 liberica。我旅游也喜欢喝当地的咖啡店，现在城市都会有一些主打本地特色的。我虽然喜欢喝咖啡，但是都喝个乐子，没什么研究，也尝不出太多风味。买了一包本地种植烘焙的阿拉比卡回来当作特产尝尝，结果很一般！感觉风味很扁，偏苦一些，烘得可能比我平常爱买的要深一些，整个的口感也很扁平，总的来说就是感觉没有油！原产地的烘豆商经常吸引我，但是最近买的云南豆也是这个感觉，没有在处理和烘焙中 develop 好。&lt;/p&gt;
-&lt;p&gt;除了咖啡，砂拉越还产胡椒。在特产店里卖的多的是白胡椒，可能因为东南亚附近的烧菜习惯里还是不太用黑胡椒。黑胡椒和白胡椒是同一种植物大家知道吧？它也是一个果子，还不是太成熟的时候是黑的，不是，是绿的，绿的果子摘下来日晒完了就是黑的。等它多长一些再摘颜色就会褪一些，红红的。等到完全成熟，辛辣味散去一些，再水洗除去外皮，就会得到白胡椒！&lt;/p&gt;
-&lt;p&gt;整粒的白胡椒拿来煮汤和焯水去腥都很好用！&lt;/p&gt;
-&lt;h2 id=&#34;自然风光&#34;&gt;
-  自然风光
-  &lt;a href=&#34;#%e8%87%aa%e7%84%b6%e9%a3%8e%e5%85%89&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;砂拉越有一些溶洞，很多人爱去洞穴潜水。我们没有去，因为远，还要再坐车。下次还有机会的话我还挺想去溶洞划kayak, 感觉会好玩。&lt;/p&gt;
-&lt;p&gt;在城区往北开车一个小时的地方，沿海的热带雨林里，有个雨林公园，里面也有介绍一些原住民的传统建筑和风俗。这里每年会举办&lt;a href=&#34;https://rwmf.net/&#34;&gt;雨林世界音乐音乐节&lt;/a&gt;，灯光音响都挺破坏雨林的吧不是我说！在音乐节期间游客会多一些，对世界音乐感兴趣的朋友可以看看。&lt;/p&gt;
-&lt;p&gt;看看热带长得很狂野的植物，让人觉得植物也是一种有攻击性的活物：&lt;/p&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/578839385516358368/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;iframe title=&#34;Pixelfed Post Embed&#34; src=&#34;https://pixelfed.social/p/Boxue/634312144992130086/embed?caption=true&amp;likes=false&amp;layout=full&#34; class=&#34;pixelfed__embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script async defer src=&#34;https://pixelfed.social/embed.js&#34;&gt;&lt;/script&gt;
-&lt;h2 id=&#34;出行&#34;&gt;
-  出行
-  &lt;a href=&#34;#%e5%87%ba%e8%a1%8c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;如果看到这里真的有人感兴趣想去玩的话，可以坐飞机到古晋机场，这个机场很小，非常小，过海关也挺快的。进城可以打网约车，这个软件叫 grab, 不绑定银行卡也可以用，付现金给司机就好。城里很小，随便走走路就打几个来回了。稍远一点的地方也都可以打 grab, 反正打车也挺便宜。&lt;/p&gt;
         
         </description>
     </item>
