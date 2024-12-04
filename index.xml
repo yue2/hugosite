@@ -10,10 +10,238 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Mon, 04 Nov 2024 15:50:08 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 15:19:53 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一百篇博客了终于能插入图片</title>
+      <link>https://notes.midofnowhere.link/2024/picture-test/</link>
+      <pubDate>Tue, 03 Dec 2024 15:19:53 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2024/picture-test/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;说起来我也觉得不像话，这博客做了这么久，放了一百篇文章了，事到如今终于安排上了图床。根本不是很麻烦的事情主要就是我拖。&lt;/p&gt;
+&lt;p&gt;具体方案是 &lt;a href=&#34;https://www.scaleway.com/en/object-storage/&#34;&gt;scaleway s3 object storage bucket&lt;/a&gt; + &lt;a href=&#34;https://piclist.cn/app&#34;&gt;PicList&lt;/a&gt;，从&lt;a href=&#34;https://zhengduo.wordpress.com/2024/11/10/r2-pic/&#34;&gt;这个博客&lt;/a&gt;抄来的。&lt;/p&gt;
+&lt;h2 id=&#34;scaleway&#34;&gt;
+  Scaleway
+  &lt;a href=&#34;#scaleway&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;在 scaleway 上我本来就有个账号，s3对象存储有75GB免费额度，就用它了。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;新建一个bucket。默认是 private bucket, 就默认吧，无所谓的&lt;/li&gt;
+&lt;li&gt;从右上角个人信息这里点 api key, 这个版面叫 Identity and Access Management (IAM)，新建一个 api key，存好这个 key 和 secret key&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scaleway.com/en/docs/identity-and-access-management/iam/how-to/create-api-keys/&#34;&gt;Scaleway documentation - generate API key&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scaleway.com/en/docs/identity-and-access-management/iam/how-to/create-api-keys/&#34;&gt;Scaleway documentation - using object storage with the AWS-CLI&lt;/a&gt; 如果习惯用命令行的朋友可以走完这一套 aws configuration，我反正用 piclist GUI，所以算了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;piclist&#34;&gt;
+  PicList
+  &lt;a href=&#34;#piclist&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;之前下载过 PicGo 但是苹果系统更新之后打不开了，不知道为啥，也没开始用，就下载了试了一下，所以就放弃了。这次才听说了 PicGo 的分支项目 PicList，就用它了。&lt;/p&gt;
+&lt;p&gt;人家自己的&lt;a href=&#34;https://piclist.cn/app&#34;&gt;documentation&lt;/a&gt;写得挺好的了，跟着做就行了。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先下载，我用 homebrew, 所以就 brew 一下 &lt;code&gt;brew install piclist --cask&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;下载好了，打开主窗口配置一下存储服务。在图床 tab 里，支持很多东西，但是我们用 aws s3，因为 scaleway 就是这样一个 s3 服务&lt;/li&gt;
+&lt;li&gt;好了把必选项都填上，之前存的 api key 就放进 access key ID 和 secret access key。bucket是指在 scaleway 上的 bucket name，别的可选项就不管了先这样吧&lt;/li&gt;
+&lt;li&gt;在设置 - 上传设置里还有一些可以设置的：
+&lt;ol&gt;
+&lt;li&gt;相册内删除时同步删除云端 - 我开了&lt;/li&gt;
+&lt;li&gt;上传成功提示 - 开&lt;/li&gt;
+&lt;li&gt;设置图片水印和压缩-格式转换等参数，点击设置，是否移除EXIF信息 - 是，是否转换格式 - 是，转换目标格式 - webp （因为webp比较小，加载快一点，免费的75G也能用得久一点）。行了就这些，我不要用水印，丑。&lt;/li&gt;
+&lt;li&gt;上传后自动复制url - 开&lt;/li&gt;
+&lt;li&gt;监听剪贴板 - 关，软件启动时自动监听剪贴板 - 关&lt;/li&gt;
+&lt;li&gt;选择显示的图床，全都点了，只留 aws s3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;在上传页面可以选链接格式，我用 markdown 或者纯 url, 长链接短链接都无所谓（应该有所谓吗？）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我用 obsidian 编辑文字，PicList 有一个插件，跟着它们的&lt;a href=&#34;https://piclist.cn/app.html#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8&#34;&gt;documentation&lt;/a&gt;下载这个插件，就可以在粘贴图片到 obsidian 的时候同时上传这个图片并且把图片链接换成 s3 的链接。&lt;/p&gt;
+&lt;h2 id=&#34;前端显示&#34;&gt;
+  前端显示
+  &lt;a href=&#34;#%e5%89%8d%e7%ab%af%e6%98%be%e7%a4%ba&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;一般的图片显示就是这样，没有做预处理，因为不会（和懒）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/74600ae0196e0da4ba1f89b509aa868d.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/6e8a48e88ac6ca0f6c309b62979a29a6.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;另外做了个拍立得效果的图片框儿，做成了 shortcode&lt;/p&gt;
+&lt;div style=&#34;display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;&#34;&gt;
+  &lt;div class=&#34;polaroid-frame&#34;&gt;
+    &lt;div class=&#34;polaroid-image&#34;&gt;
+      &lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/6e8a48e88ac6ca0f6c309b62979a29a6.webp&#34; alt=&#34;busy city&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;polaroid-caption&#34;&gt;
+      busy city
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;div style=&#34;display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;&#34;&gt;
+  &lt;div class=&#34;polaroid-frame&#34;&gt;
+    &lt;div class=&#34;polaroid-image&#34;&gt;
+      &lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/74600ae0196e0da4ba1f89b509aa868d.jpeg&#34; alt=&#34;路边草丛&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;polaroid-caption&#34;&gt;
+      路边草丛
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;html:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;div style=&amp;#34;display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;&amp;#34;&amp;gt;
+
+&amp;lt;div class=&amp;#34;polaroid-frame&amp;#34;&amp;gt;
+
+&amp;lt;div class=&amp;#34;polaroid-image&amp;#34;&amp;gt;
+
+&amp;lt;img src=&amp;#34;{{ .Get &amp;#34;URL&amp;#34; }}&amp;#34; alt=&amp;#34;{{ .Get &amp;#34;name&amp;#34; | default &amp;#34;&amp;#34; }}&amp;#34;&amp;gt;
+
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;#34;polaroid-caption&amp;#34;&amp;gt;
+
+{{ .Get &amp;#34;name&amp;#34; | default &amp;#34;&amp;#34; }}
+
+&amp;lt;/div&amp;gt;
+
+&amp;lt;/div&amp;gt;
+
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;css:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/* photo frame style */
+
+.polaroid-frame {
+
+position: relative;
+
+display: inline-block;
+
+width: fit-content;
+
+max-width: 360px;
+
+padding: 10px 10px 0;
+
+background-color: #f1f1f1;
+
+box-shadow: 0 5px 10px var(--background-secondary);
+
+border-radius: 4px;
+
+border: 2px solid var(--background-secondary);
+
+border-bottom: 10px solid #f1f1f1;
+
+border-bottom-left-radius: 10px; /* Adjust the border radius as needed */
+
+border-bottom-right-radius: 10px; /* Adjust the border radius as needed */
+
+}
+
+  
+
+.polaroid-image img {
+
+display: block;
+
+max-width: 100%;
+
+height: auto;
+
+object-fit: cover;
+
+border: 0.5px solid black;
+
+}
+
+  
+
+.polaroid-caption {
+
+height: 2.8rem;
+
+text-align: center;
+
+color: black;
+
+font-size: 1.5rem;
+
+padding-top: 5px;
+
+font-family: &amp;#34;Fuzzy Bubbles&amp;#34;, &amp;#34;Zen Kurenaido&amp;#34;, sans-serif;
+
+font-weight: 700;
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;没有标题的话就是长这样&lt;/p&gt;
+&lt;div style=&#34;display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;&#34;&gt;
+  &lt;div class=&#34;polaroid-frame&#34;&gt;
+    &lt;div class=&#34;polaroid-image&#34;&gt;
+      &lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/22fb98f9b2fd97e6237df6fc2b47a3a4.webp&#34; alt=&#34;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;polaroid-caption&#34;&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;这个汉字字体不太行，我再找找别的。&lt;/p&gt;
+&lt;h2 id=&#34;还用上了评论区&#34;&gt;
+  还用上了评论区
+  &lt;a href=&#34;#%e8%bf%98%e7%94%a8%e4%b8%8a%e4%ba%86%e8%af%84%e8%ae%ba%e5%8c%ba&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;评论区用的是看到很多人都在用的 &lt;a href=&#34;https://twikoo.js.org&#34;&gt;twikoo&lt;/a&gt;，也是跟着它们自己的 documentation 走就好了。我用的是 &lt;a href=&#34;https://twikoo.js.org/backend.html#vercel-%E9%83%A8%E7%BD%B2&#34;&gt;vercel&lt;/a&gt; + &lt;a href=&#34;https://twikoo.js.org/frontend.html#%E9%80%9A%E8%BF%87-cdn-%E5%BC%95%E5%85%A5&#34;&gt;CDN&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;然后写成一个 partial，放在 &lt;code&gt;/partials/components/twikoo-comment.html&lt;/code&gt;，然后把这个 partial 添加到模板 &lt;code&gt;single.html&lt;/code&gt; 就好了。&lt;/p&gt;
+&lt;p&gt;风险是又注册了一个 mongoDB 的账号，很担心不注意什么时候用超了它给我发账单。&lt;/p&gt;
+&lt;p&gt;别的美观性设置都还没做，但是反正能评论了！&lt;/p&gt;
+&lt;h2 id=&#34;其他装修待办项&#34;&gt;
+  其他装修待办项
+  &lt;a href=&#34;#%e5%85%b6%e4%bb%96%e8%a3%85%e4%bf%ae%e5%be%85%e5%8a%9e%e9%a1%b9&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; code block 好丑，处理一下&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 图文混排，不知道，怎么搞都不太喜欢&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 有没有什么美丽主题让我直接整个搬迁算了&lt;/li&gt;
+&lt;/ul&gt;
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>2024 购物总结</title>
+      <link>https://notes.midofnowhere.link/2024/2024-purchase/</link>
+      <pubDate>Mon, 02 Dec 2024 16:28:27 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2024/2024-purchase/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://notes.midofnowhere.link/2024/nyr-2024-1/&#34;&gt;年初计划&lt;/a&gt;之记录衣柜购物情况，现在汇报一下成果。这肯定不是完全列表，很多买了也没记，基本上买的不成功的东西就都没记了！掩耳盗铃！&lt;/p&gt;
+&lt;p&gt;主要是终于整了个图床，想试一下效果。more on that later，现在请看图——&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/6fbbf52fc0d5548b2d087eae7fd96f80.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/2f1cfdf4a539383d98dc671100b2fa0b.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/b2538ef40b47c59db8a8c9bd4b1a1c3e.jpeg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://s3.fr-par.scw.cloud/blog-photos/2024/12/c7b29e48ca893e4bbbbe51984f201ed9.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;是用 ipad 上自带的 freeform 软件做的，然后直接截图了，应该有更好的export方法吧但是截图也能行。这手抄小报可是越做越熟练呐！&lt;/p&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>游泳锻炼从咸鱼到泡发咸鱼</title>
@@ -895,380 +1123,6 @@ Only, Simon never makes it out of that classroom. Before the end of detention, S
 &lt;p&gt;然后从第三、第四章开始有性场面描写了！写得还是这么详尽！画面不受控制地进入我的脑子，感觉特别恶心。当然了，这是这本书要传达的，而且实现得非常好，所以才导致了我这么生动地感觉到恶心。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;一定还有更多买了没看的书但暂且写到这里，因为其他的存在感稀薄到我都想不起来为啥不想看。&lt;/p&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>2024上半年读书记录</title>
-      <link>https://notes.midofnowhere.link/2024/books-2024-1/</link>
-      <pubDate>Sat, 08 Jun 2024 23:02:17 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2024/books-2024-1/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;2024 上半年阅读短评合集。全都有剧透！书名儿都在目录里。按看完的时间顺序来。&lt;/p&gt;
-&lt;p&gt;都是消遣作品，文化程度不高。&lt;/p&gt;
-&lt;h2 id=&#34;陈浩基---第欧根尼变奏曲&#34;&gt;
-  陈浩基 - 《第欧根尼变奏曲》
-  &lt;a href=&#34;#%e9%99%88%e6%b5%a9%e5%9f%ba---%e7%ac%ac%e6%ac%a7%e6%a0%b9%e5%b0%bc%e5%8f%98%e5%a5%8f%e6%9b%b2&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2022/11/278a5ff16f-6c39-46bb-a45f-007612f8dc55.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/5JL5EWtjP04r2xX5oeNVZV&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;第欧根尼变奏曲&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;首度获日本“《周刊文春》十大推理”、原书房“十大本格推理”海外榜双冠军的华语作家，陈浩基出道十年短篇集。
-17 则故事，搭配古典 BGM 的多重变奏，一阅读就停不下的疯狂螺旋，一个字都不愿错过的超强快感！
-☠️编辑推荐
-☆　一本变化多端、充满惊奇落差快感的短篇集
-类型横跨推理、恐怖、奇幻、科幻、童话，场景遍及香港、日本、欧美、外太空，陈浩基接连变招，又不时埋伏叙诡、反转，带来直逼过山车之旅的阅读体验。华语鬼才多变的创作面貌（无法测量的脑洞），尽在其中。
-☆　陈浩基精选古典 BGM，结合音乐的小说组曲
-网络窥伺的黑暗之中，肖邦《二十四首前奏曲》E小调第4号乐曲缓缓响起；跨年夜依偎公园角落的爱情凶杀案，变奏着拉赫玛尼诺夫《帕格尼尼主题狂想曲》第 18 号乐曲的温馨与惊悚；14首古典乐，营造别开生面的感官享受。
-☆　推理迷不可错过的重量级作品与创作秘辛大公开
-收录陈浩基视为创作生涯“自我转捩点”的《窥伺蓝色的蓝》，以及深受台湾作家林斯谚赞誉“绝对可以名列华文短篇推理前十强”的《隐身的X》；另外详附 6000 字后记，一睹陈浩基的创作心路。
-☠️内容简介
-17 则短篇，上演陈浩基的脑洞宇宙。有无法预料的恶意：渴望成为作家的青年，在光天化日之下构思犯罪，只因编辑对他说：“想出道，先杀一个人看看！”也有颠倒常规的奇想：男子醒来后想喝咖啡，却发现这种饮品被禁止，更惊人的是，小孩子抽烟竟然合法？或是回归日常：教授在一堂课发起推理游戏，只要找出隐藏身份的助教，就能直接获得 A 等成绩！……百变叙事（推理、恐怖、科幻、奇幻、童话）×社会议题（禁烟、教唆罪、网络隐私），惊奇不断的狂想故事集，让人直呼荒谬又完全信服。
-☠️名人推荐
-☆  陈浩基作品的妙味其实很大程度上彰显在他的中短篇作品里，《第欧根尼变奏曲》便是证明。这本作品集结了陈浩基历年来风格与类型迥异的中短篇小说十七篇，其中《窥伺蓝色的蓝》与《隐身的X》堪称华文短篇推理小说的经典之作。
-——林斯谚（台湾推理小说家）
-☆  陈浩基娴熟“推理”当中的各种子类型，这些短篇的创作有部分还以科幻或奇幻设定包装，而且仍有坚实的推理核心，想象力丰富，内容多变，相当有趣。
-——卧斧（台湾推理小说家）
-☆　《第欧根尼变奏曲》并不是一本从青涩横跨到老练的成长记录，更不是一本十年有成精选集；我会以生物学的观点来综观，那像是一棵不断分岔伸展出去的演化树——其中没有高下之分，但肯定有先来后到的次序，以及自我的蜕变的种种过程。当然，读者可以一篇篇轻松惬意地阅读，单纯享受故事中的趣味与娱乐，不过，倘若你极喜欢陈浩基过去的长篇如《13·67》《遗忘·刑警》《网内人》，或许可同我一样，用更全面的观点来看待这位作家的各篇作品，相信定能感受到其源源不断的创造力与撼动力。
-——冬阳（台湾推理评论家）
-☠️获奖记录
-☆	《第欧根尼变奏曲》日文版获 2019 年“《周刊文春》十大推理小说”海外部门第 7 名、2020 年早川书房“这本推理小说我想读！”海外部门第 3 名。
-☆	《窥伺蓝色的蓝》入围 2009 年“台湾推理作家协会征文奖”决选。
-☆	《时间就是金钱》获 2010 年“倪匡科幻奖”三奖。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;陈浩基的短篇集，创作时间绵延他出道的十年。倒是也不对读者朋友们见外，有几篇明显是不太成熟的早期作品，还有些习作断章，总之是都放进来了。我读起来良莠不齐，陈浩基，哎呀，情商高，把这个叫作变奏曲。还给每篇配上他觉得合适的推荐BGM，我真是服了，这QQ空间般的操作。&lt;/p&gt;
-&lt;p&gt;不过很有意思的是，他把这些有思路痕迹的短篇都放出来，很像是某种创作谈。作为推理小说来看不算很好，但是窥探背后的创作思路也算是有意思。&lt;/p&gt;
-&lt;p&gt;第一篇和最后一篇是最好看的。勉强也算是能给这个变奏曲结构合上吧！&lt;/p&gt;
-&lt;h2 id=&#34;石黑一雄---长日将尽&#34;&gt;
-  石黑一雄 - 《长日将尽》
-  &lt;a href=&#34;#%e7%9f%b3%e9%bb%91%e4%b8%80%e9%9b%84---%e9%95%bf%e6%97%a5%e5%b0%86%e5%b0%bd&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/12/1273d60878-4c3f-453b-838e-54ec47c3a8e6.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/2B1ctbMpEkZZC8YfPTa8xm&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;长日将尽&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;★2017诺贝尔文学奖得主石黑一雄代表作、布克奖获奖小说
-★长日将尽，一曲帝国衰落的挽歌，一场擦肩而过的爱情
-★同名电影（又译《告别有情天》）获多项奥斯卡奖、英国电影学院奖提名，英国影帝安东尼•霍普金斯、实力女星爱玛•汤普森主演
-----------------------------------------------------------------------------------------------
-《长日将尽》是诺奖得主石黑一雄1989年获布克奖的作品，也是石黑一雄最重要的代表作。小说以管家史蒂文斯的回忆展开，讲述了自己为达林顿勋爵服务的三十余年时光里的种种经历；虽然达到了职业巅峰，但史蒂文斯过于冷酷地压抑自我情感，追求完美履行职责，而在父亲临终前错过最后一面，之后又与爱情擦肩而过。小说通过主人公的回忆，将一个人的生命旅程在读者眼前抽丝剥茧，同时也折射出一战与二战之间那段非常时期的国际政治格局。
-1993年根据小说翻拍的同名电影（又名《告别有情天》）由英国著名演员安东尼•霍普金斯和艾玛•汤普森主演，获得八项奥斯卡奖提名和六项英国电影学院奖提名，成为影史经典。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;这本是别人搬家扔在公共空间里被我捡回来的，这个同学显然是买来写作业用的，书里还有划线呢，而且文内划得不多，在译后记里，译者总结故事的篇幅里全是铅笔线！哈哈！&lt;/p&gt;
-&lt;p&gt;石黑一雄明明不是侦探小说家，这本书明明也不是探案故事，但反而有种叙事诡计的感觉。因为这个小说完全是大管家史蒂文斯的视角，我们读者习惯了上帝视角，就很容易以为看到的就是全部，就是对的，不会去怀疑“我”。&lt;/p&gt;
-&lt;p&gt;所以大部分故事都会把主视角，就是我们读者要借的这双眼睛，做成一个讨人喜欢的好人吧。我小时候就一度因为特别讨厌哈利波特本人而对这系列书反复横跳。&lt;/p&gt;
-&lt;p&gt;《长日将尽》里的“我”，史蒂文斯先生，我就觉得特别讨厌！多么古板、无趣、装腔作势、道理讲起来一套一套、政治想法和我完全相悖的一个人！而且这回忆说着说着，漏洞越来越多，什么擦肩而过的爱情，根本就是自作多情！&lt;/p&gt;
-&lt;p&gt;但是我现在知道了可以允许自己在脑子里和主角打架，不用怀疑自己的想法，主角也是一个人物，他们不都是对的。这是我最近才想通的一件事，而且就想通在了《祥林嫂》上。我就是突然想到，迅哥儿也是一个角色啊，他也不是鲁迅本人，就算他是，那这个人也不都是对的，也是很正常的事情。迅哥儿是小少爷啊，出去读了一些书，觉得自己跟这些麻木的乡下人不一样，他同情祥林嫂，他愿意多听祥林嫂讲两句。可是他听多了不还是不想听嘛？还是觉得烦啊？那本来就不是跟你说两句就能好的痛苦，凭什么你听烦了就不想人家讲了？&lt;/p&gt;
-&lt;p&gt;这是我有了相当自信的价值观之后才领悟到的，我可以把自己和“我”分隔开。&lt;/p&gt;
-&lt;h2 id=&#34;羅伯狄保德robert-de-board---蛤蟆先生去看心理医生&#34;&gt;
-  羅伯．狄保德(Robert de Board) - 《蛤蟆先生去看心理医生》
-  &lt;a href=&#34;#%e7%be%85%e4%bc%af%e7%8b%84%e4%bf%9d%e5%be%b7robert-de-board---%e8%9b%a4%e8%9f%86%e5%85%88%e7%94%9f%e5%8e%bb%e7%9c%8b%e5%bf%83%e7%90%86%e5%8c%bb%e7%94%9f&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/09/158d04fc22-6e1a-4352-a891-4dfd535fdd4b.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/2Tfk0Rb0MwpqPjgdNjo8Gg&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;蛤蟆先生去看心理医生&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;蛤蟆先生一向爱笑爱闹，如今却一反常态地郁郁寡欢，他一个人躲在屋里，连起床梳洗的力气都没有。朋友们非常担心他，建议他去做心理咨询。在10次心理咨询中，蛤蟆在咨询师苍鹭的带领下，勇敢地探索了自己的内心世界，也逐渐找回了信心与希望……
-这并不是一本写给孩子看的书，而是一本非常有深度的心理疗愈读物。出版20多年来，已成为英国国民级心理咨询入门书。它基于TA沟通分析心理学的理论，讲述了一个抑郁症病人通过十次心理咨询，终于找回快乐和自信的全过程。在书中，可以看到心理咨询的倾听、共情、沟通技巧，也可以看到一个标准的心理咨询流程的模板。读者犹如亲临现场，体验心理咨询的每一个细节，见证疗愈和改变的发生。
-在这本书里，作者借由蛤蟆和心理咨询师苍鹭的互动，探索了蛤蟆自卑、软弱、爱炫耀的个性与抑郁的情绪究竟来源于何处，让读者看到童年经历对人格的深刻影响，以及如何才能在心理上真正长大成人，独立、自信、充满希望地生活。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;不是这个版本，我买的是台湾三采出版社张美慧翻译的。&lt;/p&gt;
-&lt;p&gt;很不错的，短短的一本小故事，相当适合我们这样没有接触过心理咨询的健人，陪蛤蟆先生走过整个心理咨询的流程，包括最后结束和苍鹭医生的咨商关系，非常有帮助，我现在至少知道这个流程要期待什么。&lt;/p&gt;
-&lt;p&gt;看到一些中差评是说苍鹭医生的 approach 在临床咨商界目前看来是有点落后的，像这样把问题都回溯到父亲和童年，并不是临床咨询师的唯一路数。&lt;/p&gt;
-&lt;h2 id=&#34;阿加莎克里斯蒂---赫尔克里的丰功伟绩&#34;&gt;
-  阿加莎克里斯蒂 - 《赫尔克里的丰功伟绩》
-  &lt;a href=&#34;#%e9%98%bf%e5%8a%a0%e8%8e%8e%e5%85%8b%e9%87%8c%e6%96%af%e8%92%82---%e8%b5%ab%e5%b0%94%e5%85%8b%e9%87%8c%e7%9a%84%e4%b8%b0%e5%8a%9f%e4%bc%9f%e7%bb%a9&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/10/25986ed338-1635-4d60-b33b-2f35ab774266.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/7O7UH9v5VhAI7ggxt419W7&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;赫尔克里的丰功伟绩&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;波洛决心仿照希腊神话中与自己同名的大力士解决十二桩案件：
-第一桩 涅墨亚狮子 (The Nemean Lion)
-第二桩 勒尔那九头蛇 (The Lernean Hydra)
-第三桩 阿卡狄亚牝鹿 (The Arcadian Deer)
-第四桩 厄律曼托斯野猪 (The Erymanthian Boar)
-第五桩 奥吉厄斯牛圈 (The Augean Stables)
-第六桩 斯廷法罗湖怪鸟 (The Stymphalean Birds)
-第七桩 克里特岛神牛 (The Cretan Bull)
-第八桩 狄奥墨德斯野马 (The Horses of Diomedes)
-第九桩 希波吕特的腰带 (The Girdle of Hyppolita)
-第十桩 革律翁的牛群 (The Flock of Geryon)
-第十一桩 赫思珀里得斯的金苹果 (The Apples of the Hesperides)
-第十二桩 制服恶犬克尔柏洛斯 (The Capture of Cerberus)&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;阿加莎的短篇集，波罗退休前的12个小案子，玩一些希腊神话梗。还可以吧，挺有意思的但不算过瘾。&lt;/p&gt;
-&lt;h2 id=&#34;陈浩基---气球人&#34;&gt;
-  陈浩基 - 《气球人》
-  &lt;a href=&#34;#%e9%99%88%e6%b5%a9%e5%9f%ba---%e6%b0%94%e7%90%83%e4%ba%ba&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/09/15518e8b6f-8db3-4af4-84a3-05872a288c48.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/6vKlVI4DmbR5x5vTyo3FjK&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;氣球人&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;「只要接觸皮膚，我就能輸入指令，
-使目標身體部分充氣、膨脹或扭曲，最後死亡。」
-在跟警方對峙的這一刻，他一幕幕回想，自己到底是如何落得這個下場。
-他幹殺手這行好多年了，身懷異能的他，能殺人於無形，
-他以「氣球人」的稱號為客戶解決無數「麻煩」，堪稱專家中的專家。
-客戶愛他，仲介更樂得介紹諸多無理要求的大戶給他
-──大概就是這一步走錯了，殺手應該保持低調才對。
-先是為了滿足客戶的變態要求，把自己搞得灰頭土臉，
-接著又遇上第一大黑幫前來委託，接也是死不接也是死，
-沒想到在為自己的職涯忙得焦頭爛額之際，他竟一步步跌入陷阱……
-是誰精心策畫了這場困局，又步步進逼？他百思不得其解，
-但在此之前，他得想方設法逃出這裡，
-還要再跟警方多耍帥個幾分鐘，才能抓住脫身時機……&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;又看了一个陈浩基，我怎么回事啊看的还都不是他有名的长篇。&lt;/p&gt;
-&lt;p&gt;这本比较像单元剧，几个中短篇都是同一个主角同一套世界观，按照时间线排列。这本的类型在序里说是“黑色异想”，whatever that means, 你说是啥就是啥吧。反正网文看多了这种超能力和这个法外狂徒身份都只能说是见怪不怪吧。&lt;/p&gt;
-&lt;p&gt;我看完就说陈浩基就是紫金陈想象中自己的样子，主要因为陈浩基也时不时会提醒到读者，他是一个对女的有尊重但不多的直男。陈浩基，至少从他的小说看起来，人不坏，对公义是有底线有坚持的，但是确实忍不住每隔两三页就把“老子铁直男”怼到面前。紫金陈呢，这个铁直男的部分是有样学样的，但是人家陈浩基好歹也写点正统本格，叙事、计谋、思想主旨，都在通俗读物这看起来毫不修饰的语言下埋着呢，你紫金陈就学到了语言风格大白话这一 part。&lt;/p&gt;
-&lt;p&gt;哇，仿佛我中学的时候走廊上干拔后仰都觉得自己是科比的同学们。&lt;/p&gt;
-&lt;h2 id=&#34;stuart-turton---the-7-12-deaths-of-evelyn-hardcastle&#34;&gt;
-  Stuart Turton - &amp;lt;The 7 1/2 Deaths of Evelyn Hardcastle&amp;gt;
-  &lt;a href=&#34;#stuart-turton---the-7-12-deaths-of-evelyn-hardcastle&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/item/googlebooks/2024/05/19/89c9d619-4e6f-461a-ac29-af1d661397ab.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/0c3TkucM0MFs35yh16yFOX&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;The 7 1/2 Deaths of Evelyn Hardcastle&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;&amp;#34;Agatha Christie meets Groundhog Day...quite unlike anything I&amp;#39;ve ever read, and altogether triumphant.&amp;#34;--A. J. Finn, #1 New York Times-bestselling author of The Woman in the WindowThe Rules of Blackheath
-Evelyn Hardcastle will be murdered at 11:00 p.m.
-There are eight days, and eight witnesses for you to inhabit.
-We will only let you escape once you tell us the name of the killer.
-Understood? Then let&amp;#39;s begin...***
-Evelyn Hardcastle will die. Every day until Aiden Bishop can identify her killer and break the cycle. But every time the day begins again, Aiden wakes up in the body of a different guest. And some of his hosts are more helpful than others.For fans of Claire North and Kate Atkinson, The 71/2 Deaths of Evelyn Hardcastle is a breathlessly addictive novel that follows one man&amp;#39;s race against time to find a killer--but an astonishing time-turning twist means that nothing and no one are quite what they seem.Praise for The 7 1/2 Deaths of Evelyn Hardcastle: 
-Costa First Novel Award 2018 Winner
-One of Stylist Magazine&amp;#39;s 20 Must-Read Books of 2018
-One of Harper&amp;#39;s Bazaar&amp;#39;s 10 Must-Read Books of 2018
-One of Guardian&amp;#39;s Best Books of 2018&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;在谷歌图书上买的有声书。朋友推荐的，说最近很火热。&lt;/p&gt;
-&lt;p&gt;比较难看（难听）啊，不推荐花这个钱。推荐语说：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Agatha Christie meets Groundhog Day&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;属于是犯罪级的碰瓷。&lt;/p&gt;
-&lt;p&gt;场景描写很拖沓，探案基本没有探，全靠强设定。&lt;/p&gt;
-&lt;p&gt;我小时候爱看儒勒凡尔纳，连着全看了，看到后面被他的套路无语到，就是大家流落到荒芜的金银岛上，生不起火又没有吃的。哎呀那怎么办？大家翻翻口袋，哇，好神奇噢，你就能翻出一根火柴，我还能翻出一粒麦子！&lt;/p&gt;
-&lt;p&gt;这本书的探案部分就是这样的：没线索？快穿一下。要死了？又快穿一下。&lt;/p&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>方便好吃蔬菜料理</title>
-      <link>https://notes.midofnowhere.link/2024/veggie-recipe/</link>
-      <pubDate>Wed, 29 May 2024 00:04:01 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2024/veggie-recipe/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;我在今年的&lt;a href=&#34;https://notes.midofnowhere.link/2024/nyr-2024-1/&#34;&gt;新年计划&lt;/a&gt;里说2024年计划多做vegetarian的菜色，以蔬菜为主角来料理。五月底了，给大家分享几则我的科研成果！&lt;/p&gt;
-&lt;p&gt;我做菜都非常简易随便做做没有很高级的味道，有没有菜谱都行的，所以我写菜谱也没有定数，意思意思应该都差不多。&lt;/p&gt;
-&lt;h2 id=&#34;汤面&#34;&gt;
-  汤面
-  &lt;a href=&#34;#%e6%b1%a4%e9%9d%a2&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;大家知道有一些植物天然就有很多鲜味吗？大家应该知道吧，最著名的就是番茄和香菇。所以我会这样做一个自然鲜香的泡面（或者挂面或者疙瘩汤或者泡隔夜剩饭）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;新鲜番茄、新鲜香菇切小块儿&lt;/li&gt;
-&lt;li&gt;热锅倒一点油，少一点油，下番茄，加盐，可以多加一点，此时光吃番茄是有点咸的程度&lt;/li&gt;
-&lt;li&gt;中火，让番茄自己炒一会儿，炒出沙和番茄汁&lt;/li&gt;
-&lt;li&gt;入香菇块儿，随便炒一炒&lt;/li&gt;
-&lt;li&gt;加水，盖上锅盖随便煮个10分钟吧 有时候我也会加别的蔬菜，比如说切小段的大白菜或者冷冻毛豆子&lt;/li&gt;
-&lt;li&gt;加入你的碳水&lt;/li&gt;
-&lt;li&gt;尝一下汤，太淡了就加点生抽酱油。酱油也有鲜味，更鲜了！&lt;/li&gt;
-&lt;li&gt;敲一个鸡蛋，盖上锅盖焖一下&lt;/li&gt;
-&lt;li&gt;我喜欢撒一点白胡椒粉再加一点芝麻油&lt;/li&gt;
-&lt;li&gt;吃！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这个好像是小高姐那里学来的，也可能就是留学生糊弄料理。&lt;/p&gt;
-&lt;h2 id=&#34;蔬菜煎饼&#34;&gt;
-  蔬菜煎饼
-  &lt;a href=&#34;#%e8%94%ac%e8%8f%9c%e7%85%8e%e9%a5%bc&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;还有一个常做好物就是简易煎饼，很适合summer squash上市的现在！&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;主料是新鲜 zucchini，新鲜白萝卜也好吃，但是要很新鲜很水润那种白萝卜。黄瓜不行，实在太水了&lt;/li&gt;
-&lt;li&gt;将其切丝，这是全文最难的一步，如果有擦丝小工具也可以用，但是我不喜欢因为擦出来的太碎了没有口感。适合做这道菜的蔬菜应该在这一步就很好吃，就是空口生吃也很好吃&lt;/li&gt;
-&lt;li&gt;往菜丝里撒盐，可以多撒一点，大约200g菜加了3g盐的样子，就是一大碗菜放一勺盐。抓拌均匀后静置15分钟&lt;/li&gt;
-&lt;li&gt;把腌出来的水倒掉，用力挤一下蔬菜丝，把盐水都挤掉。此时可以尝一根，如果齁咸就加清水冲一遍再挤干&lt;/li&gt;
-&lt;li&gt;敲一个鸡蛋进去&lt;/li&gt;
-&lt;li&gt;加入面粉搅拌成糊，至盆底液体是不太稀的面糊。这盆糊糊不能放太久，蔬菜会继续出水&lt;/li&gt;
-&lt;li&gt;平底锅加油，不粘锅就少放点油，铁锅就多放点油，中小火&lt;/li&gt;
-&lt;li&gt;倒入这一盆糊，用筷子整理一下让糊均匀铺满锅底&lt;/li&gt;
-&lt;li&gt;盖上锅盖让它自己煎一会儿&lt;/li&gt;
-&lt;li&gt;A面定型上色之后翻面。如果你不会翻面或者担心翻车，用锅铲把这个饼切成四块，一块一块翻，再把它们整理起来。反正吃的时候都要切，无所谓的。&lt;/li&gt;
-&lt;li&gt;煎B面的时候不要盖锅盖。喜欢香香脆脆的就从锅边再加点油 懒得搞就少吃点油。这个蔬菜生的也能吃，所以只要鸡蛋面糊熟了就行，两面加起来五分钟的样子吧&lt;/li&gt;
-&lt;li&gt;出锅稍微晾一下。在此期间准备你最喜欢的蘸水：单山蘸水、六婆辣椒面加醋是好吃的，酱油醋芝麻油也是好吃的，醋加蒜末加老干妈也是好吃的，美乃滋可能也挺好吃的但我不喜欢因为有点油&lt;/li&gt;
-&lt;li&gt;饼切块就可以蘸料汁吃了！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这是很多地区和很多文化里都会做的一种菜，说明很多人类都喜欢！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/112/522/618/647/102/379/small/4c859670e7756b44.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;白酱炖菜&#34;&gt;
-  白酱炖菜
-  &lt;a href=&#34;#%e7%99%bd%e9%85%b1%e7%82%96%e8%8f%9c&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;这个稍微复杂一点，但是成品相当豪华。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;主角是卷心菜和洋葱，因为是需要炖的，所以放其他一些适合炖的蔬菜比如说胡萝卜、甜玉米、小土豆都很好吃。&lt;/li&gt;
-&lt;li&gt;卷心菜切成角，一个人大概吃1/8个，也就是一个45°的 wedge, 洋葱切 1/4 个，我喜欢吃黄洋葱，更甜一点。胡萝卜切滚刀块，小土豆对半切，甜玉米切段&lt;/li&gt;
-&lt;li&gt;不要用不粘锅，因为会把油温升到比较高。锅烧热，加油，保持中大火，卷心菜和洋葱切面向下煎。不要动，保持一段时间，让这个切面上色。翻一面，也上色，然后把它们从锅里捞出来放盘子里。&lt;/li&gt;
-&lt;li&gt;然后我们做白酱。锅中此时可能有一些焦化的蔬菜残渣，没关系，不用洗，关火，往这口锅里加一勺面粉，搅拌一下，会带起一些焦化层。这个酱不会是很白的白酱，因为我们有一层焦化层，就当它是 brown sauce 吧！&lt;/li&gt;
-&lt;li&gt;开中小火，加入一勺黄油，和面粉炒匀，炒到均匀地冒小泡儿。然后慢慢倒入牛奶，燕麦奶也行，我试过了，豆奶不行，豆子味儿太重。加一点奶就搅一搅，再加一点奶再搅一搅，每次都搅匀。此时锅底应该没有残留物了。等锅里明显是一层流动性比较好的酱的时候，加水到能没过一会儿要加的蔬菜，把整锅东西都搅匀。&lt;/li&gt;
-&lt;li&gt;把煎过的卷心菜和洋葱放回锅里，加入其他菜。调大火，盖上锅盖煮20分钟吧&lt;/li&gt;
-&lt;li&gt;开盖收汁，顺便调味，加很多黑胡椒，可以撒盐也可以加生抽酱油，反正咸味给到就行。&lt;/li&gt;
-&lt;li&gt;收汁到能丝滑地糊在菜上就行了&lt;/li&gt;
-&lt;li&gt;吃！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这几种菜都是甜甜的，煎过的卷心菜和洋葱更加甜甜，一整个wedge摆盘起来还挺高级的呢！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://papers.moresci.sale/media_attachments/files/112/522/620/645/977/954/small/4def4ee7de565197.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;剁椒烧豆腐&#34;&gt;
-  剁椒烧豆腐
-  &lt;a href=&#34;#%e5%89%81%e6%a4%92%e7%83%a7%e8%b1%86%e8%85%90&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;一种对湘菜的想象！重构！臆测！&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;这里我们用到老豆腐，英文超市叫 firm tofu, 北京超市叫北豆腐，就不是最最老的那种豆腐，但是比较硬了。切成半厘米厚，5厘米宽的厚片。&lt;/li&gt;
-&lt;li&gt;平底锅烧热，加油，中小火煎豆腐，把豆腐分散铺平，不要动，放着慢慢煎。可以用不粘锅，因为比较不粘。如果是普通不锈钢铁锅、熟铁锅、铸铁锅，也没关系，放着不要动，trust the process, 等一面彻底煎定型就会不粘了。两面煎到都金黄不粘，捞出来放到厨房纸上吸油。&lt;/li&gt;
-&lt;li&gt;煎豆腐都时候切一些蒜蓉，多切一点。&lt;/li&gt;
-&lt;li&gt;锅也不用洗，就用煎豆腐的这点油吧，重新开火烧热，入蒜蓉，爆香。&lt;/li&gt;
-&lt;li&gt;加入一勺剁椒酱，炒一炒。&lt;/li&gt;
-&lt;li&gt;加入一勺生抽，一点点糖，然后加入小半杯水。&lt;/li&gt;
-&lt;li&gt;把豆腐回锅，开中火，盖上锅盖煮一会儿。水稍微没过豆腐即可（水深0.5厘米）。&lt;/li&gt;
-&lt;li&gt;大火收汁，尝一下汤汁的咸淡，剁椒酱和酱油都是咸的，可能不需要再加盐。汤应该稍微咸一点点，因为要挂在豆腐表面。&lt;/li&gt;
-&lt;li&gt;差不多就关火出锅吧！&lt;/li&gt;
-&lt;li&gt;吃！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;如果不能吃辣就晚点再放剁椒，不要炒了，到放豆腐回锅里的时候再放剁椒。&lt;/li&gt;
-&lt;li&gt;出锅之后可以撒葱花。我所有菜谱都没有撒葱花这一步因为我不吃葱。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;本期菜谱就到这里！&lt;/p&gt;
         
         </description>
     </item>
