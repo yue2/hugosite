@@ -10,10 +10,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>[CC BY-NC-SA 4.0]</copyright>
-    <lastBuildDate>Tue, 03 Dec 2024 15:19:53 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 13:18:32 +0800</lastBuildDate>
     
 	<atom:link href="https://notes.midofnowhere.link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2025 电子手帐设计</title>
+      <link>https://notes.midofnowhere.link/2024/2025-planner-setup/</link>
+      <pubDate>Fri, 06 Dec 2024 13:18:32 +0800</pubDate>
+      
+      <guid>https://notes.midofnowhere.link/2024/2025-planner-setup/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        &lt;p&gt;是的又来做&lt;a href=&#34;https://notes.midofnowhere.link/2023/ppt-journal/&#34;&gt;这个ppt&lt;/a&gt;了。&lt;/p&gt;
+&lt;p&gt;又到了安排新一年手帐的时候了！但是今年实在是没有想法，我看了很多手帐博主的视频，看来看去还是没有什么想法，已经很久没有感觉到 inspired！&lt;/p&gt;
+&lt;p&gt;总之还是叩问了一下内心，我到底是为什么，今年写了三个月又不想写了呢？问题当然是出在了每次做新手帐都是当下的状态，几个月后可能就面目全非了，我没办法预测接下来一整年的自己。&lt;/p&gt;
+&lt;p&gt;那退一步讲，这把电子手帐，到底会在我的记录流程里占据什么地位呢？&lt;/p&gt;
+&lt;p&gt;其实工作上我不需要多一本手帐，因为本来就写实验记录本在 one note 和纸质大本子上，然后还有一本笔记本是开会和在办公室工作（读文献、处理数据、整理文章思路）的时候用的，所以工作内容好像也没什么要记的。然后其他业余生活，我有一本活页本，会写娱乐生活的一些零碎想法，就是看书看电视的时候及时的想法，可以说是一种实体弹幕吧。&lt;/p&gt;
+&lt;p&gt;其他的，日程安排都在手机和电脑的日历里，待办事项在 todo app 里，除了这些好像再也没有什么需要了啊？&lt;/p&gt;
+&lt;p&gt;那我到底想要这个电子手帐做什么？！&lt;/p&gt;
+&lt;p&gt;——监督整理我的生活。&lt;/p&gt;
+&lt;p&gt;这话就要说回我看过的b站上的几百个手帐博主，人家那几百本本子拍的视频，看了也不是完全没有用处，还是学到了非常重要的一点，那就是人家是要用手帐做“复盘”的，whatever that means. 这对我来说是一个思路上的转变，因为我一直以来把手帐当作计划本儿来用，从来不会翻写过的内容，主打一个真的勇士绝不回头看爆炸。以前也不是没听说过这个复盘，但是一直嗤之以鼻，现在可能年纪到了，思想上松动了，终于理解到温故而知新。&lt;/p&gt;
+&lt;p&gt;所以说这本电子手帐的 layout 要主打一个追踪可视化。需要追踪的是这几样东西：&lt;/p&gt;
+&lt;p&gt;首先是每天的时间轴，几点起床的、从起床到办公室花了多久、坐在办公室到真的开始工作又过去了几个小时、然后晚上几点下班、到家之后又摸了几个小时、最后终于睡觉又是几点。安排一个每周两页，完全做成了自填，就是没把周数写死，因为……因为我知道自己肯定会空窗大半年，根本用不上52周！&lt;/p&gt;
+&lt;p&gt;在每周最后安排一个本周回顾，烧菜和锻炼只要做了就好，1次也算成功。工作时长可以拿种树的时间来填，然后屏幕时间主要是手机的，每周日手机都会给我统计一个本周屏幕时长，记上就可以。手机屏幕时间是我觉得目前在数码健康上最需要解决的问题，因为手机屏幕小啊，看得太久真的会头痛，不太舒服。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/d7231261ff9bf3ac4f910fc1e2cb0acc.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;第二是一些习惯有没有好好执行，比如说锻炼，到底去了几次健身房。之前的手帐也都有这个部分，但是都放在月历里，要在十几页月历之间翻来翻去也不直观，这次想浓缩到全年一页&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/63fa9c719a1bc414f4bd2effe4a76711.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;也可以拿来追踪别的东西，空白的 tracker 页面就长这样&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/819f15b3ac7358e711357d02b3c6181f.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最后就是比较笼统的列表，只是拿来记一下有哪几本书在看
+&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/7049ba2bda8f5bdbe3bd8a3e6c7ddb2a.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后就是普普通通的月历&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/b5aa078505a721e0088588de88fcb9a0.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这次打算拿月历来记录做了什么坏事：喝甜饮料、吃炸鸡、冲动消费、丢了东西，这些。因为我现在对这些事情没有什么概念，就会在心情不好的时候怪自己：怎么又乱买东西；或者在心情好的时候骗自己：好久没吃冰淇淋了奖励一个吧。希望记录能带来一个比较客观的认识。&lt;/p&gt;
+&lt;p&gt;最后就是完全空白的笔记页面和全年年历：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/243918d095ebf20029a274a196d7e335.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;就是这些了！今年做得格外朴素，因为想快点做完开始用算了，而且真的挺久没有感觉 inspired，就没有什么想法。&lt;/p&gt;
+&lt;p&gt;再来回顾一下2024这一本吧，在这里安排的也是一周两页时间轴，但是是把每天分成三大块儿的粗略版。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/3e9c11f3a736e6189fa92964eb7b2d2c.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在月历上记录锻炼和下馆子就是这样的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/bd09212ac0a4615823ae88b11d28d756.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2024还有花销页面，在2025年完全放弃了记账。不记账肯定是不好的习惯，但是记账给我的精神压力真的挺大的，然后我的生活其实很平淡，很少很少有超出平常的大事件，所以每个月的花销差别并不大，我觉得不记账也还好。&lt;/p&gt;
+&lt;p&gt;如果2025破产了我会让大家知道。&lt;/p&gt;
+&lt;p&gt;2025的配色好像没有2024好看啊！因为2025想用温暖一点的颜色，所以搞出了红的黄的，但我自己又确实不是格兰芬多，所以做完了也没有很喜欢。&lt;/p&gt;
+&lt;p&gt;最后放一个迄今为止做过的ppt（电子手帐）封面吧&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog-photos.s3.fr-par.scw.cloud/2024/12/458bd1a74766b8207992a41071c45197.webp&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;祝大家做手帐开心！&lt;/p&gt;
+&lt;p&gt;有什么最近看了 inspiring 的东西请一定分享给我🥹&lt;/p&gt;
+        
+        </description>
+    </item>
     
     <item>
       <title>一百篇博客了终于能插入图片</title>
@@ -39,6 +92,7 @@
 &lt;li&gt;新建一个bucket。默认是 private bucket, 就默认吧，无所谓的&lt;/li&gt;
 &lt;li&gt;从右上角个人信息这里点 api key, 这个版面叫 Identity and Access Management (IAM)，新建一个 api key，存好这个 key 和 secret key&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;反正跟着 scaleway 自己的 documentation 来就好了：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scaleway.com/en/docs/identity-and-access-management/iam/how-to/create-api-keys/&#34;&gt;Scaleway documentation - generate API key&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scaleway.com/en/docs/identity-and-access-management/iam/how-to/create-api-keys/&#34;&gt;Scaleway documentation - using object storage with the AWS-CLI&lt;/a&gt; 如果习惯用命令行的朋友可以走完这一套 aws configuration，我反正用 piclist GUI，所以算了。&lt;/li&gt;
@@ -47,7 +101,7 @@
   PicList
   &lt;a href=&#34;#piclist&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;之前下载过 PicGo 但是苹果系统更新之后打不开了，不知道为啥，也没开始用，就下载了试了一下，所以就放弃了。这次才听说了 PicGo 的分支项目 PicList，就用它了。&lt;/p&gt;
+&lt;p&gt;之前下载过 PicGo 但是苹果系统更新之后打不开了，不知道为啥。不过也没开始用，就下载了试了一下，所以顺势放弃了。这次才听说了 PicGo 的分支项目 PicList，就用它了。&lt;/p&gt;
 &lt;p&gt;人家自己的&lt;a href=&#34;https://piclist.cn/app&#34;&gt;documentation&lt;/a&gt;写得挺好的了，跟着做就行了。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;首先下载，我用 homebrew, 所以就 brew 一下 &lt;code&gt;brew install piclist --cask&lt;/code&gt;&lt;/li&gt;
@@ -891,238 +945,6 @@ font-weight: 700;
 &lt;p&gt;非常好吃！有机会学习一下怎么做。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;这样算下来沙拉也没有健康多少的样子，还是要加油盐呢。但是这样比较好吃，一顿饭里蔬菜含量大增，带饭也很方便，所以能让我经常选择比较健康的饮食，总的来说还是对身体更好一点。&lt;/p&gt;
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>有的书怎么也看不完</title>
-      <link>https://notes.midofnowhere.link/2024/unfinished-books-2024/</link>
-      <pubDate>Sun, 23 Jun 2024 21:20:47 +0800</pubDate>
-      
-      <guid>https://notes.midofnowhere.link/2024/unfinished-books-2024/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        &lt;p&gt;有几本书买了很久，翻翻停停，开始看很久但是一直没看完。听我解释！&lt;/p&gt;
-&lt;p&gt;有很多剧透，请酌情阅读。&lt;/p&gt;
-&lt;h2 id=&#34;光之年代&#34;&gt;
-  《光之年代》
-  &lt;a href=&#34;#%e5%85%89%e4%b9%8b%e5%b9%b4%e4%bb%a3&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2022/05/03b0ba525b-52a7-45a7-8a86-4e4addebdc96.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/0FwVksOLslGicnqUFCcxCd&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;The Age of Light&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;在20世纪30年代前往巴黎之时，冷艳的李·米勒（Lee Miller）已经是一位成功的模特。但她不满足于只在镜头前搔首弄姿。 与著名的超现实主义摄影师曼雷（Man Ray）的相遇让米勒有机会实现自己成为摄影师的梦想。惠特尼·沙勒（Whitney Scharer）的处女作 “光之时代”（The Age of Light）再现了他们充满热情但是错综复杂的关系，向一位女性的勇敢，决心和深刻才华致以敬意。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;这本是传奇战地记者黎·米勒（Lee Miller）的传记小说，我买的时候非常期待。我拍照是纯业余爱好么，也从来没有学习知识精进技能过，也没看过什么影集，我都说不出知名摄影师的名字！所以看到这本书的时候觉得很不错，因为我不想看摄影作品鉴赏，但是摄影师生平故事还是挺有意思的吧。&lt;/p&gt;
-&lt;p&gt;而且黎·米勒的生平确实跌宕起伏，她作为时尚模特出道，在vogue供职多年，然后和自己的男摄影师有一段关系……这关系男的说起来就是在谈恋爱，或者说是米勒心甘情愿地做情人，但是稍微想想就能知道摄影师-模特是多么巨大的权力不平等关系，我觉得这是人像摄影相当惊悚的一点：一方把自己的凝视藏在机器后面，另一方却要抹去羞耻感把自己作为物理实体暴露在镜头前。然后黎·米勒在这段我随便猜猜觉得不太健康的关系里脱身，转身去巴黎做摄影师。&lt;/p&gt;
-&lt;p&gt;肯定还有人觉得她精明，攀上一个知名摄影师，还从人家那里免费学了技术。对这些人我要说：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;FUCK OFF okay? Fuck off!!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;没过多久开始打二战，米勒成为了vogue的战地摄影记者，这张应该是她非常著名的作品（指的是我在知道这人的故事前就看过这张图）：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.guim.co.uk/img/media/edd2050a92c23f25947cfa45d6c8540bff0d0b9c/0_0_4900_5023/master/4900.jpg?width=1010&amp;amp;quality=45&amp;amp;auto=format&amp;amp;fit=max&amp;amp;dpr=2&amp;amp;s=34b13d35e8c3a0b17dfa1799530824b9&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这张图来自&lt;a href=&#34;https://www.theguardian.com/artanddesign/gallery/2023/sep/12/surrealism-and-war-the-life-of-lee-miller-in-pictures&#34;&gt;卫报&lt;/a&gt;的回顾展。&lt;/p&gt;
-&lt;p&gt;战后米勒回到欧洲乡下定居，继续为vogue供稿，开始写家居专栏，搞一些吃吃喝喝买买买的内容。&lt;/p&gt;
-&lt;p&gt;多么丰富多彩的人生！我写得我自己都想看了！怎么会看不下去这本书呢？&lt;/p&gt;
-&lt;p&gt;因为买的时候以为是传记，看着看着觉得不对，这视角怎么有这么重的编排痕迹，然后仔细又看了简介，发现人家是传记小说。这个我就不太喜欢了，因为我没法知道哪些是真的发生过，哪些是作者演绎的。简介里说因为半个世纪以前，女的的人生故事鲜有书写，大家很容易搜到的黎·米勒大多出现在那个男摄影师的花边新闻里，所以作者认为写一个传记小说是合理且必要的。&lt;/p&gt;
-&lt;p&gt;这个理由我也可以接受吧，但是我还是更想看我可以相信都是事实的传记。&lt;/p&gt;
-&lt;h2 id=&#34;银河英雄传说&#34;&gt;
-  《银河英雄传说》
-  &lt;a href=&#34;#%e9%93%b6%e6%b2%b3%e8%8b%b1%e9%9b%84%e4%bc%a0%e8%af%b4&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/09/16500d1c0f-6cb8-4a29-87ee-e74519c0facc.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/0nF3fXLs4rAX0jRKJO9eRu&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;银河英雄传说&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;日本著名小说家田中芳树的太空歌剧式科幻小说。整个小说时间设定为人类生存圈扩展到全银河系的未来时空，由于人们对政治失去信心，疏于履行自己的权利和义务，以至于拥戴野心家把全人类社会变成独裁专制的帝国。后来不满帝制的人展开逃亡，成立了民主政权并与之对抗。银河系从此展开了两大势力长达150多年的争战，那就是专制统治的银河帝国和高举共和主义旗帜的自由行星同盟，夹在交战双方中间的是强大的经济体——小都市国家费沙自治领，还有背后的黑暗势力——地球教也在蠢蠢欲动。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;几年了也没看完主要就是因为太长了，十卷本的《银河英雄传说》，作为一个青少年幻想小说，有着青少年小说的易读性，但是我又不是每天关在学校上课写作业无所事事的青少年了，所以前者让我每次拿起来都能毫无阻碍地一口气看下去二三十页，而后者让我看了二三十页就腻了放下了，放下之后也没多少留恋。&lt;/p&gt;
-&lt;p&gt;我把《银河英雄传说》分类成青少年幻想小说，可能有很多本书拥趸会不太高兴，觉得降级了这部书的地位，它应该是科幻巨著！银河史诗！&lt;/p&gt;
-&lt;p&gt;我觉得这本书说不上科幻，倒不如说是一个架空三国演义。这些银河、星系、行星堡垒作战，都是作者口胡出来的名词，没有什么实际意义，也不基于任何科学背景知识。我认为科幻应该是从一些科学事实出发的，有一些想象，然后聚焦在这个科学技术下人性（或者外星人性或者其他动物性）的故事。在我的分类下，《火星救援》和《你一生的故事》都是很科幻的，《流浪地球》本来的小说版也可以说是科幻，《三体》、《基地》、和《银河英雄传说》当然就都不算，这都是作者口胡型架空政治小说。&lt;/p&gt;
-&lt;p&gt;体裁并无高下之分，青少年幻想也好，童书绘本也好，优秀的创作都会有对基本人性的讨论，所有年龄的人都能理解到，都会有共鸣。形式也没有那么重要，比较讲科学的科幻和口胡一个世界观开始讲故事的科幻各有各的好看。&lt;/p&gt;
-&lt;p&gt;这个银河史诗其实是个三国演义，又因为它完全是真空中的（双关），作者可以把古往今来的政治格局浓缩到一起，把所有政治伎俩逐一沙盘推演。与其说是小说恶政隐，倒不如说是政治游戏也没什么新鲜招数。可以想像如果我是小时候看的这本书，可能会觉得“好牛！到处借古讽今！我可没有针对谁哦不要对号入座（狗头）（狗头）”。&lt;/p&gt;
-&lt;p&gt;但是我不是十几岁了，我长大了，我经历了2016年、2018年、2020年、现在2024年，实时国际新闻是美国总统大选第一次候选人辩论，两边两个八十岁上下的老头，一个居然还没被关监狱另一个脑子已经非常迟缓；法国右派政党在第一轮国会选举中大领跑；中东在打仗、东南亚缅甸在内战、俄罗斯堂而皇之入侵乌克兰已经两年半……我不想要借古讽今，我也不想要发一些似是而非的截图配三个狗头显得自己什么都懂，我已经知道的太多了，看政治小说不会让我觉得有意思，都不如这几位赶紧全死了来得爽。&lt;/p&gt;
-&lt;p&gt;这本书的优点是作者很明显是反战的，主角杨威利虽然是军事奇才但是非常不喜欢打仗，因为会死人啊，以军人作为职业就是以杀人作为职业。虽说乱世造英雄不可否认，这十卷本里也大有野心家存在，但是各位前线悍将，哪怕是更有好胜心的那些，也并不嗜血，作者都会着笔描述他们看到战争惨况而内心震动。&lt;/p&gt;
-&lt;p&gt;虽然前两个写了这么长，但是后面几个都会非常短！&lt;/p&gt;
-&lt;h2 id=&#34;没有妈妈的超市&#34;&gt;
-  《没有妈妈的超市》
-  &lt;a href=&#34;#%e6%b2%a1%e6%9c%89%e5%a6%88%e5%a6%88%e7%9a%84%e8%b6%85%e5%b8%82&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/item/doubanbook/2023/01/14/fc1b2792-c8b4-4b20-acd6-1578bad35970.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/4sfGc5oi7jeon55Rkry2Qh&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;沒有媽媽的超市&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;★風靡全美的話題之作，高踞《紐約時報》暢銷榜逾40週
-★2021年歐巴馬年度最愛書籍
-★Goodreads讀者票選年度最佳回憶錄
-★《紐約時報》、《華盛頓郵報》、《華爾街日報》、《時代》等各大媒體年度好書
-★授權10國版權，改編電影即將開拍，作者親自撰寫劇本與配樂製作
----------------------------------------------------------------------------------
-美國獨立樂團「日式早餐」主唱個人傳記
-獻給母親的真情告白
-「眼淚收好，等你媽死了再哭吧！」
-這是我媽媽最常說的一句名言。
-她的愛是一種殘酷的愛，是一種強韌的愛，
-是一種比你早十步看出怎麼做對你最好的愛。
-要說她有錯，她只錯在關心得太多……
----------------------------------------------------------------------------------
-「媽媽不在以後，我去H Mart老是會哭。」
-蜜雪兒・桑娜是獨立樂團主唱，在首爾出生、美國長大的她，幼時經常跟媽媽到韓國超市H Mart採買，也經常一邊聽媽媽暢談韓國生活的點滴，一邊吃著媽媽燒的韓國美食。
-媽媽曾向她保證，二十五歲這一年，將是她人生最特別的一年。但沒想到，正是這一年，媽媽罹癌、人生戛然而止，她的人生跟著四分五裂。
-在看似無盡的療傷之旅，某一天，桑娜來到熟悉的韓國超市。她看著架上的韓國小菜，就因為想起媽媽做的小菜滋味而忍不住掉淚；看著琳琅滿目的海苔品牌，卻想不起來自己從小到大吃的是哪一個牌子，不禁自問：
-如果自己再也說不清身上繼承的韓國傳統，「那我還能算是個韓國人嗎？」
-兒時的暑假，她在首爾的外婆家，看著外婆將削成片狀的梨遞給媽媽吃，自己則啃著梨心──完全是媽媽在家削水果給她吃的翻版。她那時從未想過，媽媽是在盡力彌補離家多年所錯失的時光，更沒想過媽媽與外婆的關係，將是她往後一生中母女感情的榜樣。
-當媽媽首次造訪她在費城的住處，她不敢作聲，等著媽媽挑剔屋裡的骯髒不整。她想著自己過的「藝術家生活」，正是媽媽一直警告她別做的事。但媽媽一句批評也沒說，反而逕自走向廚房、忙進忙出，一心只想著在離開前，留給她一盅家鄉味。
-媽媽罹癌後，她不顧一切回家陪伴媽媽。隨著止痛藥的藥效越來越強，媽媽說話總會不自覺切換回韓語，好似把韓語並不流利的她排除在外。她始終覺得自己的歸屬是別人說了算，而她隨時會被某個比她更有資格說話的人驅逐出去。
-問題是，她是否永遠無法同屬於兩個世界？
-＊　＊　＊
-在這個關於家庭、食物、臨終陪伴與自我追尋的故事中，桑娜卸下了歌手身分的光鮮亮麗。她懷著幽默和真情，述說作為韓美混血兒的成長經歷、母親對她特別且高度的期待、必然伴隨痛苦的青春期、離家追夢的掙扎，以及與韓國傳統漸行漸遠的迷惘。
-和世上許多女兒一樣，桑娜曾希望成為和母親一樣的人，也曾希望成為和母親完全相反的人，經歷了離家、也經歷了嘗試返家的艱辛。慶幸的是，食物長期以來代替文字、成為母女間共同的語言，並且跨越雙方的文化壁壘，鑄造起堅實綿長的情感紐帶。
-母親逝世之後，桑娜上網自學烹煮韓國料理。香濃溫暖的大醬湯、平淡卻開胃的松子粥、酸得恰到好處的泡菜……她從一道又一道菜色中發掘出每一段被她遺忘在心底的記憶，重新思索與母親共有的文化傳承。桑娜緩緩道出人生故事，她對自我的思索告訴我們，生命中的一切都是養分，而只有你自己，才能定義自己的模樣。
-「關於我的一切，她全都瞭如指掌。我出生的時間，我未曾萌芽的夢想，我讀的第一本書。每一個性格的形成，每一個小病痛和每一個小成就。她一直細細觀察我，基於無人能比的興趣……所有沒被記錄下來的事，已隨她一起死去。現在，輪到我來了解自己了。」──蜜雪兒・桑娜&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;就是前两年非常有名的《crying in H mart》的台译版。买的时候是因为h mart是我们都很喜欢的韩国超市。本来也就顺手看看，直到我妈去复查肺部结节，吓得我再也没继续看了，我妈的检查结果没啥事但我也没再看。&lt;/p&gt;
-&lt;h2 id=&#34;-one-of-us-is-lying-&#34;&gt;
-  &amp;lt; One of us is lying &amp;gt;
-  &lt;a href=&#34;#-one-of-us-is-lying-&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2023/01/049c102548-2a90-48c4-a2a0-7a6683f43f68.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/2SS00gk7bqVCPUAKsH0ndz&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;One Of Us Is Lying&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;On Thursday afternoon, five students at Bayview High walk into detention.
-Bronwyn,
-, is Yale-bound and never breaks a rule.
-Addy,
-, is the picture-perfect homecoming princess.
-Nate,
-, is already on probation for dealing.
-Cooper,
-, is the all-star baseball pitcher.
-And Simon,
-, is the creator of Bayview High&amp;#39;s notorious gossip app.
-Only, Simon never makes it out of that classroom. Before the end of detention, Simon&amp;#39;s dead. And according to investi­gators, his death wasn&amp;#39;t an accident. On Thursday, he died. But on Friday, he&amp;#39;d planned to post juicy reveals about all four of his high-profile classmates, which makes all four of them suspects in his murder. Or are they just the perfect patsies for a killer who&amp;#39;s still on the loose? Everyone has secrets, right? What really matters is how far you would go to protect them.&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;畅销青少年侦探小说，也是从别人搬家扔出来的书堆里捡的。校园故事，不停蒙太奇切到各位嫌疑人的视角，就一般般吧，没有太吸引人。这部还出了好多续集，还改编成了电视剧，我都没看。美国高中生活，虽然我在各种作品中看了很多，但是距离我非常遥远，我永远没法觉得relatable。&lt;/p&gt;
-&lt;h2 id=&#34;房思琪的初恋乐园&#34;&gt;
-  《房思琪的初恋乐园》
-  &lt;a href=&#34;#%e6%88%bf%e6%80%9d%e7%90%aa%e7%9a%84%e5%88%9d%e6%81%8b%e4%b9%90%e5%9b%ad&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-
-
-
-    
-    &lt;div class=&#34;db-card&#34;&gt;
-        &lt;div class=&#34;db-card-subject&#34;&gt;
-            &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/book/2021/09/154e31faed-94bf-42a2-acbf-0d560dac3547.jpg&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;db-card-content&#34;&gt;
-                &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://neodb.social/book/5CGshKXr2IRnVoQQ62fdOz&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;房思琪的初恋乐园&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;db-card-abstract&#34;&gt;令人心碎却无能为力的真实故事。
-向死而生的文学绝唱  打动万千读者的年度华语小说。
-李银河 戴锦华 骆以军 张悦然 冯唐 詹宏志 蒋方舟 史航 等多位学者作家社会名人郑重推荐。
-痛苦的际遇是如此难以分享，好险这个世界还有文学。
-我下楼拿作文给李老师改。他掏出来，我被逼到涂在墙上。老师说了九个字：“不行的话，嘴巴可以吧。”我说了五个字：“不行，我不会。”他就塞进来。那感觉像溺水。可以说话之后，我对老师说：“对不起。”有一种功课做不好的感觉。
-小小的房思琪住在金碧辉煌的人生里，她的脸和她可以想象的将来一样漂亮。补习班语文名师李国华是同一栋高级住宅的邻居。崇拜文学的小房思琪同样崇拜饱读诗书的李老师。
-有一天李老师说，你的程度这么好，不如每个礼拜交一篇作文给我吧，不收你周点费。思琪听话地下楼了。老师在家里等她，桌上没有纸笔。
-思琪的初恋是李老师。因为李老师把她翻面，把他的东西塞进去。那年的教师节思琪才十三岁，这个世界和她原本认识的不一样。                                                   如果这是爱情，为什么觉得暴力？为什么觉得被折断？为什么老师要一个女学生换过一个女学生？如果这不是爱情，那满口学问的李老师怎么能做了以后，还这么自信、无疑、无愧于心？
-故事必须重新讲过，与房思琪情同双胞的刘怡婷，接到警局通知，去带回神志不清，被判定疯了的房思琪。透过思琪的日记，怡婷得知思琪五年中的所见所思……
-嫁入钱家的许伊纹，是两位少女的忘年交，二十余岁的她，是两位少女的文学启蒙者同时也是丈夫家暴的沉默受害者……                                                                      升入大学后的郭晓奇仍旧爱着高中时的补习教师李国华，而这位文质彬彬的补习教师并不只有平时人们眼中受人尊敬的老师形象的一面……
-这是一部惊人而特别的小说，小说作者既具有高度敏锐的感受力、又是一个近距离目击者，使这整件事像一个“幸存的标本”那样地被保留下来。整本书反覆地、用极度贴近被侵害者的视角，直直逼视那种“别人夺去你某个珍贵之物”的痛苦──且掠夺之人是以此为乐。&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-&lt;p&gt;这个我好像在其他地方提过了，因为描述太graphical所以完全没法看下去。我看书、听播客都会在脑子里有画面，有时候越想越详细，都会幻觉某种疼痛真的发生在我身上，就很容易被这个画面吓到。《房思琪》我在买之前就知道了背景故事，买这本书的时候没有想到这个行文风格是这么有文学性的，我本来以为会和《金智英》（这本也没看完）类似，是很白描的文风。所以《房思琪》开卷这个迎面而来的文学性是我很惊讶的，写得又非常好，我看头两章感觉大震撼。&lt;/p&gt;
-&lt;p&gt;然后从第三、第四章开始有性场面描写了！写得还是这么详尽！画面不受控制地进入我的脑子，感觉特别恶心。当然了，这是这本书要传达的，而且实现得非常好，所以才导致了我这么生动地感觉到恶心。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;一定还有更多买了没看的书但暂且写到这里，因为其他的存在感稀薄到我都想不起来为啥不想看。&lt;/p&gt;
         
         </description>
     </item>
